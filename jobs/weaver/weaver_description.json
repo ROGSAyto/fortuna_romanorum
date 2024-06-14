@@ -6,7 +6,8 @@
     "mixintypes": {
       "helmet": "remove"
     },
-    "torso": "file(weaver_outfit)"
+    "torso": "file(weaver_outfit)",
+    "boots": "fortuna_romanorum:armor:sandals"
   },
   "display_order": 1,
   "requirements": "i18n(fortuna_romanorum:jobs.requirements.herbalist)",

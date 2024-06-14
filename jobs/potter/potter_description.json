@@ -5,6 +5,9 @@
   "equipment": {
     "torso": "file(potter_outfit)"
   },
+  "crafter": {
+    "recipe_list": "/fortuna_romanorum/jobs/z_recipes/potter_recipes.json"
+ },
   "display_order": 1,
   "parent_job": "stonehearth:jobs:mason",
   "parent_level_requirement": 2

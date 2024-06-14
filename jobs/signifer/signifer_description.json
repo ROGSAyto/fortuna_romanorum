@@ -12,10 +12,11 @@
    "default_stance": "aggressive",
    "abilities": "file(signifer_abilities)",
    "equipment": {
-	  "helmet": "fortuna_romanorum:armor:signifer_helmet",
+	   "helmet": "fortuna_romanorum:armor:signifer_helmet",
       "torso": "fortuna_romanorum:armor:signifer_armor",
       "mainhand": "fortuna_romanorum:weapons:signum",
-	  "offhand": "fortuna_romanorum:armor:signifer_shield",
+	   "offhand": "fortuna_romanorum:armor:signifer_shield",
+      "boots": "fortuna_romanorum:armor:galigae"
    },
    "roles": ["signifer_job", "cloth_wearer", "leather_wearer", "melee_combat", "combat"],
    "promotion_activity_name": "promote_signifer",

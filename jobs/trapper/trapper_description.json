@@ -3,8 +3,11 @@
       "stonehearth:jobs:trapper"
    ],
    "equipment": {
-      "helmet": "remove",
-      "torso": "file(trapper_outfit)"
+      "mixintypes": {
+         "helmet": "remove"
+       },
+      "torso": "file(trapper_outfit)",
+      "boots": "fortuna_romanorum:armor:sandals"
    },
    "display_order": 2
 }

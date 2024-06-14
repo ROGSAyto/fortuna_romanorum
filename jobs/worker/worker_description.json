@@ -3,6 +3,7 @@
       "stonehearth:jobs:worker"
    ],
    "equipment": {
-      "torso": "file(worker_outfit)"
+      "torso": "file(worker_outfit)",
+      "boots": "fortuna_romanorum:armor:sandals"
    }
 }
