@@ -12,6 +12,7 @@
    ],
    "equipment": {
       "torso": "file(carpenter_outfit)",
-	    "mainhand": "stonehearth:carpenter:saw"
+	    "mainhand": "stonehearth:carpenter:saw",
+      "boots": "fortuna_romanorum:armor:sandals"
    }
 }

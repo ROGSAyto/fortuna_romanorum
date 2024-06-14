@@ -14,7 +14,7 @@
    "equipment": {
       "torso": "file(centurion_outfit)",
       "boots": "fortuna_romanorum:armor:caligae",
-      "mainhand": "fortuna_romanorum:weapons:centurion_gladius",
+      "mainhand": "fortuna_romanorum:weapons:centurion_gladius"
    },
    "roles":["centurion_job", "knight_job", "plate_wearer", "melee_combat", "combat"],
    "promotion_activity_name": "promote_centurion",

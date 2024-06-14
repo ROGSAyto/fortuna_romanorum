@@ -3,7 +3,8 @@
     "stonehearth:jobs:blacksmith"
   ],
   "equipment": {
-    "torso": "file(blacksmith_outfit)"
+    "torso": "file(blacksmith_outfit)",
+    "boots": "fortuna_romanorum:armor:shoes"
   },
   "display_order": 2,
   "parent_job": "stonehearth:jobs:mason",

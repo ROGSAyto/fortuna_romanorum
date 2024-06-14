@@ -1,7 +1,0 @@
-{
-   "type": "job",
-   "mixins": "stonehearth:jobs:potter",
-   "crafter": {
-      "recipe_list": "/fortuna_romanorum/jobs/z_recipes/potter_recipes.json"
-   }
-}

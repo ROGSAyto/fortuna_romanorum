@@ -4,7 +4,8 @@
    ],
    "equipment": {
       "helmet": "file(farmer_outfit/farmer_hat)",
-      "torso": "file(farmer_outfit)"
+      "torso": "file(farmer_outfit)",
+      "boots": "fortuna_romanorum:armor:sandals"
    },
    "requirements": "i18n(fortuna_romanorum:jobs.requirements.herbalist)",
    "display_order": 7,

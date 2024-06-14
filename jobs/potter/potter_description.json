@@ -3,7 +3,8 @@
     "stonehearth:jobs:potter"
   ],
   "equipment": {
-    "torso": "file(potter_outfit)"
+    "torso": "file(potter_outfit)",
+    "boots": "fortuna_romanorum:armor:sandals"
   },
   "crafter": {
     "recipe_list": "/fortuna_romanorum/jobs/z_recipes/potter_recipes.json"

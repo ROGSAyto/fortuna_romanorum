@@ -5,15 +5,15 @@
 	  "render_info": {},
       "model_variants": {
          "default": {
-            "layer": "cloth",
-            "transparent": "false",
+            "layer": "clothing",
+            "transparent": "true",
             "models": [
                "file(praetorian_outfit.qb)"
             ]
          },
          "female": {
-            "layer": "cloth",
-			      "transparent": "false",
+            "layer": "clothing",
+			   "transparent": "true",
             "models": [
                "file(praetorian_outfit_female.qb)"
             ]
@@ -23,7 +23,7 @@
          "render_type": "merge_with_model",
          "slot": "torso",
          "no_drop": true,
-          "injected_buffs": [
+         "injected_buffs": [
             "stonehearth_ace:buffs:weather:hot_resist"
           ]
       }

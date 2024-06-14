@@ -7,7 +7,7 @@
     "torso": "file(sagitarii_outfit)",
     "mainhand": "stonehearth:weapons:bow",
     "helmet": "file(sagitarii_headband)",
-    "boots": "fortuna_romanorum:armor:sandals",
+    "boots": "fortuna_romanorum:armor:galigae",
     "accessory": "file(sagitarii_quiver)"
   },
   "requirements": "i18n(fortuna_romanorum:jobs.requirements.weaver)",

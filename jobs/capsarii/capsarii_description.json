@@ -13,7 +13,8 @@
    "abilities": "file(capsarii_abilities)",
    "equipment": {
       "torso": "file(capsarii_outfit)",
-      "mainhand": "fortuna_romanorum:weapons:pugio"
+      "mainhand": "fortuna_romanorum:weapons:pugio",
+      "boots": "fortuna_romanorum:armor:galigae"
    },
    "roles":["cleric_job", "combat"],
    "promotion_activity_name": "promote_capsarii",

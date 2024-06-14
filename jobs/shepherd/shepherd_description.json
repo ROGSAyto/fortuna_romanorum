@@ -4,7 +4,8 @@
   ],
   "equipment": {
     "torso": "file(shepherd_outfit)",
-    "mainhand": "fortuna_romanorum:shepherd:roman_crook"
+    "mainhand": "fortuna_romanorum:shepherd:roman_crook",
+    "boots": "fortuna_romanorum:armor:sandals"
   },
   "display_order": 8,
   "parent_job": "stonehearth:jobs:worker",

@@ -4,6 +4,10 @@
    "parent_job": "stonehearth:jobs:carpenter",
    "parent_level_requirement": 3,
    "mixintypes": {"parent_jobs": "override"},
+   "equipment": {
+      "torso": "file(sagitarii_outfit)",
+      "boots": "fortuna_romanorum:armor:sandals"
+   },   
    "parent_jobs": [
       {
          "job": "stonehearth:jobs:carpenter",
@@ -15,5 +19,5 @@
          "level_requirement": 2,
          "one_of": true
       }
-   ],
+   ]
 }

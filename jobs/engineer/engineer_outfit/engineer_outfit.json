@@ -9,14 +9,14 @@
          },
          "default": {
             "layer": "clothing",
-            "transparent": "false",
+            "transparent": "true",
             "models": [
                "file(engineer_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
-            "tansparent": "false",
+            "transparent": "true",
             "models": [
                "file(engineer_outfit_female.qb)"
             ]

@@ -8,14 +8,14 @@
     "model_variants": {
       "default": {
         "layer": "clothing",
-        "transparent": false,
+        "transparent": "true",
         "models": [
           "file(fisher_outfit.qb)"
         ]
       },
       "female": {
         "layer": "clothing",
-        "transparent": false,
+        "transparent": "true",
         "models": [
           "file(fisher_outfit_female.qb)"
         ]

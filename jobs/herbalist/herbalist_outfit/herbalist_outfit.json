@@ -11,14 +11,14 @@
       },
       "default": {
         "layer": "clothing",
-        "transparent": false,
+        "transparent": "true",
         "models": [
           "file(herbalist_outfit.qb)"
         ]
       },
       "female": {
         "layer": "clothing",
-        "transparent": false,
+        "transparent": "true",
         "models": [
           "file(herbalist_outfit_female.qb)"
         ]

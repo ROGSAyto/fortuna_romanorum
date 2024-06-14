@@ -5,15 +5,15 @@
 	  "render_info": {},
       "model_variants": {
          "default": {
-            "layer": "armor",
+            "layer": "clothing",
             "transparent": "true",
             "models": [
                "file(legat_outfit.qb)"
             ]
          },
          "female": {
-            "layer": "armor",
-		      	"transparent": "true",
+            "layer": "clothing",
+		      "transparent": "true",
             "models": [
                "file(legat_outfit_female.qb)"
             ]

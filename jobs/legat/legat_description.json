@@ -15,7 +15,8 @@
       "torso": "file(legat_outfit)",
       "offhand": "fortuna_romanorum:armor:legat_shield",
       "mainhand": "fortuna_romanorum:weapons:legat_gladius",
-      "helmet": "fortuna_romanorum:armor:legat_helmet"
+      "helmet": "fortuna_romanorum:armor:legat_helmet",
+      "boots": "fortuna_romanorum:armor:galigae"
    },
    "roles":["legat_job", "knight_job", "plate_wearer", "melee_combat", "combat"],
    "promotion_activity_name": "promote_legat",
