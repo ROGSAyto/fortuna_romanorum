@@ -55,14 +55,6 @@
     "armor:roman_bronze_mail": "file(entities/armor/roman_bronze_mail/roman_bronze_mail.json)",
 		"armor:roman_iron_mail": "file(entities/armor/roman_iron_mail/roman_iron_mail.json)",
 
-
-		"banner:cunning": "file(entities/gizmos/town_banner_guardian/town_banner_guardian.json)",
-		"banner:cunning:token": "file(entities/gizmos/town_banner_guardian/town_banner_guardian_token.json)",
-		"banner:strength": "file(entities/gizmos/town_banner_might/town_banner_might.json)",
-		"banner:strength:token": "file(entities/gizmos/town_banner_might/town_banner_might_token.json)",
-		"banner:vitality": "file(entities/gizmos/town_banner_nature/town_banner_nature.json)",
-		"banner:vitality:token": "file(entities/gizmos/town_banner_nature/town_banner_nature_token.json)",
-
 		"buffs:legionary:def_1": "file(jobs/legionary/legionary_buffs/defense_1_buff.json)",
 		"buffs:legionary:def_2": "file(jobs/legionary/legionary_buffs/defense_2_buff.json)",
 		"buffs:legionary:def_3": "file(jobs/legionary/legionary_buffs/defense_3_buff.json)",
@@ -164,6 +156,7 @@
 		"carpenter:outfit": "file(jobs/carpenter/carpenter_outfit)",
 		"worker:outfit": "file(jobs/worker/worker_outfit)",
 		"legionary:outfit": "file(jobs/legionary/legionary_recruit_outfit)",
+
     "banner:cunning": "file(entities/gizmos/town_banner_guardian/town_banner_guardian.json)",
     "banner:cunning:token": "file(entities/gizmos/town_banner_guardian/town_banner_guardian_token.json)",
     "banner:strength": "file(entities/gizmos/town_banner_might/town_banner_might.json)",

@@ -1563,6 +1563,36 @@
           "flavor": "So dark you won't see them coming at night",
           "recipe_name": "Praetorian Lorica Segmentata"
         },
+        "legat_helmet_recipe": {
+            "description": "The helmet of a Roman Legat",
+            "flavor": "Symbol of command and valor",
+            "recipe_name": "Legat Galea"
+        },
+        "legat_armor_recipe": {
+            "description": "The armor of a Roman Legat",
+            "flavor": "Designed for protection and command",
+            "recipe_name": "Legat Lorica Segmentata"
+        },
+        "tribune_helmet_recipe": {
+            "description": "The helmet of a Roman Tribune",
+            "flavor": "Symbol of command and authority",
+            "recipe_name": "Tribune Galea"
+        },
+        "tribune_armor_recipe": {
+            "description": "The armor of a Roman Tribune",
+            "flavor": "Offering both protection and prestige",
+            "recipe_name": "Tribune Lorica Segmentata"
+        },
+        "prefect_helmet_recipe": {
+            "description": "The helmet of a Roman Prefect",
+            "flavor": "Sign of high rank and command",
+            "recipe_name": "Prefect Galea"
+        },
+        "prefect_armor_recipe": {
+            "description": "The armor of a Roman Prefect",
+            "flavor": "Designed for ultimate protection and command",
+            "recipe_name": "Prefect Lorica Segmentata"
+        },
         "fine_praetorian_helmet_recipe": {
           "description": "The helmet of the elite guard",
           "flavor": "So dark you won't see them coming at night",
@@ -1740,7 +1770,41 @@
               "description": "Shiny armor for the commander."
       }
     },
-
+    "legat": {
+        "legat_description": {
+            "display_name": "Legat",
+            "description": "Legats are the commanders entrusted with the responsibility of protecting and expanding the Empire's borders.",
+            "requirements": "Legat helmet, awarded by the capital",
+            "level_1_data": {
+                "perk_000_name": "Inspirational Leader",
+                "perk_000_description": "The surrounding army gets a 10% damage bonus for 5m."
+            },
+            "level_2_data": {
+                "perk_000_name": "Tactical Defense",
+                "perk_000_description": "The legionary learned to use defensive formations effectively, increasing defense by 15%."
+            },
+            "level_3_data": {
+                "perk_000_name": "Precise Strike",
+                "perk_000_description": "Allows the legionary to strike accurately while maintaining defensive posture."
+            },
+            "level_4_data": {
+                "perk_000_name": "Advanced Tactics",
+                "perk_000_description": "The surrounding army gets a 15% damage and defense bonus for 10m."
+            },
+            "level_5_data": {
+                "perk_000_name": "Veteran Commander",
+                "perk_000_description": "Years of service have honed the legionary's skills, increasing damage by 25%."
+            },
+            "level_6_data": {
+                "perk_000_name": "Master Strategist",
+                "perk_000_description": "The surrounding army gets a 20% damage and defense bonus for 15m."
+            }
+        },
+        "legat_outfit": {
+            "display_name": "Legat Armor",
+            "description": "Impressive armor for the high-ranking commander."
+        }
+    },
     "praetorian": {
       "praetorian_description": {
         "display_name": "Praetorian",
@@ -1776,7 +1840,6 @@
         "description": "Imposing armor for the elite guard."
       }
     },
-
     "capsarii": {
       "capsarii_description": {
         "display_name": "Capsarii",
@@ -1945,7 +2008,7 @@
           "flavor": "Cottage Cheese can be obtained by early harvesting of Cheese Vats."
         }
       }
-    },
+    }
   },
   "herbalist_crops": {
     "lavender": {
