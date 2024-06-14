@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:entities.plants.purslane.transmute_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:entities.plants.purslane.transmute_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:entities.plants.purslane.transmute_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/plants/purslane/seed/seed.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:resources:herb:purslane",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:plants:purslane:seed"
+      },
+      {
+         "item": "fortuna_romanorum:plants:purslane:seed"
+      }
+   ]
+}

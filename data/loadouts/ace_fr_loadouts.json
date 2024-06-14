@@ -1,0 +1,146 @@
+{
+   "loadouts": {
+      "merchant_caravan": {
+         "content": {
+            "juice": {
+               "uri": "fortuna_romanorum:drink:juice_grape",
+               "icon": "file(images/items/juice_grape.png)"
+            }
+         }
+      },
+      "food_for_days": {
+         "content": {
+            "mixintypes": {
+               "jerky": "remove"
+            },
+            "cheese": {
+               "ordinal": 4,
+               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.cheese)",
+               "type": "entity",
+               "uri": "stonehearth_ace:food:dairy:cheese_mild",
+               "icon": "file(images/items/cheese_mild.png)",
+               "amount": 6
+            },
+            "juice": {
+               "uri": "fortuna_romanorum:drink:juice_grape",
+               "icon": "file(images/items/juice_grape.png)"
+            }
+         }
+      },
+      "military_expedition": {
+         "ordinal": 2.1,
+         "content": {
+            "mixintypes": {
+               "archer": "remove",
+               "mead": "remove",
+               "jerky": "remove",
+               "footman": "remove"
+            },
+            "legionary": {
+               "ordinal": 2,
+               "display_name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.display_name)",
+               "type": "entity",
+               "uri": "fortuna_romanorum:legionary:talisman:legionary_training_sword_talisman",
+               "icon": "/fortuna_romanorum/entities/weapons/legionary_training_sword/legionary_training_sword.png",
+               "amount": 1
+            },
+            "trapper": {
+               "ordinal": 2,
+               "display_name": "i18n(stonehearth:jobs.trapper.trapper_description.display_name)",
+               "type": "entity",
+               "uri": "stonehearth:trapper:talisman",
+               "icon": "/stonehearth/data/loadouts/images/items/trapper_knife.png",
+               "amount": 1
+            },
+            "training_dummy": {
+               "uri": "stonehearth_ace:gizmos:stone_training_dummy",
+               "icon": "/stonehearth_ace/entities/gizmos/stone_training_dummy/stone_training_dummy.png"
+            },
+            "cheese": {
+               "ordinal": 4,
+               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.cheese)",
+               "type": "entity",
+               "uri": "stonehearth_ace:food:dairy:cheese_mild",
+               "icon": "file(images/items/cheese_mild.png)",
+               "amount": 8
+            },
+            "wine": {
+               "ordinal": 5,
+               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.wine)",
+               "type": "entity",
+               "uri": "fortuna_romanorum:drink:red_wine",
+               "icon": "file(images/items/red_wine.png)",
+               "amount": 8
+            },
+            "gold": {}
+         }
+      },
+      "noble_entourage": {
+         "ordinal": 2.2,
+         "content": {
+            "mixintypes": {
+               "blacksmith": "remove",
+               "cook": "remove",
+               "roast_venison": "remove",
+               "tea": "remove"
+            },
+            "carpenter": {
+               "ordinal": 1,
+               "display_name": "i18n(stonehearth:jobs.carpenter.carpenter_description.display_name)",
+               "type": "entity",
+               "uri": "fortuna_romanorum:carpenter:talisman",
+               "icon": "file(images/items/carpenter_saw.png)",
+               "amount": 1
+            },
+            "engineer": {
+               "ordinal": 2,
+               "display_name": "i18n(stonehearth:jobs.engineer.engineer_description.display_name)",
+               "type": "entity",
+               "uri": "stonehearth:engineer:talisman",
+               "icon": "file(images/items/engineer_wrench.png)",
+               "amount": 1
+            },
+            "comfy_bed": {
+               "uri": "fortuna_romanorum:furniture:plaster_comfy_bed",
+               "icon": "/fortuna_romanorum/entities/furniture/plaster_comfy_bed/plaster_comfy_bed.png"
+            },
+            "pasta": {
+               "ordinal": 4,
+               "display_name": "i18n(stonehearth_ace:entities.food.pasta.pasta.display_name)",
+               "type": "entity",
+               "uri": "stonehearth_ace:food:pasta",
+               "icon": "/stonehearth_ace/entities/food/pasta/pasta/pasta.png",
+               "amount": 3
+            },
+            "wine": {
+               "ordinal": 5,
+               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.wine)",
+               "type": "entity",
+               "uri": "fortuna_romanorum:drink:red_wine",
+               "icon": "file(images/items/red_wine.png)",
+               "amount": 6
+            },
+            "gold": {}
+         }
+      },
+      "money_solves_all_problems": {
+         "content": {
+            "mixintypes": {
+               "jerky": "remove"
+            },
+            "cheese": {
+               "ordinal": 3,
+               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.cheese)",
+               "type": "entity",
+               "uri": "stonehearth_ace:food:dairy:cheese_mild",
+               "icon": "file(images/items/cheese_mild.png)",
+               "amount": 4
+            },
+            "juice": {
+               "uri": "fortuna_romanorum:drink:juice_grape",
+               "icon": "file(images/items/juice_grape.png)"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation",
+   "in_edge": "signifer_award",
+   "donation_info": {
+      "loot_table": {
+         "entries": {
+            "default": {
+               "items": {
+                  "signum": {
+                     "uri": "fortuna_romanorum:signifer:talisman:signum_talisman"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

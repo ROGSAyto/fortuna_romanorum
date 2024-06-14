@@ -1,0 +1,24 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation",
+   "in_edge": "legat_promotion_award",
+   "donation_info": {
+      "loot_table": {
+         "entries": {
+            "default": {
+               "items": {
+                  "legat_helmet": {
+                     "uri": "fortuna_romanorum:legat:talisman:legat_helmet_talisman"
+                  },
+                  "legat_shield": {
+                     "uri": "fortuna_romanorum:legat:talisman:legat_shield_talisman"
+                  },
+                  "legat_armor": {
+                     "uri": "fortuna_romanorum:legat:talisman:legat_armor_talisman"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "mixins": [
+    "file(../plaster_box_long_vines_recipe.json)"
+  ],
+  "effort": 15,
+  "recipe_name": "i18n(fortuna_romanorum:entities.decoration.plaster_box_long_vines.stonehearth_ace.recipe.recipe_name)",
+  "description": "i18n(fortuna_romanorum:entities.decoration.plaster_box_long_vines.stonehearth_ace.recipe.description)",
+  "mixintypes": {
+    "ingredients": "override"
+  },
+  "ingredients": [
+    {
+       "uri": "fortuna_romanorum:refined:plaster",
+       "count": 2
+    },
+    {
+      "uri": "stonehearth_ace:vines:highland_vine:seed",
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "type": "entity",
+  "mixins": [
+    "file(stone_water_well_roofed.json)"
+  ],
+  "components": {
+    "model_variants": {
+      "mixintypes": {
+        "default": "override",
+        "wood": "override",
+        "clay": "override",
+        "stone": "override"
+      },
+      "default": {
+        "models": [
+          "file(plaster_water_well_roofed_terracotta.qb)"
+        ]
+      },
+      "terracotta": {
+        "models": [
+          "file(plaster_water_well_roofed_terracotta.qb)"
+        ]
+      },
+      "wood": {
+        "models": [
+          "file(plaster_water_well_roofed_wood.qb)"
+        ]
+      },
+      "clay": {
+        "models": [
+          "file(plaster_water_well_roofed_clay.qb)"
+        ]
+      },
+      "stone": {
+        "models": [
+          "file(plaster_water_well_roofed_stone.qb)"
+        ]
+      }
+    },
+    "stonehearth:loot_drops": {
+      "entries": {
+        "default": {
+          "roll_type": "each_of",
+          "items": {
+            "well_kit": {
+              "uri": "stonehearth_ace:refined:water_well_kit:stone"
+            }
+          }
+        }
+      }
+    }
+  },
+  "entity_data": {
+    "stonehearth:catalog": {
+      "display_name": "i18n(fortuna_romanorum:entities.construction.plaster_water_well_roofed.display_name)",
+      "icon": "file(plaster_water_well_roofed.png)",
+      "material_tags": [
+        "plaster"
+      ]
+    }
+  }
+}

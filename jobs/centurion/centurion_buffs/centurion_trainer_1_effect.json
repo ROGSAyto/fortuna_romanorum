@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(fortuna_romanorum:jobs.centurion.centurion_buffs.centurion_trainer_1.display_name)",
+   "description": "i18n(fortuna_romanorum:jobs.centurion.centurion_buffs.centurion_trainer_1.description)",
+   "icon": "file(centurion_buff_trainer_1.png)",
+   "duration": "5m",
+   "repeat_add_action": "renew_duration",
+   "persistent": false,
+   "modifiers": {
+      "multiplicative_dmg_modifier": {
+         "add": 0.2
+      }
+   }
+}

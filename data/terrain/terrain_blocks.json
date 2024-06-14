@@ -1,0 +1,5 @@
+{
+   "block_types" : {
+      "dirt_edge_2" :        { "tag" : 212, "kind" : "dirt" }
+   }
+}

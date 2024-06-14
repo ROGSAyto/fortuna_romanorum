@@ -1,0 +1,41 @@
+{
+   "type": "entity",
+   "mixins": "file(hearth_urn_ghost.json)",
+   "components": {
+      "render_info": {},
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 3, "y": 2, "z": 3 }
+            }
+         ]
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(hearth_urn_iconic.json)",
+         "ghost_form": "file(hearth_urn_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": true
+      },
+      "effect_list": {
+         "default": "fortuna_romanorum:effects:hearth:urn"
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "clearable": false
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 160,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 120
+      }
+   }
+}

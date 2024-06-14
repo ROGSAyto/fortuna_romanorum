@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 28,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:entities.trees.lemon.seed.transmute_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:entities.trees.lemon.seed.transmute_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:entities.trees.lemon.seed.transmute_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/trees/lemon/seed/seed.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:food:lemons:lemon_basket",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:trees:lemon:seed"
+      },
+      {
+         "item": "fortuna_romanorum:trees:lemon:seed"
+      }
+   ]
+}

@@ -1,0 +1,66 @@
+{
+   "mixins": [
+      "fortuna_romanorum:stonehearth_ace:drink_decay",
+      "fortuna_romanorum:stonehearth_ace"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(lemonade.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(lemonade_spoiling.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 6
+      }
+   },
+   "entity_data": {
+      "stonehearth_ace:drink_container": {
+         "effect": "fiddle",
+         "drink": "fortuna_romanorum:drink:lemonade:lemonade_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 15,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.drink.lemonade.lemonade.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.drink.lemonade.lemonade.description)",
+         "icon": "file(lemonade.png)",
+         "is_item": true,
+         "category": "drink",
+         "material_tags": [
+            "drink_container",
+            "prepared_drink",
+            "lemonade",
+            "stockpile_prepared_drink",
+            "morning_time",
+            "afternoon_time",
+            "refreshing"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 4
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

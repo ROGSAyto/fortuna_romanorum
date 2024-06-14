@@ -1,0 +1,47 @@
+{
+  "mixins": [
+    "stonehearth:mixins:worker_outfit"
+  ],
+  "components": {
+    "model_variants": {
+      "mixintypes": {
+        "default": "override",
+        "female": "override",
+        "orc_male": "override",
+        "orc_female": "override"
+      },
+      "default": {
+        "layer": "clothing",
+        "transparent": true,
+        "models": [
+          "file(worker_outfit.qb)"
+        ]
+      },
+      "female": {
+        "layer": "clothing",
+        "transparent": true,
+        "models": [
+          "file(worker_outfit_female.qb)"
+        ]
+      },
+      "orc_male": {
+        "layer": "clothing",
+        "transparent": false,
+        "models": [
+          "file(worker_outfit_orc_male.qb)"
+        ]
+      },
+      "orc_female": {
+        "layer": "clothing",
+        "models": [
+          "file(worker_outfit_orc_female.qb)"
+        ]
+      }
+    }
+  },
+  "entity_data": {
+    "stonehearth:catalog": {
+      "icon": "file(worker_outfit.png)"
+    }
+  }
+}

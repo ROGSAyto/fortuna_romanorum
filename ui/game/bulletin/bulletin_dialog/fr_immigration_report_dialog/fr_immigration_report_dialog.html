@@ -1,0 +1,111 @@
+<script type="text/x-handlebars" data-template-name="SLImmigrationReportBulletinDialog">
+   <div id="SLImmigrationReportBulletinDialog" class="gui bulletinDialog">
+      <div class="window">
+         <div id="scrollDiv" class="parchment">
+            <div id="header">
+               <div id="title">{{i18n_key view.model.data.title}}</div>
+            </div>
+            <div id="content">
+               <div id="townStatusBar" class="statusBar">
+                  <div id="foodBlock" class="requirementBlock">
+                     <div id="foodImageDiv" class="requirementImage">
+                        <div id="foodStatusDiv" class="statusDiv"/>
+                        <h3 class="requirementLabel">{{i18n_key view.model.data.message.food_data.label}}</h3>
+                     </div>
+                     <h3 class="requirementDetails">
+                        <span class="possessedSpan">{{view.model.data.message.food_data.available}}</span>
+                        &#47;
+                        {{view.model.data.message.food_data.target}}
+                     </h3>
+                  </div>
+                  <div id="netWorthBlock" class="requirementBlock">
+                     <div id="netWorthImageDiv"  class="requirementImage">
+                        <div id="netWorthStatusDiv" class="statusDiv"/>
+                        <h3 class="requirementLabel">{{i18n_key view.model.data.message.net_worth_data.label}}</h3>
+                     </div>
+                     <div class="requirementDetails">
+                        {{#if view.model.data.message.net_worth_data.bonus}}
+                           ({{view.model.data.message.net_worth_data.base_value}} <span class="bonusText"> + {{view.model.data.message.net_worth_data.bonus}}</span>)<br/> =
+                           <span class="possessedSpan">{{view.model.data.message.net_worth_data.available}}</span>
+                        {{else}}
+                           <span class="possessedSpan">{{view.model.data.message.net_worth_data.available}}</span>
+                        {{/if}}
+                        &#47;
+                        {{view.model.data.message.net_worth_data.target}}
+                     </div>
+                  </div>
+                  <div id="townInfoColumn" class="columnFlex">
+                     <div id="townIcons">
+                        <div id="moraleIcon" class="icon" {{bind-attr style=view.morale_icon_style}}>
+                           <!-- <div id="townMoraleName">{{i18n stonehearth:ui.game.town_overview.town_morale}}</div> -->
+                        </div>
+                        <div id="populationIcon" class="icon">
+                           <div id="populationNumberLabel">{{view.model.data.message.town_size}}</div>
+                        </div>
+                     </div>
+                     <span class="textRight">
+                        {{i18n_key view.model.data.message.town_name}},<br/>
+                        {{i18n_key "stonehearth:ui.game.calendar.date_format_long" date=view.model.data.message.date}}
+                     </span>
+                  </div>
+               </div>
+
+               <div id="conclusionDiv">{{i18n_key view.model.data.conclusion}}</div>
+
+               <div id="factionSectionDiv" class="factionSection">
+                  {{#each faction in view.factions}}
+                     <div class="factionBlock" {{bind-attr id=faction.faction_id}}>
+                        <div class="factionTitle">
+                           <div class="factionBanner"/>
+                           <div class="factionName">{{i18n_key faction.display_name}}</div>
+                        </div>
+                        <div class="citizenRoster">
+                           {{view "stonehearthSLImmigrationRosterEntry" rosterView=view uriBinding="faction.citizen"}}
+                        </div>
+                        {{#if view.model.data.accepted_callback }}
+                           <button class="factionButton callbackButton" {{bind-attr data-faction-id=faction.faction_id}}>{{i18n stonehearth:ui.game.common.accept}}</button>
+                        {{/if}}
+                     </div>
+                  {{/each}}
+               </div>
+            </div>
+         </div>
+
+         <div id="buttons">
+            {{#if view.model.data.ok_callback }}
+               <button id="okButton" class="callbackButton">{{i18n stonehearth:ui.game.common.ok}}</button>
+            {{/if}}
+            {{#if view.model.data.declined_callback }}
+               <button id="declineButton" class="callbackButton">{{i18n stonehearth:ui.game.common.decline}}</button>
+            {{/if}}
+         </div>
+      </div>
+   </div>
+</script>
+
+<script type="text/x-handlebars" data-template-name="SLImmigrationRosterEntry">
+   <img class="portrait" {{bind-attr src=view.portrait}} />
+   <div class="name">{{view.model.stonehearth:unit_info.custom_name}}</div>
+   <div class="stats">
+      <div class="stat mind">
+         <div class="statValue">{{view.model.stonehearth:attributes.attributes.mind.user_visible_value}}</div>
+         <!-- <div class="whiteBlackOutline label">{{i18n stonehearth:ui.data.tooltips.mind.display_name}}</div> -->
+      </div>
+      <div class="stat body">
+         <div class="statValue">{{view.model.stonehearth:attributes.attributes.body.user_visible_value}}</div>
+         <!-- <div class="whiteBlackOutline label">{{i18n stonehearth:ui.data.tooltips.body.display_name}}</div> -->
+      </div>
+      <div class="stat spirit">
+         <div class="statValue">{{view.model.stonehearth:attributes.attributes.spirit.user_visible_value}}</div>
+         <!-- <div class="whiteBlackOutline label">{{i18n stonehearth:ui.data.tooltips.spirit.display_name}}</div> -->
+      </div>
+   </div>
+
+   <div id="traits">
+      {{#each view.traits itemView="stonehearthTraitItem"}}
+      <div class="item" {{bind-attr uri=this.uri}}>
+         <img {{bind-attr src=this.icon}} />
+      </div>
+      {{/each}}
+   </div>
+</script>

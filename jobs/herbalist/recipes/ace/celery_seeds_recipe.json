@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:entities.crops.celery_seeds.recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:entities.crops.celery_seeds.recipe.description_2)",
+   "flavor": "i18n(fortuna_romanorum:entities.crops.celery_seeds.recipe.flavor_2)",
+   "portrait": "/fortuna_romanorum/entities/consumables/seeds/celery_seeds/celery_seeds.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:food:celery:celery_basket",
+         "count": 12
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:consumables:seeds:celery_seeds"
+      }
+   ]
+}

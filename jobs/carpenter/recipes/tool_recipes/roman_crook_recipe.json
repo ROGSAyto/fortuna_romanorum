@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 20,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.shepherds_crook_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.shepherds_crook_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.carpenter.recipes.shepherds_crook_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/jobs/shepherd/roman_crook/roman_crook.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:shepherd:talisman:roman_crook_talisman"
+      }
+   ]
+}

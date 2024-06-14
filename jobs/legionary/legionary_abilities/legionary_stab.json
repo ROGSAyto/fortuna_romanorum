@@ -1,0 +1,18 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {}
+   },
+   "entity_data": {
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+			"active_frame": 8,
+            "cooldown": 2000,
+            "priority": 1,
+            "damage_multiplier": 1.5
+         }
+      ]
+   }
+}

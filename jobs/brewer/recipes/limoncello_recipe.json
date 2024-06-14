@@ -1,0 +1,31 @@
+{
+  "type": "recipe",
+  "effort": 30,
+  "work_units": 3,
+  "recipe_name": "i18n(fortuna_romanorum:jobs.brewer.recipes.limoncello_recipe.recipe_name)",
+  "description": "i18n(fortuna_romanorum:jobs.brewer.recipes.limoncello_recipe.description)",
+  "flavor": "i18n(fortuna_romanorum:jobs.brewer.recipes.limoncello_recipe.flavor)",
+  "portrait": "/fortuna_romanorum/entities/drink/limoncello/limoncello/limoncello.png",
+  "level_requirement": 5,
+  "workshop": "stonehearth_ace:brewer:kettle",
+  "work_effect": "brewer_stirring",
+  "ingredients": [
+    {
+      "uri": "stonehearth_ace:drink:spirit",
+      "count": 1
+    },
+    {
+      "uri": "stonehearth:food:sugar",
+      "count": 1
+    },
+    {
+      "uri": "fortuna_romanorum:food:lemons:lemon_basket",
+      "count": 2
+    }
+  ],
+  "produces": [
+    {
+      "item": "fortuna_romanorum:drink:limoncello"
+    }
+  ]
+}

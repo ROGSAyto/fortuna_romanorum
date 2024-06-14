@@ -1,0 +1,34 @@
+{
+	"type": "entity",
+	"mixins": "stonehearth:mixins:base_human_npc",
+	"components": {
+		"render_info": {
+			"animation_table": "/stonehearth/data/rigs/entities/humans/skeletons/male.json"
+		},
+		"model_variants": {
+			"default": {
+				"models": [
+					"file(messenger.qb)"
+				]
+			}
+		}
+	},
+	"entity_data": {
+		"stonehearth:catalog": {
+			"display_name": "i18n(fortuna_romanorum:entities.npc.herald.male.messenger.display_name)",
+			"description": "i18n(fortuna_romanorum:entities.npc.herald.male.messenger.description)",
+			"icon": "file(messenger.png)"
+		},
+		"stonehearth:ai_packs": {
+			"actions": [
+				"stonehearth:actions:celebrate:carouse",
+				"stonehearth:actions:dispatcher:compelled_behavior",
+				"stonehearth:actions:dispatcher:human_unit_control"
+			],
+			"task_groups": [
+				"stonehearth:task_groups:solo:conversation",
+				"stonehearth:task_groups:solo:unit_control"
+			]
+		}
+	}
+}

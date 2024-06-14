@@ -1,0 +1,42 @@
+{
+  "constants": {
+    "climates": {
+      "mediterranean_staple": {
+        "plant_water_affinity": "IRRELEVANT",
+        "plant_light_affinity": "MEDIUM"
+      },
+      "mediterranean_easy": {
+        "plant_water_affinity": "LOW",
+        "plant_light_affinity": "MEDIUM"
+      },
+      "mediterranean_medium": {
+        "plant_water_affinity": "LOW",
+        "plant_light_affinity": "HIGH"
+      },
+      "mediterranean_complex": {
+        "plant_water_affinity": "MEDIUM",
+        "plant_light_affinity": "VERY_HIGH"
+      },
+      "mediterranean_tree_easy": {
+        "plant_water_affinity": "LOW",
+        "plant_light_affinity": "HIGH"
+      },
+      "mediterranean_tree_complex": {
+        "plant_water_affinity": "MEDIUM",
+        "plant_light_affinity": "VERY_HIGH"
+      }
+    },
+    "game_master": {
+      "quests": {
+        "filler_materials": {
+          "fortuna_romanorum:biome:coast": {
+            "default": [
+              "stonehearth:resources:wood:pine_log",
+              "stonehearth:resources:wood:juniper_log"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

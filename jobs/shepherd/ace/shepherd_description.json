@@ -1,0 +1,5 @@
+{
+  "crafter": {
+    "recipe_list": "file(../recipes/fr_recipes.json)"
+  }
+}

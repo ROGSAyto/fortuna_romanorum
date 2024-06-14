@@ -1,0 +1,25 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "in_edge": "centurion_award_dialoge",
+   
+	"dialog_tree_info": {
+		"start_node": "centurion_promotion",
+		"nodes": {
+			"centurion_promotion": {
+				"bulletin": {
+					"title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.centurion_award_dialoge.dialog_tree_info.dialog_nodes.centurion_promotion.bulletin_title)",
+					"dialog_title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.centurion_award_dialoge.dialog_tree_info.dialog_nodes.centurion_promotion.dialog_title)",
+					"portrait": "file(images/herald_vespasianus.png)",
+					"portrait_offset": 49,
+					"message": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.centurion_award_dialoge.dialog_tree_info.dialog_nodes.centurion_promotion.bulletin_message.00)",
+					"choices": {
+						"fortuna_romanorum:data.gm.campaigns.military_grow.centurion_award_dialoge.dialog_tree_info.dialog_nodes.centurion_promotion.choice_00": {
+							"out_edge": "centurion_award"
+						}
+					}
+				}
+			}
+		}
+	}
+}

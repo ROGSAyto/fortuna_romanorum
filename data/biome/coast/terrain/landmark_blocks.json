@@ -1,0 +1,38 @@
+{
+   "#00FF00": {
+      "loot_bag": "fortuna_romanorum:loot_bag:coast:tree_random"
+   },
+   "#00FF01": {
+      "loot_bag": "fortuna_romanorum:loot_bag:coast:tree_large_random"
+   },
+   "#00EF00": {
+      "loot_bag": "fortuna_romanorum:trees:stone_pine:large"
+   },
+   "#00DF00": {
+      "loot_bag": "fortuna_romanorum:trees:stone_pine:medium"
+   },
+   "#00CF00": {
+      "loot_bag": "fortuna_romanorum:trees:stone_pine:small"
+   },
+   "#00FE00": {
+      "loot_bag": "fortuna_romanorum:trees:cypress:large"
+   },
+   "#00FD00": {
+      "loot_bag": "fortuna_romanorum:trees:cypress:medium"
+   },
+   "#00FC00": {
+      "loot_bag": "fortuna_romanorum:trees:cypress:small"
+   },
+   "#FFC8FF": {
+      "loot_bag": "stonehearth:plants:brightbell"
+   },
+   "#C8C8FF": {
+      "loot_bag": "fortuna_romanorum:plants:lavender"
+   },
+   "#C8FFC8": {
+      "loot_bag": "stonehearth:plants:silkweed"
+   },
+   "#C864FF": {
+      "loot_bag": "stonehearth:plants:pear_cactus"
+   }
+}

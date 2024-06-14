@@ -1,0 +1,11 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:carpenter",
+   "crafter": {
+      "recipe_list": "/fortuna_romanorum/jobs/z_recipes/carpenter_recipes.json"
+   },
+   "equipment": {
+      "torso": "file(carpenter_outfit)",
+	  "mainhand": "stonehearth:carpenter:saw"
+   }
+}

@@ -1,0 +1,39 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(evocati_helmet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(evocati_helmet_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+		 "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": -1,
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 6
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.armor.evocati_helmet.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.armor.evocati_helmet.description)",
+         "icon": "file(evocati_helmet.png)",
+         "category": "armor",
+         "material_tags": ["iron", "helmet", "armor", "heavy_armor", "roman_made", "stockpile_equipment"]
+      }
+   }
+}

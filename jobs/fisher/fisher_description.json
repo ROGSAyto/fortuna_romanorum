@@ -1,0 +1,9 @@
+{
+  "type": "job",
+  "enabled": true,
+  "equipment": {
+    "helmet": "file(fisher_outfit/fisher_hat)",
+    "torso": "file(fisher_outfit)"
+  },
+  "display_order": 10
+}

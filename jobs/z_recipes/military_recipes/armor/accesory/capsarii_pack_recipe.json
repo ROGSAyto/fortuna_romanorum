@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.weaver.recipes.capsarii_pack_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.weaver.recipes.capsarii_pack_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.weaver.recipes.capsarii_pack_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/armor/capsarii_pack/capsarii_pack.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:leather_bolt",
+         "count": 1
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:armor:capsarii_pack"
+      }
+	]
+}

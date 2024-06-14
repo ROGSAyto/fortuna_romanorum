@@ -1,0 +1,38 @@
+{
+   "mixins": [
+      "fortuna_romanorum:stonehearth_ace:drink:serving_keg_ghost",
+      "stonehearth:mixins:placed_object"
+   ],
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(red_wine_serving_keg.qb)"
+            ]
+         },
+         "stone": {
+            "models": [
+               "file(red_wine_serving_keg_stone.qb)"
+            ]
+         },
+         "clay": {
+            "models": [
+               "file(red_wine_serving_keg_clay.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.drink.red_wine.serving_keg.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.drink.red_wine.serving_keg.description)",
+         "icon": "file(red_wine_serving_keg.png)",
+         "material_tags": [
+            "prepared_drink",
+            "red_wine",
+            "alcoholic",
+            "night_time"
+         ]
+      }
+   }
+}

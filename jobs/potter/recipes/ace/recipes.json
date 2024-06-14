@@ -1,0 +1,11 @@
+{
+  "craftable_recipes": {
+    "utility": {
+      "recipes": {
+        "water_well_roof_terracotta": {
+          "recipe": "file(water_well_roof_terracotta_recipe.json)"
+        }
+      }
+    }
+  }
+}

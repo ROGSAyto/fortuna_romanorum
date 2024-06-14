@@ -1,0 +1,11 @@
+{
+   "type" : "rig",
+   "skeleton": {
+      "root": [0, 0, 0],
+      "frame": [0, 0, 0],
+      "leftShutter": [7.5, -6.5, 0],
+      "rightShutter": [-7.5, -6.5, 0],
+   },
+   "animation_root" : "file(animations)",
+   "effects_root": "file(effects)"
+}

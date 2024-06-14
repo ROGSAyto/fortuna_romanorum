@@ -1,0 +1,20 @@
+{
+   "components": {
+      "stonehearth:entity_forms": {
+         "placeable_on_walls": true,
+         "placeable_on_ground": true,
+         "hide_placement_ui": false
+      },
+      "mob": {
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": 0 },
+               "max": { "x": 2, "y": 3, "z": 1 }
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 3,
+   "recipe_name": "i18n(fortuna_romanorum:entities.decoration.plaster_box_long_purslane.display_name)",
+   "description": "i18n(fortuna_romanorum:entities.decoration.plaster_box_long_purslane.description)",
+   "flavor": "i18n(fortuna_romanorum:entities.decoration.plaster_box_long_purslane.flavor)",
+   "portrait": "/fortuna_romanorum/entities/decoration/plaster_box_long_purslane/plaster_box_long_purslane.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:refined:plaster",
+         "count": 2
+      },
+      {
+         "uri": "fortuna_romanorum:resources:herb:purslane",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:decoration:plaster_box_purslane:long"
+      }
+   ]
+}

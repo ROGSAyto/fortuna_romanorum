@@ -1,0 +1,15 @@
+{
+   "thoughts": {
+      "drinking": {
+         "values": {
+            "serene_mind": {
+               "display_name": "i18n(fortuna_romanorum:data.happiness.thoughts.drinking.serene_mind.display_name)",
+               "tooltip": "i18n(fortuna_romanorum:data.happiness.thoughts.drinking.serene_mind.tooltip)",
+               "happiness_delta": 12,
+               "duration": "6h",
+               "stackable": false
+            }
+         }
+      }
+   }
+}

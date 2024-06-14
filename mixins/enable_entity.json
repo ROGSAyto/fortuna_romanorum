@@ -1,0 +1,10 @@
+{
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "shop_info": {
+            "buyable": true,
+            "sellable": true
+         }
+      }
+   }
+}

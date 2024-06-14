@@ -1,0 +1,57 @@
+{
+   "type": "entity",
+   "mixins": [
+      "fortuna_romanorum:lostems:skin_changer:ghost",
+      "stonehearth:mixins:portals:double_door:ghost",
+      "stonehearth:mixins:placed_object"
+   ],
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(plastered_tunnel_door.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.construction.plastered_tunnel_door.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.construction.plastered_tunnel_door.description)",
+         "icon": "file(plastered_tunnel_door.png)",
+         "category": "door",
+         "material_tags": ["stone", "plaster", "portal", "crafted", "door", "stockpile_portal", "fortuna_romanorum"]
+      },
+      "lostems:skin_info": {
+         "default_skin": "brown",
+         "skins": {
+            "brown": {
+               "icon": "file(plastered_tunnel_door.png)",
+               "ordinal": 1,
+               "attached_entities": false
+            },
+            "red": {
+               "icon": "file(skins/red.png)",
+               "ordinal": 2,
+               "attached_entities": [
+                  "file(skins/red.json)"
+               ]
+            },
+            "green": {
+               "icon": "file(skins/green.png)",
+               "ordinal": 3,
+               "attached_entities": [
+                  "file(skins/green.json)"
+               ]
+            },
+            "blue": {
+               "icon": "file(skins/blue.png)",
+               "ordinal": 4,
+               "attached_entities": [
+                  "file(skins/blue.json)"
+               ]
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,57 @@
+{
+   "craftable_recipes": {
+      "tools": {
+         "recipes": {
+            "mixintypes": {
+               "carpenter_saw": "remove"
+            }
+         }
+      },
+      "weapons": {
+          "recipes": {
+             "mixintypes": {
+                "short_sword": "remove",
+                "long_sword": "remove",
+                "two_long_sword": "remove",
+                "iron_mace": "remove",
+                "iron_pike": "remove",
+                "bronze_mace": "remove",
+                "bronze_axe": "remove",
+                "bronze_sword": "remove",
+                "iron_battle_axe": "remove",
+                "iron_sword": "remove",
+                "iron_short_sword": "remove",
+                "steel_mace": "remove",
+                "iron_axe": "remove",
+                "steel_axe": "remove",
+                "iron_hatchet": "remove",
+                "steel_dagger": "remove",
+                "steel_lance": "remove",
+                "silver_halberd": "remove",
+                "silver_short_sword": "remove",
+                "silver_mace": "remove",
+                "bronze_short_spear": "remove",
+                "iron_short_spear": "remove",
+                "steel_short_spear": "remove"
+             }
+          }
+       },
+       "armor": {
+           "recipes": {
+              "mixintypes": {
+                "iron_platemail": "remove",
+                "iron_helmet": "remove",
+                "steel_chainmail": "remove",
+                "steel_helm": "remove",
+                "light_iron_shield": "remove",
+                "light_steel_shield": "remove",
+                "silver_shield": "remove",
+                "iron_archer_mail": "remove",
+                "cleric_bronze_shield": "remove",
+                "cleric_iron_shield": "remove",
+                "cleric_steel_shield": "remove"
+              }
+            }
+        }
+   }
+}

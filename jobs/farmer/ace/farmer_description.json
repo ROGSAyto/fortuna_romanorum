@@ -1,0 +1,28 @@
+{
+   "level_data": {
+      "2": {
+         "perks": [
+            {
+               "type": "set_lookup_values",
+               "lookup_values": {
+                  "harvest_increase_amount": 0.25
+               },
+               "name": "i18n(stonehearth_ace:jobs.farmer.farmer_description.level_2_data.perk_000_name)",
+               "id": "farmer_harvest_increase_1",
+               "icon": "/stonehearth_ace/jobs/farmer/images/harvest_increase_1.png",
+               "description": "i18n(stonehearth_ace:jobs.farmer.farmer_description.level_2_data.perk_000_description)",
+               "level": 2
+            },
+            {
+               "name": "i18n(stonehearth_ace:jobs.farmer.farmer_description.level_2_data.perk_001_name)",
+               "id": "farmer_unlock_flowers",
+               "icon": "/stonehearth_ace/jobs/farmer/images/decorative_flowers_unlock.png",
+               "description": "i18n(stonehearth_ace:jobs.farmer.farmer_description.level_2_data.perk_001_description)",
+               "level": 2,
+               "type": "unlock_town_ability",
+               "unlock_ability": "field_type_decorative_flowers"
+            }
+         ]
+      }
+   }
+}

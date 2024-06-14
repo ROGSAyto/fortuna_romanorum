@@ -1,0 +1,24 @@
+{
+   "mixins": [
+      "fortuna_romanorum:mixins:window:wide:ghost"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(plastered_window_frame_wide.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.construction.plastered_window_frame_wide.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.construction.plastered_window_frame_wide.description)",
+         "icon": "file(plastered_window_frame_wide.png)",
+         "category": "window",
+         "material_tags": ["stone", "plaster", "crafted", "fortuna_romanorum"]
+      }
+   }
+}

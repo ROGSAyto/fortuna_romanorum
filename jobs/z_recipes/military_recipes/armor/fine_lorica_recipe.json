@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.fine_lorica_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.fine_lorica_recipe.description)",
+   "flavor": "Stop forming tortoises!",
+   "portrait": "/fortuna_romanorum/entities/armor/fine_lorica/fine_lorica.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 4
+      },
+      {
+         "material": "leather resource",
+         "count": 2
+      },
+	  {
+         "uri": "stonehearth:refined:gold_flakes",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:armor:fine_lorica"
+      }
+   ]
+}

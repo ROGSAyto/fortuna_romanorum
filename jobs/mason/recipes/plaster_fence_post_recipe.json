@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 4,
+   "work_units": 1,
+   "recipe_name": "i18n(fortuna_romanorum:entities.construction.plaster_fence_post.display_name)",
+   "description": "i18n(fortuna_romanorum:entities.construction.plaster_fence_post.description)",
+   "flavor": "i18n(fortuna_romanorum:entities.construction.plaster_fence_post.flavor)",
+   "portrait": "/fortuna_romanorum/entities/construction/plaster_fence_post/plaster_fence_post.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:refined:plaster",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:construction:plaster_fence_post"
+      }
+   ]
+}

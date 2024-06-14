@@ -1,0 +1,11 @@
+{
+   "craftable_recipes": {
+      "ingredients": {
+         "recipes": {
+            "cane_sugar": {
+               "recipe": "file(cane_sugar_recipe.json)"
+            }
+         }
+      }
+   }
+}

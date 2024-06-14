@@ -1,0 +1,55 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "true",
+            "models": [
+               "file(capsarii_pack.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "true",
+            "models": [
+               "file(capsarii_pack_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(capsarii_pack_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "accessory",
+         "ilevel": 2,
+         "required_job_level": 1,
+         "roles": "cleric_job",
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+	    	 "injected_buffs": [
+			      "fortuna_romanorum:buffs:capsarii:increased_compassion"
+		],
+      },
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 35,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.armor.capsarii_pack.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.armor.capsarii_pack.description)",
+         "icon": "file(capsarii_pack.png)",
+         "category": "armor",
+         "material_tags": ["leather", "armor", "light_armor", "backpack", "stockpile_equipment"]
+      }
+   }
+}

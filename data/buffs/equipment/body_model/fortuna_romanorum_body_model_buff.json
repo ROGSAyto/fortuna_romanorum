@@ -1,0 +1,20 @@
+{
+   "type": "buff",
+   "axis": "neutral",
+   "invisible_to_player": true,
+   "script": "fortuna_romanorum:buff_scripts:body_model",
+   "script_info": {
+      "default": {
+         "/stonehearth/entities/humans/male/body.qb": true,
+         "/fortuna_romanorum/entities/humans/male/body.qb": false
+      },
+      "female": {
+         "/stonehearth/entities/humans/female/body.qb": true,
+         "/fortuna_romanorum/entities/humans/female/body.qb": false
+      },
+      "orc_male": {
+         "/stonehearth/entities/monsters/orcs/orc/male/orc_male_head.qb": false,
+         "/fortuna_romanorum/entities/monsters/orcs/orc/male/orc_male_head.qb": true
+      }
+   }
+}

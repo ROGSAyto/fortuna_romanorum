@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "stonehearth:jobs.footman.footman_buffs.speed_buff.display_name",
+   "description": "stonehearth:jobs.footman.footman_buffs.speed_buff.description",
+   "icon": "file(legionary_buff_spd_up_1.png)",
+   "modifiers": {
+      "speed": {
+         "add": 15
+      }
+   }
+}

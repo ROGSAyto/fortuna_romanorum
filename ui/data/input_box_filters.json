@@ -1,0 +1,74 @@
+{
+   "stockpile": {
+      "resources": {
+         "categories": {
+            "plaster": {
+               "ordinal": 20,
+               "display_name": "i18n(fortuna_romanorum:entities.refined.plaster.display_name)",
+               "icon": "/fortuna_romanorum/entities/refined/plaster/plaster.png",
+               "filter": "plaster resource"
+            }
+         }
+      },
+      "plants": {
+         "categories": {
+            "purslane": {
+               "ordinal": 2.31,
+               "display_name": "i18n(fortuna_romanorum:entities.plants.purslane.herb.display_name)",
+               "icon": "/fortuna_romanorum/entities/resources/herb/purslane/purslane.png",
+               "filter": "resource plant purslane"
+            },
+            "lavender": {
+               "ordinal": 2.32,
+               "display_name": "i18n(fortuna_romanorum:entities.plants.lavender.herb.display_name)",
+               "icon": "/fortuna_romanorum/entities/resources/herb/lavender/lavender.png",
+               "filter": "resource plant lavender"
+            },
+            "dandelion": {
+               "ordinal": 2.801,
+               "display_name": "i18n(fortuna_romanorum:entities.plants.dandelions.herb.display_name)",
+               "icon": "/fortuna_romanorum/entities/resources/herb/dandelion/dandelion.png",
+               "filter": "resource plant dandelion"
+            }
+         }
+      },
+      "raw_foods": {
+         "categories": {
+            "celery": {
+               "ordinal": 1.1,
+               "display_name": "i18n(fortuna_romanorum:entities.plants.celery.basket.display_name)",
+               "icon": "/fortuna_romanorum/entities/food/celery/celery_basket/celery_basket.png",
+               "filter": "raw_food celery"
+            },
+            "grapes": {
+               "ordinal": 6.1,
+               "display_name": "i18n(fortuna_romanorum:entities.plants.grapes.basket.display_name)",
+               "icon": "/fortuna_romanorum/entities/food/grapes/grapes_basket/grapes_basket.png",
+               "filter": "raw_food grapes"
+            },
+            "olives": {
+               "ordinal": 7.8,
+               "display_name": "i18n(fortuna_romanorum:entities.plants.olives.basket.display_name)",
+               "icon": "/fortuna_romanorum/entities/food/olives/olives_basket/olives_basket.png",
+               "filter": "raw_food olives"
+            },
+            "lemon": {
+               "ordinal": 16.41,
+               "display_name": "i18n(fortuna_romanorum:entities.plants.lemon.basket.display_name)",
+               "icon": "/fortuna_romanorum/entities/food/lemons/lemon_basket/lemon_basket.png",
+               "filter": "raw_food lemon"
+            }
+         }
+      },
+      "cooking_ingredients": {
+         "categories": {
+            "sugarcane": {
+               "ordinal": 2.1989,
+               "display_name": "i18n(fortuna_romanorum:entities.plants.sugar_cane.basket.display_name)",
+               "icon": "/fortuna_romanorum/entities/food/sugar_cane/sugar_cane_basket/sugar_cane_basket.png",
+               "filter": "cooking_ingredient sugar_cane"
+            }
+         }
+      }
+   }
+}

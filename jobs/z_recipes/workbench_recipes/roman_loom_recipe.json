@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.weaver.recipes.weaver_loom_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.weaver.recipes.weaver_loom_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.weaver.recipes.weaver_loom_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/jobs/weaver/roman_loom/roman_loom.png",
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "fiber resource",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:weaver:loom"
+      }
+   ]
+}

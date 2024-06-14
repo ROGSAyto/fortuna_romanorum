@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:entities.containers.input_shelf_ground_plaster.display_name)",
+   "description": "i18n(fortuna_romanorum:entities.containers.input_shelf_ground_plaster.description)",
+   "flavor": "i18n(fortuna_romanorum:entities.containers.input_shelf_ground_plaster.flavor)",
+   "portrait": "/fortuna_romanorum/entities/containers/input_shelf_ground_plaster/input_shelf_ground_plaster.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:refined:plaster",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:containers:input_shelf_ground_plaster"
+      }
+   ]
+}

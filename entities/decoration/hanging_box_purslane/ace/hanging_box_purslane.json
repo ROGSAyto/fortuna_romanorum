@@ -1,0 +1,10 @@
+{
+  "mixins": [
+    "/fortuna_romanorum/entities/decoration/hanging_box_plaster/hanging_box_plaster.json"
+  ],
+  "components": {
+    "stonehearth_ace:herbalist_planter": {
+      "default_crop": "purslane"
+    }
+  }
+}

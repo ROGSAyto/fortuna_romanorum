@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 17,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:entities.furniture.plaster_bench.display_name)",
+   "description": "i18n(fortuna_romanorum:entities.furniture.plaster_bench.description)",
+   "flavor": "i18n(fortuna_romanorum:entities.furniture.plaster_bench.flavor)",
+   "portrait": "/fortuna_romanorum/entities/furniture/plaster_bench/plaster_bench.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:refined:plaster",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:furniture:plaster_bench"
+      }
+   ]
+}

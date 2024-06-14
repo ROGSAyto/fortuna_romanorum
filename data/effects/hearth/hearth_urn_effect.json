@@ -1,0 +1,100 @@
+{
+   "type": "effect",
+   "tracks": {
+      "base_dense": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/fire/hearth_urn/hearth_urn.base_dense.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "base_bubbles": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/fire/hearth_urn/hearth_urn.base_bubbles.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "base_bubbles_conc": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/fire/hearth_urn/hearth_urn.base_bubbles_conc.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "base_bubbles_extreme": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/fire/hearth_urn/hearth_urn.base_bubbles_extreme.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "glow": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/fire/hearth_urn/hearth_urn.glow.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "embers": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/fire/hearth_urn/hearth_urn.embers.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "spinner1": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/fire/hearth_urn/hearth_urn.spinner.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "spinners": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/fire/hearth_urn/hearth_urn.spinner2.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "crackle_sound": {
+         "type": "sound_effect",
+         "loop": true,
+         "start_time": 400,
+         "min_distance": 40,
+         "falloff": 2.5,
+         "volume": 70,
+         "track": "stonehearth:sounds:firepit_loop_sound"
+      },
+      "light": {
+         "type": "light",
+         "light": "/fortuna_romanorum/data/horde/animatedlights/fire/hearth/hearth.urn.animatedlight.json",
+         "transforms": { "x": 0, "y": 3, "z": 0 },
+         "shadows": true
+      }
+   }
+}

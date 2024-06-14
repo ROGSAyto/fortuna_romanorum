@@ -1,0 +1,9 @@
+{
+   "components": {
+      "stonehearth:crop": {
+         "mixintypes": {
+            "harvest_threshhold": "remove"
+         }
+      }
+   }
+}

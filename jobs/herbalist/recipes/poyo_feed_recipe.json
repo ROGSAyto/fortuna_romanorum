@@ -1,0 +1,14 @@
+{
+   "type": "recipe",
+   "mixins": [
+      "/stonehearth/jobs/cook/recipes/poyo_feed_recipe.json"
+   ],
+   "workshop": "stonehearth:herbalist:workbench",
+   "mixintypes": {"ingredients": "override"},
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:wheat:wheat_bale",
+         "count": 2
+      }
+   ]
+}

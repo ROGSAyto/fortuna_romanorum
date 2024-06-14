@@ -1,0 +1,11 @@
+{
+  "mixins": [
+    "stonehearth:traits_index"
+  ],
+  "traits": {
+    "mixintypes": {
+      "stonehearth:traits:cultist": "remove",
+      "stonehearth:traits:magnificent_beard": "remove"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+   "type": "recipe",
+   "mixins": [
+      "/stonehearth/jobs/cook/recipes/rabbit_feed_recipe.json"
+   ],
+   "workshop": "stonehearth:herbalist:workbench"
+}

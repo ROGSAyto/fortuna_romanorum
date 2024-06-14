@@ -1,0 +1,5 @@
+{
+  "mixins": [
+    "/fortuna_romanorum/entities/decoration/window_box_plaster/window_box_plaster_iconic.json"
+  ]
+}

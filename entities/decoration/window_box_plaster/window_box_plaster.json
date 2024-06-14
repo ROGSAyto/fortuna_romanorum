@@ -1,0 +1,21 @@
+{
+  "mixins": [
+    "/stonehearth_ace/mixins/herbalist_planter/window_box_planter.json"
+  ],
+  "components": {
+    "stonehearth_ace:herbalist_planter": {
+      "mixintypes": {
+        "plant_locations": "override"
+      },
+      "plant_locations": [
+        {
+          "offset": { "x": -0.4, "y": 0.39, "z": 0.0 }
+        },
+        {
+          "offset": { "x": 0.4, "y": 0.39, "z": 0.0 },
+          "rotation": 90
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+   "mixins": [
+      "/stonehearth/data/gm/campaigns/trader/trader_campaign.json",
+      "fortuna_romanorum:mixins:campaign:fortuna_romanorum:deny_if_not"
+   ]
+}

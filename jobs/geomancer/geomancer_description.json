@@ -1,0 +1,12 @@
+{
+   "mixins": [
+      "stonehearth:jobs:geomancer"
+   ],
+   "equipment": {
+      "helmet": "file(geomancer_outfit/geomancer_hat)",
+      "torso": "file(geomancer_outfit)"
+   },
+   "display_order": 8,
+   "parent_job": "stonehearth:jobs:herbalist",
+   "parent_level_requirement": 5
+}

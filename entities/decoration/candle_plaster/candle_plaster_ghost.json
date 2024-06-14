@@ -1,0 +1,25 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(candle_plaster.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0.2, "z": -0.1 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.decoration.candle_plaster.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.decoration.candle_plaster.description)",
+         "icon": "file(candle_plaster.png)",
+         "category": "decoration",
+         "material_tags": ["light_source", "stone", "plaster", "wax", "crafted", "stockpile_decoration", "fortuna_romanorum"]
+      }
+   }
+}

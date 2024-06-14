@@ -1,0 +1,6 @@
+{
+   "mixins": [
+      "/stonehearth/jobs/blacksmith/recipes/engineer_wrench_recipe.json"
+   ],
+   "level_requirement": 2
+}

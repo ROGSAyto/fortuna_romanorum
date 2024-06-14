@@ -1,0 +1,31 @@
+{
+  "type": "entity",
+  "mixins": [
+    "stonehearth:geomancer:outfit"
+  ],
+  "components": {
+    "model_variants": {
+      "mixintypes": {
+        "default": "override",
+        "female": "override"
+      },
+      "default": {
+        "layer": "clothing",
+        "models": [
+          "file(geomancer_outfit.qb)"
+        ]
+      },
+      "female": {
+        "layer": "clothing",
+        "models": [
+          "file(geomancer_outfit_female.qb)"
+        ]
+      }
+    }
+  },
+  "entity_data": {
+    "stonehearth:catalog": {
+      "icon": "file(geomancer_outfit.png)"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+   "components": {
+      "stonehearth:trapping_grounds": {
+         "bugs": {
+            "stonehearth_ace:scarab_beetle": 70,
+            "stonehearth_ace:scorpion": 100,
+            "stonehearth:bitsy_ant": 0,
+            "stonehearth:beetle": 30
+         }
+      }
+   }
+}

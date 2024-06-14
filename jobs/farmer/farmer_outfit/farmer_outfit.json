@@ -1,0 +1,38 @@
+{
+  "type": "entity",
+  "mixins": [
+    "stonehearth:farmer:outfit"
+  ],
+  "components": {
+    "model_variants": {
+      "mixintypes": {
+        "default": "override",
+        "female": "override"
+      },
+      "default": {
+        "layer": "clothing",
+        "transparent": false,
+        "models": [
+          "file(farmer_outfit.qb)"
+        ]
+      },
+      "female": {
+        "layer": "clothing",
+        "transparent": false,
+        "models": [
+          "file(farmer_outfit_female.qb)"
+        ]
+      }
+    },
+    "stonehearth:equipment_piece": {
+       "injected_buffs": [
+          "stonehearth_ace:buffs:weather:hot_resist"
+       ]
+    }
+  },
+  "entity_data": {
+    "stonehearth:catalog": {
+      "icon": "file(farmer_outfit.png)"
+    }
+  }
+}

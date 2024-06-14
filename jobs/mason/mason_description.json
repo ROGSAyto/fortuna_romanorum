@@ -1,0 +1,10 @@
+{
+   "mixins": "stonehearth:jobs:mason",
+   "display_order": 3,
+   "crafter": {
+      "recipe_list": "file(recipes/fr_recipes.json)"
+   },
+   "equipment": {
+      "torso": "file(mason_outfit)"
+   }
+}

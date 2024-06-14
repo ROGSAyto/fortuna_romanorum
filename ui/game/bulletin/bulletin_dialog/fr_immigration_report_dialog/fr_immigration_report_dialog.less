@@ -1,0 +1,373 @@
+#SLImmigrationReportBulletinDialog {
+   @borderBoxShadow: 2px 2px 5px #6A5E48;
+
+   .window {
+      display: flex;
+      flex-direction: column;
+      width: initial;
+      height: initial;
+      max-height: 630px;
+      padding-bottom: 28px;
+   }
+
+   #content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+   }
+
+   #header {
+      position: relative;
+      height: 80px;
+      width: 100%;
+      margin: -90px 0 9px 0;
+      text-align: center;
+      top: -3px;
+
+      #title {
+         .control;
+         display: inline-block;
+         min-width: 95%;
+         padding: 24px 0 4px 0;
+         background-image: url(/fortuna_romanorum/ui/common/images/ui_decor1.png);
+         background-repeat: no-repeat;
+         background-size: 100% auto;
+         font-size: 35px;
+         text-align: center;
+      }
+   }
+
+   #requirementBox {
+      height: 80px;
+      width: 100%;
+      margin-bottom: 9px;
+   }
+
+   #townMoraleName {
+      .control;
+      position: relative;
+      top: 19px;
+      font-size: 18px;
+      text-align: center;
+   }
+
+   #townInfoColumn {
+      margin: 9px;
+      align-items: flex-end;
+   }
+
+   #townIcons {
+      display: inline-flex;
+      margin-bottom: 7.3px;
+   }
+
+   #moraleIcon {
+      background-position: center center;
+   }
+
+   #populationIcon {
+      background-position: center top;
+      background-image: url(/stonehearth/ui/game/start_menu/images/citizens.png);
+   }
+
+   #populationNumberLabel {
+      .control;
+      display: inline-block;
+      position: absolute;
+      left: -3px;
+      bottom: -5px;
+      font-size: 16px;
+   }
+
+   #foodImageDiv {
+      background-image: url(/stonehearth/ui/game/bulletin/bulletin_dialog/immigration_report_dialog/images/foodCriteria.png);
+   }
+
+   #netWorthImageDiv {
+      background-image: url(/stonehearth/ui/game/bulletin/bulletin_dialog/immigration_report_dialog/images/netWorthCriteria.png);
+   }
+
+   #requirementsLabel {
+      margin-bottom: 30px;
+   }
+
+   .statusBar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      .requirementBlock {
+         display: inline-flex;
+         flex-direction: column;
+         align-items: center;
+         align-self: flex-start;
+         margin: 8px;
+
+         .requirementImage {
+            display: inline-flex;
+            align-items: center;
+            height: 48px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-right: 5px;
+
+
+            .statusDiv {
+               min-width: 48px;
+               min-height: 48px;
+               background-size: auto 50%;
+               background-repeat: no-repeat;
+               background-position: right bottom;
+               margin-right: 10px;
+               visibility : hidden;
+            }
+
+            .requirementLabel {
+               .control;
+               margin: 0;
+               color: #ffffff;
+            }
+
+            .passed {
+               background-image: url(/stonehearth/ui/game/bulletin/bulletin_dialog/immigration_report_dialog/images/greenCheck.png);
+            }
+
+            .failed {
+               background-image: url(/stonehearth/ui/game/bulletin/bulletin_dialog/immigration_report_dialog/images/redX.png);
+            }
+         }
+
+      }
+
+      .requirementDetails {
+         .control;
+         color: white;
+         text-align: center;
+         margin-top: 5px;
+
+         .bonusText {
+            color: #FFC000;
+         }
+
+         .successText {
+            color: #6bf10d;
+         }
+
+         .failedText {
+            color: #c21b00;
+         }
+      }
+
+      .textRight {
+         display: inline-block;
+         text-align: right;
+      }
+
+      .columnFlex {
+         display: inline-flex;
+         flex-direction: column;
+
+         .icon {
+            display: inline-block;
+            position: relative;
+            min-width: 44px;
+            min-height: 44px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin: 4px;
+         }
+      }
+   }
+
+   #conclusionDiv {
+      display: inline-flex;
+      margin: 20px;
+      visibility: hidden;
+   }
+
+   .factionSection {
+      display: none; /* flex */
+      justify-content: center;
+
+      .factionBlock {
+         display: flex;
+         flex-direction: column;
+         max-width: 180px;
+         margin: 0 4px 0 4px;
+         border-style: solid;
+         border-width: 4px;
+         border-color: #7b6a4b;
+
+         .factionTitle {
+            display: inline-flex;
+            align-items: center;
+            width: 100%;
+            height: 52px;
+            position: relative;
+            left: -2px;
+            top: -5px;
+
+            .factionBanner {
+               display: inline-block;
+               min-width: 61px;
+               min-height: 66px;
+               position: relative;
+               left: -10px;
+               margin-right: -7px;
+               background-repeat: no-repeat;
+            }
+
+            .factionName {
+               .controlFont;
+               display: inline-flex;
+               text-align: center;
+               color: initial;
+            }
+         }
+
+         .citizenRoster {
+            text-align: center;
+
+            .portrait {
+               width: 122px;
+               height: 122px;
+               background: url(/stonehearth/ui/shell/select_roster/images/portrait_bg.png);
+               box-shadow: @borderBoxShadow;
+               padding: 1px;
+            }
+
+            .name {
+               display: inline-flex;
+               max-width: 90%;
+               height: 40px;
+               margin-bottom: 10px;
+               padding: 2px;
+               justify-content: center;
+               align-items: center;
+            }
+
+            .stats {
+               display: inline-flex;
+               justify-content: space-around;
+               margin-bottom: 10px;
+
+               .stat {
+                  display: inline-block;
+                  width: 48px;
+                  height: 48px;
+                  position: relative;
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                  background-position: center center;
+
+                  .statValue {
+                     .controlFont;
+                     display: inline-block;
+                     position: absolute;
+                     bottom: 3px;
+                     right: 4px;
+                     color: inherit;
+                  }
+               }
+
+               .mind {
+                  color: @mindStatColor;
+                  background-image: url(/fortuna_romanorum/ui/common/images/stat_mind.png);
+               }
+
+               .body {
+                  color: @bodyStatColor;
+                  background-image: url(/fortuna_romanorum/ui/common/images/stat_body.png);
+               }
+
+               .spirit {
+                  color: @spiritStatColor;
+                  background-image: url(/fortuna_romanorum/ui/common/images/stat_spirit.png);
+               }
+            }
+
+            .traits {
+               display: inline-block;
+               margin-bottom: 10px;
+
+               .item {
+
+                  img {
+
+                  }
+               }
+            }
+         }
+
+         .factionButton {
+            width: 100%;
+            min-height: 65px;
+            margin-top: 4px;
+            text-align: center;
+         }
+
+      }
+
+   }
+
+   #buttons {
+      display: flex;
+      justify-content: center;
+      height: 0;
+
+      .callbackButton {
+         min-width: 180px;
+         min-height: 65px;
+         margin-top: 4px;
+         text-align: center;
+      }
+   }
+
+   #guild_pegasus {
+      .factionTitle {
+         background-color: #a62c2e;
+         border-style: solid;
+      }
+
+      .factionBanner {
+         background-image: url(/fortuna_romanorum/ui/common/images/guilds/guild_pegasus_banner.png);
+      }
+
+      .factionName {
+         color: #ffffff;
+      }
+   }
+
+   #guild_eagle {
+      .factionTitle {
+         background-color: #daa12c;
+         border-style: solid;
+      }
+
+      .factionBanner {
+         background-image: url(/fortuna_romanorum/ui/common/images/guilds/guild_eagle_banner.png);
+      }
+
+      .factionName {
+         color: #ffffff;
+      }
+   }
+
+   #guild_lion {
+      .factionTitle {
+         background-color: #2d3c8a;
+         border-style: solid;
+      }
+
+      .factionBanner {
+         background-image: url(/fortuna_romanorum/ui/common/images/guilds/guild_lion_banner.png);
+      }
+
+      .factionName {
+         color: #ffffff;
+      }
+   }
+
+}

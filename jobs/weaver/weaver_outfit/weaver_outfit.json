@@ -1,0 +1,38 @@
+{
+  "type": "entity",
+  "mixins": [
+    "fortuna_romanorum:mixins:equipment:body_model:fortuna_romanorum",
+    "stonehearth:weaver:outfit"
+  ],
+  "components": {
+    "model_variants": {
+      "mixintypes": {
+        "default": "override",
+        "female": "override"
+      },
+      "default": {
+        "layer": "clothing",
+        "transparent": true,
+        "models": [
+          "file(weaver_outfit.qb)"
+        ]
+      },
+      "female": {
+        "layer": "clothing",
+        "transparent": true,
+        "models": [
+          "file(weaver_outfit_female.qb)"
+        ]
+      }
+    }
+  },
+  "stonehearth:equipment_piece": {
+     "slot": "torso",
+     "render_type": "merge_with_model"
+  },
+  "entity_data": {
+    "stonehearth:catalog": {
+      "icon": "file(weaver_outfit.png)"
+    }
+  }
+}

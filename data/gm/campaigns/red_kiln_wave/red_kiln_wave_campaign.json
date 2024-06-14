@@ -1,0 +1,14 @@
+{
+   "type": "campaign",
+   "mixins": [
+      "fortuna_romanorum:mixins:campaign:fortuna_romanorum:deny_if_not"
+   ],
+   "rarity": "common",
+   "arcs": {
+      "trigger": {
+         "red_kiln_wave": "file(arcs/trigger/red_kiln_wave/red_kiln_wave_arc.json)"
+      },
+      "challenge": {},
+      "climax": {}
+   }
+}

@@ -1,0 +1,34 @@
+{
+  "info": {
+    "name": "fortuna_romanorum_ui",
+    "deferred_load": true,
+    "client_only": true,
+    "version": 3
+  },
+  "aliases": {},
+  "mixintos": {},
+  "overrides": {
+
+
+    "stonehearth/ui/game/start_menu/images/citizens.png": "file(game/start_menu/images/citizens.png)",
+    "stonehearth/ui/game/start_menu/images/dock.png": "file(game/start_menu/images/dock.png)",
+    "stonehearth/ui/game/start_menu/images/town.png": "file(game/start_menu/images/town.png)",
+    "stonehearth/ui/game/start_menu/images/build.png": "file(game/start_menu/images/build.png)",
+    "stonehearth/ui/game/start_menu/images/new_builder.png": "file(game/start_menu/images/new_builder.png)",
+    "stonehearth/ui/game/start_menu/images/templates.png": "file(game/start_menu/images/templates.png)",
+    "stonehearth/ui/game/start_menu/images/party_1.png": "file(game/start_menu/images/party_1.png)",
+    "stonehearth/ui/game/start_menu/images/party_2.png": "file(game/start_menu/images/party_2.png)",
+    "stonehearth/ui/game/start_menu/images/party_3.png": "file(game/start_menu/images/party_3.png)",
+    "stonehearth/ui/game/start_menu/images/party_4.png": "file(game/start_menu/images/party_4.png)",
+    "stonehearth_ace/ui/game/item_palette/images/collapsedSearchBar.png": "file(game/item_palette/images/collapsedSearchBar.png)",
+    "stonehearth_ace/ui/game/item_palette/images/searchBar.png": "file(game/item_palette/images/searchBar.png)",
+    "stonehearth/ui/game/bulletin/bulletin_dialog/immigration_report_dialog/images/foodCriteria.png":"file(game/bulletin/bulletin_dialog/fr_immigration_report_dialog/images/foodCriteria.png)",
+    "stonehearth/ui/game/bulletin/bulletin_dialog/immigration_report_dialog/images/netWorthCriteria.png":"file(game/bulletin/bulletin_dialog/fr_immigration_report_dialog/images/netWorthCriteria.png)",
+    "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "fortuna_romanorum/entities/gizmos/camp_standard/camp_standard_ghost.json"
+  },
+  "ui": {
+    "less": [
+      "file(game/create_camp/create_camp.less)"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+   "roles": {
+     "herald_aelia": {
+        "female": {
+           "uri": [
+              "fortuna_romanorum:npc:herald:aelia"
+           ]
+        }
+     },
+     "herald_lucius": {
+        "male": {
+           "uri": [
+              "fortuna_romanorum:npc:herald:lucius"
+           ]
+        }
+     },
+     "herald_caecilia": {
+        "female": {
+           "uri": [
+              "fortuna_romanorum:npc:herald:caecilia"
+           ]
+        }
+     },
+     "herald_vespasianus": {
+        "male": {
+           "uri": [
+              "fortuna_romanorum:npc:herald:vespasianus"
+           ]
+        }
+     },
+     "herald_maximus": {
+        "male": {
+           "uri": [
+              "fortuna_romanorum:npc:herald:maximus"
+           ]
+        }
+     },
+   "messenger": {
+        "male": {
+           "uri": [
+              "fortuna_romanorum:npc:herald:messenger"
+           ]
+        }
+     },
+     "herald_scarto": {
+        "male": {
+           "uri": [
+              "fortuna_romanorum:npc:herald:scarto"
+           ]
+        }
+     }
+   }
+}

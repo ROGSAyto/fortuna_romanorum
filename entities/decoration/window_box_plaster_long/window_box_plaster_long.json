@@ -1,0 +1,46 @@
+{
+  "mixins": [
+    "/stonehearth_ace/mixins/herbalist_planter/window_box_planter.json"
+  ],
+  "components": {
+    "region_collision_shape": {
+      "mixintypes": { "region": "override" },
+      "region": [
+        {
+        "min": { "x": -1, "y": 0, "z": 0 },
+        "max": { "x": 2, "y": 1, "z": 1 }
+        }
+      ]
+    },
+    "destination": {
+      "mixintypes": { "region": "override" },
+      "region": [
+        {
+        "min": { "x": -1, "y": -1, "z": 0 },
+        "max": { "x": 2, "y": 2, "z": 2 }
+        }
+      ]
+    },
+    "stonehearth:storage": {
+       "capacity": 3
+    },
+    "stonehearth_ace:herbalist_planter": {
+      "mixintypes": {
+        "plant_locations": "override"
+      },
+      "plant_locations": [
+        {
+          "offset": { "x": 0.85, "y": 0.39, "z": 0.0 },
+          "rotation": 90
+        },
+        {
+          "offset": { "x": 0.0, "y": 0.39, "z": 0.0 }
+        },
+        {
+          "offset": { "x": -0.85, "y": 0.39, "z": 0.0 },
+          "rotation": 270
+        }
+      ]
+    }
+  }
+}

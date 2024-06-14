@@ -1,0 +1,17 @@
+{
+   "type": "recipe",
+   "mixins": [
+      "/stonehearth_ace/jobs/shepherd/recipes/sheep_feed_recipe.json"
+   ],
+   "mixintypes": {"ingredients": "override"},
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:wheat:wheat_bale",
+         "count": 1
+      },
+      {
+         "material": "herb resource",
+         "count": 2
+      }
+   ]
+}

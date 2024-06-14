@@ -1,0 +1,24 @@
+{
+   "entries": {
+      "drop": {
+         "items": {
+            "stone_pine": {
+               "uri": "fortuna_romanorum:trees:stone_pine:seed",
+               "weight": 4
+            },
+            "cypress": {
+               "uri": "fortuna_romanorum:trees:cypress:seed",
+               "weight": 3
+            },
+            "olive": {
+               "uri": "fortuna_romanorum:trees:olive:seed",
+               "weight": 2
+            },
+            "pear_cactus": {
+               "uri": "stonehearth:plants:pear_cactus:seed",
+               "weight": 1
+            }
+         }
+      }
+   }
+}

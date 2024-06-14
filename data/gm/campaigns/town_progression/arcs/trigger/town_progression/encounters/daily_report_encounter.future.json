@@ -1,0 +1,90 @@
+{
+  "type": "encounter",
+  "encounter_type": "script",
+  "in_edge": "daily_report_encounter",
+  "can_start": {
+    "test_1": {
+      "citizen_cap_check": {
+        "item": "reached_citizen_cap",
+        "type": "deny_if",
+        "value": true
+      },
+      "not_in_titanstorm": {
+        "type": "deny_if",
+        "item": "weather",
+        "value": "stonehearth:weather:titanstorm"
+      }
+    }
+  },
+  "script_info": {
+    "script": "fortuna_romanorum:game_master:script_encounter:fr_daily_report",
+    "data": {
+      "expiration_timeout": "10h",
+      "food_threshold": 100,
+      "score_threshold": 1000,
+      "title": "i18n(fortuna_romanorum:data.gm.campaigns.encounters.daily_report_encounter.title)",
+      "success_title": "i18n(fortuna_romanorum:data.gm.campaigns.encounters.daily_report_encounter.success_title)",
+      "next_requirements_label": "i18n(fortuna_romanorum:data.gm.campaigns.encounters.daily_report_encounter.next_requirements_label)",
+      "food_label": "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.food_label)",
+      "net_worth_label": "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.net_worth_label)",
+      "conclusion_positive": "i18n(fortuna_romanorum:data.gm.campaigns.encounters.daily_report_encounter.conclusion_positive)",
+      "conclusion_negative": "i18n(fortuna_romanorum:data.gm.campaigns.encounters.daily_report_encounter.conclusion_negative)",
+      "messages": [
+        "i18n(fortuna_romanorum:data.gm.campaigns.encounters.daily_report_encounter.messages.000)",
+        "i18n(fortuna_romanorum:data.gm.campaigns.encounters.daily_report_encounter.messages.001)",
+        "i18n(fortuna_romanorum:data.gm.campaigns.encounters.daily_report_encounter.messages.002)",
+        "i18n(fortuna_romanorum:data.gm.campaigns.encounters.daily_report_encounter.messages.003)"
+      ],
+      "outcome_statement": "i18n(fortuna_romanorum:data.gm.campaigns.encounters.daily_report_encounter.outcome_statement)",
+      "factions": {
+        "guild_pegasus": {
+          "display_name": "i18n(fortuna_romanorum:data.guilds.pegasus.display_name)",
+          "ordinal": 1.1
+        },
+        "guild_eagle": {
+          "display_name": "i18n(fortuna_romanorum:data.guilds.eagle.display_name)",
+          "ordinal": 1.2
+        },
+        "guild_lion": {
+          "display_name": "i18n(fortuna_romanorum:data.guilds.lion.display_name)",
+          "ordinal": 1.3
+        },
+        "amberstone": {
+          "display_name": "i18n(fortuna_romanorum:data.guilds.amberstone.display_name)",
+          "bonus_description": "i18n(fortuna_romanorum:data.guilds.amberstone.bonus_description)",
+          "ordinal": 4,
+          "citizen_info": {
+            "population": "stonehearth:kingdoms:amberstone",
+            "job": "stonehearth:jobs:worker",
+            "allowed_jobs": [
+              "stonehearth:jobs:worker",
+              "stonehearth:jobs:archer",
+              "stonehearth:jobs:mason",
+              "stonehearth:jobs:geomancer"
+            ],
+            "attribute_distribution_override": {
+              "allocated_points": {
+                "min": 4,
+                "max": 8
+              },
+              "point_limits": {
+                "body": {
+                  "min": 1,
+                  "max": 4
+                },
+                "mind": {
+                  "min": 2,
+                  "max": 7
+                },
+                "spirit": {
+                  "min": 2,
+                  "max": 7
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

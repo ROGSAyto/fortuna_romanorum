@@ -1,0 +1,13 @@
+{
+   "type": "recipe",
+   "mixins": [
+      "/stonehearth_ace/jobs/shepherd/recipes/poyo_feed_recipe.json"
+   ],
+   "mixintypes": {"ingredients": "override"},
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:wheat:wheat_bale",
+         "count": 2
+      }
+   ]
+}

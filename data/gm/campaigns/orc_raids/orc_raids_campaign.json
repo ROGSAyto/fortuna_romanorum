@@ -1,0 +1,23 @@
+{
+   "type": "campaign",
+   "mixins": [
+      "fortuna_romanorum:mixins:campaign:fortuna_romanorum:deny_if_not"
+   ],
+   "rarity": "common",
+   "can_start": {
+      "test_1": {
+         "game_mode_check": {
+            "type": "deny_if",
+            "item": "game_mode",
+            "value": "stonehearth:game_mode:peaceful"
+         }
+      }
+   },
+   "arcs": {
+      "trigger": {
+         "orc_raids": "file(arcs/trigger/orc_raids/orc_raids_arc.json)"
+      },
+      "challenge": {},
+      "climax": {}
+   }
+}

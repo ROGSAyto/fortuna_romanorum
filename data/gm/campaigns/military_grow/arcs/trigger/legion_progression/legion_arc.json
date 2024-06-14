@@ -1,0 +1,22 @@
+{
+	"type": "arc",
+	"rarity": "common",
+	"encounters": {
+		"delay_check_trophy": "file(encounters/delay_check_trophy.json)",
+		"marian_reforms": "file(encounters/marian_reforms.json)",
+		"marian_unlock_recipes": "file(encounters/marian_unlock_recipes.json)",
+		"marian_unlock_recipes_blacksmith": "file(encounters/marian_unlock_recipes_blacksmith.json)",
+		"marian_unlock_recipes_carpenter": "file(encounters/marian_unlock_recipes_carpenter.json)",
+		"centurion_award": "file(encounters/centurion_award.json)",
+		"centurion_award_dialoge": "file(encounters/centurion_award_dialoge.json)",
+		"centurion_award_delay": "file(encounters/centurion_award_delay.json)",
+		"signifer_award": "file(encounters/signifer_award.json)",
+		"signifer_award_dialoge": "file(encounters/signifer_award_dialoge.json)",
+		"signifer_award_delay": "file(encounters/signifer_award_delay.json)",
+		"delay_20_days": "file(encounters/delay_20_days.json)",
+		"evocati_unlock" : "file(encounters/evocati_unlock.json)",
+		"legat_promotion_award": "file(encounters/legat_promotion_award.json)",
+		"legat_promotion_award_dialoge": "file(encounters/legat_promotion_award_dialoge.json)",
+		"legat_promotion_award_delay": "file(encounters/legat_promotion_award_delay.json)"
+	}
+}

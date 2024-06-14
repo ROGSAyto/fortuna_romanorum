@@ -1,0 +1,10 @@
+{
+   "mixins": [
+      "stonehearth:jobs:trapper"
+   ],
+   "equipment": {
+      "helmet": "remove",
+      "torso": "file(trapper_outfit)"
+   },
+   "display_order": 2
+}

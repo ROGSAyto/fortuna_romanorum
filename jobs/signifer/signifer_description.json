@@ -1,0 +1,126 @@
+{
+   "type": "job",
+   "enabled": true,
+   "job_id": "signifer",
+   "display_order": 1,
+   "alias": "fortuna_romanorum:jobs:signifer",
+   "display_name": "i18n(fortuna_romanorum:jobs.signifer.signifer_description.display_name)",
+   "controller": "fortuna_romanorum:class:signifer",
+   "description": "i18n(fortuna_romanorum:jobs.signifer.signifer_description.description)",
+   "requirements": "i18n(fortuna_romanorum:jobs.signifer.signifer_description.requirements)",
+   "talisman_uri": "fortuna_romanorum:signifer:talisman:signum_talisman",
+   "default_stance": "aggressive",
+   "abilities": "file(signifer_abilities)",
+   "equipment": {
+	  "helmet": "fortuna_romanorum:armor:signifer_helmet",
+      "torso": "fortuna_romanorum:armor:signifer_armor",
+      "mainhand": "fortuna_romanorum:weapons:signum",
+	  "offhand": "fortuna_romanorum:armor:signifer_shield",
+   },
+   "roles": ["signifer_job", "cloth_wearer", "leather_wearer", "melee_combat", "combat"],
+   "promotion_activity_name": "promote_signifer",
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:rescue"
+   ],
+   "xp_rewards": {
+      "town_protection": 1
+   },
+   "icon": "file(images/icon.png)",
+   "parent_job": "stonehearth:jobs:cleric",
+   "parent_level_requirement": 3,
+   "max_level": 6,
+   "level_data": {
+		"1": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_000_name)",
+               "id": "cleric_heal_aura_1",
+               "icon": "file(images/cleric_perk_healing_aura.png)",
+               "buff_name": "stonehearth:buffs:cleric:heal_aura_1",
+               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_000_description)",
+               "level": 1,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_name)",
+               "id": "signifer_courage_aura1",
+               "icon": "file(images/courage_aura1_buff.png)",
+               "buff_name": "fortuna_romanorum:buffs:signifer:courage_aura1",
+               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_description)",
+               "level": 2,
+               "demote_fn": "remove_buff"
+            },
+			{
+			   "type": "apply_buff",
+               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_name)",
+               "id": "self_courage1",
+               "icon": "file(images/courage_aura1_buff.png)",
+               "buff_name": "fortuna_romanorum:buffs:signifer:self_courage_effect1",
+               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_description)",
+               "level": 2,
+               "demote_fn": "remove_buff"
+			}
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_3_data.perk_000_name)",
+               "id": "signifer_courage_aura2",
+               "icon": "file(images/courage_aura2_buff.png)",
+               "buff_name": "fortuna_romanorum:buffs:signifer:courage_aura2",
+               "last_buff": "fortuna_romanorum:buffs:signifer:courage_aura1",
+               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_3_data.perk_000_description)",
+               "level": 4,
+               "demote_fn": "remove_buff"
+            },
+			{
+			   "type": "apply_chained_buff",
+               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_name)",
+               "id": "self_courage2",
+               "icon": "file(images/courage_aura2_buff.png)",
+               "buff_name": "fortuna_romanorum:buffs:signifer:self_courage_effect2",
+			   "last_buff": "fortuna_romanorum:buffs:signifer:self_courage_effect1",
+               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_description)",
+               "level": 4,
+               "demote_fn": "remove_buff"
+			}
+         ]
+      },
+      "6": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_6_data.perk_000_name)",
+               "id": "signifer_courage_aura3",
+               "icon": "file(images/courage_aura3_buff.png)",
+               "buff_name": "fortuna_romanorum:buffs:signifer:courage_aura3",
+               "last_buff": "fortuna_romanorum:buffs:signifer:courage_aura2",
+               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_6_data.perk_000_description)",
+               "level": 6,
+               "demote_fn": "remove_buff"
+            },
+			{
+			   "type": "apply_chained_buff",
+               "name": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_name)",
+               "id": "self_courage3",
+               "icon": "file(images/courage_aura3_buff.png)",
+               "buff_name": "fortuna_romanorum:buffs:signifer:self_courage_effect3",
+			   "last_buff": "fortuna_romanorum:buffs:signifer:self_courage_effect2",
+               "description": "i18n(stonehearth:jobs.cleric.cleric_description.level_1_data.perk_001_description)",
+               "level": 6,
+               "demote_fn": "remove_buff"
+			}
+         ]
+      }
+   }
+}

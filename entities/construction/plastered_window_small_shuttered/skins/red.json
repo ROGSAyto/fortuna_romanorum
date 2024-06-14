@@ -1,0 +1,30 @@
+{
+  "type": "entity",
+  "mixins": [
+    "stonehearth:mixins:placed_object"
+  ],
+  "components": {
+    "model_variants": {
+      "default": {
+        "models": [
+          "file(red.qb)"
+        ],
+        "layer": "clothing",
+        "transparent": false
+      }
+    },
+    "render_info": {
+      "scale": 0.1
+    },
+    "mob": {
+      "align_to_grid": [ "x" ],
+      "model_origin": { "x": 0, "y": 0, "z": 0 },
+      "region_origin": { "x": 0, "y": 0, "z": 0.5 }
+    }
+  },
+  "entity_data": {
+    "stonehearth:catalog": {
+      "icon": "file(red.png)"
+    }
+  }
+}

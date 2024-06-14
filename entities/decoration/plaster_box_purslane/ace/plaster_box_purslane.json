@@ -1,0 +1,10 @@
+{
+  "mixins": [
+    "/fortuna_romanorum/entities/decoration/window_box_plaster/window_box_plaster.json"
+  ],
+  "components": {
+    "stonehearth_ace:herbalist_planter": {
+      "default_crop": "purslane"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "components": {
+    "mixintypes": {
+      "model_variants": "override"
+    },
+    "model_variants": {
+      "default": {
+        "models": [
+          "file(window_box_plaster.qb)"
+        ]
+      }
+    },
+    "mob": {
+      "model_origin": {
+        "y": -0.55
+      }
+    }
+  },
+  "entity_data": {
+    "stonehearth:catalog": {
+      "category": "herbalist_planter",
+      "material_tags": [
+        "herbalist_planter"
+      ]
+    }
+  }
+}

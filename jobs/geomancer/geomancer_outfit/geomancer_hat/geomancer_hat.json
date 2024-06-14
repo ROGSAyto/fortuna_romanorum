@@ -1,0 +1,31 @@
+{
+   "type": "entity",
+   "mixins": [
+      "stonehearth:mixins:item_properties",
+      "fortuna_romanorum:stonehearth_ace:sunstroke_resist"
+   ],
+   "components": {
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(geomancer_hat.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(geomancer_hat_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "no_drop": true
+      }
+   }
+}

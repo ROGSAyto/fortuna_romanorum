@@ -1,0 +1,35 @@
+{
+  "type": "recipe",
+  "mixins": [
+    "/stonehearth_ace/jobs/mason/recipes/stone_comfy_bed_herbalist_recipe.json"
+  ],
+  "recipe_name": "i18n(fortuna_romanorum:entities.furniture.plaster_comfy_bed_herbalist.display_name)",
+  "portrait": "/fortuna_romanorum/entities/furniture/plaster_comfy_bed_herbalist/plaster_comfy_bed_herbalist.png",
+  "mixintypes": {
+    "ingredients": "override",
+    "produces": "override"
+  },
+  "ingredients": [
+    {
+      "uri": "fortuna_romanorum:refined:plaster",
+      "count": 3
+    },
+    {
+      "material": "cloth resource",
+      "count": 1
+    },
+    {
+      "uri": "stonehearth_ace:refined:fine_stuffing",
+      "count": 1
+    },
+    {
+      "uri": "stonehearth:consumables:light_bandage",
+      "count": 1
+    }
+  ],
+  "produces": [
+    {
+      "item": "fortuna_romanorum:furniture:plaster_comfy_bed:herbalist"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Medic Bag",
+   "description": "Bandages!",
+   "icon": "file(increased_compassion.png)",
+   "modifiers": {
+      "compassion": {
+         "add": 100
+      }
+   }
+}

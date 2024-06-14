@@ -1,0 +1,11 @@
+{
+   "crops_by_kingdom": {
+      "fortuna_romanorum:kingdoms:fortuna_romanorum": {
+         "garlic": true,
+         "coffee": true,
+         "paddy": true,
+         "pear_cactus": true,
+         "almond_tree": true
+      }
+   }
+}

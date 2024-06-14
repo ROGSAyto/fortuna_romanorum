@@ -1,0 +1,44 @@
+{
+   "craftable_recipes": {
+      "refinement": {
+         "recipes": {
+            "mixintypes": {
+               "lavender_transmute": "remove",
+               "purslane_transmute": "remove",
+               "dandelion_transmute": "remove",
+               "lemon_transmute": "remove",
+               "olive_transmute": "remove"
+            }
+         }
+      },
+      "refinement_large": {
+         "recipes": {
+            "lemon_transmute": {
+               "recipe": "file(../lemon_transmute_recipe.json)"
+            },
+            "olive_transmute": {
+               "recipe": "file(../olive_transmute_recipe.json)"
+            }
+         }
+      },
+      "refinement_seeds": {
+         "recipes": {
+            "cypress_seeds_recipe": {
+               "recipe": "file(cypress_seeds_recipe.json)"
+            },
+            "stone_pine_seeds_recipe": {
+               "recipe": "file(stone_pine_seeds_recipe.json)"
+            },
+            "lemon_seeds_recipe": {
+               "recipe": "file(lemon_seeds_recipe.json)"
+            },
+            "olive_seeds_recipe": {
+               "recipe": "file(olive_seeds_recipe.json)"
+            },
+            "sugar_cane_seeds_recipe": {
+               "recipe": "file(sugar_cane_seeds_recipe.json)"
+            }
+         }
+      }
+   }
+}

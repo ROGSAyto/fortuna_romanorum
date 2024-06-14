@@ -1,0 +1,87 @@
+{
+   "info" : {
+      "name" : "coast_manifest",
+      "deferred_load": true,
+      "version" : 3
+   },
+   "aliases" : {},
+   "mixintos" :  {
+      "/stonehearth_ace/locales/en.json": "file(locales/en.json)",
+      "/stonehearth_ace/locales/de-DE.json": "file(locales/en.json)",
+      "/stonehearth_ace/locales/zh-CN.json": "file(locales/en.json)",
+
+      "stonehearth:trapper:trapping_grounds": "file(coast_trapping_grounds.json)",
+      "fortuna_romanorum:mixins:ace:coast_growth_rates": "file(mixins/ace/coast_growth_rates.json)",
+      "fortuna_romanorum:mixins:ace:coast_renewal_rates": "file(mixins/ace/coast_renewal_rates.json)",
+      "stonehearth:landmark_blocks": "file(terrain/landmark_blocks.json)",
+
+      "/stonehearth/scenarios/static/ostrich_nest/ostrich_nest.json": "file(scenarios/static/plains_foothills_mountains_only.json)",
+      "/stonehearth/scenarios/static/sheep/herd_of_sheep.json": "file(scenarios/static/plains_foothills_mountains_only.json)",
+
+      "/stonehearth/scenarios/static/terrain/rabbit_clan_statue/rabbit_clan_statue.json": "file(scenarios/static/forest_plains_only.json)",
+      "/stonehearth/scenarios/static/beetle_nest/beetle_nest.json": "file(scenarios/static/forest_plains_only.json)",
+
+      "/stonehearth/scenarios/static/terrain/tall_grass_field/tall_grass_field.json": "file(scenarios/static/plains_foothills_mountains_only.json)",
+      "/stonehearth/scenarios/static/deer_nest/deer_nest.json": "file(scenarios/static/foothills_mountains_forest_only.json)",
+      "/stonehearth/scenarios/static/duckduck_nest/duckduck_nest.json": "file(scenarios/static/foothills_mountains_forest_only.json)",
+      "/stonehearth/scenarios/static/fox_nest/fox_nest.json": "file(scenarios/static/plains_foothills_mountains_forest_only.json)",
+      "/stonehearth/scenarios/static/rabbit_nest/rabbit_nest.json": "file(scenarios/static/plains_foothills_mountains_forest_only.json)",
+      "/stonehearth/scenarios/static/racoon_nest/racoon_nest.json": "file(scenarios/static/plains_foothills_mountains_forest_only.json)",
+      "/stonehearth/scenarios/static/squirrel_nest/squirrel_nest.json": "file(scenarios/static/plains_foothills_mountains_forest_only.json)",
+      "/stonehearth_ace/scenarios/static/moomoo_nest/moomoo_nest.json": "file(scenarios/static/plains_foothills_mountains_only.json)",
+      "/stonehearth_ace/scenarios/static/poyo_nest/poyo_nest.json": "file(scenarios/static/plains_foothills_mountains_forest_only.json)",
+
+      "/stonehearth/scenarios/static/landmarks/64x_ruin_building.json": "file(scenarios/static/plains_foothills_forest_only.json)",
+      "/stonehearth/scenarios/static/landmarks/64x_ruin_building_cellar.json": "file(scenarios/static/plains_foothills_forest_only.json)",
+      "/stonehearth/scenarios/static/landmarks/64x_ruin_building_farm.json": "file(scenarios/static/plains_foothills_forest_only.json)",
+      "/stonehearth/scenarios/static/landmarks/128x_ruin_town_farming.json": "file(scenarios/static/plains_foothills_forest_only.json)",
+
+      "/stonehearth_ace/scenarios/static/landmarks/32x_ruin_pillars.json": "file(scenarios/static/plains_foothills_forest_only.json)",
+      "/stonehearth_ace/scenarios/static/landmarks/64x_ruin_pillars.json": "file(scenarios/static/plains_foothills_forest_only.json)",
+      "/stonehearth_ace/scenarios/static/landmarks/64x_ruin_tower.json": "file(scenarios/static/plains_foothills_forest_only.json)",
+      "/stonehearth_ace/scenarios/static/landmarks/64x_ruin_tower_2.json": "file(scenarios/static/plains_foothills_forest_only.json)",
+      "/stonehearth_ace/scenarios/static/landmarks/32x_bear_den.json": "file(scenarios/static/foothills_mountains_forest_only.json)",
+      "/stonehearth_ace/scenarios/static/landmarks/32x_cougar_den.json": "file(scenarios/static/foothills_mountains_forest_only.json)",
+      "/stonehearth_ace/scenarios/static/landmarks/32x_poyo_land.json": "file(scenarios/static/plains_foothills_forest_only.json)",
+      "/stonehearth_ace/scenarios/static/landmarks/32x_sheep_herd.json": "file(scenarios/static/plains_foothills_forest_only.json)",
+      "/stonehearth_ace/scenarios/static/landmarks/32x_wolf_den.json": "file(scenarios/static/foothills_mountains_forest_only.json)",
+   },
+   "overrides" : {
+      "/stonehearth/entities/rabbit/rabbit_statue/rabbit_statue_01.qb": "file(rabbit/rabbit_statue/rabbit_statue_01.qb)",
+
+      "/stonehearth/entities/decoration/firepit_hearth/firepit_hearth.qb": "file(decoration/firepit_hearth/firepit_hearth.qb)",
+      "/stonehearth/entities/decoration/firepit_hearth/firepit_hearth_iconic.qb": "file(decoration/firepit_hearth/firepit_hearth_iconic.qb)",
+      "/stonehearth/entities/decoration/firepit_hearth/firepit_hearth.png": "file(decoration/firepit_hearth/firepit_hearth.png)",
+
+      "/stonehearth/entities/critters/racoon/racoon.qb": "file(critters/racoon/racoon.qb)",
+      "/stonehearth/entities/critters/racoon/racoon.png": "file(critters/racoon/racoon.png)",
+      "/stonehearth/entities/resources/pelt/racoon_pelt/racoon_pelt.qb": "file(critters/racoon/pelt/pelt.qb)",
+      "/stonehearth/entities/resources/pelt/racoon_pelt/racoon_pelt.png": "file(critters/racoon/pelt/pelt.png)",
+      "/stonehearth/entities/critters/squirrel/squirrel.qb": "file(critters/squirrel/squirrel.qb)",
+      "/stonehearth/entities/critters/squirrel/squirrel.png": "file(critters/squirrel/squirrel.png)",
+      "/stonehearth/entities/resources/pelt/squirrel_pelt/fur_pelt.qb": "file(critters/squirrel/pelt/pelt.qb)",
+      "/stonehearth/entities/resources/pelt/squirrel_pelt/squirrel_pelt.png": "file(critters/squirrel/pelt/pelt.png)",
+
+      "/stonehearth/entities/critters/poyo/poyo.qb": "file(critters/poyo/poyo_grey.qb)",
+      "/stonehearth/entities/critters/poyo/poyo_red.qb": "file(critters/poyo/poyo_rooster.qb)",
+      "/stonehearth/entities/critters/poyo/poyo_brown.qb": "file(critters/poyo/poyo_brown.qb)",
+
+      "/stonehearth/entities/monsters/avian/duckduck/duckduck.qb": "file(monsters/avian/duckduck/duckduck.qb)",
+      "/stonehearth/entities/monsters/avian/duckduck/duckduck.png": "file(monsters/avian/duckduck/duckduck.png)",
+
+      "/stonehearth/entities/monsters/avian/ostrich/ostrich.qb": "file(monsters/avian/ostrich/ostrich.qb)",
+      "/stonehearth/entities/monsters/avian/ostrich/ostrich.png": "file(monsters/avian/ostrich/ostrich.png)",
+
+      "/stonehearth/entities/monsters/forest/alligator/alligator.qb": "file(monsters/forest/alligator/alligator.qb)",
+      "/stonehearth/entities/monsters/forest/alligator/alligator.png": "file(monsters/forest/alligator/alligator.png)",
+
+      "/stonehearth/entities/monsters/forest/little_stone_golem/little_stone_golem.qb": "file(monsters/forest/little_stone_golem/little_stone_golem.qb)",
+      "/stonehearth/entities/monsters/forest/little_stone_golem/little_stone_golem_2.qb": "file(monsters/forest/little_stone_golem/little_stone_golem_2.qb)",
+      "/stonehearth/entities/monsters/forest/little_stone_golem/little_stone_golem_3.qb": "file(monsters/forest/little_stone_golem/little_stone_golem_3.qb)",
+      "/stonehearth/entities/monsters/forest/little_stone_golem/little_stone_golem.png": "file(monsters/forest/little_stone_golem/little_stone_golem.png)",
+      "/stonehearth/entities/monsters/forest/stone_golem/stone_golem.qb": "file(monsters/forest/stone_golem/stone_golem.qb)",
+      "/stonehearth/entities/monsters/forest/stone_golem/stone_golem_2.qb": "file(monsters/forest/stone_golem/stone_golem_2.qb)",
+      "/stonehearth/entities/monsters/forest/stone_golem/stone_golem_3.qb": "file(monsters/forest/stone_golem/stone_golem_3.qb)",
+      "/stonehearth/entities/monsters/forest/stone_golem/stone_golem.png": "file(monsters/forest/stone_golem/stone_golem.png)"
+   }
+}

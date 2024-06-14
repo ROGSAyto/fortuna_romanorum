@@ -1,0 +1,77 @@
+{
+   "crops": {
+      "celery": {
+         "crop_type": "fortuna_romanorum:crops:celery_crop",
+         "ordinal": 1.01,
+         "level_requirement": 1,
+         "field_types": {
+            "farm": true,
+            "underfarm": true
+         }
+      },
+      "purslane": {
+         "crop_type": "fortuna_romanorum:crops:purslane_crop",
+         "ordinal": 10.01,
+         "level_requirement": 2,
+         "field_types": {
+            "decorative_flowers": true
+         }
+      },
+      "lavender": {
+         "crop_type": "fortuna_romanorum:crops:lavender_crop",
+         "ordinal": 10.02,
+         "level_requirement": 3,
+         "field_types": {
+            "decorative_flowers": true
+         }
+      },
+      "grapes": {
+         "crop_type": "fortuna_romanorum:crops:grapes_crop",
+         "ordinal": 10.91,
+         "level_requirement": 3,
+         "field_types": {
+            "farm": true
+         }
+      },
+      "sugar_cane": {
+         "crop_type": "fortuna_romanorum:crops:sugar_cane_crop",
+         "ordinal": 19.91,
+         "level_requirement": 5,
+         "field_types": {
+            "farm": true
+         }
+      },
+      "lemon": {
+         "crop_type": "fortuna_romanorum:crops:lemon_crop",
+         "ordinal": 20.89,
+         "level_requirement": 5,
+         "field_types": {
+            "orchard": true
+         }
+      },
+      "olive": {
+         "crop_type": "fortuna_romanorum:crops:olive_crop",
+         "ordinal": 20.91,
+         "level_requirement": 5,
+         "field_types": {
+            "orchard": true
+         }
+      },
+      "cypress": {
+         "crop_type": "fortuna_romanorum:crops:cypress_crop",
+         "ordinal": 21.01,
+         "level_requirement": 5,
+         "field_types": {
+            "treefarm": true
+         }
+      },
+      "stone_pine": {
+         "crop_type": "fortuna_romanorum:crops:stone_pine_crop",
+         "ordinal": 23.01,
+         "level_requirement": 5,
+         "field_types": {
+            "treefarm": true
+         }
+      }
+   }
+}

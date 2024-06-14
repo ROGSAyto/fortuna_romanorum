@@ -1,0 +1,20 @@
+{
+   "crops_by_kingdom": {
+      "fortuna_romanorum:kingdoms:fortuna_romanorum": {
+         "fallow": true,
+         "celery": true,
+         "golden_gourd": true,
+         "carrot": true,
+         "grapes": true,
+         "wheat": true,
+         "silkweed": true,
+         "purslane": true,
+         "lavender": true,
+         "sugar_cane": true,
+         "lemon": true,
+         "olive": true,
+         "stone_pine": true,
+         "cypress": true
+      }
+   }
+}

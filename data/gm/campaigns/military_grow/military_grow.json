@@ -1,0 +1,20 @@
+{
+   "type": "campaign",
+   "rarity": "common",
+   "can_start": {
+      "test_1": {
+         "kingdom_check": {
+            "type": "deny_if_not",
+            "item": "kingdom",
+            "value": "fortuna_romanorum:kingdoms:fortuna_romanorum"
+         }
+      }
+   },
+   "arcs": {
+      "trigger": {
+         "roman_legion": "file(arcs/trigger/legion_progression/legion_arc.json)"
+      },
+      "challenge": {},
+      "climax": {}
+   }   
+}

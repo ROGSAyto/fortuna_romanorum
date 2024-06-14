@@ -1,0 +1,295 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "cubemitter_narrow": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.ember_narrow.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":3.75,
+            "z":0,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "cubemitter_narrow_colorVar": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.ember_narrow_colorVar.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":3.75,
+            "z":0,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "cubemitter_wide": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.ember_wide_3X.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":3.5,
+            "z":0,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "cubemitter_glow": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.ember_glow_2andHalfX.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":3.7,
+            "z":0,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "cubemitter_floating": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.ember_floating.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":3.7,
+            "z":0,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "spinner": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.spinner.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":0,
+            "z":0,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "spinner2": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.spinner2.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":0,
+            "z":0,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "spinner3": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.spinner3.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":0,
+            "z":0,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "spinner_bits": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.spinner_bits.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":0,
+            "z":0,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "spinner_bits2": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.spinner_bits2.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":0,
+            "z":0,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "spinner_bits3": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.spinner_bits3.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":0,
+            "z":0,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "central_cube": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.central_cube.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":1,
+            "z":0,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "banner_cube_red": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.banner_cube_red.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":-0.1,
+            "y":0,
+            "z":0.1,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "banner_cube_blue": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.banner_cube_blue.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":-0.1,
+            "y":0,
+            "z":0.1,
+            "rx":90,
+            "ry":180,
+            "rz":0
+         }
+      },
+      "banner_cube_mauve": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.banner_cube_mauve.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":-0.1,
+            "y":0,
+            "z":0.1,
+            "rx":90,
+            "ry":90,
+            "rz":0
+         }
+      },
+      "banner_cube_brown": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.banner_cube_brown.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":-0.1,
+            "y":0,
+            "z":0.1,
+            "rx":90,
+            "ry":270,
+            "rz":0
+         }
+      },
+      "banner_bits1": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.banner_bits.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":-0.1,
+            "y":0,
+            "z":0.1,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "banner_bits3": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.banner_bits.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":-0.1,
+            "y":0,
+            "z":0.1,
+            "rx":0,
+            "ry":180,
+            "rz":0
+         }
+      },
+      "banner_bits2": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.banner_bits90.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":-0.1,
+            "y":0,
+            "z":0.1,
+            "rx":0,
+            "ry":90,
+            "rz":0
+         }
+      },
+      "banner_bits4": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/exotic_trade/exotic_trade.banner_bits90.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":-0.1,
+            "y":0,
+            "z":0.1,
+            "rx":0,
+            "ry":270,
+            "rz":0
+         }
+      },
+      "light_main": {
+         "type": "light",
+         "light": "/fortuna_romanorum/data/horde/animatedlights/shrine/shrine.exotic_trade.large.animatedlight.json",
+         "transforms": { "x": 0, "y": 8, "z": 0 },
+         "shadows": true
+      },
+      "light_small1": {
+         "type": "light",
+         "light": "/fortuna_romanorum/data/horde/animatedlights/shrine/shrine.exotic_trade.small.animatedlight.json",
+         "transforms": { "x": -0.1, "y": 2, "z": 4.9 },
+         "shadows": false
+      },
+      "light_small2": {
+         "type": "light",
+         "light": "/fortuna_romanorum/data/horde/animatedlights/shrine/shrine.exotic_trade.small.animatedlight.json",
+         "transforms": { "x": -0.1, "y": 2, "z": -4.9 },
+         "shadows": false
+      },
+      "light_small3": {
+         "type": "light",
+         "light": "/fortuna_romanorum/data/horde/animatedlights/shrine/shrine.exotic_trade.small.animatedlight.json",
+         "transforms": { "x": 4.9, "y": 2, "z": 0.1 },
+         "shadows": false
+      },
+      "light_small4": {
+         "type": "light",
+         "light": "/fortuna_romanorum/data/horde/animatedlights/shrine/shrine.exotic_trade.small.animatedlight.json",
+         "transforms": { "x": -4.9, "y": 2, "z": 0.1 },
+         "shadows": false
+      }
+   }
+}

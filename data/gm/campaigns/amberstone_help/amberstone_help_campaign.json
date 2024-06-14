@@ -1,0 +1,14 @@
+{
+   "type": "campaign",
+   "mixins": [
+      "fortuna_romanorum:mixins:campaign:fortuna_romanorum:deny_if_not"
+   ],
+   "rarity": "common",
+   "arcs": {
+      "trigger": {
+         "amberstone_help": "file(arcs/trigger/amberstone_help/amberstone_help_arc.json)"
+      },
+      "challenge": {},
+      "climax": {}
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(fortuna_romanorum:jobs.legat.legat_buffs.legat_trainer_3.display_name)",
+   "description": "i18n(fortuna_romanorum:jobs.legat.legat_buffs.legat_trainer_3.description)",
+   "icon": "file(legat_buff_trainer_3.png)",
+   "duration": "15m",
+   "repeat_add_action": "renew_duration",
+   "persistent": false,
+   "modifiers": {
+      "multiplicative_dmg_modifier": {
+         "add": 0.5
+      },
+	  "multiplicative_armor_modifier": {
+         "add": 0.5
+	  }
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"mixins": "stonehearth/jobs/mason/recipes/recipes.json",
+	"craftable_recipes": {
+		"furniture": {
+			"recipes": {
+				"jupiter_shrine_monument": {
+					"recipe": "file(furniture_recipes/jupiter_shrine_monument_recipe.json)"
+				}
+			}
+		}
+	}
+}

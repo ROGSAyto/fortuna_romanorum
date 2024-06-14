@@ -1,0 +1,84 @@
+{
+   "always_available": {
+      "plastered_stone_bricks resource": {
+         "colors": {
+            "#FFCC66": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.grandis)",
+               "ordinal": 11.1
+            },
+            "#E2B459": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.rob_roy)",
+               "ordinal": 11.2
+            },
+            "#CC9F4F": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.dijon)",
+               "ordinal": 11.3
+            },
+            "#B68944": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.goldenrod)",
+               "ordinal": 11.4
+            },
+            "#AF793D": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.harvest_gold)",
+               "ordinal": 11.5
+            },
+            "#FFB65D": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.koromiko)",
+               "ordinal": 12.1
+            },
+            "#FFAF67": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.rajah)",
+               "ordinal": 12.2
+            },
+            "#F3A471": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.tacao)",
+               "ordinal": 12.3
+            },
+            "#F38653": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.crusta)",
+               "ordinal": 12.4
+            },
+            "#9E6947": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.ochre)",
+               "ordinal": 13.1
+            },
+            "#995E39": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.desert_ochre)",
+               "ordinal": 13.2
+            },
+            "#93532A": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.mule_fawn)",
+               "ordinal": 13.3
+            },
+            "#98592A": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.chelsea_gem)",
+               "ordinal": 14.1
+            },
+            "#8B5123": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.nutmeg)",
+               "ordinal": 14.2
+            },
+            "#7F491E": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.peru_tan)",
+               "ordinal": 14.3
+            },
+            "#6E401D": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.pickled_bean)",
+               "ordinal": 14.4
+            },
+            "#9DAA7F": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.locust)",
+               "ordinal": 20.1
+            },
+            "#8DA977": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.amulet)",
+               "ordinal": 20.2
+            },
+            "#7DA86F": {
+               "display_name": "i18n(fortuna_romanorum:data.build.building_brushes.colors.pistacchio)",
+               "ordinal": 20.3
+            }
+         }
+      }
+   }
+}

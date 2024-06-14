@@ -1,0 +1,15 @@
+{
+   "type" : "buff",
+   "display_name": "i18n(fortuna_romanorum:jobs.praetorian.praetorian_buffs.praetorian_trainer_2.display_name)",
+   "description": "i18n(fortuna_romanorum:jobs.praetorian.praetorian_buffs.praetorian_trainer_2.description)",
+   "icon" : "file(praetorian_buff_trainer_2.png)",
+   "script": "stonehearth:buff_scripts:aura",
+   "script_info": {
+      "pulse": "10m",
+      "aura_buff": "fortuna_romanorum:buffs:praetorian:trainer_2_effect",
+      "radius": 20,
+      "affect_self": false,
+      "pulse_immediately": true,
+      "target_type": "mob"
+	}
+} 

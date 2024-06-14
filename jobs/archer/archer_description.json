@@ -1,0 +1,16 @@
+{
+  "mixins": [
+    "stonehearth:jobs:archer"
+  ],
+  "display_name": "i18n(fortuna_romanorum:jobs.archer.archer_description.display_name)",
+  "equipment": {
+    "torso": "file(sagitarii_outfit)",
+    "mainhand": "stonehearth:weapons:bow",
+    "helmet": "file(sagitarii_headband)",
+    "accessory": "file(sagitarii_quiver)"
+  },
+  "requirements": "i18n(fortuna_romanorum:jobs.requirements.weaver)",
+  "parent_job": "stonehearth:jobs:trapper",
+  "parent_level_requirement": 2,
+  "promotion_activity_name": "promote_archer"
+}

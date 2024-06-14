@@ -1,0 +1,55 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "transparent": true,
+            "models": [
+               "file(roman_archer_mail.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": true,
+            "models": [
+               "file(roman_archer_mail_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(roman_archer_mail_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso",
+         "ilevel": 6,
+         "roles": "archer_job",
+         "required_job_level": 3,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 6
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 62,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:entities.armor.iron_mail.display_name)",
+         "description": "i18n(stonehearth:entities.armor.iron_mail.description)",
+         "icon": "file(roman_archer_mail.png)",
+         "category": "armor",
+         "material_tags": ["iron", "armor", "heavy_armor", "roman_made", "stockpile_equipment"]
+      }
+   }
+}

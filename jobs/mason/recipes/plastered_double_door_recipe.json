@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 15,
+   "work_units": 3,
+   "recipe_name": "i18n(fortuna_romanorum:entities.construction.plastered_double_door.display_name)",
+   "description": "i18n(fortuna_romanorum:entities.construction.plastered_double_door.description)",
+   "flavor": "i18n(fortuna_romanorum:entities.construction.plastered_double_door.flavor)",
+   "portrait": "/fortuna_romanorum/entities/construction/plastered_double_door/plastered_double_door.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:refined:plaster",
+         "count": 2
+      },
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:portals:plastered_double_door"
+      }
+   ]
+}

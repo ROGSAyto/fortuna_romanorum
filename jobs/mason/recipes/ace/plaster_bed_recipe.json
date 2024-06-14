@@ -1,0 +1,12 @@
+{
+   "mixins": [
+      "file(../plaster_bed_recipe.json)"
+   ],
+   "flavor": "i18n(fortuna_romanorum:entities.furniture.plaster_bed.flavor)",
+   "ingredients": [
+      {
+         "material": "thatch resource",
+         "count": 1
+      }
+   ]
+}

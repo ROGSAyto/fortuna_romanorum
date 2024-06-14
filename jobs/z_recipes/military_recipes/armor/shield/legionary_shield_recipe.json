@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.legionary_shield_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.carpenter.recipes.legionary_shield_recipe.description)",
+   "flavor": "Tortoises... tortoises everywhere",
+   "portrait": "/fortuna_romanorum/entities/armor/legionary_shield/legionary_shield.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 2,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 1
+      },
+      {
+         "material": "leather resource",
+         "count": 1
+      },
+	  {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:armor:legionary_shield"
+      }
+   ]
+}

@@ -1,0 +1,79 @@
+{
+   "type": "job",
+   "enabled": true,
+   "job_id": "centurion",
+   "display_order": 12,
+   "alias": "fortuna_romanorum:jobs:centurion",
+   "display_name": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.display_name)",
+   "controller": "fortuna_romanorum:class:centurion",
+   "description": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.description)",
+   "requirements": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.requirements)",
+   "talisman_uri": "fortuna_romanorum:centurion:talisman:centurion_helmet_talisman",
+   "default_stance": "aggressive",
+   "abilities": "file(centurion_abilities)",
+   "equipment": {
+      "torso": "file(centurion_outfit)",
+      "boots": "fortuna_romanorum:armor:caligae",
+      "mainhand": "fortuna_romanorum:weapons:centurion_gladius",
+   },
+   "roles":["centurion_job", "knight_job", "plate_wearer", "melee_combat", "combat"],
+   "promotion_activity_name": "promote_centurion",
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:rescue"
+   ],
+   "xp_rewards": {
+      "town_protection": 1,
+      "training": 3
+   },
+   "icon": "file(images/icon.png)",
+   "parent_job": "fortuna_romanorum:jobs:legionary",
+   "parent_level_requirement": 3,
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "perks": [
+            {
+			   "type": "apply_buff",
+               "name": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.level_1_data.perk_000_name)",
+               "id": "centurion_trainer_1",
+               "icon": "file(images/centurion_trainer_1.png)",
+               "buff_name": "fortuna_romanorum:buffs:centurion:trainer_1",
+               "description": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.level_1_data.perk_000_description)",
+               "level": 1,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+			   "type": "apply_chained_buff",
+               "name": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.level_4_data.perk_000_name)",
+               "id": "centurion_trainer_2",
+               "icon": "file(images/centurion_trainer_2.png)",
+               "buff_name": "fortuna_romanorum:buffs:centurion:trainer_2",
+               "last_buff": "fortuna_romanorum:buffs:centurion:trainer_1",
+               "description": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.level_4_data.perk_000_description)",
+               "level": 4,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "6": {
+         "perks": [
+			{
+			"type": "apply_chained_buff",
+               "name": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.level_6_data.perk_000_name)",
+               "id": "centurion_trainer_3",
+               "icon": "file(images/centurion_trainer_3.png)",
+               "buff_name": "fortuna_romanorum:buffs:centurion:trainer_3",
+               "last_buff": "fortuna_romanorum:buffs:centurion:trainer_2",
+               "description": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.level_6_data.perk_000_description)",
+               "level": 6,
+               "demote_fn": "remove_buff"}
+         ]
+      }
+   }
+}

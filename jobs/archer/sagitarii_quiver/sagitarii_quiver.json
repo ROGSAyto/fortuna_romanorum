@@ -1,0 +1,26 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "true",
+            "models": [
+               "file(sagitarii_quiver.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "true",
+            "models": [
+               "file(sagitarii_quiver_female.qb)"
+            ]
+         }
+      },
+	  "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "accessory"
+      }
+   }
+}

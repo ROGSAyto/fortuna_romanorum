@@ -1,0 +1,28 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(plastered_market_stall.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.26
+      },
+      "mob": {
+         "model_origin": { "x": 0.37, "y": 0, "z": 0.13 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.decoration.plastered_market_stall.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.decoration.plastered_market_stall.description)",
+         "icon": "file(plastered_market_stall.png)",
+         "category": "construction",
+         "material_tags": ["stone", "plaster", "decoration", "cloth", "crafted", "utility", "stockpile_decoration", "fortuna_romanorum"]
+      }
+   }
+}

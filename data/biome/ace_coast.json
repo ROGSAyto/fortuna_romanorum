@@ -1,0 +1,222 @@
+{
+   "game_mode_images": {
+      "stonehearth_ace:game_mode:gentle": "/fortuna_romanorum/data/biome/images/coast_story_normal.png"
+   },
+   "foraging_spot_uri": "fortuna_romanorum:terrain:foraging_spot:coast",
+   "foraging_spot_frequency": 0.0015,
+   "native_crops": {
+      "purslane": true,
+      "lavender": true,
+      "dandelions": true,
+      "silkweed": true,
+      "highland_vine": true,
+      "oleander": true,
+      "parsley": true,
+      "water_lily_pad": true,
+      "water_lily_pink": true,
+      "water_lily_white": true,
+      "algae_green": true,
+      "algae_red": true,
+      "algae_brown": true,
+      "bolete": true,
+      "chanterelle": true,
+      "parasol": true
+   },
+   "climate": "mediterranean_medium",
+   "min_farm_elevation": 0,
+   "max_farm_elevation": 129,
+   "seasons": {
+      "spring": {
+         "humidity": 0.2,
+         "sunlight": 0.85,
+         "mixintypes": {"weather": "override"},
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 5
+            },
+            {
+               "uri": "stonehearth_ace:weather:sunny:hot",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 2
+            },
+            {
+               "uri": "fortuna_romanorum:weather:cloudy:hot",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:rain",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:rain:sunny",
+               "weight": 6
+            },
+            {
+               "uri": "stonehearth:weather:foggy",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth_ace:weather:windy:springtime",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.05
+            }
+         ]
+      },
+      "summer": {
+         "humidity": -0.4,
+         "sunlight": 0.95,
+         "mixintypes": {"weather": "override"},
+         "weather": [
+            {
+               "uri": "stonehearth_ace:weather:sunny:sweltering",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth_ace:weather:sunny:stagnant",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth_ace:weather:sunny:hot",
+               "weight": 8
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 3
+            },
+            {
+               "uri": "fortuna_romanorum:weather:cloudy:hot",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:rain:sunny",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth_ace:weather:distant_storm",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:thunderstorm",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.05
+            }
+         ]
+      },
+      "autumn": {
+         "humidity": 0.2,
+         "sunlight": 0.8,
+         "foraging_spot_uri": "fortuna_romanorum:terrain:foraging_spot:coast:autumn",
+         "foraging_spot_frequency": 0.0025,
+         "mixintypes": {"weather": "override"},
+         "weather": [
+            {
+               "uri": "stonehearth_ace:weather:sunny:autumn",
+               "weight": 1.5
+            },
+            {
+               "uri": "stonehearth_ace:weather:sunny:chilly",
+               "weight": 0.5
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 2.5
+            },
+            {
+               "uri": "stonehearth_ace:weather:windy:chilly",
+               "weight": 1.5
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth_ace:weather:cloudy:chilly",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:rain",
+               "weight": 7
+            },
+            {
+               "uri": "stonehearth:weather:rain:sunny",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth_ace:weather:distant_storm",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:thunderstorm",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:foggy",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.05
+            }
+         ]
+      },
+      "winter": {
+         "humidity": -0.35,
+         "sunlight": 0.65,
+         "foraging_spot_uri": "fortuna_romanorum:terrain:foraging_spot:coast:winter",
+         "foraging_spot_frequency": 0.0005,
+         "mixintypes": {"weather": "override"},
+         "weather": [
+            {
+               "uri": "stonehearth_ace:weather:cloudy:chilly",
+               "weight": 3
+            },
+            {
+               "uri": "fortuna_romanorum:weather:windy:chilly:dry",
+               "weight": 7
+            },
+            {
+               "uri": "fortuna_romanorum:weather:windy:dry",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth_ace:weather:rain:chilly",
+               "weight": 0.3
+            },
+            {
+               "uri": "stonehearth:weather:rain:sunny",
+               "weight": 0.3
+            },
+            {
+               "uri": "stonehearth_ace:weather:sunny:chilly",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth_ace:weather:distant_storm",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:thunderstorm",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth_ace:weather:foggy:chilly",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.05
+            }
+         ]
+      }
+   }
+}

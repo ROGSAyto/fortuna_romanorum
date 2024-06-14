@@ -1,0 +1,25 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(plaster_fence_post.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.construction.plaster_fence_post.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.construction.plaster_fence_post.description)",
+         "icon": "file(plaster_fence_post.png)",
+         "category": "construction",
+         "material_tags": ["stone", "plaster", "defense", "crafted", "fence", "stockpile_defense", "fortuna_romanorum"]
+      }
+   }
+}

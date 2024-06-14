@@ -1,0 +1,33 @@
+{
+  "type": "entity",
+  "mixins": [
+    "stonehearth:archer:outfit"
+  ],
+  "components": {
+    "model_variants": {
+      "mixintypes": {
+        "default": "override",
+        "female": "override"
+      },
+      "default": {
+        "layer": "clothing",
+        "transparent": "false",
+        "models": [
+          "file(sagitarii_outfit.qb)"
+        ]
+      },
+      "female": {
+        "layer": "clothing",
+        "transparent": "false",
+        "models": [
+          "file(sagitarii_outfit_female.qb)"
+        ]
+      }
+    }
+  },
+  "entity_data": {
+    "stonehearth:catalog": {
+      "icon": "file(sagitarii_outfit.png)"
+    }
+  }
+}

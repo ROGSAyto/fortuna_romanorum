@@ -1,0 +1,23 @@
+{
+   "type": "recipe",
+   "effort": 8,
+   "work_units": 3,
+   "recipe_name": "i18n(fortuna_romanorum:entities.construction.plastered_window_frame_tall.display_name)",
+   "description": "i18n(fortuna_romanorum:entities.construction.plastered_window_frame_tall.description)",
+   "flavor": "i18n(fortuna_romanorum:entities.construction.plastered_window_frame_tall.flavor)",
+   "portrait": "/fortuna_romanorum/entities/construction/plastered_window_frame_tall/plastered_window_frame_tall.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 0,
+   "ordinal": 1.130,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:refined:plaster",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:portals:plastered_window_frame_tall"
+      }
+   ]
+}

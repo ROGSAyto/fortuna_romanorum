@@ -1,0 +1,20 @@
+{
+   "entity_data": {
+      "stonehearth_ace:transform_data": {
+         "transform_options": {
+            "red_wine": {
+               "transform_uri": "fortuna_romanorum:brewer:fermenting_carboy:unfermented_red_wine",
+               "command": "fortuna_romanorum:commands:transform:fermenting_carboy_fill:unfermented_red_wine",
+               "request_action": "stonehearth_ace:transform",
+               "request_action_overlay_effect": "stonehearth_ace:effects:transform_brewer_overlay_effect",
+               "transform_ingredient_uri": "fortuna_romanorum:drink:juice_grape",
+               "auto_request": true,
+               "worker_required_job": {
+                  "stonehearth_ace:jobs:brewer": true
+               },
+               "apply_ingredient_quality": true
+            }
+         }
+      }
+   }
+}

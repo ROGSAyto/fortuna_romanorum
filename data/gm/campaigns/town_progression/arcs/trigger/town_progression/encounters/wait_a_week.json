@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "wait_a_week",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "heart_upgrade",
+         "starting_food_donation"
+      ]
+   },
+   "wait_info": {
+      "duration": "20h+4h"
+   }
+}

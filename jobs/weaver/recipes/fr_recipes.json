@@ -1,0 +1,18 @@
+{
+   "mixins": "/stonehearth/jobs/weaver/recipes/recipes.json",
+   "craftable_recipes": {
+      "tools": {
+         "ordinal": 1.1,
+         "name": "i18n(stonehearth:jobs.carpenter.recipes.tools_weapons_name)",
+         "recipes": {
+            "archer_bow": {
+               "recipe": "file(archer_bow_recipe.json)"
+            }
+         }
+      },
+      "clothing_armor": {
+         "recipes": {
+         }
+      }
+   }
+}

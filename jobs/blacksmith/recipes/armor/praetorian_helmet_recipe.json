@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.praetorian_helmet_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.praetorian_helmet_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.praetorian_helmet_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/armor/praetorian_helmet/praetorian_helmet.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+      },
+      {
+         "material": "leather resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:armor:praetorian_helmet"
+      }
+   ]
+}

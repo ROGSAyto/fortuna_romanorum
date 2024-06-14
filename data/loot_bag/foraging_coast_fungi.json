@@ -1,0 +1,20 @@
+{
+   "entries": {
+      "drop": {
+         "items": {
+            "bolete": {
+               "uri": "stonehearth_ace:food:bolete:bolete_basket",
+               "weight": 3
+            },
+            "chanterelle": {
+               "uri": "stonehearth_ace:food:chanterelle:chanterelle_basket",
+               "weight": 1
+            },
+            "parasol": {
+               "uri": "stonehearth_ace:food:parasol:parasol_basket",
+               "weight": 1
+            }
+         }
+      }
+   }
+}

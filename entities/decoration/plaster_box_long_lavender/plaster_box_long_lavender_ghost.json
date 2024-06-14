@@ -1,0 +1,29 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(plaster_box_long_lavender.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {"x": 0, "y": -0.55, "z": 0.1 },
+         "region_origin": {"x": 0.5, "y": 0, "z": 0.5 },
+         "allow_vertical_adjacent": true
+      },
+      "render_info": {
+         "scale": 0.1
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.decoration.plaster_box_long_lavender.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.decoration.plaster_box_long_lavender.description)",
+         "icon": "file(plaster_box_long_lavender.png)",
+         "category": "decoration",
+         "material_tags": ["decoration", "plaster", "lavender", "crafted", "stockpile_decoration", "herbalist_planter", "fortuna_romanorum"]
+      }
+   }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "entity",
+  "mixins": "stonehearth:carpenter:saw",
+  "components": {
+    "model_variants": {
+      "default": {
+        "mixintypes": {
+          "models": "override"
+        },
+        "models": [
+          "file(carpenter_saw_equipped.qb)"
+        ]
+      }
+    },
+    "render_info": {
+      "scale": 0.08
+    },
+    "stonehearth:equipment_piece": {
+      "injected_buffs": [
+        "fortuna_romanorum:buffs:tools:carpenter_fr_saw"
+      ]
+    }
+  },
+  "entity_data": {
+    "stonehearth:catalog": {
+      "display_name": "i18n(fortuna_romanorum:jobs.carpenter.carpenter_saw.display_name)",
+      "icon": "file(carpenter_saw.png)"
+    }
+  }
+}

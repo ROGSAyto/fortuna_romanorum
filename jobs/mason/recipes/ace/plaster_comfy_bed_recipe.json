@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "mixins": [
+    "file(../plaster_comfy_bed_recipe.json)"
+  ],
+  "mixintypes": {
+    "ingredients": "override"
+  },
+  "ingredients": [
+    {
+      "uri": "fortuna_romanorum:refined:plaster",
+      "count": 2
+    },
+    {
+      "material": "cloth resource",
+      "count": 1
+    },
+    {
+      "uri": "stonehearth_ace:refined:fine_stuffing",
+      "count": 2
+    }
+  ]
+}

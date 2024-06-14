@@ -1,0 +1,15 @@
+{
+   "type": "command",
+   "name": "build_well_roof_terracotta",
+   "group": "construction_choice",
+   "display_name": "i18n(fortuna_romanorum:data.commands.transform.build_well_roof_terracotta.display_name)",
+   "description": "i18n(fortuna_romanorum:data.commands.transform.build_well_roof_terracotta.description)",
+   "default_enabled": true,
+   "ordinal": 99.1,
+   "icon": "file(build_well_roof_terracotta.png)",
+   "action": "call",
+   "function": "stonehearth_ace:transform_command",
+   "args": [
+      "terracotta"
+   ]
+}

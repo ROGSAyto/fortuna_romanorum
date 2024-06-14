@@ -1,0 +1,14 @@
+{
+   "stonehearth:skin:hilight" : {
+      "color" : "#D1B894"
+   },
+   "stonehearth:skin:midtone" : {
+      "color" : "#BFA67F"
+   },
+   "stonehearth:skin:shadows" : {
+      "color" : "#A28A6D"
+   },
+   "stonehearth:skin:blush" : {
+      "color" : "#C2A27C"
+   }
+}

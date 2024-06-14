@@ -1,0 +1,12 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "unlock_shrine_silk_road_recipes",
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:carpenter",
+      "recipe_key": [
+         "furniture:silk_road_monument"
+      ],
+      "bulletin_title": "i18n(fortuna_romanorum:data.gm.campaigns.town_progression.unlock_shrine_recipes.bulletin_title.01)"
+   }
+}

@@ -1,0 +1,24 @@
+{
+  "static": {
+    "scenarios": [
+      "file(static/landmarks/32x_pond_coast_1.json)",
+      "file(static/landmarks/32x_pond_coast_2.json)",
+      "file(static/landmarks/32x_pond_coast_3.json)",
+      "file(static/landmarks/64x_pond_coast.json)"
+    ],
+    "categories": {
+      "terrain_feature_mandatory_coast": {
+        "density": 100,
+        "prevents_categories_in_same_tile": [
+          "terrain_feature_common",
+          "terrain_feature_rare",
+          "terrain_feature_mandatory_coast"
+        ],
+        "priority": 0,
+        "max_count": [6],
+        "location_type": "surface",
+        "activation_type": "immediate"
+      }
+    }
+  }
+}

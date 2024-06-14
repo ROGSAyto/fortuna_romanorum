@@ -1,0 +1,25 @@
+{
+   "mixins": [
+      "stonehearth:jobs:farmer"
+   ],
+   "equipment": {
+      "helmet": "file(farmer_outfit/farmer_hat)",
+      "torso": "file(farmer_outfit)"
+   },
+   "requirements": "i18n(fortuna_romanorum:jobs.requirements.herbalist)",
+   "display_order": 7,
+   "level_data": {
+      "2": {
+         "mixintypes": { "perks": "override" },
+         "perks": [
+            {
+               "name": "i18n(stonehearth:jobs.farmer.farmer_description.level_2_data.perk_000_name)",
+               "id": "farmer_job_opportunities_weaver",
+               "icon": "file(images/farmerLv2.png)",
+               "description": "i18n(fortuna_romanorum:jobs.farmer.farmer_description.level_2_data.perk_000_description)",
+               "level": 2
+            }
+         ]
+      }
+   }
+}

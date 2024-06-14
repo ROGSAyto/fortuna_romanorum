@@ -1,0 +1,44 @@
+{
+   "entries": {
+      "drop": {
+         "items": {
+            "purslane": {
+               "uri": "fortuna_romanorum:plants:purslane:seed",
+               "weight": 4
+            },
+            "dandelion": {
+               "uri": "fortuna_romanorum:vines:dandelions:seed",
+               "weight": 4
+            },
+            "lavender": {
+               "uri": "fortuna_romanorum:plants:lavender:seed",
+               "weight": 4
+            },
+            "silkweed": {
+               "uri": "stonehearth:plants:silkweed:seed",
+               "weight": 3
+            },
+            "sugar_cane": {
+               "uri": "fortuna_romanorum:plants:sugar_cane:seed",
+               "weight": 2
+            },
+            "oleander": {
+               "uri": "stonehearth_ace:plants:oleander:seed",
+               "weight": 2
+            },
+            "lily_pad": {
+               "uri": "stonehearth_ace:plants:water_lily:lily_pad:seed",
+               "weight": 0.5
+            },
+            "lily_purple": {
+               "uri": "stonehearth_ace:plants:water_lily:purple:seed",
+               "weight": 0.5
+            },
+            "lily_white": {
+               "uri": "stonehearth_ace:plants:water_lily:white:seed",
+               "weight": 0.5
+            }
+         }
+      }
+   }
+}

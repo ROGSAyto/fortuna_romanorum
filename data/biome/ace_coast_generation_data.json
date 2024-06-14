@@ -1,0 +1,167 @@
+{
+  "palettes": {
+    "spring": {
+      "meteor": "#2C2D40",
+      "marble": "#DBDBDB",
+      "marble_2": "#DDD3C8",
+      "marble_3": "#DDC3AA",
+      "feldspar": "#EAAC86",
+      "feldspar_2": "#E7A075",
+      "feldspar_3": "#E49565"
+    },
+    "summer": {
+      "meteor": "#2C2D40",
+      "marble": "#DBDBDB",
+      "marble_2": "#DDD3C8",
+      "marble_3": "#DDC3AA",
+      "feldspar": "#EAAC86",
+      "feldspar_2": "#E7A075",
+      "feldspar_3": "#E49565"
+    },
+    "autumn": {
+      "meteor": "#2C2D40",
+      "marble": "#DBDBDB",
+      "marble_2": "#DDD3C8",
+      "marble_3": "#DDC3AA",
+      "feldspar": "#EAAC86",
+      "feldspar_2": "#E7A075",
+      "feldspar_3": "#E49565"
+    },
+    "winter": {
+      "meteor": "#2C2D40",
+      "marble": "#DBDBDB",
+      "marble_2": "#DDD3C8",
+      "marble_3": "#DDC3AA",
+      "feldspar": "#EAAC86",
+      "feldspar_2": "#E7A075",
+      "feldspar_3": "#E49565"
+    }
+  },
+  "landscape": {
+    "placement_table": {
+      "stonehearth_ace:plants:oleander": {
+        "placement_type": "dense",
+        "parameters": {
+          "grid_multiple": 2,
+          "item_density": 0.6,
+          "exclusion_radius": 0
+        }
+      },
+      "stonehearth_ace:plants:parsley": {
+        "placement_type": "dense",
+        "parameters": {
+          "grid_multiple": 2,
+          "item_density": 0.4,
+          "exclusion_radius": 1
+        }
+      },
+      "stonehearth_ace:terrain:pasture_grass": {
+        "placement_type": "dense",
+        "parameters": {
+          "grid_multiple": 2,
+          "item_density": 0.2,
+          "exclusion_radius": 0
+        }
+      },
+      "stonehearth_ace:terrain:pasture_grass:short": {
+        "placement_type": "dense",
+        "parameters": {
+          "grid_multiple": 2,
+          "item_density": 0.3,
+          "exclusion_radius": 0
+        }
+      },
+      "stonehearth_ace:terrain:pasture_grass:overgrown": {
+        "placement_type": "dense",
+        "parameters": {
+          "grid_multiple": 1,
+          "item_density": 0.2,
+          "exclusion_radius": 0
+        }
+      },
+      "stonehearth_ace:trees:almond:small": {
+        "placement_type": "single",
+        "parameters": {
+          "ground_radius": 1,
+          "exclusion_radius": 2
+        }
+      },
+      "stonehearth_ace:trees:almond:medium": {
+        "placement_type": "single",
+        "parameters": {
+          "ground_radius": 2,
+          "exclusion_radius": 3
+        }
+      },
+      "stonehearth_ace:trees:almond:large": {
+        "placement_type": "single",
+        "parameters": {
+          "ground_radius": 2,
+          "exclusion_radius": 3
+        }
+      }
+    },
+    "trees": {
+      "sizes": {
+        "stonehearth_ace:trees:almond": {
+          "small": 0,
+          "medium": 6,
+          "large": 10
+        }
+      },
+      "weights": {
+        "plains": {
+          "1": {
+            "stonehearth_ace:trees:almond": 0.04
+          }
+        },
+        "foothills": {
+          "1": {
+            "stonehearth_ace:trees:almond": 0.04
+          },
+          "2": {
+            "stonehearth_ace:trees:almond": 0.03
+          }
+        }
+      }
+    },
+    "scattered": {
+      "plants": {
+        "weights": {
+          "plains": {
+            "1": {
+              "stonehearth_ace:plants:parsley": 0.4,
+              "stonehearth_ace:terrain:pasture_grass:overgrown": 0.1,
+              "stonehearth_ace:terrain:pasture_grass": 0.3,
+              "stonehearth_ace:terrain:pasture_grass:short": 0.2,
+              "stonehearth_ace:trees:almond:small": 0.2,
+              "stonehearth_ace:trees:almond:medium": 0.1
+            }
+          },
+          "foothills": {
+            "1": {
+              "stonehearth_ace:plants:parsley": 0.3,
+              "stonehearth_ace:plants:oleander": 0.3,
+              "stonehearth_ace:terrain:pasture_grass:overgrown": 0.1,
+              "stonehearth_ace:terrain:pasture_grass": 0.3,
+              "stonehearth_ace:terrain:pasture_grass:short": 0.2,
+              "stonehearth_ace:trees:almond:small": 0.1
+            },
+            "2": {
+              "stonehearth_ace:plants:oleander": 0.7,
+              "stonehearth_ace:terrain:pasture_grass:overgrown": 0.1,
+              "stonehearth_ace:terrain:pasture_grass": 0.3,
+              "stonehearth_ace:terrain:pasture_grass:short": 0.2,
+              "stonehearth_ace:trees:almond:small": 0.1
+            }
+          },
+          "mountains": {
+            "1": {
+              "stonehearth_ace:plants:oleander": 0.5
+            }
+          }
+        }
+      }
+    }
+  }
+}

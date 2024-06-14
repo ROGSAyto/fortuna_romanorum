@@ -1,0 +1,11 @@
+{
+  "mixins": [
+    "stonehearth:jobs:potter"
+  ],
+  "equipment": {
+    "torso": "file(potter_outfit)"
+  },
+  "display_order": 1,
+  "parent_job": "stonehearth:jobs:mason",
+  "parent_level_requirement": 2
+}

@@ -1,0 +1,28 @@
+{
+   "entries": {
+      "drop": {
+         "items": {
+            "purslane": {
+               "uri": "fortuna_romanorum:resources:herb:purslane",
+               "weight": 4
+            },
+            "lavender": {
+               "uri": "fortuna_romanorum:resources:herb:lavender",
+               "weight": 4
+            },
+            "parsley": {
+               "uri": "stonehearth_ace:resources:herb:parsley",
+               "weight": 3
+            },
+            "dandelion": {
+               "uri": "fortuna_romanorum:resources:herb:dandelion",
+               "weight": 3
+            },
+            "oleander": {
+               "uri": "stonehearth_ace:resources:herb:oleander",
+               "weight": 2
+            }
+         }
+      }
+   }
+}

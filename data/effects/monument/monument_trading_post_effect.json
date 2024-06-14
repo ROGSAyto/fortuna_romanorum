@@ -1,0 +1,241 @@
+{
+   "type": "effect",
+   "tracks": {
+      "spiral_large": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.spiral_large.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 4.85, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "spiral_small1": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.spiral_small.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 4.85, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "spiral_small2": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.spiral_small180.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 4.85, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_central": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_large.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 4.85, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_sides1": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 1.65, "y": 3, "z": 0.9,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_sides2": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_rev.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 1.75, "y": 3.2, "z": -0.7,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_sides3": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 1.1, "y": 2.9, "z": -1.75,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_sides4": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_rev.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -0.8, "y": 3, "z": -1.75,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_sides5": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.75, "y": 3.1, "z": -0.7,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_sides6": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_rev.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.75, "y": 3.4, "z": 1.2,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_sides7": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -0.8, "y": 3, "z": 2,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_sides8": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_rev.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0.55, "y": 3.4, "z": 1.8,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_base1": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 1.65, "y": 3, "z": 0.9,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_base2": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 1.75, "y": 3.2, "z": -0.7,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_base3": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 1.1, "y": 3, "z": -1.75,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_base4": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -0.8, "y": 3, "z": -1.75,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_base5": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.75, "y": 3.2, "z": -0.7,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_base6": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.75, "y": 3.4, "z": 1.2,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_base7": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -0.8, "y": 3, "z": 2,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_flame_base8": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.flame_small_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0.55, "y": 3.4, "z": 1.8,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_wide": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.ember_wide.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1.6, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_glow": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.ember_glow.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1.6, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "central_cube": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/trading_post/trading_post.central_cube.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "light_main": {
+         "type": "light",
+         "light": "/fortuna_romanorum/data/horde/animatedlights/shrine/shrine.trading_post.soft.animatedlight.json",
+         "transforms": { "x": 0, "y": 8, "z": 0 },
+         "shadows": true
+      }
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.5
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sapling.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.25,
+            "y": 0,
+            "z": 0.25
+         },
+         "region_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.trees.olive.sapling.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.trees.olive.sapling.description)",
+         "icon": "file(sapling.png)",
+         "category": "plants"
+      }
+   }
+}

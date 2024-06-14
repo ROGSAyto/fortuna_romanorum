@@ -1,0 +1,7 @@
+{
+   "mixins": "stonehearth_ace:weather:windy:chilly",
+   "icon": "file(windy_chilly_dry.png)",
+   "display_name": "i18n(fortuna_romanorum:data.weather.windy_chilly_dry.display_name)",
+   "description": "i18n(fortuna_romanorum:data.weather.windy_chilly_dry.description)",
+   "humidity": -0.2
+}

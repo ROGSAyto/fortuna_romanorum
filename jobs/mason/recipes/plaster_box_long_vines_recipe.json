@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 3,
+   "recipe_name": "i18n(fortuna_romanorum:entities.decoration.plaster_box_long_vines.display_name)",
+   "description": "i18n(fortuna_romanorum:entities.decoration.plaster_box_long_vines.description)",
+   "flavor": "i18n(fortuna_romanorum:entities.decoration.plaster_box_long_vines.flavor)",
+   "portrait": "/fortuna_romanorum/entities/decoration/plaster_box_long_vines/plaster_box_long_vines.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:refined:plaster",
+         "count": 2
+      },
+      {
+         "material": "seed_hard",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:decoration:plaster_box_vines:long"
+      }
+   ]
+}

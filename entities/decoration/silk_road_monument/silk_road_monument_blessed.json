@@ -1,0 +1,12 @@
+{
+   "type": "entity",
+   "mixins": "file(silk_road_monument.json)",
+   "components": {
+      "effect_list": {
+         "default": "fortuna_romanorum:effects:monument:silk_road"
+      },
+      "stonehearth:lamp": {
+         "light_effect": "fortuna_romanorum:effects:monument:silk_road:light"
+      }
+   }
+}

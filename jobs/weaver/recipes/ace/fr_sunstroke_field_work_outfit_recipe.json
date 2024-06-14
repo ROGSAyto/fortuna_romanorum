@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 3,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.field_work.sunstroke_field_work_outfit.fr_display_name)",
+   "description": "i18n(stonehearth_ace:jobs.weaver.recipes.sunstroke_field_work_outfit_recipe.description)",
+   "flavor": "i18n(stonehearth_ace:jobs.weaver.recipes.sunstroke_field_work_outfit_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/jobs/common/fr_sunstroke_field_work_outfit/fr_sunstroke_field_work_outfit.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "thatch resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:field_work:outfit:sunstroke"
+      }
+   ]
+}

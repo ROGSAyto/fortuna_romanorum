@@ -1,0 +1,25 @@
+{
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "animation_table": "/stonehearth/data/rigs/entities/humans/skeletons/female.json"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(herald_female.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "/stonehearth/data/rigs/entities/humans/effects/idle_breathe.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.npc.herald.female.herald_female.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.npc.herald.female.herald_female.description)",
+         "icon": "file(herald_female.png)"
+      }
+   }
+}

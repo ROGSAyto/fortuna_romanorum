@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 100,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.kopis_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.kopis_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.kopis_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/kopis/kopis.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:weapons:kopis"
+      }
+   ]
+}

@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 15,
+   "work_units": 2,
+   "recipe_name": "i18n(fortuna_romanorum:entities.containers.plaster_urn_large.display_name)",
+   "description": "i18n(fortuna_romanorum:entities.containers.plaster_urn_large.description)",
+   "flavor": "i18n(fortuna_romanorum:entities.containers.plaster_urn_large.flavor)",
+   "portrait": "/fortuna_romanorum/entities/containers/plaster_urn_large/plaster_urn_large.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:refined:plaster",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:containers:plaster_urn_large"
+      }
+   ]
+}

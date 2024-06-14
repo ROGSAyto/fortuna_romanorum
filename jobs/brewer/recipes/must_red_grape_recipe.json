@@ -1,0 +1,23 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 3,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.brewer.recipes.must_red_grape_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.brewer.recipes.must_red_grape_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.brewer.recipes.must_red_grape_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/drink/must_red_grape/must_red_grape.png",
+   "level_requirement": 2,
+   "workshop": "stonehearth_ace:brewer:treading_vat",
+   "work_effect": "treading_purple",
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:food:grapes:grapes_basket",
+         "count": 4
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:drink:must_red_grape"
+      }
+   ]
+}

@@ -1,0 +1,14 @@
+{
+	"type": "encounter",
+	"encounter_type": "unlock_recipe",
+	"in_edge": "marian_unlock_recipes_blacksmith",
+	"unlock_recipe_info": {
+		"job": "stonehearth:jobs:blacksmith",
+		"recipe_key": [
+			"roman_weapons:gladius",
+			"roman_armor:legionary_helmet",
+			"roman_armor:legionary_armor"
+		],
+		"bulletin_title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.bulletin_title.01)"
+	}
+}

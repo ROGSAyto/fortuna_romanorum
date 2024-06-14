@@ -1,0 +1,129 @@
+{
+   "mixins": [
+      "stonehearth:mixins:tree",
+      "fortuna_romanorum:mixins:ace:coast_renewal_rates"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(large.qb)"
+            ]
+         },
+         "depleted": {
+            "models": [
+               "file(large_depleted.qb)"
+            ]
+         },
+         "half_renewed": {
+            "models": [
+               "file(large_half_renewed.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "scale": 0.5
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 2, "y": 1, "z": 2 }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": 0, "y": 0, "z": 0 },
+               "max": { "x": 1, "y": 9, "z": 1 }
+            }
+         ]
+      },
+      "stonehearth:resource_node": {
+         "durability": 9,
+         "resource": "stonehearth:resources:wood:oak_log"
+      },
+      "stonehearth:renewable_resource_node": {
+         "resource": "fortuna_romanorum:food:lemons:lemon_basket",
+         "category": "harvest",
+         "renewal_time": "3d+18h",
+         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+         "half_renewed_model_variant": true,
+         "resource_loot_table": {
+            "entries": {
+               "extra_nuts": {
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 2
+                  },
+                  "items": {
+                     "nuts": {
+                        "uri": "fortuna_romanorum:food:lemons:lemon_basket",
+                        "weight": 1
+                     }
+                  }
+               },
+               "optional": {
+                  "num_rolls": {
+                     "min": 0,
+                     "max": 1
+                  },
+                  "items": {
+                     "seed": {
+                        "uri": "fortuna_romanorum:trees:lemon:seed",
+                        "weight": 1
+                     }
+                  }
+               }
+            }
+         },
+         "seasons": {
+            "spring": {
+               "renewal_time_multiplier": 2
+            },
+            "autumn": {
+               "disable_renewal": true,
+               "destroy_resource": true
+            },
+            "winter": {
+               "disable_renewal": true,
+               "destroy_resource": true
+            }
+         }
+      },
+      "stonehearth:loot_drops": {
+         "entries": {
+            "beehive": {
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 6
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.trees.lemon.large.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.trees.lemon.large.description)"
+      },
+      "stonehearth:appeal": {
+         "appeal": 6
+      },
+      "stonehearth:stump_data": {
+         "stump_alias": "fortuna_romanorum:trees:lemon:stump"
+      },
+      "stonehearth_ace:replant_data": {
+         "seed_alias": "fortuna_romanorum:trees:lemon:seed",
+         "sapling_alias": "fortuna_romanorum:trees:lemon:sapling"
+      }
+   }
+}

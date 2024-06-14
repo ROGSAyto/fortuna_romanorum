@@ -1,0 +1,12 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "unlock_shrine_trading_post_recipes",
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:potter",
+      "recipe_key": [
+         "furniture:trading_post_monument"
+      ],
+      "bulletin_title": "i18n(fortuna_romanorum:data.gm.campaigns.town_progression.unlock_shrine_recipes.bulletin_title.00)"
+   }
+}

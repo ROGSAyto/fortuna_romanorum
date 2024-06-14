@@ -1,0 +1,104 @@
+{
+   "name": "valor_statue",
+   "duration": 2000,
+   "material": "materials/cubemitter_add.material.json",
+   "loops": true,
+   "mesh": {
+      "file": "",
+      "matrix": "",
+      "offset": {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      }
+   },
+   "emission": {
+      "rate": {
+         "kind": "BURST",
+         "values": [
+            [0, 1, 1]
+         ]
+      },
+      "angle": {
+         "kind": "CONSTANT",
+         "values": [0]
+      },
+      "origin": {
+         "surface": "POINT"
+      },
+      "translation_x": {
+         "kind": "CONSTANT",
+         "values": [0]
+      },
+      "translation_y": {
+         "kind": "CONSTANT",
+         "values": [3.5]
+      },
+      "translation_z": {
+         "kind": "CONSTANT",
+         "values": [-1.5]
+      }
+   },
+   "particle": {
+      "lifetime": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [4000]
+         }
+      },
+      "speed": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [0]
+         },
+         "over_lifetime": {
+            "kind": "CONSTANT",
+            "values": [0]
+         }
+      },
+      "acceleration": {
+         "over_lifetime_x": {
+            "kind": "CONSTANT",
+            "values": [0]
+         }
+      },
+      "velocity": {},
+      "rotation": {
+         "over_lifetime_y": {
+            "kind": "CONSTANT",
+            "values": [90]
+         }
+      },
+      "scale": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [2.65]
+         },
+         "over_lifetime": {
+            "kind": "CURVE",
+            "values": [
+               [0, 0.95],
+               [1, 1.1]
+            ]
+         },
+         "start_z": {
+            "kind": "CONSTANT",
+            "values": [0.02]
+         }
+      },
+      "color": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [0.986, 0.573, 0.762, 1]
+         },
+         "over_lifetime_a": {
+            "kind": "CURVE",
+            "values": [
+               [0, 0],
+               [0.5, 0.3],
+               [1, 0]
+            ]
+         }
+      }
+   }
+}

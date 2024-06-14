@@ -1,0 +1,13 @@
+{
+   "components": {
+      "stonehearth:entity_forms": {
+         "placeable_on_walls": true,
+         "placeable_on_ground": true,
+         "hide_placement_ui": false
+      },
+      "mob": {
+         "mob_collision_type": "clutter",
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   }
+}

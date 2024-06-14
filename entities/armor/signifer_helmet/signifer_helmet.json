@@ -1,0 +1,46 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(signifer_helmet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(signifer_helmet_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(signifer_helmet_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 7,
+         "required_job_level": 3,
+         "roles": "cleric_job",
+		  "no_drop": true,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 5
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.armor.signifer_helmet.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.armor.signifer_helmet.description)",
+         "icon": "file(signifer_helmet.png)",
+         "category": "armor",
+         "material_tags": ["iron", "armor", "helmet", "heavy_armor", "roman_made", "stockpile_equipment"]
+      }
+   }
+}

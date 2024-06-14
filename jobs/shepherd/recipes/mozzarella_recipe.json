@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "effort": 15,
+  "work_units": 1,
+  "recipe_name": "i18n(fortuna_romanorum:jobs.shepherd.recipes.mozzarella_recipe.recipe_name)",
+  "description": "i18n(fortuna_romanorum:jobs.shepherd.recipes.mozzarella_recipe.description)",
+  "flavor": "i18n(fortuna_romanorum:jobs.shepherd.recipes.mozzarella_recipe.flavor)",
+  "portrait": "/fortuna_romanorum/entities/food/dairy/mozzarella/mozzarella/mozzarella.png",
+  "workshop": "stonehearth_ace:brewer:kettle",
+  "work_effect": "stirring_with_spoon",
+  "level_requirement": 5,
+  "manual_unlock": true,
+  "ingredients": [
+    {
+      "uri": "stonehearth_ace:food:dairy:cheese_cottage",
+      "count": 3
+    }
+  ],
+  "produces": [
+    {
+      "item": "fortuna_romanorum:food:dairy:mozzarella"
+    },
+    {
+      "item": "fortuna_romanorum:food:dairy:mozzarella"
+    }
+  ]
+}

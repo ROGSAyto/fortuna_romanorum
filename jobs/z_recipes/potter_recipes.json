@@ -1,0 +1,13 @@
+{
+	"mixins": "stonehearth/jobs/potter/recipes/recipes.json",
+	"craftable_recipes": {
+		"furniture": {
+			"recipes": {
+				"trading_post_monument": {
+					"recipe": "file(furniture_recipes/trading_post_monument_recipe.json)"
+				}
+			}
+		}
+	}
+}
+				

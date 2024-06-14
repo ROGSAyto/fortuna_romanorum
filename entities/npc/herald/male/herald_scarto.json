@@ -1,0 +1,76 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:critter",
+   "components": {
+      "render_info": {
+         "animation_table": "/stonehearth/data/rigs/entities/critters/red_fox_wolf",
+         "scale": 0.12
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(herald_scarto.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:observers:avoid_threatening_entities": {
+         "treat_neutral_as_hostile": false
+      },
+      "stonehearth:idle_effects": {
+         "effects": [
+            {
+               "name": "idle_breathe",
+               "weight": 7
+            },
+            {
+               "name": "idle_look_around",
+               "weight": 1
+            },
+            {
+               "name": "idle_make_noise",
+               "weight": 1
+            },
+            {
+               "name": "idle_sway",
+               "weight": 1
+            }
+         ]
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.npc.herald.male.herald_scarto.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.npc.herald.male.herald_scarto.description)",
+         "icon": "file(herald_scarto.png)"
+      },
+      "stonehearth:portrait": {
+         "portrait_types": {
+            "headshot": {
+               "camera": {
+                  "pos": [
+                     17,
+                     0.8,
+                     -27
+                  ],
+                  "look_at": [
+                     0,
+                     0.6,
+                     0
+                  ],
+                  "fov": 60
+               }
+            }
+         }
+      },
+      "stonehearth:ai_packs": {
+         "actions": [
+            "stonehearth:actions:celebrate:carouse_animal",
+            "stonehearth:actions:dispatcher:compelled_behavior",
+            "stonehearth:actions:dispatcher:human_unit_control"
+         ],
+         "task_groups": [
+            "stonehearth:task_groups:solo:unit_control"
+         ]
+      }
+   }
+}

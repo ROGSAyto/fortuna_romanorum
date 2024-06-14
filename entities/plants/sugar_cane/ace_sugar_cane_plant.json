@@ -1,0 +1,30 @@
+{
+  "components": {
+    "mixintypes": {
+      "stonehearth:renewable_resource_node": "remove"
+    },
+    "stonehearth:resource_node": {
+      "resource": "fortuna_romanorum:food:sugar_cane:sugar_cane_basket",
+      "category": "harvest",
+      "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+      "resource_spawn_effect": "stonehearth:effects:harvest_plants_effect",
+      "description": "harvest_plant",
+      "resource_loot_table": {
+        "entries": {
+          "optional": {
+            "items": {
+              "none": {
+                "uri": "",
+                "weight": 10
+              },
+              "seed": {
+                "uri": "fortuna_romanorum:plants:sugar_cane:seed",
+                "weight": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

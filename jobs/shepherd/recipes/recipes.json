@@ -1,0 +1,11 @@
+{
+  "craftable_recipes": {
+    "refining": {
+      "recipes": {
+        "mozzarella": {
+          "recipe": "file(mozzarella_recipe.json)"
+        }
+      }
+    }
+  }
+}

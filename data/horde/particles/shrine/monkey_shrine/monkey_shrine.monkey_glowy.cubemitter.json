@@ -1,0 +1,86 @@
+{
+   "name": "fire",
+   "duration": 2500,
+   "material": "materials/cubemitter_add.material.json",
+   "loops": true,
+   "mesh": {
+      "file": "stonehearth/data/models/vfx/monkey/monkeyInflated.qb",
+      "matrix": "",
+      "offset": {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      }
+   },
+   "emission": {
+      "rate": {
+         "kind": "BURST",
+         "values": [
+            [0, 1, 1]
+         ]
+      },
+      "angle": {
+         "kind": "CONSTANT",
+         "values": [0]
+      },
+      "origin": {
+         "surface": "POINT"
+      },
+      "translation_x": {
+         "kind": "CONSTANT",
+         "values": [-0.11]
+      },
+      "translation_y": {
+         "kind": "CONSTANT",
+         "values": [5.4]
+      },
+      "translation_z": {
+         "kind": "CONSTANT",
+         "values": [0.45]
+      }
+   },
+   "particle": {
+      "lifetime": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [2500]
+         }
+      },
+      "speed": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [0]
+         }
+      },
+      "scale": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [0.2]
+         },
+         "over_lifetime": {
+            "kind": "CURVE",
+            "values": [
+               [0, 1],
+               [1, 1.01]
+            ]
+         }
+      },
+      "color": {
+         "over_lifetime": {
+            "kind": "CURVE",
+            "values": [
+               [0, 1, 0.679, 0.991],
+               [1, 0.854, 0.282, 0.89]
+            ]
+         },
+         "over_lifetime_a": {
+            "kind": "CURVE",
+            "values": [
+               [0, 0.025],
+               [0.5, 0.075],
+               [1, 0.025]
+            ]
+         }
+      }
+   }
+}

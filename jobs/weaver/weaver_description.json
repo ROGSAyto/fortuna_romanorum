@@ -1,0 +1,30 @@
+{
+  "mixins": [
+    "stonehearth:jobs:weaver"
+  ],
+  "equipment": {
+    "mixintypes": {
+      "helmet": "remove"
+    },
+    "torso": "file(weaver_outfit)"
+  },
+  "display_order": 1,
+  "requirements": "i18n(fortuna_romanorum:jobs.requirements.herbalist)",
+  "parent_job": "stonehearth:jobs:farmer",
+  "parent_level_requirement": 2,
+  "parent_jobs": [
+    {
+      "job": "stonehearth:jobs:farmer",
+      "level_requirement": 2,
+      "one_of": true
+    },
+    {
+      "job": "stonehearth:jobs:shepherd",
+      "level_requirement": 2,
+      "one_of": true
+    }
+  ],
+  "crafter": {
+    "recipe_list": "file(recipes/fr_recipes.json)"
+  }
+}

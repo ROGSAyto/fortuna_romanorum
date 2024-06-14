@@ -1,0 +1,25 @@
+{
+	"mixins": "stonehearth/jobs/weaver/recipes/recipes.json",
+	"craftable_recipes": {
+		"workbenches": {
+			"recipes": {
+				"roman_loom": {
+					"recipe": "file(workbench_recipes/roman_loom_recipe.json)"
+				}
+			}
+		},
+		"roman_armor": {
+			"ordinal": 45.03,
+			"name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.armors_name)",
+			"recipes": {
+				"capsarii_armor": {
+					"recipe": "file(military_recipes/armor/body/capsarii_armor_recipe.json)"
+				},
+				"capsarii_pack": {
+					"recipe": "file(military_recipes/armor/accesory/capsarii_pack_recipe.json)"
+				}
+			}
+		}
+	}
+}
+				

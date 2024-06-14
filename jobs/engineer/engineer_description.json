@@ -1,0 +1,19 @@
+{
+   "mixins": "stonehearth:jobs:engineer",
+   "display_order": 1,
+   "parent_job": "stonehearth:jobs:carpenter",
+   "parent_level_requirement": 3,
+   "mixintypes": {"parent_jobs": "override"},
+   "parent_jobs": [
+      {
+         "job": "stonehearth:jobs:carpenter",
+         "level_requirement": 3,
+         "one_of": true
+      },
+      {
+         "job": "stonehearth:jobs:blacksmith",
+         "level_requirement": 2,
+         "one_of": true
+      }
+   ],
+}

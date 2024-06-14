@@ -1,0 +1,128 @@
+{
+   "type": "effect",
+   "tracks": {
+      "ember_base": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/monkey_shrine/monkey_shrine.ember_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.6, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "ember_wide": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/monkey_shrine/monkey_shrine.ember_wide.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "smoke_sparkles": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/monkey_shrine/monkey_shrine.smoke_sparkles.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 2.2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "ember_glow": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/monkey_shrine/monkey_shrine.ember_glow.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "central_cube": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/monkey_shrine/monkey_shrine.central_cube.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "radiating": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/monkey_shrine/monkey_shrine.radiating.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -0.1, "y": 7.2, "z": 1.05,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_key_glint1": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/monkey_shrine/monkey_shrine.glint.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -0.1, "y": 7.2, "z": 1.15,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_key_glint2": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/monkey_shrine/monkey_shrine.glint.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -0.1, "y": 7.2, "z": 0.95,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_key_ray": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/monkey_shrine/monkey_shrine.rays.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -0.1, "y": 7.2, "z": 1.05,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "glowing_monkey": {
+         "type": "cubemitter",
+         "cubemitter": "/fortuna_romanorum/data/horde/particles/shrine/monkey_shrine/monkey_shrine.monkey_glowy.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "light_key_front": {
+         "type": "light",
+         "light": "/fortuna_romanorum/data/horde/animatedlights/shrine/shrine.monkey_shrine.soft.key.animatedlight.json",
+         "transforms": { "x": -0.1, "y": 7.2, "z": 0.45 },
+         "shadows": false
+      },
+      "light_key_back": {
+         "type": "light",
+         "light": "/fortuna_romanorum/data/horde/animatedlights/shrine/shrine.monkey_shrine.soft.key.animatedlight.json",
+         "transforms": { "x": -0.1, "y": 7.2, "z": 1.6 },
+         "shadows": false
+      },
+      "light_face": {
+         "type": "light",
+         "light": "/fortuna_romanorum/data/horde/animatedlights/shrine/shrine.monkey_shrine.soft.small.animatedlight.json",
+         "transforms": { "x": -0.1, "y": 5, "z": -2 },
+         "shadows": false
+      },
+      "light_main": {
+         "type": "light",
+         "light": "/fortuna_romanorum/data/horde/animatedlights/shrine/shrine.monkey_shrine.soft.animatedlight.json",
+         "transforms": { "x": 0, "y": 8, "z": 0 }
+      }
+   }
+}

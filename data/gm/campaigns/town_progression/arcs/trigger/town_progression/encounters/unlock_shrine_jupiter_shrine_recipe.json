@@ -1,0 +1,12 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "unlock_shrine_jupiter_shrine_recipe",
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:mason",
+      "recipe_key": [
+         "furniture:jupiter_shrine_monument"
+      ],
+      "bulletin_title": "i18n(fortuna_romanorum:data.gm.campaigns.town_progression.unlock_shrine_recipes.bulletin_title.02)"
+   }
+}

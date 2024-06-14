@@ -1,0 +1,29 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(roman_centurion_armor_rack.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.1, "y": 0, "z": 0.1 },
+         "region_origin": { "x": 0.0, "y": 0, "z": 0.0 },
+         "allow_vertical_adjacent": true
+      },
+      "render_info": {
+         "scale": 0.1
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.decoration.armor_rack.armor_rack_ghost.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.decoration.armor_rack.armor_rack_ghost.description)",
+         "icon": "file(roman_centurion_armor_rack.png)",
+         "category": "decoration",
+         "material_tags": "wood iron crafted decoration stockpile_decoration"
+      }
+   }
+}

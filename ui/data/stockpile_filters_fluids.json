@@ -1,0 +1,42 @@
+{
+   "stockpile": {
+      "raw_drinks": {
+         "categories": {
+            "juice_grape": {
+               "ordinal": 5.999,
+               "display_name": "i18n(fortuna_romanorum:entities.drink.juice_grape.juice_grape.display_name)",
+               "icon": "/fortuna_romanorum/entities/drink/juice_grape/juice_grape/juice_grape.png",
+               "filter": "drink_container juice_grape"
+            },
+            "juice_lemon": {
+               "ordinal": 6.31,
+               "display_name": "i18n(fortuna_romanorum:entities.drink.juice_lemon.juice_lemon.display_name)",
+               "icon": "/fortuna_romanorum/entities/drink/juice_lemon/juice_lemon/juice_lemon.png",
+               "filter": "drink_container juice_lemon"
+            },
+            "lemonade": {
+               "ordinal": 8.099,
+               "display_name": "i18n(fortuna_romanorum:entities.drink.lemonade.lemonade.display_name)",
+               "icon": "/fortuna_romanorum/entities/drink/lemonade/lemonade/lemonade.png",
+               "filter": "drink_container lemonade"
+            }
+         }
+      },
+      "prepared_drinks": {
+         "categories": {
+            "red_wine": {
+               "ordinal": 4.299,
+               "display_name": "i18n(fortuna_romanorum:entities.drink.red_wine.red_wine.display_name)",
+               "icon": "/fortuna_romanorum/entities/drink/red_wine/red_wine/red_wine.png",
+               "filter": "drink_container red_wine"
+            },
+            "limoncello": {
+               "ordinal": 8.1,
+               "display_name": "i18n(fortuna_romanorum:entities.drink.limoncello.limoncello.display_name)",
+               "icon": "/fortuna_romanorum/entities/drink/limoncello/limoncello/limoncello.png",
+               "filter": "drink_container limoncello"
+            }
+         }
+      }
+   }
+}

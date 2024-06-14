@@ -1,0 +1,16 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:shepherd",
+   "enabled": true,
+   "job_id": "shepherd",
+   "display_order": 1,
+   "alias": "stonehearth:jobs:shepherd",
+   "requirements": "i18n(fortuna_romanorum:jobs.shepherd.shepherd_description.requirements)",
+   "talisman_uri": "fortuna_romanorum:shepherd:talisman:roman_crook_talisman",
+   "parent_job": "stonehearth:jobs:farmer",
+   "parent_level_requirement": 2,
+   "equipment": {
+      "torso": "stonehearth:shepherd:outfit",
+      "mainhand": "fortuna_romanorum:shepherd:roman_crook"
+     }
+}

@@ -1,0 +1,92 @@
+{
+   "name": "droplets",
+   "duration": 20000,
+   "material": "materials/cubemitter_add_bloom.material.json",
+   "loops": true,
+   "mesh": {
+      "file": "",
+      "matrix": "",
+      "offset": {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      }
+   },
+   "emission": {
+      "rate": {
+         "kind": "CONSTANT",
+         "values": [10]
+      },
+      "angle": {
+         "kind": "RANDOM_BETWEEN",
+         "values": [5, 15]
+      },
+      "origin": {
+         "surface": "RECTANGLE",
+         "values": [0.2, 0.2, 0, 0]
+      }
+   },
+   "particle": {
+      "lifetime": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [1500, 2000]
+         }
+      },
+      "speed": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [0.5]
+         }
+      },
+      "acceleration": {
+         "over_lifetime_y": {
+            "kind": "CONSTANT",
+            "values": [1]
+         }
+      },
+      "velocity": {},
+      "rotation": {
+         "over_lifetime_y": {
+            "kind": "CURVE",
+            "values": [
+               [0, 0],
+               [1, 360]
+            ]
+         }
+      },
+      "scale": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [0.1, 0.2]
+         },
+         "over_lifetime": {
+            "kind": "CURVE",
+            "values": [
+               [0, 1],
+               [1, 0.5]
+            ]
+         }
+      },
+      "color": {
+         "over_lifetime": {
+            "kind": "CURVE",
+            "values": [
+               [0, 0.969, 0.922, 0.922],
+               [0.5, 0.328, 0.11, 0.89],
+               [1, 0.137, 0.157, 0.808]
+            ]
+         },
+         "over_lifetime_a": {
+            "kind": "CURVE",
+            "values": [
+               [0, 0],
+               [0.3, 0.25],
+               [0.5, 0.3],
+               [0.7, 0.25],
+               [1, 0]
+            ]
+         }
+      }
+   }
+}

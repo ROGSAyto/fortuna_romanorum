@@ -1,0 +1,58 @@
+{
+   "mixins": "/stonehearth/jobs/blacksmith/recipes/recipes.json",
+   "craftable_recipes": {
+      "tools": {
+         "recipes": {
+            "engineer_wrench": {
+               "recipe": "file(engineer_wrench_recipe.json)"
+            }
+         }
+      },
+      "armor": {
+         "recipes": {
+            // Armor
+            "hastati_armor": {
+              "recipe": "file(armor/hastati_armor_recipe.json)"
+            },
+            "legionary_armor": {
+              "recipe": "file(armor/legionary_armor_recipe.json)"
+            },
+            "praetorian_armor": {
+              "recipe": "file(armor/praetorian_armor_recipe.json)"
+            },
+            "evocati_armor": {
+              "recipe": "file(armor/evocati_armor_recipe.json)"
+            },
+            "archer_armor": {
+              "recipe": "file(armor/archer_armor_recipe.json)"
+            },
+            "fine_lorica_armor": {
+              "recipe": "file(armor/fine_lorica_recipe.json)"
+            },
+            // Helm
+            "centurion_helmet": {
+              "recipe": "file(armor/centurion_helmet_recipe.json)"
+            },
+            "praetorian_helmet": {
+              "recipe": "file(armor/praetorian_helmet_recipe.json)"
+            },
+            "legionary_helmet": {
+              "recipe": "file(armor/legionary_helmet_recipe.json)"
+            },
+            "hastati_helmet": {
+              "recipe": "file(armor/hastati_helmet_recipe.json)"
+            }
+         }
+      },
+      "weapon": {
+         "recipes": {
+           "gladius": {
+             "recipe": "file(weapon/gladius_recipe.json)"
+           },
+           "kopis": {
+             "recipe": "file(weapon/kopis_recipe.json)"
+           }
+         }
+      }
+   }
+}

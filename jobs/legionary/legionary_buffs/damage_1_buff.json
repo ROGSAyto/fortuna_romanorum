@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(stonehearth:jobs.footman.footman_buffs.damage_1_buff.display_name)",
+   "description": "i18n(stonehearth:jobs.footman.footman_buffs.damage_1_buff.description)",
+   "icon": "file(legionary_buff_dm_up_1.png)",
+   "modifiers": {
+      "multiplicative_dmg_modifier": {
+         "add": 0.2
+      }
+   }
+}

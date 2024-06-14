@@ -1,0 +1,56 @@
+{
+	"mixins": "stonehearth/jobs/carpenter/recipes/recipes.json",
+	"craftable_recipes": {
+		"tools": {
+			"recipes": {
+				"shepherd_crook": {
+					"recipe": "file(tool_recipes/roman_crook_recipe.json)"
+				}
+			}
+		},
+		"roman_training_equipment": {
+			"ordinal": 45.02,
+			"name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.roman_training_equipment_name)",
+			"recipes": {
+				"legionary_training_sword": {
+					"recipe": "file(military_recipes/weapon/legionary_training_sword_recipe.json)"
+				},
+				"wicker_shield": {
+					"recipe": "file(military_recipes/armor/shield/wicker_shield_recipe.json)"
+				}
+			}
+		},
+		"roman_armor": {
+			"ordinal": 45.03,
+			"name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.armors_name)",
+			"recipes": {
+				"hastati_shield": {
+					"recipe": "file(military_recipes/armor/shield/hastati_shield_recipe.json)"
+				},
+				"legionary_shield": {
+					"recipe": "file(military_recipes/armor/shield/legionary_shield_recipe.json)"
+				},
+				"praetorian_shield": {
+					"recipe": "file(military_recipes/armor/shield/praetorian_shield_recipe.json)"
+				}
+			}
+		},
+		"roman_weapons": {
+			"ordinal": 45.04,
+			"name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.weapons_name)",
+			"recipes": {
+				"hasta": {
+					"recipe": "file(military_recipes/weapon/hasta_recipe.json)"
+				}
+			}
+		},
+		"furniture": {
+			"recipes": {
+				"silk_road_monument": {
+					"recipe": "file(furniture_recipes/silk_road_monument_recipe.json)"
+				}
+			}
+		}
+	}
+}
+				

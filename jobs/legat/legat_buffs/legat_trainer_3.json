@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "display_name": "i18n(fortuna_romanorum:jobs.legat.legat_buffs.legat_trainer_3.display_name)",
+   "description": "i18n(fortuna_romanorum:jobs.legat.legat_buffs.legat_trainer_3.description)",
+   "icon": "file(legat_buff_trainer_3.png)",
+   "script": "stonehearth:buff_scripts:aura",
+   "script_info": {
+      "pulse": "10m",
+      "aura_buff": "fortuna_romanorum:buffs:legat:trainer_3_effect",
+      "radius": 20,
+      "affect_self": false,
+      "pulse_immediately": true,
+      "target_type": "mob"
+	}
+}

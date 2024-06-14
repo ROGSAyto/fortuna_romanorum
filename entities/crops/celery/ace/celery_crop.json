@@ -1,0 +1,24 @@
+{
+   "components": {
+      "stonehearth:loot_drops": {
+         "entries": {
+            "default": {
+               "items": {
+                  "none": {
+                     "weight": 5
+                  },
+                  "greens": {
+                     "uri": "fortuna_romanorum:food:celery:celery_greens_basket",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(fortuna_romanorum:entities.crops.celery_crop.description_ace)"
+      }
+   }
+}

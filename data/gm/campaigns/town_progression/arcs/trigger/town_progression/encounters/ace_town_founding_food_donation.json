@@ -1,0 +1,48 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+            "processed_definite": {
+               "items": {
+                  "pasta": {
+                     "uri": "stonehearth_ace:food:pasta"
+                  }
+               }
+            },
+            "variety": {
+               "items": {
+                  "pasta": {
+                     "uri": "stonehearth_ace:food:pasta"
+                  }
+               }
+            },
+            "wine_definite": {
+               "num_rolls": 2,
+               "items": {
+                  "red_wine": {
+                     "uri": "fortuna_romanorum:drink:red_wine",
+                     "weight": 1
+                  }
+               }
+            },
+            "drink_variety": {
+               "num_rolls": 3,
+               "items": {
+                  "red_wine": {
+                     "uri": "fortuna_romanorum:drink:red_wine",
+                     "weight": 1
+                  },
+                  "juice_grape": {
+                     "uri": "fortuna_romanorum:drink:juice_grape",
+                     "weight": 2
+                  },
+                  "moomoo_milk": {
+                     "uri": "stonehearth_ace:drink:dairy:moomoo_milk",
+                     "weight": 2
+                  }
+               }
+            }
+         }
+      }
+   }
+}

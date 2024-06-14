@@ -1,0 +1,25 @@
+{
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "animation_table": "/stonehearth/data/rigs/entities/humans/skeletons/male.json"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(herald_male.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "/stonehearth/data/rigs/entities/humans/effects/idle_breathe.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.npc.herald.male.herald_male.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.npc.herald.male.herald_male.description)",
+         "icon": "file(herald_male.png)"
+      }
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "type": "entity",
+   "mixins": "file(jupiter_shrine_monument.json)",
+   "components": {
+      "effect_list": {
+         "default": "fortuna_romanorum:effects:monument:jupiter_shrine"
+      },
+      "stonehearth:lamp": {
+         "light_effect": "fortuna_romanorum:effects:monument:jupiter_shrine:light"
+      }
+   }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "mixins": [
+    "/stonehearth_ace/jobs/potter/recipes/water_well_roof_clay_recipe.json"
+  ],
+  "recipe_name": "i18n(fortuna_romanorum:entities.refined.water_well_roof_terracotta.display_name)",
+  "portrait": "/fortuna_romanorum/entities/refined/water_well_roof_terracotta/water_well_roof_terracotta.png",
+  "mixintypes": {
+    "produces": "override"
+  },
+  "produces": [
+    {
+      "item": "fortuna_romanorum:refined:water_well_roof:terracotta"
+    }
+  ]
+}

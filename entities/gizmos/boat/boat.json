@@ -1,0 +1,11 @@
+{
+	"components": {
+		"model_variants": {
+			"fortuna_romanorum:kingdoms:fortuna_romanorum": {
+				"models": [
+					"file(gondola.qb)"
+				]
+			}
+		}
+	}
+}

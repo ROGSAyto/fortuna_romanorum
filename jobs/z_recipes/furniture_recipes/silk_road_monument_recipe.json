@@ -1,0 +1,35 @@
+{
+   "type": "recipe",
+   "effort": 180,
+   "work_units": 9,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.silk_road_monument_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.carpenter.recipes.silk_road_monument_recipe.description)",
+   "flavor": "",
+   "portrait": "/fortuna_romanorum/entities/decoration/silk_road_monument/silk_road_monument.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement": 4,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 10
+      },
+      {
+         "material": "stone resource",
+         "count": 10
+      },
+	  {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:gold_flakes",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:decoration:silk_road_monument"
+      }
+   ]
+}

@@ -1,0 +1,13 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(stonehearth:jobs.knight.knight_buffs.courage_aura_buff.display_name)",
+   "icon": "file(knight_buff_is_inspired.png)",
+   "script": "stonehearth:buff_scripts:aura",
+   "script_info": {
+      "aura_buff": "fortuna_romanorum:buffs:signifer:courage_aura2_effect",
+      "radius": 20,
+	  "affect_self": false,
+      "target_type": "mob"
+   }
+}

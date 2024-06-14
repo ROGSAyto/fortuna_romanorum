@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "effort": 25,
+  "work_units": 3,
+  "recipe_name": "i18n(fortuna_romanorum:entities.drink.juice_grape.juice_grape.recipe_name)",
+  "description": "i18n(fortuna_romanorum:entities.drink.juice_grape.juice_grape.description)",
+  "flavor": "i18n(fortuna_romanorum:entities.drink.juice_grape.juice_grape.flavor)",
+  "portrait": "/fortuna_romanorum/entities/drink/juice_grape/juice_grape/juice_grape.png",
+  "level_requirement": 1,
+  "workshop": "stonehearth_ace:brewer:workbench",
+  "ingredients": [
+    {
+      "uri": "fortuna_romanorum:food:grapes:grapes_basket",
+      "count": 2
+    }
+  ],
+  "produces": [
+    {
+      "item": "fortuna_romanorum:drink:juice_grape"
+    }
+  ]
+}

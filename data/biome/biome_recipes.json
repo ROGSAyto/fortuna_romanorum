@@ -1,0 +1,19 @@
+{
+	"stonehearth:jobs:herbalist": {
+		"fortuna_romanorum:biome:coast": {
+			"enabled": {
+				"recipes": {
+					"refinement_seeds:cypress_seeds_recipe": true,
+					"refinement_seeds:stone_pine_seeds_recipe": true,
+					"refinement_seeds:lavender_seeds_recipe": true,
+					"refinement_seeds:purslane_seeds_recipe": true,
+					"refinement_seeds:sugar_cane_seeds_recipe": true
+				}
+			},
+			"disabled": {
+				"categories": {},
+				"recipes": {}
+			}
+		}
+	}
+}

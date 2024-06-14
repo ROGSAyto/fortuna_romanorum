@@ -1,0 +1,96 @@
+{
+   "type": "encounter",
+   "encounter_type": "town_upgrade",
+   "in_edge": "shrine_upgrade_guildmaster",
+   "town_upgrade_info": {
+      "old_facility_uri": "fortuna_romanorum:decoration:trading_post_monument",
+      "new_facility_uri": "fortuna_romanorum:decoration:trading_post_monument:blessed",
+      "facility_upgrade_effect": "stonehearth:effects:level_up:monument",
+      "town_bonus": "fortuna_romanorum:town_bonus:guildmaster",
+      "tier_achieved": 3,
+      "conversation_subjects": [
+         "stonehearth:subjects:town_status",
+         "stonehearth:food:cake"
+         "fortuna_romanorum:decoration:trading_post:wind_chime"
+      ],
+      "thought": "stonehearth:thoughts:town:progression:town",
+      "celebration_duration": "2h30m+10m",
+      "has_fireworks": true,
+      "dialog": {
+         "title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.title)",
+         "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.dialog_title)",
+         "tier_title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_title)",
+         "reward_message": "i18n(fortuna_romanorum:data.gm.campaigns.town_progression.shrine_upgrade_guildmaster.reward_message)",
+         "reward_message_ctd": "i18n(fortuna_romanorum:data.gm.campaigns.town_progression.shrine_upgrade_guildmaster.reward_message_ctd)",
+         "achievements": [
+            {
+               "id": "craftsman_bonus",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_guildmaster.achievements.000)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "craftsman_decorations_1",
+               "name": "i18n(fortuna_romanorum:data.gm.campaigns.town_progression.shrine_upgrade_guildmaster.achievements.001)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "craftsman_decorations_2",
+               "name": "i18n(fortuna_romanorum:data.gm.campaigns.town_progression.shrine_upgrade_guildmaster.achievements.002)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "craftsman_decorations_3",
+               "name": "i18n(fortuna_romanorum:data.gm.campaigns.town_progression.shrine_upgrade_guildmaster.achievements.003)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "tier_3_bgm",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_guildmaster.achievements.004)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            }
+         ]
+      },
+      "npcs": [
+         {
+            "faction": "human_npcs",
+            "role": "messenger",
+            "gender": "male"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "herald_lucius",
+            "gender": "male"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "herald_aelia",
+            "gender": "female"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "herald_vespasianus",
+            "gender": "male"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "party_goblin",
+            "gender": "male"
+         },
+         {
+            "faction": "rabbit_biped_npcs",
+            "role": "herald_sasha",
+            "gender": "female"
+         },
+         {
+            "faction": "orc_npcs",
+            "role": "herald_erdene",
+            "gender": "female"
+         }
+      ]
+   }
+}

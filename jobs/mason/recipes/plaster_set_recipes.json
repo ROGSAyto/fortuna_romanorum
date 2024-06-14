@@ -1,0 +1,144 @@
+{
+   "craftable_recipes": {
+      "workbenches": {
+         "recipes": {
+            "gypsum_kiln": {
+               "recipe": "file(gypsum_kiln_recipe.json)"
+            }
+         }
+      },
+      "refined": {
+         "recipes": {
+            "plaster": {
+               "recipe": "file(plaster_recipe.json)"
+            },
+            "plastered_stone_bricks": {
+               "recipe": "file(plastered_stone_bricks_recipe.json)"
+            }
+         }
+      },
+      "plaster_building_parts": {
+         "ordinal": 70.1,
+         "name": "i18n(fortuna_romanorum:jobs.mason.recipes.plaster_building_parts_name)",
+         "recipes": {
+            "plastered_door": {
+               "recipe": "file(plastered_door_recipe.json)"
+            },
+            "plastered_double_door": {
+               "recipe": "file(plastered_double_door_recipe.json)"
+            },
+            "plastered_tunnel_door": {
+               "recipe": "file(plastered_tunnel_door_recipe.json)"
+            },
+            "plastered_window_frame_small": {
+               "recipe": "file(plastered_window_frame_small_recipe.json)"
+            },
+            "plastered_window_frame_tall": {
+               "recipe": "file(plastered_window_frame_tall_recipe.json)"
+            },
+            "plastered_window_frame_wide": {
+               "recipe": "file(plastered_window_frame_wide_recipe.json)"
+            },
+            "plastered_window_small": {
+               "recipe": "file(plastered_window_small_recipe.json)"
+            },
+            "plastered_window_small_shuttered": {
+               "recipe": "file(plastered_window_small_shuttered_recipe.json)"
+            },
+            "plastered_window_tall": {
+               "recipe": "file(plastered_window_tall_recipe.json)"
+            },
+            "plastered_window_tall_shuttered": {
+               "recipe": "file(plastered_window_tall_shuttered_recipe.json)"
+            },
+            "plastered_window_wide": {
+               "recipe": "file(plastered_window_wide_recipe.json)"
+            },
+            "plaster_fence": {
+               "recipe": "file(plaster_fence_recipe.json)"
+            },
+            "plaster_fence_post": {
+               "recipe": "file(plaster_fence_post_recipe.json)"
+            },
+            "candle_plaster": {
+               "recipe": "file(candle_plaster_recipe.json)"
+            },
+            "hanging_box_lavender": {
+               "recipe": "file(hanging_box_lavender_recipe.json)"
+            },
+            "hanging_box_purslane": {
+               "recipe": "file(hanging_box_purslane_recipe.json)"
+            },
+            "hanging_box_vines": {
+               "recipe": "file(hanging_box_vines_recipe.json)"
+            },
+            "plaster_box_lavender": {
+               "recipe": "file(plaster_box_lavender_recipe.json)"
+            },
+            "plaster_box_purslane": {
+               "recipe": "file(plaster_box_purslane_recipe.json)"
+            },
+            "plaster_box_vines": {
+               "recipe": "file(plaster_box_vines_recipe.json)"
+            },
+            "plaster_box_long_lavender": {
+               "recipe": "file(plaster_box_long_lavender_recipe.json)"
+            },
+            "plaster_box_long_purslane": {
+               "recipe": "file(plaster_box_long_purslane_recipe.json)"
+            },
+            "plaster_box_long_vines": {
+               "recipe": "file(plaster_box_long_vines_recipe.json)"
+            }
+         }
+      },
+      "plaster_furniture": {
+         "ordinal": 80.1,
+         "name": "i18n(fortuna_romanorum:jobs.mason.recipes.plaster_furniture_name)",
+         "recipes": {
+            "plaster_urn_small": {
+               "recipe": "file(plaster_urn_small_recipe.json)"
+            },
+            "plaster_urn_large": {
+               "recipe": "file(plaster_urn_large_recipe.json)"
+            },
+            "input_bin_plaster": {
+               "recipe": "file(input_bin_plaster_recipe.json)"
+            },
+            "input_shelf_ground_plaster": {
+               "recipe": "file(input_shelf_ground_plaster_recipe.json)"
+            },
+            "input_shelf_wall_plaster": {
+               "recipe": "file(input_shelf_wall_plaster_recipe.json)"
+            },
+            "output_box_plaster": {
+               "recipe": "file(output_box_plaster_recipe.json)"
+            },
+            "plaster_bed": {
+               "recipe": "file(plaster_bed_recipe.json)"
+            },
+            "plaster_comfy_bed": {
+               "recipe": "file(plaster_comfy_bed_recipe.json)"
+            },
+            "plaster_bench": {
+               "recipe": "file(plaster_bench_recipe.json)"
+            },
+            "plaster_table": {
+               "recipe": "file(plaster_table_recipe.json)"
+            },
+            "plaster_table_covered": {
+               "recipe": "file(plaster_table_covered_recipe.json)"
+            },
+            "simple_plaster_chair": {
+               "recipe": "file(simple_plaster_chair_recipe.json)"
+            },
+            "comfy_plaster_chair": {
+               "recipe": "file(comfy_plaster_chair_recipe.json)"
+            },
+            "plastered_market_stall": {
+               "recipe": "file(plastered_market_stall_recipe.json)"
+            }
+         }
+      }
+   }
+}

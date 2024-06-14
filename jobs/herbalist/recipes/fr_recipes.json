@@ -1,0 +1,30 @@
+{
+   "mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
+   "craftable_recipes": {
+      "tools": {
+         "recipes": {
+            "weaver_spindle": {
+               "recipe": "file(weaver_spindle_recipe.json)"
+            },
+            "hoe": {
+               "recipe": "file(hoe_recipe.json)"
+            }
+         }
+      },
+      "animal_feed": {
+         "ordinal": 68,
+         "name": "i18n(stonehearth:jobs.cook.recipes.animal_feed_name)",
+         "recipes": {
+            "sheep_feed": {
+               "recipe": "file(sheep_feed_recipe.json)"
+            },
+            "poyo_feed": {
+               "recipe": "file(poyo_feed_recipe.json)"
+            },
+            "rabbit_feed": {
+               "recipe": "file(rabbit_feed_recipe.json)"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,9 @@
+{
+  "components": {
+    "stonehearth:equipment_piece": {
+      "injected_buffs": [
+        "fortuna_romanorum:buffs:body_model:fortuna_romanorum"
+      ]
+    }
+  }
+}

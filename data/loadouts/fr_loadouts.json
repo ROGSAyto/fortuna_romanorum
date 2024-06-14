@@ -1,0 +1,62 @@
+{
+   "type": "index",
+   "mixins": [
+      "stonehearth:loadouts"
+   ],
+   "loadouts": {
+      "food_for_days": {
+         "content": {
+            "mixintypes": {
+               "berries": "remove",
+               "carrots": "remove"
+            },
+            "grapes": {
+               "ordinal": 2.5,
+               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.grapes)",
+               "type": "entity",
+               "uri": "fortuna_romanorum:food:grapes:grapes_basket",
+               "icon": "file(images/items/grapes_basket.png)",
+               "amount": 10
+            },
+            "olives": {
+               "ordinal": 3,
+               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.olives)",
+               "type": "entity",
+               "uri": "fortuna_romanorum:food:olives:olives_basket",
+               "icon": "file(images/items/olives_basket.png)",
+               "amount": 10
+            }
+         }
+      },
+      "merchant_caravan": {
+         "content": {
+            "mixintypes": {
+               "berries": "remove"
+            },
+            "olives": {
+               "ordinal": 4,
+               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.olives)",
+               "type": "entity",
+               "uri": "fortuna_romanorum:food:olives:olives_basket",
+               "icon": "file(images/items/olives_basket.png)",
+               "amount": 10
+            }
+         }
+      },
+      "money_solves_all_problems": {
+         "content": {
+            "mixintypes": {
+               "berries": "remove"
+            },
+            "grapes": {
+               "ordinal": 2,
+               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.grapes)",
+               "type": "entity",
+               "uri": "fortuna_romanorum:food:grapes:grapes_basket",
+               "icon": "file(images/items/grapes_basket.png)",
+               "amount": 10
+            }
+         }
+      }
+   }
+}

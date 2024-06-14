@@ -1,0 +1,11 @@
+{
+  "components": {
+    "model_variants": {
+      "terracotta": {
+        "models": [
+          "file(clay_water_well_roofed_terracotta.qb)"
+        ]
+      }
+    }
+  }
+}

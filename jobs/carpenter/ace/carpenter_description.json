@@ -1,0 +1,4 @@
+{
+  "talisman_uri": "fortuna_romanorum:carpenter:talisman",
+  "requirements": "i18n(fortuna_romanorum:jobs.requirements.mason)"
+}

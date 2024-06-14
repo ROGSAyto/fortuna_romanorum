@@ -1,0 +1,13 @@
+{
+   "craftable_recipes": {
+      "animal_feed": {
+         "recipes": {
+            "mixintypes": {
+               "fodder": "remove",
+               "moomoo_feed": "remove",
+               "ostrich_feed": "remove"
+            }
+         }
+      }
+   }
+}

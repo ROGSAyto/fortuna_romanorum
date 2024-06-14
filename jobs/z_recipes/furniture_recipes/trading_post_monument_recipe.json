@@ -1,0 +1,39 @@
+{
+   "type": "recipe",
+   "effort": 180,
+   "work_units": 9,
+   "recipe_name": "i18n(rayyas_children:jobs.potter.recipes.trading_post_monument_recipe.recipe_name)",
+   "description": "i18n(rayyas_children:jobs.potter.recipes.trading_post_monument_recipe.description)",
+   "flavor": "",
+   "portrait": "/rayyas_children/entities/decoration/trading_post_monument/trading_post_monument.png",
+   "workshop": "stonehearth:potter:kiln",
+   "level_requirement": 4,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 4
+      },
+      {
+         "uri": "stonehearth:resources:coal:lump_of_coal",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:decoration:decorative_vase",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:decoration:tapestry_wall",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:decoration:blown_glass_vase",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "rayyas_children:decoration:trading_post_monument"
+      }
+   ]
+}

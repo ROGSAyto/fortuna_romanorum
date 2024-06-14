@@ -1,0 +1,128 @@
+{
+   "type": "job",
+   "enabled": true,
+   "job_id": "legionary",
+   "display_order": 11,
+   "alias": "fortuna_romanorum:jobs:legionary",
+   "display_name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.display_name)",
+   "controller": "fortuna_romanorum:class:legionary",
+   "description": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.description)",
+   "requirements": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.requirements)",
+   "talisman_uri": "fortuna_romanorum:legionary:talisman:legionary_training_sword_talisman",
+   "default_stance": "aggressive",
+   "abilities": "file(legionary_abilities)",
+   "equipment": {
+      "torso": "file(legionary_recruit_outfit)",
+      "mainhand": "fortuna_romanorum:weapons:legionary_training_sword",
+      "boots": "fortuna_romanorum:armor:caligae"
+   },
+   "roles":["legionary_job", "footman_job", "cloth_wearer", "leather_wearer", "mail_wearer", "melee_combat", "combat"],
+   "promotion_activity_name": "promote_legionary",
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:rescue"
+   ],
+   "xp_rewards": {
+      "town_protection": 1
+   },
+   "icon": "file(images/icon.png)",
+   "parent_job": "stonehearth:jobs:worker",
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "perks": [
+           {
+              "name": "i18n(stonehearth_ace:jobs.footman.footman_description.level_1_data.training_perk_name)",
+              "description": "i18n(stonehearth_ace:jobs.footman.footman_description.level_1_data.training_perk_description)",
+              "id": "training_perk",
+              "icon": "/Stoneheart/stonehearth_ace/jobs/footman/footman_buffs/training.png)",
+              "level": 1
+           },
+            {
+               "type": "apply_buff",
+               "name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.level_1_data.perk_000_name)",
+               "id": "legionary_speed_up_1",
+               "icon": "file(images/legionary_speed_up_1.png)",
+               "buff_name": "fortuna_romanorum:buffs:legionary:spd_1",
+               "description": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.level_1_data.perk_000_description)",
+               "level": 1,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.level_2_data.perk_000_name)",
+               "id": "legionary_defense_up",
+               "icon": "file(images/legionary_defense_1.png)",
+               "buff_name": "fortuna_romanorum:buffs:legionary:def_1",
+               "description": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.level_2_data.perk_000_description)",
+               "level": 2,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+           {
+              "type": "add_combat_action",
+              "name": "i18n(stonehearth:jobs.footman.footman_description.level_3_data.perk_000_name)",
+              "id": "footman_power_spike",
+              "icon": "file(images/power_strike.png)",
+              "equipment": "stonehearth:footman:manual_of_power_spike",
+              "action_type": "stonehearth:combat:melee_attacks",
+              "description": "i18n(stonehearth:jobs.footman.footman_description.level_3_data.perk_000_description)",
+              "level": 3,
+              "demote_fn": "remove_combat_action"
+           }
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.level_4_data.perk_000_name)",
+               "id": "legionary_defense_up_2",
+               "icon": "file(images/legionary_defense_2.png)",
+               "buff_name": "fortuna_romanorum:buffs:legionary:def_2",
+               "last_buff": "fortuna_romanorum:buffs:legionary:def_1",
+               "description": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.level_4_data.perk_000_description)",
+               "level": 4,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "5": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.level_5_data.perk_000_name)",
+               "id": "legionary_damage_up",
+               "icon": "file(images/legionary_damage_1.png)",
+               "buff_name": "fortuna_romanorum:buffs:legionary:dmg_1",
+               "description": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.level_5_data.perk_000_description)",
+               "level": 5,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "6": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.level_6_data.perk_000_name)",
+               "id": "legionary_defense_up_3",
+               "icon": "file(images/legionary_defense_3.png)",
+               "buff_name": "fortuna_romanorum:buffs:legionary:def_3",
+               "last_buff": "fortuna_romanorum:buffs:legionary:def_2",
+               "description": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.level_6_data.perk_000_description)",
+               "level": 6,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(limoncello_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "drink",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth_ace:drink": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 85,
+            "food_satisfaction": 15
+         },
+         "default": {
+            "satisfaction": 70,
+            "food_satisfaction": 10
+         },
+         "applied_buffs": [
+            "stonehearth_ace:buffs:consumption:relaxing_time",
+            "stonehearth_ace:buffs:consumption:fruity_flavors",
+            "stonehearth_ace:buffs:consumption:light_headed",
+            "stonehearth_ace:buffs:consumption:light_headed"
+         ],
+         "quality": 6,
+         "effect_loops": 1
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.drink.limoncello.limoncello_serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "drink",
+            "limoncello_serving",
+            "alcoholic",
+            "night_time"
+         ],
+         "subject_override": "fortuna_romanorum:drink:limoncello"
+      }
+   }
+}

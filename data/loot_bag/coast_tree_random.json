@@ -1,0 +1,36 @@
+{
+   "entries": {
+      "drop_1": {
+         "num_rolls": {
+            "min": 1,
+            "max": 1
+         },
+         "items": {
+            "cypress_small": {
+               "uri": "fortuna_romanorum:trees:cypress:small",
+               "weight": 3
+            },
+            "cypress_med": {
+               "uri": "fortuna_romanorum:trees:cypress:medium",
+               "weight": 2
+            },
+            "cypress_large": {
+               "uri": "fortuna_romanorum:trees:cypress:large",
+               "weight": 1
+            },
+            "stone_pine_small": {
+               "uri": "fortuna_romanorum:trees:stone_pine:small",
+               "weight": 3
+            },
+            "stone_pine_med": {
+               "uri": "fortuna_romanorum:trees:stone_pine:medium",
+               "weight": 2
+            },
+            "stone_pine_large": {
+               "uri": "fortuna_romanorum:trees:stone_pine:large",
+               "weight": 1
+            }
+         }
+      }
+   }
+}

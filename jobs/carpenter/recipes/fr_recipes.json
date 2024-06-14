@@ -1,0 +1,37 @@
+{
+	"mixins": "stonehearth/jobs/carpenter/recipes/recipes.json",
+   "craftable_recipes": {
+      "tools": {
+         "recipes": {
+            "mixintypes": {
+               "wooden_sword": "remove",
+               "archer_bow": "remove",
+               "shepherd_crook": {
+                 "recipe": "file(tool_recipes/roman_crook_recipe.json)"
+               }
+            }
+         }
+      },
+      "roman_training_equipment": {
+        "ordinal": 45.02,
+        "name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.roman_training_equipment_name)",
+        "recipes": {
+          "legionary_training_sword": {
+            "recipe": "file(military_recipes/weapon/legionary_training_sword_recipe.json)"
+          },
+          "wicker_shield": {
+            "recipe": "file(military_recipes/armor/shield/wicker_shield_recipe.json)"
+          }
+        }
+      },
+      "roman_weapons": {
+        "ordinal": 45.04,
+        "name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.weapons_name)",
+        "recipes": {
+          "hasta": {
+            "recipe": "file(military_recipes/weapon/hasta_recipe.json)"
+          }
+        }
+      }
+   }
+}

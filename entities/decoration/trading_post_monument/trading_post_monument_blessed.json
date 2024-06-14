@@ -1,0 +1,12 @@
+{
+   "type": "entity",
+   "mixins": "file(trading_post_monument.json)",
+   "components": {
+      "effect_list": {
+         "default": "fortuna_romanorum:effects:monument:trading_post"
+      },
+      "stonehearth:lamp": {
+         "light_effect": "fortuna_romanorum:effects:monument:trading_post:light"
+      }
+   }
+}

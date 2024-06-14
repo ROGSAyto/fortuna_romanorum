@@ -1,0 +1,14 @@
+{
+  "type": "effect",
+  "mixins": [
+    "stonehearth/data/rigs/entities/humans/effects/brewer_stirring.json"
+  ],
+  "tracks": {
+    "grab_tumbler": {
+      "mixintypes": {
+        "item_in_slot": "remove"
+      },
+      "item": "stonehearth:cook:spoon"
+    }
+  }
+}

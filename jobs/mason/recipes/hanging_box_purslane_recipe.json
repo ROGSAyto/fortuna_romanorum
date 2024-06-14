@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 3,
+   "recipe_name": "i18n(fortuna_romanorum:entities.decoration.hanging_box_purslane.display_name)",
+   "description": "i18n(fortuna_romanorum:entities.decoration.hanging_box_purslane.description)",
+   "flavor": "i18n(fortuna_romanorum:entities.decoration.hanging_box_purslane.flavor)",
+   "portrait": "/fortuna_romanorum/entities/decoration/hanging_box_purslane/hanging_box_purslane.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:refined:plaster",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "uri": "fortuna_romanorum:resources:herb:purslane",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:decoration:hanging_box_purslane"
+      }
+   ]
+}

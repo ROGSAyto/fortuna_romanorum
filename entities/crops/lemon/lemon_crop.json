@@ -1,0 +1,106 @@
+{
+  "type": "entity",
+  "components": {
+    "model_variants": {
+      "default": {
+        "models": [
+          "file(../../trees/lemon/bud/bud.qb)"
+        ]
+      },
+      "lemon_1": {
+        "models": [
+          "file(../../trees/lemon/seed/seed_iconic.qb)"
+        ]
+      },
+      "lemon_2": {
+        "models": [
+          "file(../../trees/lemon/sprout/sprout.qb)"
+        ]
+      },
+      "lemon_3": {
+        "models": [
+          "file(../../trees/lemon/stem/stem.qb)"
+        ]
+      },
+      "lemon_4": {
+        "models": [
+          "file(../../trees/lemon/bud/bud.qb)"
+        ]
+      }
+    },
+    "render_info": {
+      "scale": 0.15
+    },
+    "mob": {
+      "model_origin": {
+        "x": -0.075,
+        "y": -0.2,
+        "z": -0.075
+      },
+      "mob_collision_type": "clutter"
+    },
+    "stonehearth:crop": {
+      "resource_pairings": {
+        "lemon_4": "fortuna_romanorum:trees:lemon:sapling"
+      },
+      "harvest_threshhold": "lemon_4",
+      "plant_overlay_effect": "stonehearth:effects:plant_crop_overlay_effect",
+      "megacrop_chance": 0,
+      "auto_harvest": "place"
+    },
+    "stonehearth:growing": {
+      "growth_period": "36h",
+      "preferred_climate": "mediterranean_tree_complex",
+      "preferred_seasons": {
+        "fortuna_romanorum:biome:coast": ["spring", "summer"],
+        "stonehearth:biome:temperate": ["spring", "summer"],
+        "stonehearth:biome:desert": ["autumn"],
+        "stonehearth:biome:arctic": ["summer"]
+      },
+      "growth_stages": [
+        {
+          "model_name": "lemon_1",
+          "name": "i18n(fortuna_romanorum:entities.trees.lemon.seed.display_name)",
+          "description": "i18n(fortuna_romanorum:entities.trees.lemon.seed.crop_description)"
+        },
+        {
+          "model_name": "lemon_2",
+          "name": "i18n(fortuna_romanorum:entities.trees.lemon.sprout.display_name)",
+          "description": "i18n(fortuna_romanorum:entities.trees.lemon.sprout.description)"
+        },
+        {
+          "model_name": "lemon_3",
+          "name": "i18n(fortuna_romanorum:entities.trees.lemon.stem.display_name)",
+          "description": "i18n(fortuna_romanorum:entities.trees.lemon.stem.description)"
+        },
+        {
+          "model_name": "lemon_4",
+          "name": "i18n(fortuna_romanorum:entities.trees.lemon.bud.display_name)",
+          "description": "i18n(fortuna_romanorum:entities.trees.lemon.bud.description)"
+        }
+      ]
+    }
+  },
+  "entity_data": {
+    "stonehearth:net_worth": {
+      "value_in_gold": 1,
+      "rarity": "common",
+      "shop_info": {
+        "buyable": false,
+        "sellable": false
+      }
+    },
+    "stonehearth:catalog": {
+      "display_name": "i18n(fortuna_romanorum:entities.crops.lemon_crop.display_name)",
+      "description": "i18n(fortuna_romanorum:entities.crops.lemon_crop.description)",
+      "icon": "file(lemon_crop.png)",
+      "material_tags": [
+        "crop",
+        "lemon_sapling"
+      ]
+    },
+    "stonehearth:appeal": {
+      "appeal": 1
+    }
+  }
+}

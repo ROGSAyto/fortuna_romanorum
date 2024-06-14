@@ -1,0 +1,32 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.centurion_helmet_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.centurion_helmet_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.centurion_helmet_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/armor/centurion_helmet/centurion_helmet.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 4,
+   "manual_unlock": true,
+   "ingredients": [
+		{
+			"uri": "stonehearth:refined:steel_ingot",
+			"count": 3
+		},
+		{
+			"material": "leather resource",
+			"count": 1
+		},
+		{
+			"material": "cloth resource",
+			"count": 2
+		}
+		
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:centurion:talisman:centurion_helmet_talisman"
+      }
+   ]
+}

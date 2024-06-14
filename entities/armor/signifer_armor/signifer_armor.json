@@ -1,0 +1,49 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "transparent": "true",
+            "models": [
+               "file(signifer_armor.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "true",
+            "models": [
+               "file(signifer_armor_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(signifer_armor_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model",
+         "roles": "cleric_job",
+         "ilevel": 2,
+		 "no_drop": true,
+         "injected_buffs": [
+            "stonehearth:buffs:devoted"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 3
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.armor.signifer_armor.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.armor.signifer_armor.description)",
+         "icon": "file(signifer_armor.png)",
+         "category": "armor",
+         "material_tags": ["iron", "armor", "heavy_armor", "roman_made", "stockpile_equipment"]
+      }
+   }
+}

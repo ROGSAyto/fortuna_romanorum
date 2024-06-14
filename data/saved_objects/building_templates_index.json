@@ -1,0 +1,32 @@
+{
+	"template_tabs": {
+		"fortuna_romanorum": {
+			"display_name": "fortuna_romanorum",
+			"required_kingdom": "fortuna_romanorum:kingdoms:fortuna_romanorum",
+			"categories": {
+				"outpost": {
+					"display_name": "i18n(fortuna_romanorum:data.saved_objects.building_templates_index.template_tabs.fortuna_romanorum.categories.outpost)",
+					"ordinal": 1,
+					"templates": {
+						"small_stone_house": "file(building_templates/small_stone_house.json)",
+						"sentry_quarters": "file(building_templates/sentry_quarters.json)",
+						"mason_workshop": {
+							"unlock_requirement": {
+								"type": "has_job",
+								"value": "stonehearth:jobs:mason"
+							},
+							"file": "file(building_templates/mason_workshop.json)"
+						}
+					}
+				},
+				"settlement": {
+					"display_name": "i18n(fortuna_romanorum:data.saved_objects.building_templates_index.template_tabs.fortuna_romanorum.categories.settlement)",
+					"ordinal": 2,
+					"required_city_tier": 2,
+					"templates": {
+					}
+				}
+			}
+		}
+	}
+}
