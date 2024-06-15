@@ -2,6 +2,9 @@
    "mixins": [
       "stonehearth:jobs:trapper"
    ],
+   "mixintypes": {
+      "equipment": "override"
+    },  
    "equipment": {
       "mixintypes": {
          "helmet": "remove"

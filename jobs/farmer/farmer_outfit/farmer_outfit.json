@@ -11,14 +11,14 @@
       },
       "default": {
         "layer": "clothing",
-        "transparent": "true",
+        "transparent": "trfalseue",
         "models": [
           "file(farmer_outfit.qb)"
         ]
       },
       "female": {
         "layer": "clothing",
-        "transparent": "true",
+        "transparent": "false",
         "models": [
           "file(farmer_outfit_female.qb)"
         ]

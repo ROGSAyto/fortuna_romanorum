@@ -37,6 +37,13 @@
           "file(worker_outfit_orc_female.qb)"
         ]
       }
+    },
+    "stonehearth:equipment_piece": {
+      "injected_buffs": [
+         "stonehearth_ace:buffs:weather:hot_resist"
+      ],
+      "render_type": "merge_with_model",
+      "slot": "torso"
     }
   },
   "entity_data": {

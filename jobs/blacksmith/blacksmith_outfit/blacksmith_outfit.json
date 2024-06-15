@@ -11,14 +11,14 @@
       },
       "default": {
         "layer": "clothing",
-        "transparent": "true",
+        "transparent": "false",
         "models": [
           "file(blacksmith_outfit.qb)"
         ]
       },
       "female": {
         "layer": "clothing",
-        "transparent": "true",
+        "transparent": "false",
         "models": [
           "file(blacksmith_outfit_female.qb)"
         ]

@@ -1,0 +1,10 @@
+{
+    "type": "trait",
+    "display_name": "Philosopher",
+    "description": "This Hearthling loves to ponder and discuss philosophical ideas.",
+    "effects": {
+        "happiness_when_idle": 20,
+        "morale_boost_nearby_hearthlings": 10,
+        "working_speed": -10
+    }
+}

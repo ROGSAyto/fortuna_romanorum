@@ -6,14 +6,14 @@
       "model_variants": {
          "default": {
             "layer": "clothing",
-            "transparent": "true",
+            "transparent": "false",
             "models": [
                "file(praetorian_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
-			   "transparent": "true",
+			   "transparent": "false",
             "models": [
                "file(praetorian_outfit_female.qb)"
             ]

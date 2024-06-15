@@ -1,0 +1,10 @@
+{
+    "type": "trait",
+    "display_name": "Legionary",
+    "description": "Trained as a soldier in the Roman Legion, this Hearthling is disciplined and skilled.",
+    "effects": {
+        "combat_effectiveness": 20,
+        "morale_in_group": 15,
+        "crafting_skills": -10
+    }
+}
