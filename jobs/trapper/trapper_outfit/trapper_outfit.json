@@ -9,14 +9,14 @@
       "model_variants": {
          "default": {
             "layer": "clothing",
-            "transparent": "true",
+            "transparent": "false",
             "models": [
                "file(trapper_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
-            "transparent": "true",
+            "transparent": "false",
             "models": [
                "file(trapper_outfit_female.qb)"
             ]

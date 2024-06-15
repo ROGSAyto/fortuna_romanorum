@@ -1,8 +1,5 @@
 {
-   "type": "index",
-   "mixin": [
-      "stonehearth_ace:kingdoms:mountain_folk"
-   ],   
+   "type": "index", 
    "kingdoms": {
       "fortuna_romanorum": "fortuna_romanorum:kingdoms:fortuna_romanorum"
    }
