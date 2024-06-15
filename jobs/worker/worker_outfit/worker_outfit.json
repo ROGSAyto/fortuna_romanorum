@@ -12,14 +12,14 @@
       },
       "default": {
         "layer": "clothing",
-        "transparent": true,
+        "transparent": false,
         "models": [
           "file(worker_outfit.qb)"
         ]
       },
       "female": {
         "layer": "clothing",
-        "transparent": true,
+        "transparent": false,
         "models": [
           "file(worker_outfit_female.qb)"
         ]
