@@ -1,0 +1,60 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(beans_basket.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(beans_basket_rotting.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 10
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "remus_followers:food:beans:beans_serving",
+         "stacks_per_serving": 6
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 4,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(remus_followers:entities.plants.beans.beans_basket.display_name)",
+         "description": "i18n(remus_followers:entities.plants.beans.beans_basket.description)",
+         "icon": "file(beans_basket.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "food_container",
+            "raw_food",
+            "vegetable",
+            "vegetarian",
+            "carrot",
+            "stockpile_raw_food"
+         ],
+         "subject_override": "remus_followers:crops:beans_crop"
+      },
+      "stonehearth:appeal": {
+         "appeal": 0
+      }
+   }
+}

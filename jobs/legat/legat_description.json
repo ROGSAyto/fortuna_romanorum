@@ -2,7 +2,7 @@
    "type": "job",
    "enabled": true,
    "job_id": "legat",
-   "display_order": 12,
+   "display_order": 22,
    "alias": "fortuna_romanorum:jobs:legat",
    "display_name": "i18n(fortuna_romanorum:jobs.legat.legat_description.display_name)",
    "controller": "fortuna_romanorum:class:legat",
@@ -30,7 +30,7 @@
       "training": 3
    },
    "icon": "file(images/icon.png)",
-   "parent_job": "fortuna_romanorum:jobs:centurio",
+   "parent_job": "fortuna_romanorum:jobs:centurion",
    "parent_level_requirement": 3,
    "max_level": 6,
    "level_data": {

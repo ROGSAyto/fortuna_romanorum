@@ -1,6 +1,7 @@
 {
    "type": "job",
    "enabled": true,
+   "mixins": "stonehearth:jobs:footman",
    "job_id": "legionary",
    "display_order": 11,
    "alias": "fortuna_romanorum:jobs:legionary",
@@ -8,6 +9,9 @@
    "controller": "fortuna_romanorum:class:legionary",
    "description": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.description)",
    "requirements": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.requirements)",
+   "mixintypes": {
+     "talisman_uri": "override"
+   },
    "talisman_uri": "fortuna_romanorum:legionary:talisman:legionary_training_sword_talisman",
    "default_stance": "aggressive",
    "abilities": "file(legionary_abilities)",
@@ -21,7 +25,13 @@
    "task_groups": [
       "stonehearth:task_groups:common_tasks",
       "stonehearth:task_groups:restock",
-      "stonehearth:task_groups:rescue"
+      "stonehearth:task_groups:rescue",
+      "stonehearth_ace:task_groups:transform",
+      "stonehearth_ace:task_groups:harvest:chopping",
+      "stonehearth_ace:task_groups:harvest:mining",
+      "stonehearth_ace:task_groups:harvest:plucking",
+      "stonehearth_ace:task_groups:place_simple_terrain",
+      "stonehearth_ace:task_groups:build_simple_terrain"
    ],
    "xp_rewards": {
       "town_protection": 1
@@ -52,6 +62,9 @@
          ]
       },
       "2": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
                "type": "apply_buff",
@@ -66,6 +79,9 @@
          ]
       },
       "3": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
            {
               "type": "add_combat_action",
@@ -81,6 +97,9 @@
          ]
       },
       "4": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
                "type": "apply_chained_buff",
@@ -96,6 +115,9 @@
          ]
       },
       "5": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
                "type": "apply_buff",
@@ -110,6 +132,9 @@
          ]
       },
       "6": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
                "type": "apply_chained_buff",

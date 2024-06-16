@@ -1344,7 +1344,39 @@
           "display_name": "Archer Chainmail",
           "description": "Iron chainmail"
         }
+      },
+      "sword_sheath": {
+        "display_name": "Sword Sheath",
+        "description": "Sword Sheath",
+        "sword_sheat_iconic": {
+          "display_name": "Sword Sheath",
+          "description": "Sword Sheath"
+        }
+     },
+     "praetorian_sword_sheath": {
+      "display_name": "Praetorian Sword Sheath",
+      "description": "Praetorian Sword Sheath",
+      "praetorian_sword_sheath_iconic": {
+        "display_name": "Praetorian Sword Sheath",
+        "description": "Praetorian Sword Sheath"
       }
+    },
+    "centurion_sword_sheat": {
+      "display_name": "Centurion Sword Sheath",
+      "description": "Centurion Sword Sheath",
+      "centurion_sword_sheat_iconic": {
+        "display_name": "Centurion Sword Sheath",
+        "description": "Centurion Sword Sheath"
+        } 
+     },
+     "legat_sword_sheat": {
+      "display_name": "Legat Sword Sheath",
+      "description": "Legat Sword Sheath",
+      "legat_sword_sheat_iconic": {
+        "display_name": "Legat Sword Sheath",
+        "description": "Legat Sword Sheath"
+        } 
+      }             
     },
     "weapons": {
       "gladius":{
