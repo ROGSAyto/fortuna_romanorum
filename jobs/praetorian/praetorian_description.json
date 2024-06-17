@@ -1,4 +1,5 @@
 {
+   "mixins": "stonehearth:jobs:knight",
    "type": "job",
    "enabled": true,
    "job_id": "praetorian",
@@ -8,6 +9,9 @@
    "controller": "fortuna_romanorum:class:praetorian",
    "description": "i18n(fortuna_romanorum:jobs.praetorian.praetorian_description.description)",
    "requirements": "i18n(fortuna_romanorum:jobs.praetorian.praetorian_description.requirements)",
+   "mixintypes": {
+      "talisman_uri": "override"
+    },
    "talisman_uri": "fortuna_romanorum:praetorian:talisman:praetorian_helmet_talisman",
    "default_stance": "aggressive",
    "abilities": "file(praetorian_abilities)",
@@ -21,7 +25,13 @@
    "task_groups": [
       "stonehearth:task_groups:common_tasks",
       "stonehearth:task_groups:restock",
-      "stonehearth:task_groups:rescue"
+      "stonehearth:task_groups:rescue",
+      "stonehearth_ace:task_groups:transform",
+      "stonehearth_ace:task_groups:harvest:chopping",
+      "stonehearth_ace:task_groups:harvest:mining",
+      "stonehearth_ace:task_groups:harvest:plucking",
+      "stonehearth_ace:task_groups:place_simple_terrain",
+      "stonehearth_ace:task_groups:build_simple_terrain"      
    ],
    "xp_rewards": {
       "town_protection": 1,
@@ -47,6 +57,9 @@
          ]
       },
       "4": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
 			   "type": "apply_chained_buff",
@@ -62,6 +75,9 @@
          ]
       },
       "6": {
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
 			{
 			"type": "apply_chained_buff",

@@ -18,7 +18,7 @@
             "stonehearth:patrol",
             "stonehearth:have_shield"
          ],
-         "roles": "centurion_job",
+         "roles": "centurion_job"
       }
    },
    "entity_data": {

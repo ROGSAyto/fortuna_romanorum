@@ -3,7 +3,7 @@
       "stonehearth:jobs:trapper"
    ],
    "mixintypes": {
-      "equipment": "override"
+      "equipment": "remove"
     },  
    "equipment": {
       "mixintypes": {

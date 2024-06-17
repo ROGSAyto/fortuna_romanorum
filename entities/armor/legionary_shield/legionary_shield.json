@@ -23,7 +23,7 @@
          ],
 		 "required_job_level": 4,
          "ilevel": 5,
-         "roles": "footman_job legionary_job",
+         "roles": ["footman_job", "legionary_job"],
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },

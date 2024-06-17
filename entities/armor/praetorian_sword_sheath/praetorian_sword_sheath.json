@@ -7,14 +7,14 @@
             "layer": "clothing",
             "transparent": "true",
             "models": [
-               "file(sword_sheath.qb)"
+               "file(praetorian_sword_sheath.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
             "transparent": "true",
             "models": [
-               "file(sword_sheath_female.qb)"
+               "file(praetorian_sword_sheath_female.qb)"
             ]
          }
       },
@@ -23,7 +23,7 @@
          "slot": "sheeth",
          "ilevel": -1,
          "required_job_level": 0,
-         "roles": "combat",
+         "roles": "praetorian_job",
          "equip_effect": "stonehearth:effects:weapon_level_up",
          "no_drop": true
       }
@@ -38,9 +38,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(fortuna_romanorum:entities.armor.sword_sheath.display_name)",
-         "description": "i18n(fortuna_romanorum:entities.armor.sword_sheath.description)",
-         "icon": "file(sword_sheath.png)",
+         "display_name": "i18n(fortuna_romanorum:entities.armor.praetorian_sword_sheath.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.armor.praetorian_sword_sheath.description)",
+         "icon": "file(praetorian_sword_sheath.png)",
          "category": "armor",
          "material_tags": [
             "leather",

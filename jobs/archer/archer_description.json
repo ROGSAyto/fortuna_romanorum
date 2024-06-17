@@ -10,6 +10,17 @@
     "boots": "fortuna_romanorum:armor:galigae",
     "accessory": "file(sagitarii_quiver)"
   },
+  "task_groups": [
+    "stonehearth:task_groups:common_tasks",
+    "stonehearth:task_groups:restock",
+    "stonehearth:task_groups:rescue",
+    "stonehearth_ace:task_groups:transform",
+    "stonehearth_ace:task_groups:harvest:chopping",
+    "stonehearth_ace:task_groups:harvest:mining",
+    "stonehearth_ace:task_groups:harvest:plucking",
+    "stonehearth_ace:task_groups:place_simple_terrain",
+    "stonehearth_ace:task_groups:build_simple_terrain"      
+ ],
   "requirements": "i18n(fortuna_romanorum:jobs.requirements.weaver)",
   "parent_job": "stonehearth:jobs:trapper",
   "parent_level_requirement": 2,
