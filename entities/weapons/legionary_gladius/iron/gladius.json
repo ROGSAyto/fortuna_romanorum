@@ -21,7 +21,7 @@
          ],
          "ilevel": 15,
          "roles": ["legionary_job", "footman_job"],
-		 "required_job_level": 3,
+		   "required_job_level": 3,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
@@ -42,7 +42,7 @@
       ],
       "stonehearth:net_worth": {
          "value_in_gold": 35,
-		 "rarity": "common",
+	   	"rarity": "common",
          "shop_info": {
             "buyable": true,
             "sellable": true,

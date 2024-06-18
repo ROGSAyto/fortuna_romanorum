@@ -20,7 +20,7 @@
             "stonehearth:patrol"
          ],
          "ilevel": 15,
-         "roles": ["legionary_job", "footman_job"],
+         "roles": ["praetorian_job"],
 		   "required_job_level": 3,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
@@ -51,8 +51,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(fortuna_romanorum:entities.weapons.gladius.display_name)",
-         "description": "i18n(fortuna_romanorum:entities.weapons.gladius.description)",
+         "display_name": "i18n(fortuna_romanorum:entities.weapons.praetorian_gladius_iron.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.weapons.praetorian_gladius_iron.description)",
          "icon": "file(gladius.png)",
          "category": "weapons",
          "material_tags": ["iron", "roman_made", "melee_weapon"]

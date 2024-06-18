@@ -18,7 +18,8 @@
          "postures": [
             "stonehearth:combat",
             "stonehearth:patrol"
-         ]
+         ],
+         "roles": "centurion_job"
       }
    },
    "entity_data": {
@@ -54,11 +55,11 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(fortuna_romanorum:entities.weapons.pugio.display_name)",
-         "description": "i18n(fortuna_romanorum:entities.weapons.pugio.description)",
+         "display_name": "i18n(fortuna_romanorum:entities.weapons.prefect_pugio_bronze.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.weapons.prefect_pugio_bronze.description)",
          "icon": "file(pugio.png)",
          "category": "weapons",
-         "material_tags": ["iron", "roman_made", "melee_weapon"]
+         "material_tags": ["bronze", "roman_made", "melee_weapon"]
       }
    }
 }

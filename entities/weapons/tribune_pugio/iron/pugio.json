@@ -18,7 +18,10 @@
          "postures": [
             "stonehearth:combat",
             "stonehearth:patrol"
-         ]
+         ],
+         "roles": "legat_job",
+		   "required_job_level": 1,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
    "entity_data": {

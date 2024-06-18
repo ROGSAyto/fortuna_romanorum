@@ -20,8 +20,8 @@
             "stonehearth:patrol"
          ],
          "ilevel": 15,
-         "roles": ["legionary_job", "footman_job"],
-		 "required_job_level": 3,
+         "roles": "legat_job",
+		   "required_job_level": 3,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
@@ -41,7 +41,7 @@
       ],
       "stonehearth:net_worth": {
          "value_in_gold": 35,
-		 "rarity": "common",
+		   "rarity": "common",
          "shop_info": {
             "buyable": true,
             "sellable": true,
@@ -50,11 +50,11 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(fortuna_romanorum:entities.weapons.gladius.display_name)",
-         "description": "i18n(fortuna_romanorum:entities.weapons.gladius.description)",
+         "display_name": "i18n(fortuna_romanorum:entities.weapons.legat_gladius_steel.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.weapons.legat_gladius_steel.description)",
          "icon": "file(gladius.png)",
          "category": "weapons",
-         "material_tags": ["iron", "roman_made", "melee_weapon"]
+         "material_tags": ["steel", "roman_made", "melee_weapon"]
       }
    }
 }

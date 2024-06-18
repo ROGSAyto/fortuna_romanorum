@@ -18,7 +18,8 @@
          "postures": [
             "stonehearth:combat",
             "stonehearth:patrol"
-         ]
+         ],
+         "roles": "legionary_job"
       }
    },
    "entity_data": {
@@ -54,7 +55,7 @@
          "description": "i18n(fortuna_romanorum:entities.weapons.legionary_training_sword.description)",
          "icon": "file(legionary_training_sword.png)",
          "category": "weapons",
-         "material_tags": "iron melee_weapon"
+         "material_tags": ["wood", "melee_weapon"]
       }
    }
 }

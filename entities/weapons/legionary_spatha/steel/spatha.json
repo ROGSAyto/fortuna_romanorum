@@ -16,7 +16,8 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": -1
+         "ilevel": -1,
+         "roles": "legionary_job"
       }
    },
    "entity_data": {
@@ -34,9 +35,11 @@
          }
       ],
 	  "stonehearth:catalog": {
-         "display_name": "i18n(fortuna_romanorum:entities.weapons.spatha.display_name)",
-         "description": "i18n(fortuna_romanorum:entities.weapons.spatha.description)",
-         "icon": "file(spatha.png)"
+         "display_name": "i18n(fortuna_romanorum:entities.weapons.legionary_spatha_steel.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.weapons.legionary_spatha_steel.description)",
+         "icon": "file(spatha.png)",
+         "category": "weapons",
+         "material_tags": ["steel", "roman_made", "melee_weapon"]
       }
    }
 }

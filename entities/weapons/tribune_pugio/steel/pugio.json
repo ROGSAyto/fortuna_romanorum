@@ -18,7 +18,10 @@
          "postures": [
             "stonehearth:combat",
             "stonehearth:patrol"
-         ]
+         ],
+         "roles": "legat_job",
+		   "required_job_level": 1,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
    "entity_data": {
@@ -58,7 +61,7 @@
          "description": "i18n(fortuna_romanorum:entities.weapons.pugio.description)",
          "icon": "file(pugio.png)",
          "category": "weapons",
-         "material_tags": ["iron", "roman_made", "melee_weapon"]
+         "material_tags": ["steel", "roman_made", "melee_weapon"]
       }
    }
 }

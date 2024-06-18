@@ -18,13 +18,14 @@
          "postures": [
             "stonehearth:combat",
             "stonehearth:patrol"
-         ]
+         ],
+         "roles": "praetorian_job"
       }
    },
    "entity_data": {
       "stonehearth:combat:weapon_data": {
          "base_damage": 5,
-		 "range": 2.5,
+	   	 "range": 2.5,
          "reach": 0.75
       },
 	  "stonehearth:combat:healing_data": {
@@ -54,11 +55,11 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(fortuna_romanorum:entities.weapons.pugio.display_name)",
-         "description": "i18n(fortuna_romanorum:entities.weapons.pugio.description)",
+         "display_name": "i18n(fortuna_romanorum:entities.weapons.fine_praetorian_pugio_bronze.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.weapons.fine_praetorian_pugio_bronze.description)",
          "icon": "file(pugio.png)",
          "category": "weapons",
-         "material_tags": ["iron", "roman_made", "melee_weapon"]
+         "material_tags": ["bronze", "roman_made", "melee_weapon"]
       }
    }
 }

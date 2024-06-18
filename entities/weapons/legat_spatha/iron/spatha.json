@@ -16,7 +16,10 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": -1
+         "ilevel": -1,
+         "roles": "legat_job",
+		   "required_job_level": 6,
+         "equip_effect": "stonehearth:effects:weapon_level_up"         
       }
    },
    "entity_data": {
@@ -36,7 +39,9 @@
 	  "stonehearth:catalog": {
          "display_name": "i18n(fortuna_romanorum:entities.weapons.spatha.display_name)",
          "description": "i18n(fortuna_romanorum:entities.weapons.spatha.description)",
-         "icon": "file(spatha.png)"
+         "icon": "file(spatha.png)",
+         "category": "weapons",
+         "material_tags": ["iron", "roman_made", "melee_weapon"]
       }
    }
 }

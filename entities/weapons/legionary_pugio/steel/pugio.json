@@ -18,7 +18,8 @@
          "postures": [
             "stonehearth:combat",
             "stonehearth:patrol"
-         ]
+         ],
+         "roles": "legionary_job"
       }
    },
    "entity_data": {
@@ -54,11 +55,11 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(fortuna_romanorum:entities.weapons.pugio.display_name)",
-         "description": "i18n(fortuna_romanorum:entities.weapons.pugio.description)",
+         "display_name": "i18n(fortuna_romanorum:entities.weapons.legionary_pugio_steel.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.weapons.legionary_pugio_steel.description)",
          "icon": "file(pugio.png)",
          "category": "weapons",
-         "material_tags": ["iron", "roman_made", "melee_weapon"]
+         "material_tags": ["steel", "roman_made", "melee_weapon"]
       }
    }
 }
