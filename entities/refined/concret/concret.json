@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(concret.qb)"
+            ]
+         }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 120
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.refined.concret.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.refined.concret.description)",
+         "icon": "file(concret.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": ["stockpile_stone", "concret", "resource", "building_material", "fortuna_romanorum"]
+      }
+   }
+}
