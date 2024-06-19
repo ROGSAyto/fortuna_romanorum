@@ -1,4 +1,0 @@
-{
-   "mixintypes": {"habitat_types": "override"},
-   "habitat_types" : ["plains", "foothills", "mountains", "forest"]
-}

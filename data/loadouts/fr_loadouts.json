@@ -12,27 +12,19 @@
             },
             "grapes": {
                "ordinal": 2.5,
-               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.grapes)",
+               "display_name": "i18n(serene_league:data.loadouts.items.grapes)",
                "type": "entity",
-               "uri": "fortuna_romanorum:food:grapes:grapes_basket",
-               "icon": "file(images/items/grapes_basket.png)",
+               "uri": "serene_league:food:grapes:grapes_basket",
+               "icon": "/serene_league/data/loadouts/images/items/grapes_basket.png)",
                "amount": 10
             },
             "olives": {
                "ordinal": 3,
-               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.olives)",
+               "display_name": "i18n(serene_league:data.loadouts.items.olives)",
                "type": "entity",
-               "uri": "fortuna_romanorum:food:olives:olives_basket",
-               "icon": "file(images/items/olives_basket.png)",
+               "uri": "serene_league:food:olives:olives_basket",
+               "icon": "/serene_league/data/loadouts/images/items/olives_basket.png)",
                "amount": 10
-            }
-         }
-      },
-      "merchant_caravan": {
-         "content": {
-            "mixintypes": {
-               "berries": "remove",
-               "footman": "remove"
             },
             "legionary": {
                "ordinal": 2,
@@ -41,14 +33,29 @@
                "uri": "fortuna_romanorum:legionary:talisman:legionary_training_sword_talisman",
                "icon": "/fortuna_romanorum/entities/weapons/legionary_training_sword/legionary_training_sword.png",
                "amount": 1
-            },            
+            }
+         }
+      },
+      "merchant_caravan": {
+         "content": {
+            "mixintypes": {
+               "berries": "remove"
+            },
             "olives": {
                "ordinal": 4,
-               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.olives)",
+               "display_name": "i18n(serene_league:data.loadouts.items.olives)",
                "type": "entity",
-               "uri": "fortuna_romanorum:food:olives:olives_basket",
-               "icon": "file(images/items/olives_basket.png)",
+               "uri": "serene_league:food:olives:olives_basket",
+               "icon": "/serene_league/data/loadouts/images/items/olives_basket.png)",
                "amount": 10
+            },
+            "legionary": {
+               "ordinal": 2,
+               "display_name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.display_name)",
+               "type": "entity",
+               "uri": "fortuna_romanorum:legionary:talisman:legionary_training_sword_talisman",
+               "icon": "/fortuna_romanorum/entities/weapons/legionary_training_sword/legionary_training_sword.png",
+               "amount": 1
             }
          }
       },
@@ -59,10 +66,10 @@
             },
             "grapes": {
                "ordinal": 2,
-               "display_name": "i18n(fortuna_romanorum:data.loadouts.items.grapes)",
+               "display_name": "i18n(serene_league:data.loadouts.items.grapes)",
                "type": "entity",
-               "uri": "fortuna_romanorum:food:grapes:grapes_basket",
-               "icon": "file(images/items/grapes_basket.png)",
+               "uri": "serene_league:food:grapes:grapes_basket",
+               "icon": "/serene_league/data/loadouts/images/items/grapes_basket.png)",
                "amount": 10
             }
          }

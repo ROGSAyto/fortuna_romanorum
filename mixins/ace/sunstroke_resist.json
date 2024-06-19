@@ -1,9 +1,0 @@
-{
-   "components": {
-      "stonehearth:equipment_piece": {
-         "injected_buffs": [
-            "stonehearth_ace:buffs:weather:sunstroke_resist"
-         ]
-      }
-   }
-}

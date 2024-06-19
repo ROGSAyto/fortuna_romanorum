@@ -1,9 +1,0 @@
-{
-  "type": "effect",
-  "mixins": "/stonehearth/data/rigs/entities/humans/effects/saw.json",
-  "tracks": {
-    "grab_saw": {
-      "item": "fortuna_romanorum:carpenter:saw"
-    }
-  }
-}

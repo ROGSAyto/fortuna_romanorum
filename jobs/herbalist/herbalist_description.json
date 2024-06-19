@@ -9,8 +9,5 @@
       "stonehearth:task_groups:farming"
    ],
    "display_order": 9,
-   "requirements": "i18n(fortuna_romanorum:jobs.requirements.mason)",
-   "crafter": {
-      "recipe_list": "file(recipes/fr_recipes.json)"
-   }
+   "requirements": "i18n(fortuna_romanorum:jobs.requirements.mason)"
 }

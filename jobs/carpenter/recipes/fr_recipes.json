@@ -1,6 +1,13 @@
 {
 	"mixins": "stonehearth/jobs/carpenter/recipes/recipes.json",
    "craftable_recipes": {
+		 "workbenches": {
+				"recipes": {
+					 "splitting_block": {
+							"recipe": "stonehearth_ace/jobs/mason/recipes/na_splitting_block_recipe.json"
+					 }
+				}
+		 },
       "tools": {
          "recipes": {
             "mixintypes": {
@@ -9,7 +16,10 @@
                "shepherd_crook": {
                  "recipe": "file(tool_recipes/roman_crook_recipe.json)"
                }
-            }
+            },
+						"herbalist_staff": {
+							 "recipe": "stonehearth/jobs/carpenter/recipes/herbalist_staff_recipe.json"
+						}
          }
       },
       "roman_training_equipment": {

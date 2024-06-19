@@ -30,7 +30,7 @@
          "icon": "file(concret.png)",
          "is_item": true,
          "category": "resources",
-         "material_tags": ["stockpile_stone", "concret", "resource", "building_material", "fortuna_romanorum"]
+         "material_tags": ["stockpile_stone", "concret", "resource", "building_material", "roman_made", "fortuna_romanorum"]
       }
    }
 }

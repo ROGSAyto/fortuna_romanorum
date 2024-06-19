@@ -10,8 +10,5 @@
   "parent_job": "stonehearth:jobs:worker",
   "mixintypes": {
     "parent_level_requirement": "remove"
-  },
-  "crafter": {
-    "recipe_list": "file(recipes/fr_recipes.json)"
   }
 }

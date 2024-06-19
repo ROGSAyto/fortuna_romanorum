@@ -1,16 +1,16 @@
 {
    "type": "index",
    "resources": {
-      "plastered_stone_bricks resource": {
-         "name": "i18n(fortuna_romanorum:entities.refined.plastered_stone_bricks.display_name)",
-         "icon": "/fortuna_romanorum/entities/refined/plastered_stone_bricks/plastered_stone_bricks.png",
+      "concret resource": {
+         "name": "i18n(fortuna_romanorum:entities.refined.concret.display_name)",
+         "icon": "/fortuna_romanorum/entities/refined/concret/concret.png",
          "stacks": 100,
-         "default_resource": "fortuna_romanorum:refined:plastered_stone_bricks",
+         "default_resource": "fortuna_romanorum:refined:concret",
          "auto_queue_crafter_job": "stonehearth:jobs:mason",
-         "builder_icon": "/fortuna_romanorum/entities/refined/plastered_stone_bricks/builder_plastered_stone_bricks.png",
-         "builder_icon_hover": "/fortuna_romanorum/entities/refined/plastered_stone_bricks/builder_plastered_stone_bricks_hover.png",
+         "builder_icon": "/fortuna_romanorum/entities/refined/concret/builderr_concret.png",
+         "builder_icon_hover": "/fortuna_romanorum/entities/refined/concret/builderr_concret_hover.png",
          "builder_sound_uri": "stonehearth:sounds:building_wall_clay",
-         "tooltip": "i18n(fortuna_romanorum:entities.refined.plastered_stone_bricks.display_name)",
+         "tooltip": "i18n(fortuna_romanorum:entities.refined.concret.display_name)",
       }
    }
 }

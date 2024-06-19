@@ -1,8 +1,0 @@
-{
-   "static": {
-      "scenarios": [
-         "file(static/forest_coast)",
-         "file(static/dandelions_nest)"
-      ]
-   }
-}

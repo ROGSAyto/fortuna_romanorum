@@ -1367,7 +1367,7 @@
       "centurion_sword_sheat_iconic": {
         "display_name": "Centurion Sword Sheath",
         "description": "Centurion Sword Sheath"
-        } 
+        }
      },
      "legat_sword_sheat": {
       "display_name": "Legat Sword Sheath",
@@ -1375,8 +1375,8 @@
       "legat_sword_sheat_iconic": {
         "display_name": "Legat Sword Sheath",
         "description": "Legat Sword Sheath"
-        } 
-      }             
+        }
+      }
     },
     "weapons": {
       "gladius":{
@@ -2174,25 +2174,40 @@
     "build": {
       "building_brushes": {
         "colors": {
-          "grandis": "Grandis",
-          "rob_roy": "Rob Roy",
-          "dijon": "Dijon",
-          "goldenrod": "Goldenrod",
-          "harvest_gold": "Harvest Gold",
-          "koromiko": "Koromiko",
-          "rajah": "Rajah",
-          "tacao": "Tacao",
-          "crusta": "Crusta",
-          "ochre": "Ochre",
-          "desert_ochre": "Desert Ochre",
-          "mule_fawn": "Mule Fawn",
-          "chelsea_gem": "Chelsea Gem",
-          "nutmeg": "Nutmeg",
-          "peru_tan": "Peru Tan",
-          "pickled_bean": "Pickled Bean",
-          "locust": "Locust",
-          "amulet": "Amulet",
-          "pistacchio": "Pistacchio"
+            "color1": "Light Beige",
+            "color2": "Beige",
+            "color3": "Light Sand",
+            "color4": "Sand",
+            "color5": "Dark Sand",
+            "color6": "Light Terra Cotta",
+            "color7": "Terra Cotta",
+            "color8": "Dark Terra Cotta",
+            "color9": "Light Brown",
+            "color10": "Brown",
+            "color11": "Cream",
+            "color12": "Light Cream",
+            "color13": "Beige Cream",
+            "color14": "Light Yellow Cream",
+            "color15": "Yellow Cream",
+            "color16": "Golden Brown",
+            "color17": "Light Golden Brown",
+            "color18": "Dark Golden Brown",
+            "color19": "Rich Brown",
+            "color20": "Olive",
+            "color21": "Light Olive",
+            "color22": "Dark Olive",
+            "color23": "Greenish Olive",
+            "color24": "Muted Olive",
+            "color25": "Dull Olive",
+            "color26": "Dark Green Olive",
+            "color27": "Brick Red",
+            "color28": "Deep Red",
+            "color29": "Bright Red",
+            "color30": "Fiery Red",
+            "color31": "Royal Purple",
+            "color32": "Deep Purple",
+            "color33": "Bright Purple",
+            "color34": "Vivid Purple"
         }
       }
     },
