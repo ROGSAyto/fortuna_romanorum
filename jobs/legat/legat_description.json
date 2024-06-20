@@ -8,7 +8,7 @@
    "controller": "fortuna_romanorum:class:legat",
    "description": "i18n(fortuna_romanorum:jobs.legat.legat_description.description)",
    "requirements": "i18n(fortuna_romanorum:jobs.legat.legat_description.requirements)",
-   "talisman_uri": "fortuna_romanorum:legat:talisman:legat_helmet_talisman",
+   "talisman_uri": "fortuna_romanorum:legat:talisman:legat_scroll_talisman",
    "default_stance": "aggressive",
    "abilities": "file(legat_abilities)",
    "equipment": {

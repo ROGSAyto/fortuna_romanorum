@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 7,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legionary_gladius_steel_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legionary_gladius_steel_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legionary_gladius_steel_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/legionary_gladius/steel/legionary_gladius.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+      },
+      {
+         "uri": "fortuna_romanorum:refined:wooden_handle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:weapons:legionary_gladius_steel"
+      }
+   ]
+}

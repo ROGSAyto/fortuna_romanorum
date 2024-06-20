@@ -1,0 +1,35 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(silver_handle.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0.05, "y": 0, "z": -0.05 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 35,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.refined.silver_handle.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.refined.silver_handle.description)",
+         "icon": "file(silver_handle.png)",
+         "is_item": true,
+         "category": "refined",
+         "material_tags":["silver_handle", "refined", "silver", "stockpile_refined_goods"]
+      }
+   }
+}

@@ -8,6 +8,22 @@
             }
          }
       },
+      "refined": {
+        "recipes": {
+          "bronze_handle": {
+            "recipe": "file(refined/bronze_handle_recipe.json)"
+          }
+          "iron_handle": {
+            "recipe": "file(refined/iron_handle_recipe.json)"
+          }
+          "silver_handle": {
+            "recipe": "file(refined/silver_handle_recipe.json)"
+          }
+          "gold_handle": {
+            "recipe": "file(refined/gold_handle_recipe.json)"
+          }
+        }
+      },
       "armor": {
          "recipes": {
             // Armor
@@ -46,11 +62,44 @@
       },
       "weapon": {
          "recipes": {
-           "gladius": {
-             "recipe": "file(weapon/gladius_recipe.json)"
+           "legionary_gladius_bronze": {
+              "recipe": "file(weapons/legionary_gladius_bronze_recipe.json)"
+           },
+           "legionary_gladius_iron": {
+              "recipe": "file(weapons/legionary_gladius_iron_recipe.json)"
+           },
+           "legionary_gladius_steel": {
+              "recipe": "file(weapons/legionary_gladius_steel_recipe.json)"
+           },
+           "fine_legionary_gladius_bronze": {
+              "recipe": "file(weapons/fine_legionary_gladius_bronze_recipe.json)"
+           },
+           "fine_legionary_gladius_iron": {
+              "recipe": "file(weapons/fine_legionary_gladius_iron_recipe.json)"
+           },
+           "fine_legionary_gladius_steel": {
+              "recipe": "file(weapons/fine_legionary_gladius_steel_recipe.json)"
+           },
+           "prefect_gladius_bronze": {
+              "recipe": "file(weapons/prefect_gladius_bronze_recipe.json)"
+           },
+           "prefect_gladius_iron": {
+              "recipe": "file(weapons/prefect_gladius_iron_recipe.json)"
+           },
+           "prefect_gladius_steel": {
+              "recipe": "file(weapons/prefect_gladius_steel_recipe.json)"
+           },
+           "centurion_gladius_bronze": {
+              "recipe": "file(weapons/centurion_gladius_bronze_recipe.json)"
+           },
+           "centurion_gladius_iron": {
+              "recipe": "file(weapons/centurion_gladius_iron_recipe.json)"
+           },
+           "centurion_gladius_steel": {
+              "recipe": "file(weapons/centurion_gladius_steel_recipe.json)"
            },
            "kopis": {
-             "recipe": "file(weapon/kopis_recipe.json)"
+             "recipe": "file(weapons/kopis_recipe.json)"
            }
          }
       }

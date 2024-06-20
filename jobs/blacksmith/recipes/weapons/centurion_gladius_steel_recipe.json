@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 19,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.centurion_gladius_steel_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.centurion_gladius_steel_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.centurion_gladius_steel_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/centurion_gladius/steel/centurion_gladius.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 7,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 4
+      },
+      {
+         "uri": "fortuna_romanorum:refined:wooden_handle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:weapons:centurion_gladius_steel"
+      }
+   ]
+}

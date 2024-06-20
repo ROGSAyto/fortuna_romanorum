@@ -12,7 +12,7 @@
    "mixintypes": {
       "talisman_uri": "override"
     },
-   "talisman_uri": "fortuna_romanorum:praetorian:talisman:praetorian_helmet_talisman",
+   "talisman_uri": "fortuna_romanorum:praetorian:talisman:praetorian_scroll_talisman",
    "default_stance": "aggressive",
    "abilities": "file(praetorian_abilities)",
    "equipment": {
@@ -31,7 +31,7 @@
       "stonehearth_ace:task_groups:harvest:mining",
       "stonehearth_ace:task_groups:harvest:plucking",
       "stonehearth_ace:task_groups:place_simple_terrain",
-      "stonehearth_ace:task_groups:build_simple_terrain"      
+      "stonehearth_ace:task_groups:build_simple_terrain"
    ],
    "xp_rewards": {
       "town_protection": 1,

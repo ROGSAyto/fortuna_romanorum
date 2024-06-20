@@ -119,6 +119,15 @@
 		"town_bonus:deity": "file(data/town_bonuses/deity_town_bonus.lua)",
 		"town_bonus:valor": "file(data/town_bonuses/valor_town_bonus.lua)",
 
+
+    "refined:wooden_handle": "file(entities/refinded/wooden_handle/wooden_handle.json)",
+		"refined:bronze_handle": "file(entities/refinded/bronze_handle/bronze_handle.json)",
+		"refined:iron_handle": "file(entities/refinded/iron_handle/iron_handle.json)",
+    "refined:steel_handle": "file(entities/refinded/steel_handle/steel_handle.json)",
+    "refined:silver_handle": "file(entities/refinded/silver_handle/silver_handle.json)",
+		"refined:gold_handle": "file(entities/refinded/gold_handle/gold_handle.json)",
+
+
     "weapons:legionary_gladius_bronze": "file(entities/weapons/legionary_gladius/bronze/gladius.json)",
 		"weapons:legionary_gladius_iron": "file(entities/weapons/legionary_gladius/iron/gladius.json)",
     "weapons:legionary_gladius_steel": "file(entities/weapons/legionary_gladius/steel/gladius.json)",
@@ -184,9 +193,9 @@
 		"jobs:index": "file(jobs/index.json)",
 
 		"legionary:talisman:legionary_training_sword_talisman": "file(entities/weapons/legionary_training_sword/legionary_training_sword_talisman.json)",
-		"centurion:talisman:centurion_talisman": "file(entities/armor/centurion_helmet/centurion_helmet_talisman.json)",
-    "praetorian:talisman:praetorian_talisman": "file(entities/armor/praetorian_helmet/praetorian_helmet_talisman.json)",
-    "legat:talisman:legat_talisman": "file(entities/armor/legat_helmet/legat_helmet_talisman.json)",
+		"centurion:talisman:centurion_scroll_talisman": "file(jobs/centurion/centurion_scroll/centurion_scroll_talisman.json)",
+    "praetorian:talisman:praetorian_scroll_talisman": "file(jobs/praetorian/praetorian_scroll/praetorian_scroll_talisman.json)",
+    "legat:talisman:legat_scroll_talisman": "file(jobs/legat/legat_scroll/legat_scroll_talisman.json)",
 		"capsarii:talisman:capsarii_outfit_talisman": "file(jobs/capsarii/capsarii_outfit/capsarii_outfit_talisman.json)",
 		"signifer:talisman:signum_talisman": "file(entities/weapons/signum/signum_talisman.json)",
 		"shepherd:talisman:roman_crook_talisman": "file(entities/tools/roman_crook/roman_crook_talisman.json)",
@@ -259,12 +268,12 @@
     "mixins:campaign:fortuna_romanorum:deny_if_not": "file(data/gm/campaigns/deny_if_not_fortuna_romanorum.json)",
     "mixins:equipment:body_model:fortuna_romanorum": "file(mixins/equipment/body_model_fortuna_romanorum.json)",
 
-    "traits_index": "file(data/traits/fr_traits_index.json)",
+    "traits_index": "file(data/traits/fr_traits_index.json)"
   },
   "mixintos": {
     "/archipelago_biome/entities/gizmos/boat/boat.json": "file(entities/gizmos/boat/boat.json)",
     "/fortuna_romanorum/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/town_founding_food_donation.json": "stonehearth_ace/mod_support/fortuna_romanorum/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/town_founding_food_donation.json",
-    "/fortuna_romanorum/data/loadouts/fr_loadouts.json": "stonehearth_ace/mod_support/serene_league/data/loadouts/sl_loadouts.json",
+    "/fortuna_romanorum/data/loadouts/fr_loadouts.json": "stonehearth_ace/mod_support/fortuna_romanorum/data/loadouts/fr_loadouts.json",
     "/fortuna_romanorum/jobs/blacksmith/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/blacksmith/recipes/fr_recipes.json",
     "/fortuna_romanorum/jobs/brewer/brewer_description.json": "/stonehearth_ace/jobs/brewer/brewer_description.json",
     "/fortuna_romanorum/jobs/carpenter/carpenter_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/carpenter_description.json",
@@ -309,7 +318,7 @@
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/weaver/recipes/fr_recipes.json": "file(jobs/weaver/recipes/ace/fr_recipes.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/ace_entity.json": "file(mixins/enable_entity.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/buyable_if_ace.json": "file(mixins/buyable.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)",
+    "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)"
   },
   "components": {
     "clam_spawner":	"file(components/clam_spawner/clam_spawner.lua)"
@@ -338,7 +347,6 @@
       "file(ui/game/bulletin/bulletin_dialog/fr_immigration_report_dialog/fr_immigration_report_dialog.html)"
     ],
     "js": [
-      "file(ui/shell/select_settlement/map.js)",
       "file(ui/game/bulletin/bulletin_dialog/fr_immigration_report_dialog/fr_immigration_report_dialog.js)"
     ],
     "less": [

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 15,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.iron_handle_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.iron_handle_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.iron_handle_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/refined/iron_handle/iron_handle.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:refined:iron_handle"
+      }
+   ]
+}

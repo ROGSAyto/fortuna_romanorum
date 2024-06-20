@@ -15,7 +15,7 @@
                "display_name": "i18n(serene_league:data.loadouts.items.grapes)",
                "type": "entity",
                "uri": "serene_league:food:grapes:grapes_basket",
-               "icon": "/serene_league/data/loadouts/images/items/grapes_basket.png)",
+               "icon": "/serene_league/data/loadouts/images/items/grapes_basket.png",
                "amount": 10
             },
             "olives": {
@@ -23,7 +23,7 @@
                "display_name": "i18n(serene_league:data.loadouts.items.olives)",
                "type": "entity",
                "uri": "serene_league:food:olives:olives_basket",
-               "icon": "/serene_league/data/loadouts/images/items/olives_basket.png)",
+               "icon": "/serene_league/data/loadouts/images/items/olives_basket.png",
                "amount": 10
             },
             "legionary": {
@@ -46,7 +46,7 @@
                "display_name": "i18n(serene_league:data.loadouts.items.olives)",
                "type": "entity",
                "uri": "serene_league:food:olives:olives_basket",
-               "icon": "/serene_league/data/loadouts/images/items/olives_basket.png)",
+               "icon": "/serene_league/data/loadouts/images/items/olives_basket.png",
                "amount": 10
             },
             "legionary": {
@@ -69,7 +69,7 @@
                "display_name": "i18n(serene_league:data.loadouts.items.grapes)",
                "type": "entity",
                "uri": "serene_league:food:grapes:grapes_basket",
-               "icon": "/serene_league/data/loadouts/images/items/grapes_basket.png)",
+               "icon": "/serene_league/data/loadouts/images/items/grapes_basket.png",
                "amount": 10
             }
          }

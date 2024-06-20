@@ -8,7 +8,7 @@
    "controller": "fortuna_romanorum:class:centurion",
    "description": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.description)",
    "requirements": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.requirements)",
-   "talisman_uri": "fortuna_romanorum:centurion:talisman:centurion_helmet_talisman",
+   "talisman_uri": "fortuna_romanorum:centurion:talisman:centurion_scroll_talisman",
    "default_stance": "aggressive",
    "abilities": "file(centurion_abilities)",
    "equipment": {
