@@ -259,7 +259,7 @@
     "mixins:campaign:fortuna_romanorum:deny_if_not": "file(data/gm/campaigns/deny_if_not_fortuna_romanorum.json)",
     "mixins:equipment:body_model:fortuna_romanorum": "file(mixins/equipment/body_model_fortuna_romanorum.json)",
 
-    "traits_index": "file(data/traits/fr_traits_index.json)",
+    "traits_index": "file(data/traits/fr_traits_index.json)"
   },
   "mixintos": {
     "/archipelago_biome/entities/gizmos/boat/boat.json": "file(entities/gizmos/boat/boat.json)",
@@ -309,7 +309,7 @@
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/weaver/recipes/fr_recipes.json": "file(jobs/weaver/recipes/ace/fr_recipes.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/ace_entity.json": "file(mixins/enable_entity.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/buyable_if_ace.json": "file(mixins/buyable.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)",
+    "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)"
   },
   "components": {
     "clam_spawner":	"file(components/clam_spawner/clam_spawner.lua)"
