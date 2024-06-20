@@ -26,7 +26,7 @@
          "slot": "helmet",
          "ilevel": 5,
          "roles": "centurion_job",
-		 "no_drop": true,
+		    "no_drop": true,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },

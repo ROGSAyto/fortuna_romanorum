@@ -1,0 +1,6 @@
+{
+	"type" : "ai_pack",
+	"task_groups": [
+		"fortuna_romanorum:task_groups:clam_movement"
+	]
+}

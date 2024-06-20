@@ -22,6 +22,12 @@
   "client_init_script": "file(fortuna_romanorum_client)",
   "aliases": {
 
+    "ai_pack:clam_movement":"file(ai/packs/clam_movement_ai_pack.json)",
+		"actions:clam_crab":			"file(ai/actions/fisher/get_clam_action.lua)",
+		"actions:get_clam_adjacent":"file(ai/actions/fisher/get_clam_adjacent.lua)",
+		"task_groups:clam_movement": "file(ai/task_groups/clam_task_group.lua)",
+		"critters:clam":		"file(entities/critters/clam)",
+		"gizmos:clam_trap":	"file(entities/gizmos/clam_trap)",
 
     "armor:caligae": "file(entities/armor/footwear/caligae_outfit.json)",
     "armor:caligae_placeholder": "file(entities/armor/footwear/caligae_outfit_placeholder.json)",
@@ -263,26 +269,12 @@
     "/fortuna_romanorum/jobs/brewer/brewer_description.json": "/stonehearth_ace/jobs/brewer/brewer_description.json",
     "/fortuna_romanorum/jobs/carpenter/carpenter_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/carpenter_description.json",
     "/fortuna_romanorum/jobs/carpenter/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/recipes/fr_recipes.json",
-    "/fortuna_romanorum/jobs/cook/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/cook/recipes/fr_recipes.json",
     "/fortuna_romanorum/jobs/farmer/farmer_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/farmer/farmer_description.json",
     "/fortuna_romanorum/jobs/fisher/fisher_description.json": "/archipelago_biome/jobs/fisher/fisher_description.json",
     "/fortuna_romanorum/jobs/herbalist/herbalist_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/herbalist/herbalist_description.json",
-    "/fortuna_romanorum/jobs/herbalist/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/herbalist/recipes/fr_recipes.json",
-    "/fortuna_romanorum/jobs/mason/recipes/plaster_set_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/mason/recipes/plaster_set_recipes.json",
-    "/fortuna_romanorum/jobs/mason/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/mason/recipes/fr_recipes.json",
     "/fortuna_romanorum/jobs/shepherd/shepherd_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/shepherd/shepherd_description.json",
     "/fortuna_romanorum/jobs/weaver/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/weaver/recipes/fr_recipes.json",
     "/stonehearth/data/gm/campaigns/game_events/arcs/trigger/game_events/encounters/daily_report_encounter.json": "fortuna_romanorum:mixins:campaign:fortuna_romanorum:deny_if",
-    "/stonehearth/jobs/cook/recipes/recipes.json": "file(jobs/cook/recipes/recipes.json)",
-    "/stonehearth/jobs/herbalist/recipes/recipes.json": [
-      "file(jobs/herbalist/recipes/recipes.json)",
-      "stonehearth_ace/mod_support/fortuna_romanorum/jobs/herbalist/recipes/recipes.json"
-    ],
-    "/stonehearth/jobs/mason/recipes/recipes.json": "file(jobs/mason/recipes/recipes.json)",
-    "/stonehearth/jobs/potter/recipes/recipes.json": [
-      "stonehearth_ace/mod_support/fortuna_romanorum/jobs/potter/recipes/recipes.json"
-    ],
-    "/stonehearth_ace/jobs/brewer/recipes/recipes.json": "file(jobs/brewer/recipes/recipes.json)",
     "/stonehearth_ace/jobs/carpenter/carpenter_description.json": "file(jobs/carpenter/ace/asc_carpenter_description.json)",
     "fortuna_romanorum:lostems:skin_changer": "lostems:mixins:skin_changer",
     "fortuna_romanorum:lostems:skin_changer:ghost": "lostems:mixins:skin_changer:ghost",
@@ -311,22 +303,17 @@
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/blacksmith/recipes/fr_recipes.json": "file(jobs/blacksmith/recipes/ace/fr_recipes.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/carpenter_description.json": "file(jobs/carpenter/ace/carpenter_description.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/recipes/fr_recipes.json": "file(jobs/carpenter/recipes/ace/fr_recipes.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/jobs/cook/recipes/fr_recipes.json": "file(jobs/cook/recipes/ace/fr_recipes.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/farmer/farmer_description.json": "file(jobs/farmer/ace/farmer_description.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/herbalist/herbalist_description.json": "file(jobs/herbalist/ace/herbalist_description.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/jobs/herbalist/recipes/recipes.json": "file(jobs/herbalist/recipes/ace/recipes.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/jobs/herbalist/recipes/fr_recipes.json": "file(jobs/herbalist/recipes/ace/fr_recipes.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/jobs/mason/gypsum_kiln/gypsum_kiln.json": "file(jobs/mason/gypsum_kiln/ace_gypsum_kiln.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/jobs/mason/recipes/plaster_set_recipes.json": "file(jobs/mason/recipes/ace/plaster_set_recipes.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/jobs/mason/recipes/fr_recipes.json": "file(jobs/mason/recipes/ace/fr_recipes.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/jobs/potter/recipes/recipes.json": "file(jobs/potter/recipes/ace/recipes.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/shepherd/shepherd_description.json": "file(jobs/shepherd/ace/shepherd_description.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/weaver/recipes/fr_recipes.json": "file(jobs/weaver/recipes/ace/fr_recipes.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/ace_entity.json": "file(mixins/enable_entity.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/buyable_if_ace.json": "file(mixins/buyable.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)",
   },
-  "components": {},
+  "components": {
+    "clam_spawner":	"file(components/clam_spawner/clam_spawner.lua)"
+  },
   "object_commands": {
     "game_master": {
       "script_encounter": {
