@@ -49,6 +49,7 @@
 		"armor:signifer_armor": "file(entities/armor/signifer_armor/signifer_armor.json)",
 		"armor:signifer_shield": "file(entities/armor/signifer_shield/signifer_shield.json)",
 		"armor:centurion_helmet": "file(entities/armor/centurion_helmet/centurion_helmet.json)",
+		"armor:centurion_armor": "file(entities/armor/centurion_armor/centurion_armor.json)",    
 		"armor:centurion_shield": "file(entities/armor/centurion_shield/centurion_shield.json)",
 		"armor:capsarii_pack": "file(entities/armor/capsarii_pack/capsarii_pack.json)",
 		"armor:evocati_helmet": "file(entities/armor/evocati_set/evocati_helmet/evocati_helmet.json)",
@@ -120,12 +121,12 @@
 		"town_bonus:valor": "file(data/town_bonuses/valor_town_bonus.lua)",
 
 
-    "refined:wooden_handle": "file(entities/refinded/wooden_handle/wooden_handle.json)",
-		"refined:bronze_handle": "file(entities/refinded/bronze_handle/bronze_handle.json)",
-		"refined:iron_handle": "file(entities/refinded/iron_handle/iron_handle.json)",
-    "refined:steel_handle": "file(entities/refinded/steel_handle/steel_handle.json)",
-    "refined:silver_handle": "file(entities/refinded/silver_handle/silver_handle.json)",
-		"refined:gold_handle": "file(entities/refinded/gold_handle/gold_handle.json)",
+    "refined:wooden_handle": "file(entities/refined/wooden_handle/wooden_handle.json)",
+		"refined:bronze_handle": "file(entities/refined/bronze_handle/bronze_handle.json)",
+		"refined:iron_handle": "file(entities/refined/iron_handle/iron_handle.json)",
+    "refined:steel_handle": "file(entities/refined/steel_handle/steel_handle.json)",
+    "refined:silver_handle": "file(entities/refined/silver_handle/silver_handle.json)",
+		"refined:gold_handle": "file(entities/refined/gold_handle/gold_handle.json)",
 
 
     "weapons:legionary_gladius_bronze": "file(entities/weapons/legionary_gladius/bronze/gladius.json)",

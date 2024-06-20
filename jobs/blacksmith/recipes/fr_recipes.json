@@ -12,13 +12,13 @@
         "recipes": {
           "bronze_handle": {
             "recipe": "file(refined/bronze_handle_recipe.json)"
-          }
+          },
           "iron_handle": {
             "recipe": "file(refined/iron_handle_recipe.json)"
-          }
+          },
           "silver_handle": {
             "recipe": "file(refined/silver_handle_recipe.json)"
-          }
+          },
           "gold_handle": {
             "recipe": "file(refined/gold_handle_recipe.json)"
           }

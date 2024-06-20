@@ -1,0 +1,45 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(spatha_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": -1,
+         "roles": "legionary_job"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 20,
+         "reach": 1.25
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+	   "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.weapons.legionary_spatha_iron.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.weapons.legionary_spatha_iron.description)",
+         "icon": "file(spatha.png)",
+         "category": "weapons",
+         "material_tags": ["iron", "roman_made", "melee_weapon"]
+      }
+   }
+}
