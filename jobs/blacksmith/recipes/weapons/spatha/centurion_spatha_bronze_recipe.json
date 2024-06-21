@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 15,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.centurion_gladius_bronze_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.centurion_gladius_bronze_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.centurion_gladius_bronze_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/centurion_gladius/bronze/centurion_gladius.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 3
+      },
+      {
+         "uri": "fortuna_romanorum:refined:wooden_handle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:weapons:centurion_gladius_bronze"
+      }
+   ]
+}

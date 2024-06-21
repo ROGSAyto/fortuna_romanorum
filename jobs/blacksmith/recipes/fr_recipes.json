@@ -26,7 +26,6 @@
       },
       "armor": {
          "recipes": {
-            // Armor
             "hastati_armor": {
               "recipe": "file(armor/hastati_armor_recipe.json)"
             },
@@ -45,7 +44,6 @@
             "fine_lorica_armor": {
               "recipe": "file(armor/fine_lorica_recipe.json)"
             },
-            // Helm
             "centurion_helmet": {
               "recipe": "file(armor/centurion_helmet_recipe.json)"
             },
@@ -62,44 +60,134 @@
       },
       "weapon": {
          "recipes": {
-           "legionary_gladius_bronze": {
-              "recipe": "file(weapons/legionary_gladius_bronze_recipe.json)"
-           },
-           "legionary_gladius_iron": {
-              "recipe": "file(weapons/legionary_gladius_iron_recipe.json)"
-           },
-           "legionary_gladius_steel": {
-              "recipe": "file(weapons/legionary_gladius_steel_recipe.json)"
-           },
-           "fine_legionary_gladius_bronze": {
-              "recipe": "file(weapons/fine_legionary_gladius_bronze_recipe.json)"
-           },
-           "fine_legionary_gladius_iron": {
-              "recipe": "file(weapons/fine_legionary_gladius_iron_recipe.json)"
-           },
-           "fine_legionary_gladius_steel": {
-              "recipe": "file(weapons/fine_legionary_gladius_steel_recipe.json)"
-           },
-           "prefect_gladius_bronze": {
-              "recipe": "file(weapons/prefect_gladius_bronze_recipe.json)"
-           },
-           "prefect_gladius_iron": {
-              "recipe": "file(weapons/prefect_gladius_iron_recipe.json)"
-           },
-           "prefect_gladius_steel": {
-              "recipe": "file(weapons/prefect_gladius_steel_recipe.json)"
-           },
-           "centurion_gladius_bronze": {
-              "recipe": "file(weapons/centurion_gladius_bronze_recipe.json)"
-           },
-           "centurion_gladius_iron": {
-              "recipe": "file(weapons/centurion_gladius_iron_recipe.json)"
-           },
-           "centurion_gladius_steel": {
-              "recipe": "file(weapons/centurion_gladius_steel_recipe.json)"
-           },
+            "legionary_gladius_bronze": {
+               "recipe": "file(weapons/legionary_gladius_bronze_recipe.json)"
+            },
+            "legionary_gladius_iron": {
+               "recipe": "file(weapons/legionary_gladius_iron_recipe.json)"
+            },
+            "legionary_gladius_steel": {
+               "recipe": "file(weapons/legionary_gladius_steel_recipe.json)"
+            },
+            "fine_legionary_gladius_bronze": {
+               "recipe": "file(weapons/fine_legionary_gladius_bronze_recipe.json)"
+            },
+            "fine_legionary_gladius_iron": {
+               "recipe": "file(weapons/fine_legionary_gladius_iron_recipe.json)"
+            },
+            "fine_legionary_gladius_steel": {
+               "recipe": "file(weapons/fine_legionary_gladius_steel_recipe.json)"
+            },
+            "prefect_gladius_bronze": {
+               "recipe": "file(weapons/prefect_gladius_bronze_recipe.json)"
+            },
+            "prefect_gladius_iron": {
+               "recipe": "file(weapons/prefect_gladius_iron_recipe.json)"
+            },
+            "prefect_gladius_steel": {
+               "recipe": "file(weapons/prefect_gladius_steel_recipe.json)"
+            },
+            "centurion_gladius_bronze": {
+               "recipe": "file(weapons/centurion_gladius_bronze_recipe.json)"
+            },
+            "centurion_gladius_iron": {
+               "recipe": "file(weapons/centurion_gladius_iron_recipe.json)"
+            },
+            "centurion_gladius_steel": {
+               "recipe": "file(weapons/centurion_gladius_steel_recipe.json)"
+            },
+           "legionary_pugio_bronze": {
+               "recipe": "file(weapons/pugio/legionary_pugio_bronze_recipe.json)"
+            },
+            "legionary_pugio_iron": {
+               "recipe": "file(weapons/pugio/legionary_pugio_iron_recipe.json)"
+            },
+            "legionary_pugio_steel": {
+               "recipe": "file(weapons/pugio/legionary_pugio_steel_recipe.json)"
+            },
+            "fine_legionary_pugio_bronze": {
+               "recipe": "file(weapons/pugio/fine_legionary_pugio_bronze_recipe.json)"
+            },
+            "fine_legionary_pugio_iron": {
+               "recipe": "file(weapons/pugio/fine_legionary_pugio_iron_recipe.json)"
+            },
+            "fine_legionary_pugio_steel": {
+               "recipe": "file(weapons/pugio/fine_legionary_pugio_steel_recipe.json)"
+            },  
+            "prefect_pugio_bronze": {
+               "recipe": "file(weapons/pugio/prefect_pugio_bronze_recipe.json)"
+            },
+            "prefect_pugio_iron": {
+               "recipe": "file(weapons/pugio/prefect_pugio_iron_recipe.json)"
+            },
+            "prefect_pugio_steel": {
+               "recipe": "file(weapons/pugio/prefect_pugio_steel_recipe.json)"
+            },
+            "centurion_pugio_bronze": {
+               "recipe": "file(weapons/pugio/centurion_pugio_bronze_recipe.json)"
+            },
+            "centurion_pugio_iron": {
+               "recipe": "file(weapons/pugio/centurion_pugio_iron_recipe.json)"
+            },
+            "centurion_pugio_steel": {
+               "recipe": "file(weapons/pugio/centurion_pugio_steel_recipe.json)"
+            },
+            "tribune_pugio_bronze": {
+               "recipe": "file(weapons/pugio/tribune_pugio_bronze_recipe.json)"
+            },
+            "tribune_pugio_iron": {
+               "recipe": "file(weapons/pugio/tribune_pugio_iron_recipe.json)"
+            },
+            "tribune_pugio_steel": {
+               "recipe": "file(weapons/pugio/tribune_pugio_steel_recipe.json)"
+            },
+            "legat_pugio_bronze": {
+               "recipe": "file(weapons/pugio/legat_pugio_bronze_recipe.json)"
+            },
+            "legat_pugio_iron": {
+               "recipe": "file(weapons/pugio/legat_pugio_iron_recipe.json)"
+            },
+            "legat_pugio_steel": {
+               "recipe": "file(weapons/pugio/legat_pugio_steel_recipe.json)"
+            },
+            "legionary_spatha_bronze": {
+               "recipe": "file(weapons/spatha/legionary_spatha_bronze_recipe.json)"
+            },
+            "legionary_spatha_iron": {
+               "recipe": "file(weapons/spatha/legionary_spatha_iron_recipe.json)"
+            },
+            "legionary_spatha_steel": {
+               "recipe": "file(weapons/spatha/legionary_spatha_steel_recipe.json)"
+            },
+            "fine_legionary_spatha_bronze": {
+               "recipe": "file(weapons/spatha/fine_legionary_spatha_bronze_recipe.json)"
+            },
+            "fine_legionary_spatha_iron": {
+               "recipe": "file(weapons/spatha/fine_legionary_spatha_iron_recipe.json)"
+            },
+            "fine_legionary_spatha_steel": {
+               "recipe": "file(weapons/spatha/fine_legionary_spatha_steel_recipe.json)"
+            }, 
+            "prefect_spatha_bronze": {
+               "recipe": "file(weapons/spatha/prefect_spatha_bronze_recipe.json)"
+            },
+            "prefect_spatha_iron": {
+               "recipe": "file(weapons/spatha/prefect_spatha_iron_recipe.json)"
+            },
+            "prefect_spatha_steel": {
+               "recipe": "file(weapons/spatha/prefect_spatha_steel_recipe.json)"
+            },
+            "centurion_spatha_bronze": {
+               "recipe": "file(weapons/spatha/centurion_spatha_bronze_recipe.json)"
+            },
+            "centurion_spatha_iron": {
+               "recipe": "file(weapons/spatha/centurion_spatha_iron_recipe.json)"
+            },
+            "centurion_spatha_steel": {
+               "recipe": "file(weapons/spatha/centurion_spatha_steel_recipe.json)"
+            },                                                        
            "kopis": {
-             "recipe": "file(weapons/kopis_recipe.json)"
+               "recipe": "file(weapons/kopis_recipe.json)"
            }
          }
       }

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 31,
+   "work_units": 11,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.praetorian_gladius_iron_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.praetorian_gladius_iron_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.praetorian_gladius_iron_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/praetorian_gladius/iron/praetorian_gladius.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 8,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      },
+      {
+         "uri": "fortuna_romanorum:refined:wooden_handle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:weapons:praetorian_gladius_iron"
+      }
+   ]
+}

@@ -1394,210 +1394,335 @@
     },
     "weapons": {
       "legionary_gladius_bronze": {
-          "display_name": "Legionary Bronze Gladius",
-          "description": "A short sword made of bronze, used by Roman legionaries."
+        "display_name": "Legionary Bronze Gladius",
+        "description": "A short sword made of bronze, used by Roman legionaries.",
+        "flavor": "This bronze gladius was the backbone of the Roman legionary, symbolizing strength and discipline."
       },
       "legionary_gladius_iron": {
           "display_name": "Legionary Iron Gladius",
-          "description": "A short sword made of iron, used by Roman legionaries."
+          "description": "A short sword made of iron, used by Roman legionaries.",
+          "flavor": "The iron gladius, trusted by legionaries, known for its reliability and sharpness in battle."
       },
       "legionary_gladius_steel": {
           "display_name": "Legionary Steel Gladius",
-          "description": "A short sword made of steel, used by Roman legionaries."
+          "description": "A short sword made of steel, used by Roman legionaries.",
+          "flavor": "A steel gladius, the pinnacle of Roman weapon craftsmanship, ensuring victory on the battlefield."
       },
       "fine_legionary_gladius_bronze": {
           "display_name": "Fine Legionary Bronze Gladius",
-          "description": "A high-quality short sword made of bronze, used by elite Roman legionaries."
+          "description": "A high-quality short sword made of bronze, used by elite Roman legionaries.",
+          "flavor": "This finely crafted bronze gladius signifies the valor and elite status of its bearer."
       },
       "fine_legionary_gladius_iron": {
           "display_name": "Fine Legionary Iron Gladius",
-          "description": "A high-quality short sword made of iron, used by elite Roman legionaries."
+          "description": "A high-quality short sword made of iron, used by elite Roman legionaries.",
+          "flavor": "An exquisitely forged iron gladius, carried by the most distinguished legionaries."
       },
       "fine_legionary_gladius_steel": {
           "display_name": "Fine Legionary Steel Gladius",
-          "description": "A high-quality short sword made of steel, used by elite Roman legionaries."
+          "description": "A high-quality short sword made of steel, used by elite Roman legionaries.",
+          "flavor": "This steel gladius, crafted to perfection, symbolizes the highest tier of military excellence."
       },
       "prefect_gladius_bronze": {
           "display_name": "Prefect Bronze Gladius",
-          "description": "A short sword made of bronze, used by Roman prefects."
+          "description": "A short sword made of bronze, used by Roman prefects.",
+          "flavor": "The bronze gladius of a prefect, symbolizing authority and command within the Roman ranks."
       },
       "prefect_gladius_iron": {
           "display_name": "Prefect Iron Gladius",
-          "description": "A short sword made of iron, used by Roman prefects."
+          "description": "A short sword made of iron, used by Roman prefects.",
+          "flavor": "An iron gladius, reflecting the prefect’s role in maintaining order and discipline."
       },
       "prefect_gladius_steel": {
           "display_name": "Prefect Steel Gladius",
-          "description": "A short sword made of steel, used by Roman prefects."
+          "description": "A short sword made of steel, used by Roman prefects.",
+          "flavor": "The steel gladius of a prefect, representing the peak of Roman administrative and military power."
       },
+      "praetorian_gladius_bronze": {
+        "display_name": "Praetorian Bronze Gladius",
+        "description": "A short sword made of bronze, used by Roman praetorians.",
+        "flavor": "A weapon trusted by Rome's protectors."
+      },
+      "praetorian_gladius_iron": {
+          "display_name": "Praetorian Iron Gladius",
+          "description": "A short sword made of iron, used by Roman praetorians.",
+          "flavor": "An iron sword fit for the guardians of Rome."
+      },
+      "praetorian_gladius_steel": {
+          "display_name": "Praetorian Steel Gladius",
+          "description": "A short sword made of steel, used by Roman praetorians.",
+          "flavor": "A steel gladius, embodying the strength of Rome."
+      },
+      "praetorian_pugio_bronze": {
+          "display_name": "Praetorian Bronze Pugio",
+          "description": "A dagger made of bronze, used by Roman praetorians.",
+          "flavor": "A trusted sidearm for Rome's protectors."
+      },
+      "praetorian_pugio_iron": {
+          "display_name": "Praetorian Iron Pugio",
+          "description": "A dagger made of iron, used by Roman praetorians.",
+          "flavor": "An iron pugio for the guardians of Rome."
+      },
+      "praetorian_pugio_steel": {
+          "display_name": "Praetorian Steel Pugio",
+          "description": "A dagger made of steel, used by Roman praetorians.",
+          "flavor": "A steel pugio, reflecting Rome's strength."
+      },
+      "praetorian_spatha_bronze": {
+          "display_name": "Praetorian Bronze Spatha",
+          "description": "A long sword made of bronze, used by Roman praetorians.",
+          "flavor": "A weapon fit for Rome's protectors."
+      },
+      "praetorian_spatha_iron": {
+          "display_name": "Praetorian Iron Spatha",
+          "description": "A long sword made of iron, used by Roman praetorians.",
+          "flavor": "An iron spatha, symbolizing the strength of Rome."
+      },
+      "praetorian_spatha_steel": {
+          "display_name": "Praetorian Steel Spatha",
+          "description": "A long sword made of steel, used by Roman praetorians.",
+          "flavor": "A steel spatha, embodying the might of Rome."
+      },
+      "fine_praetorian_gladius_bronze": {
+          "display_name": "Fine Praetorian Bronze Gladius",
+          "description": "A finely crafted short sword made of bronze, used by elite Roman praetorians.",
+          "flavor": "A weapon for the finest of Rome's protectors."
+      },
+      "fine_praetorian_gladius_iron": {
+          "display_name": "Fine Praetorian Iron Gladius",
+          "description": "A finely crafted short sword made of iron, used by elite Roman praetorians.",
+          "flavor": "An iron sword that exemplifies the strength of Rome's elite."
+      },
+      "fine_praetorian_gladius_steel": {
+          "display_name": "Fine Praetorian Steel Gladius",
+          "description": "A finely crafted short sword made of steel, used by elite Roman praetorians.",
+          "flavor": "A steel gladius, representing the pinnacle of Roman weaponry."
+      },
+      "fine_praetorian_pugio_bronze": {
+          "display_name": "Fine Praetorian Bronze Pugio",
+          "description": "A finely crafted dagger made of bronze, used by elite Roman praetorians.",
+          "flavor": "A small but deadly weapon for the elite."
+      },
+      "fine_praetorian_pugio_iron": {
+          "display_name": "Fine Praetorian Iron Pugio",
+          "description": "A finely crafted dagger made of iron, used by elite Roman praetorians.",
+          "flavor": "An iron pugio for the finest of Rome's protectors."
+      },
+      "fine_praetorian_pugio_steel": {
+          "display_name": "Fine Praetorian Steel Pugio",
+          "description": "A finely crafted dagger made of steel, used by elite Roman praetorians.",
+          "flavor": "A steel pugio, a mark of elite craftsmanship."
+      },
+      "fine_praetorian_spatha_bronze": {
+          "display_name": "Fine Praetorian Bronze Spatha",
+          "description": "A finely crafted long sword made of bronze, used by elite Roman praetorians.",
+          "flavor": "A weapon of distinction for the elite."
+      },
+      "fine_praetorian_spatha_iron": {
+          "display_name": "Fine Praetorian Iron Spatha",
+          "description": "A finely crafted long sword made of iron, used by elite Roman praetorians.",
+          "flavor": "An iron spatha of superior craftsmanship."
+      },
+      "fine_praetorian_spatha_steel": {
+          "display_name": "Fine Praetorian Steel Spatha",
+          "description": "A finely crafted long sword made of steel, used by elite Roman praetorians.",
+          "flavor": "A steel spatha, exemplifying the peak of Roman martial prowess."
+      },      
       "centurion_gladius_bronze": {
           "display_name": "Centurion Bronze Gladius",
-          "description": "A short sword made of bronze, used by Roman centurions."
+          "description": "A short sword made of bronze, used by Roman centurions.",
+          "flavor": "A bronze gladius carried by centurions, marking their leadership and bravery."
       },
       "centurion_gladius_iron": {
           "display_name": "Centurion Iron Gladius",
-          "description": "A short sword made of iron, used by Roman centurions."
+          "description": "A short sword made of iron, used by Roman centurions.",
+          "flavor": "The iron gladius of a centurion, a symbol of strength and authority on the battlefield."
       },
       "centurion_gladius_steel": {
           "display_name": "Centurion Steel Gladius",
-          "description": "A short sword made of steel, used by Roman centurions."
+          "description": "A short sword made of steel, used by Roman centurions.",
+          "flavor": "A steel gladius, epitomizing the centurion’s role as a paragon of Roman military prowess."
       },
       "tribune_gladius_bronze": {
           "display_name": "Tribune Bronze Gladius",
-          "description": "A short sword made of bronze, used by Roman tribunes."
+          "description": "A short sword made of bronze, used by Roman tribunes.",
+          "flavor": "The bronze gladius of a tribune, reflecting their noble status and leadership."
       },
       "tribune_gladius_iron": {
           "display_name": "Tribune Iron Gladius",
-          "description": "A short sword made of iron, used by Roman tribunes."
+          "description": "A short sword made of iron, used by Roman tribunes.",
+          "flavor": "An iron gladius, carried by tribunes, symbolizing their command and valor."
       },
       "tribune_gladius_steel": {
           "display_name": "Tribune Steel Gladius",
-          "description": "A short sword made of steel, used by Roman tribunes."
+          "description": "A short sword made of steel, used by Roman tribunes.",
+          "flavor": "This steel gladius represents the tribune’s esteemed position and their prowess in battle."
       },
       "legat_gladius_bronze": {
           "display_name": "Legat Bronze Gladius",
-          "description": "A short sword made of bronze, used by Roman legates."
+          "description": "A short sword made of bronze, used by Roman legates.",
+          "flavor": "The bronze gladius of a legate, denoting their high rank and strategic acumen."
       },
       "legat_gladius_iron": {
           "display_name": "Legat Iron Gladius",
-          "description": "A short sword made of iron, used by Roman legates."
+          "description": "A short sword made of iron, used by Roman legates.",
+          "flavor": "An iron gladius, symbolizing the legate’s command over the legion and their tactical expertise."
       },
       "legat_gladius_steel": {
           "display_name": "Legat Steel Gladius",
-          "description": "A short sword made of steel, used by Roman legates."
+          "description": "A short sword made of steel, used by Roman legates.",
+          "flavor": "This steel gladius signifies the apex of Roman military leadership and strategy."
       },
-      "legionary_pugio": {
-          "display_name": "Legionary Pugio",
-          "description": "Dagger used by Roman legionaries.",
-          "flavor": "A small blade for emergencies."
+      "legionary_pugio_bronze": {
+        "display_name": "Legionary Bronze Pugio",
+        "description": "A dagger made of bronze, used by Roman legionaries.",
+        "flavor": "This bronze pugio served as a sidearm and tool for many tasks on and off the battlefield."
       },
-      "legionary_spatha": {
-          "display_name": "Legionary Spatha",
-          "description": "Long sword used by Roman legionaries.",
-          "flavor": "Ideal for cutting through armor."
+      "legionary_pugio_iron": {
+          "display_name": "Legionary Iron Pugio",
+          "description": "A dagger made of iron, used by Roman legionaries.",
+          "flavor": "An iron pugio, carried by legionaries, it was known for its durability and sharp edge."
       },
-      "fine_legionary_pugio": {
-          "display_name": "Fine Legionary Pugio",
-          "description": "Elegant dagger for elite legionaries.",
-          "flavor": "A small, sharp blade with exquisite craftsmanship."
+      "legionary_pugio_steel": {
+          "display_name": "Legionary Steel Pugio",
+          "description": "A dagger made of steel, used by Roman legionaries.",
+          "flavor": "The steel pugio was a trusted companion in close quarters, renowned for its strength and precision."
       },
-      "fine_legionary_spatha": {
-          "display_name": "Fine Legionary Spatha",
-          "description": "High-quality long sword for elite legionaries.",
-          "flavor": "A beautifully crafted weapon for skilled warriors."
+      "fine_legionary_pugio_bronze": {
+          "display_name": "Fine Legionary Bronze Pugio",
+          "description": "A finely crafted dagger made of bronze, used by elite Roman legionaries.",
+          "flavor": "This finely crafted bronze pugio reflects the skill and status of its bearer."
       },
-      "centurion_gladius": {
-          "display_name": "Centurion Gladius",
-          "description": "Short sword used by Roman centurions.",
-          "flavor": "A weapon symbolizing command and authority."
+      "fine_legionary_pugio_iron": {
+          "display_name": "Fine Legionary Iron Pugio",
+          "description": "A finely crafted dagger made of iron, used by elite Roman legionaries.",
+          "flavor": "A masterfully forged iron pugio, carried by those of distinguished rank."
       },
-      "centurion_pugio": {
-          "display_name": "Centurion Pugio",
-          "description": "Dagger used by Roman centurions.",
-          "flavor": "A ceremonial blade for centurions."
+      "fine_legionary_pugio_steel": {
+          "display_name": "Fine Legionary Steel Pugio",
+          "description": "A finely crafted dagger made of steel, used by elite Roman legionaries.",
+          "flavor": "This exquisite steel pugio symbolizes excellence and authority in the ranks of the legion."
       },
-      "centurion_spatha": {
-          "display_name": "Centurion Spatha",
-          "description": "Long sword used by Roman centurions.",
-          "flavor": "A weapon of status and power."
+      "prefect_pugio_bronze": {
+        "display_name": "Prefect Bronze Pugio",
+        "description": "A finely crafted dagger made of bronze, used by Roman prefects.",
+        "flavor": "A symbol of the prefect's authority and skill."
       },
-      "prefect_gladius": {
-          "display_name": "Prefect Gladius",
-          "description": "Short sword used by Roman prefects.",
-          "flavor": "A symbol of rank and responsibility."
+      "prefect_pugio_iron": {
+          "display_name": "Prefect Iron Pugio",
+          "description": "A finely crafted dagger made of iron, used by Roman prefects.",
+          "flavor": "Wielded by those entrusted with maintaining Roman order."
       },
-      "prefect_pugio": {
-          "display_name": "Prefect Pugio",
-          "description": "Dagger used by Roman prefects.",
-          "flavor": "A small, functional blade for officers."
+      "prefect_pugio_steel": {
+          "display_name": "Prefect Steel Pugio",
+          "description": "A finely crafted dagger made of steel, used by Roman prefects.",
+          "flavor": "A blade that represents the pinnacle of Roman engineering."
       },
-      "prefect_spatha": {
-          "display_name": "Prefect Spatha",
-          "description": "Long sword used by Roman prefects.",
-          "flavor": "A long sword for commanding presence."
+      "centurion_pugio_bronze": {
+          "display_name": "Centurion Bronze Pugio",
+          "description": "A finely crafted dagger made of bronze, used by Roman centurions.",
+          "flavor": "A mark of leadership and combat readiness."
       },
-      "praetorian_gladius": {
-          "display_name": "Praetorian Gladius",
-          "description": "Short sword used by Praetorian guards.",
-          "flavor": "A weapon of the elite guard."
+      "centurion_pugio_iron": {
+          "display_name": "Centurion Iron Pugio",
+          "description": "A finely crafted dagger made of iron, used by Roman centurions.",
+          "flavor": "A testament to the centurion's bravery and authority."
       },
-      "praetorian_pugio": {
-          "display_name": "Praetorian Pugio",
-          "description": "Dagger used by Praetorian guards.",
-          "flavor": "A dagger for the personal guard."
+      "centurion_pugio_steel": {
+          "display_name": "Centurion Steel Pugio",
+          "description": "A finely crafted dagger made of steel, used by Roman centurions.",
+          "flavor": "A symbol of elite status and superior craftsmanship."
+      },      
+      "tribune_pugio_bronze": {
+        "display_name": "Tribune Bronze Pugio",
+        "description": "A finely crafted dagger made of bronze, used by Roman tribunes.",
+        "flavor": "A mark of the tribune's honor and duty."
       },
-      "praetorian_spatha": {
-          "display_name": "Praetorian Spatha",
-          "description": "Long sword used by Praetorian guards.",
-          "flavor": "A weapon of the imperial guard."
+      "tribune_pugio_iron": {
+          "display_name": "Tribune Iron Pugio",
+          "description": "A finely crafted dagger made of iron, used by Roman tribunes.",
+          "flavor": "An iron blade for the tribune, symbolizing strength and leadership."
       },
-      "fine_praetorian_gladius": {
-          "display_name": "Fine Praetorian Gladius",
-          "description": "High-quality short sword for Praetorian guards.",
-          "flavor": "A finely crafted weapon for elite guards."
+      "tribune_pugio_steel": {
+          "display_name": "Tribune Steel Pugio",
+          "description": "A finely crafted dagger made of steel, used by Roman tribunes.",
+          "flavor": "A steel pugio, representing the highest standard of Roman craftsmanship."
       },
-      "fine_praetorian_pugio": {
-          "display_name": "Fine Praetorian Pugio",
-          "description": "Elegant dagger for Praetorian guards.",
-          "flavor": "A small blade with exceptional craftsmanship."
+      "legat_pugio_bronze": {
+          "display_name": "Legat Bronze Pugio",
+          "description": "A finely crafted dagger made of bronze, used by Roman legates.",
+          "flavor": "A symbol of the legate's command and prestige."
       },
-      "fine_praetorian_spatha": {
-          "display_name": "Fine Praetorian Spatha",
-          "description": "High-quality long sword for Praetorian guards.",
-          "flavor": "A beautifully designed weapon for the elite."
+      "legat_pugio_iron": {
+          "display_name": "Legat Iron Pugio",
+          "description": "A finely crafted dagger made of iron, used by Roman legates.",
+          "flavor": "An iron pugio that reflects the legate's authority and tactical expertise."
       },
-      "legat_gladius": {
-          "display_name": "Legat Gladius",
-          "description": "Short sword used by Roman legates.",
-          "flavor": "A weapon of command and influence."
+      "legat_pugio_steel": {
+          "display_name": "Legat Steel Pugio",
+          "description": "A finely crafted dagger made of steel, used by Roman legates.",
+          "flavor": "A steel pugio, symbolizing the apex of military leadership and strategy."
       },
-      "legat_pugio": {
-          "display_name": "Legat Pugio",
-          "description": "Dagger used by Roman legates.",
-          "flavor": "A ceremonial blade for high-ranking officers."
+      "legionary_spatha_bronze": {
+        "display_name": "Legionary Bronze Spatha",
+        "description": "A finely crafted long sword made of bronze, used by Roman legionaries.",
+        "flavor": "A weapon for reaching the enemy at a distance."
       },
-      "legat_spatha": {
-          "display_name": "Legat Spatha",
-          "description": "Long sword used by Roman legates.",
-          "flavor": "A long sword for a high-ranking commander."
+      "legionary_spatha_iron": {
+          "display_name": "Legionary Iron Spatha",
+          "description": "A finely crafted long sword made of iron, used by Roman legionaries.",
+          "flavor": "An iron sword that symbolizes the strength of the legion."
       },
-      "tribune_gladius": {
-          "display_name": "Tribune Gladius",
-          "description": "Short sword used by Roman tribunes.",
-          "flavor": "A weapon of leadership and valor."
+      "legionary_spatha_steel": {
+          "display_name": "Legionary Steel Spatha",
+          "description": "A finely crafted long sword made of steel, used by Roman legionaries.",
+          "flavor": "A steel spatha, representing the pinnacle of Roman weaponry."
       },
-      "tribune_pugio": {
-          "display_name": "Tribune Pugio",
-          "description": "Dagger used by Roman tribunes.",
-          "flavor": "A blade symbolizing rank and bravery."
+      "fine_legionary_spatha_bronze": {
+          "display_name": "Fine Legionary Bronze Spatha",
+          "description": "A high-quality long sword made of bronze, used by elite Roman legionaries.",
+          "flavor": "A refined weapon for those who excel in battle."
       },
-      "tribune_spatha": {
-          "display_name": "Tribune Spatha",
-          "description": "Long sword used by Roman tribunes.",
-          "flavor": "A weapon of distinction and duty."
+      "fine_legionary_spatha_iron": {
+          "display_name": "Fine Legionary Iron Spatha",
+          "description": "A high-quality long sword made of iron, used by elite Roman legionaries.",
+          "flavor": "An iron spatha for the elite, symbolizing their prowess."
       },
-      "gladius":{
-        "display_name": "Gladius",
-        "description": "Short sword",
-        "flavor": "I can't reach my target",
-        "gladius_iconic": {
-          "display_name": "Gladius",
-          "description": "A short sword"
-        }
+      "fine_legionary_spatha_steel": {
+          "display_name": "Fine Legionary Steel Spatha",
+          "description": "A high-quality long sword made of steel, used by elite Roman legionaries.",
+          "flavor": "A steel spatha for those who embody the highest standards of the legion."
+      },      
+      "prefect_spatha_bronze": {
+        "display_name": "Prefect Bronze Spatha",
+        "description": "A finely crafted long sword made of bronze, used by Roman prefects.",
+        "flavor": "A symbol of the prefect's leadership and command."
       },
-      "spatha":{
-        "display_name": "Spatha",
-        "description": "Long sword",
-        "flavor": "Now i can reach my target",
-        "gladius_iconic": {
-          "display_name": "Spatha",
-          "description": "A long sword"
-        }
+      "prefect_spatha_iron": {
+          "display_name": "Prefect Iron Spatha",
+          "description": "A finely crafted long sword made of iron, used by Roman prefects.",
+          "flavor": "An iron spatha representing the strength and authority of the prefect."
       },
-      "centurion_gladius":{
-        "display_name": "Centurion Gladius",
-        "description": "Short sword",
-        "flavor": "Shiny"
+      "prefect_spatha_steel": {
+          "display_name": "Prefect Steel Spatha",
+          "description": "A finely crafted long sword made of steel, used by Roman prefects.",
+          "flavor": "A steel spatha that embodies the pinnacle of Roman martial prowess."
       },
+      "centurion_spatha_bronze": {
+          "display_name": "Centurion Bronze Spatha",
+          "description": "A finely crafted long sword made of bronze, used by Roman centurions.",
+          "flavor": "A mark of the centurion's valor and leadership."
+      },
+      "centurion_spatha_iron": {
+          "display_name": "Centurion Iron Spatha",
+          "description": "A finely crafted long sword made of iron, used by Roman centurions.",
+          "flavor": "An iron spatha, symbolizing the centurion's strength and authority."
+      },
+      "centurion_spatha_steel": {
+          "display_name": "Centurion Steel Spatha",
+          "description": "A finely crafted long sword made of steel, used by Roman centurions.",
+          "flavor": "A steel spatha that represents the highest standards of Roman combat."
+      },      
       "signum": {
         "display_name": "Signum",
         "description": "The Eagle",
@@ -1791,6 +1916,96 @@
             "description": "A high-quality short sword made of steel, used by elite Roman legionaries.",
             "flavor": "A refined weapon for skilled fighters."
         },
+        "fine_praetorian_gladius_bronze_recipe": {
+          "recipe_name": "Fine Praetorian Bronze Gladius",
+          "description": "A finely crafted short sword made of bronze, used by elite Roman praetorians.",
+          "flavor": "A weapon for the finest of Rome's protectors."
+        },
+        "fine_praetorian_gladius_iron_recipe": {
+            "recipe_name": "Fine Praetorian Iron Gladius",
+            "description": "A finely crafted short sword made of iron, used by elite Roman praetorians.",
+            "flavor": "An iron sword that exemplifies the strength of Rome's elite."
+        },
+        "fine_praetorian_gladius_steel_recipe": {
+            "recipe_name": "Fine Praetorian Steel Gladius",
+            "description": "A finely crafted short sword made of steel, used by elite Roman praetorians.",
+            "flavor": "A steel gladius, representing the pinnacle of Roman weaponry."
+        },
+        "praetorian_gladius_bronze_recipe": {
+            "recipe_name": "Praetorian Bronze Gladius",
+            "description": "A short sword made of bronze, used by Roman praetorians.",
+            "flavor": "A weapon trusted by Rome's protectors."
+        },
+        "praetorian_gladius_iron_recipe": {
+            "recipe_name": "Praetorian Iron Gladius",
+            "description": "A short sword made of iron, used by Roman praetorians.",
+            "flavor": "An iron sword fit for the guardians of Rome."
+        },
+        "praetorian_gladius_steel_recipe": {
+            "recipe_name": "Praetorian Steel Gladius",
+            "description": "A short sword made of steel, used by Roman praetorians.",
+            "flavor": "A steel gladius, embodying the strength of Rome."
+        },
+        "fine_praetorian_pugio_bronze_recipe": {
+            "recipe_name": "Fine Praetorian Bronze Pugio",
+            "description": "A finely crafted dagger made of bronze, used by elite Roman praetorians.",
+            "flavor": "A small but deadly weapon for the elite."
+        },
+        "fine_praetorian_pugio_iron_recipe": {
+            "recipe_name": "Fine Praetorian Iron Pugio",
+            "description": "A finely crafted dagger made of iron, used by elite Roman praetorians.",
+            "flavor": "An iron pugio for the finest of Rome's protectors."
+        },
+        "fine_praetorian_pugio_steel_recipe": {
+            "recipe_name": "Fine Praetorian Steel Pugio",
+            "description": "A finely crafted dagger made of steel, used by elite Roman praetorians.",
+            "flavor": "A steel pugio, a mark of elite craftsmanship."
+        },
+        "praetorian_pugio_bronze_recipe": {
+            "recipe_name": "Praetorian Bronze Pugio",
+            "description": "A dagger made of bronze, used by Roman praetorians.",
+            "flavor": "A trusted sidearm for Rome's protectors."
+        },
+        "praetorian_pugio_iron_recipe": {
+            "recipe_name": "Praetorian Iron Pugio",
+            "description": "A dagger made of iron, used by Roman praetorians.",
+            "flavor": "An iron pugio for the guardians of Rome."
+        },
+        "praetorian_pugio_steel_recipe": {
+            "recipe_name": "Praetorian Steel Pugio",
+            "description": "A dagger made of steel, used by Roman praetorians.",
+            "flavor": "A steel pugio, reflecting Rome's strength."
+        },
+        "fine_praetorian_spatha_bronze_recipe": {
+            "recipe_name": "Fine Praetorian Bronze Spatha",
+            "description": "A finely crafted long sword made of bronze, used by elite Roman praetorians.",
+            "flavor": "A weapon of distinction for the elite."
+        },
+        "fine_praetorian_spatha_iron_recipe": {
+            "recipe_name": "Fine Praetorian Iron Spatha",
+            "description": "A finely crafted long sword made of iron, used by elite Roman praetorians.",
+            "flavor": "An iron spatha of superior craftsmanship."
+        },
+        "fine_praetorian_spatha_steel_recipe": {
+            "recipe_name": "Fine Praetorian Steel Spatha",
+            "description": "A finely crafted long sword made of steel, used by elite Roman praetorians.",
+            "flavor": "A steel spatha, exemplifying the peak of Roman martial prowess."
+        },
+        "praetorian_spatha_bronze_recipe": {
+            "recipe_name": "Praetorian Bronze Spatha",
+            "description": "A long sword made of bronze, used by Roman praetorians.",
+            "flavor": "A weapon fit for Rome's protectors."
+        },
+        "praetorian_spatha_iron_recipe": {
+            "recipe_name": "Praetorian Iron Spatha",
+            "description": "A long sword made of iron, used by Roman praetorians.",
+            "flavor": "An iron spatha, symbolizing the strength of Rome."
+        },
+        "praetorian_spatha_steel_recipe": {
+            "recipe_name": "Praetorian Steel Spatha",
+            "description": "A long sword made of steel, used by Roman praetorians.",
+            "flavor": "A steel spatha, embodying the might of Rome."
+        },
         "prefect_gladius_bronze_recipe": {
             "recipe_name": "Prefect Bronze Gladius",
             "description": "A short sword made of bronze, used by Roman prefects.",
@@ -1851,10 +2066,190 @@
             "description": "A short sword made of steel, used by Roman legates.",
             "flavor": "A weapon of high command."
         },
+        "legionary_pugio_bronze_recipe": {
+          "recipe_name": "Legionary Bronze Pugio",
+          "description": "A dagger made of bronze, used by Roman legionaries.",
+          "flavor": "A small but deadly blade."
+        },
+        "legionary_pugio_iron_recipe": {
+            "recipe_name": "Legionary Iron Pugio",
+            "description": "A dagger made of iron, used by Roman legionaries.",
+            "flavor": "A small but deadly blade."
+        },
+        "legionary_pugio_steel_recipe": {
+            "recipe_name": "Legionary Steel Pugio",
+            "description": "A dagger made of steel, used by Roman legionaries.",
+            "flavor": "A small but deadly blade."
+        },
+        "fine_legionary_pugio_bronze_recipe": {
+            "recipe_name": "Fine Legionary Bronze Pugio",
+            "description": "A finely crafted dagger made of bronze, used by elite Roman legionaries.",
+            "flavor": "A refined small but deadly blade."
+        },
+        "fine_legionary_pugio_iron_recipe": {
+            "recipe_name": "Fine Legionary Iron Pugio",
+            "description": "A finely crafted dagger made of iron, used by elite Roman legionaries.",
+            "flavor": "A refined small but deadly blade."
+        },
+        "fine_legionary_pugio_steel_recipe": {
+            "recipe_name": "Fine Legionary Steel Pugio",
+            "description": "A finely crafted dagger made of steel, used by elite Roman legionaries.",
+            "flavor": "A refined small but deadly blade."
+        },        
+        "prefect_pugio_bronze_recipe": {
+          "recipe_name": "Prefect Bronze Pugio",
+          "description": "A finely crafted dagger made of bronze, used by Roman prefects.",
+          "flavor": "A symbol of the prefect's authority and skill."
+        },
+        "prefect_pugio_iron_recipe": {
+            "recipe_name": "Prefect Iron Pugio",
+            "description": "A finely crafted dagger made of iron, used by Roman prefects.",
+            "flavor": "Wielded by those entrusted with maintaining Roman order."
+        },
+        "prefect_pugio_steel_recipe": {
+            "recipe_name": "Prefect Steel Pugio",
+            "description": "A finely crafted dagger made of steel, used by Roman prefects.",
+            "flavor": "A blade that represents the pinnacle of Roman engineering."
+        },
+        "centurion_pugio_bronze_recipe": {
+            "recipe_name": "Centurion Bronze Pugio",
+            "description": "A finely crafted dagger made of bronze, used by Roman centurions.",
+            "flavor": "A mark of leadership and combat readiness."
+        },
+        "centurion_pugio_iron_recipe": {
+            "recipe_name": "Centurion Iron Pugio",
+            "description": "A finely crafted dagger made of iron, used by Roman centurions.",
+            "flavor": "A testament to the centurion's bravery and authority."
+        },
+        "centurion_pugio_steel_recipe": {
+            "recipe_name": "Centurion Steel Pugio",
+            "description": "A finely crafted dagger made of steel, used by Roman centurions.",
+            "flavor": "A symbol of elite status and superior craftsmanship."
+        },  
+        "tribune_pugio_bronze_recipe": {
+          "recipe_name": "Tribune Bronze Pugio",
+          "description": "A finely crafted dagger made of bronze, used by Roman tribunes.",
+          "flavor": "A mark of the tribune's honor and duty."
+        },
+        "tribune_pugio_iron_recipe": {
+            "recipe_name": "Tribune Iron Pugio",
+            "description": "A finely crafted dagger made of iron, used by Roman tribunes.",
+            "flavor": "An iron blade for the tribune, symbolizing strength and leadership."
+        },
+        "tribune_pugio_steel_recipe": {
+            "recipe_name": "Tribune Steel Pugio",
+            "description": "A finely crafted dagger made of steel, used by Roman tribunes.",
+            "flavor": "A steel pugio, representing the highest standard of Roman craftsmanship."
+        },
+        "legat_pugio_bronze_recipe": {
+            "recipe_name": "Legat Bronze Pugio",
+            "description": "A finely crafted dagger made of bronze, used by Roman legates.",
+            "flavor": "A symbol of the legate's command and prestige."
+        },
+        "legat_pugio_iron_recipe": {
+            "recipe_name": "Legat Iron Pugio",
+            "description": "A finely crafted dagger made of iron, used by Roman legates.",
+            "flavor": "An iron pugio that reflects the legate's authority and tactical expertise."
+        },
+        "legat_pugio_steel_recipe": {
+            "recipe_name": "Legat Steel Pugio",
+            "description": "A finely crafted dagger made of steel, used by Roman legates.",
+            "flavor": "A steel pugio, symbolizing the apex of military leadership and strategy."
+        },   
+        "legionary_spatha_bronze_recipe": {
+          "recipe_name": "Legionary Bronze Spatha",
+          "description": "A finely crafted long sword made of bronze, used by Roman legionaries.",
+          "flavor": "A weapon for reaching the enemy at a distance."
+        },
+        "legionary_spatha_iron_recipe": {
+            "recipe_name": "Legionary Iron Spatha",
+            "description": "A finely crafted long sword made of iron, used by Roman legionaries.",
+            "flavor": "An iron sword that symbolizes the strength of the legion."
+        },
+        "legionary_spatha_steel_recipe": {
+            "recipe_name": "Legionary Steel Spatha",
+            "description": "A finely crafted long sword made of steel, used by Roman legionaries.",
+            "flavor": "A steel spatha, representing the pinnacle of Roman weaponry."
+        },
+        "fine_legionary_spatha_bronze_recipe": {
+            "recipe_name": "Fine Legionary Bronze Spatha",
+            "description": "A high-quality long sword made of bronze, used by elite Roman legionaries.",
+            "flavor": "A refined weapon for those who excel in battle."
+        },
+        "fine_legionary_spatha_iron_recipe": {
+            "recipe_name": "Fine Legionary Iron Spatha",
+            "description": "A high-quality long sword made of iron, used by elite Roman legionaries.",
+            "flavor": "An iron spatha for the elite, symbolizing their prowess."
+        },
+        "fine_legionary_spatha_steel_recipe": {
+            "recipe_name": "Fine Legionary Steel Spatha",
+            "description": "A high-quality long sword made of steel, used by elite Roman legionaries.",
+            "flavor": "A steel spatha for those who embody the highest standards of the legion."
+        },        
+        "prefect_spatha_bronze_recipe": {
+          "recipe_name": "Prefect Bronze Spatha",
+          "description": "A finely crafted long sword made of bronze, used by Roman prefects.",
+          "flavor": "A symbol of the prefect's leadership and command."
+        },
+        "prefect_spatha_iron_recipe": {
+            "recipe_name": "Prefect Iron Spatha",
+            "description": "A finely crafted long sword made of iron, used by Roman prefects.",
+            "flavor": "An iron spatha representing the strength and authority of the prefect."
+        },
+        "prefect_spatha_steel_recipe": {
+            "recipe_name": "Prefect Steel Spatha",
+            "description": "A finely crafted long sword made of steel, used by Roman prefects.",
+            "flavor": "A steel spatha that embodies the pinnacle of Roman martial prowess."
+        },
+        "centurion_spatha_bronze_recipe": {
+            "recipe_name": "Centurion Bronze Spatha",
+            "description": "A finely crafted long sword made of bronze, used by Roman centurions.",
+            "flavor": "A mark of the centurion's valor and leadership."
+        },
+        "centurion_spatha_iron_recipe": {
+            "recipe_name": "Centurion Iron Spatha",
+            "description": "A finely crafted long sword made of iron, used by Roman centurions.",
+            "flavor": "An iron spatha, symbolizing the centurion's strength and authority."
+        },
+        "centurion_spatha_steel_recipe": {
+            "recipe_name": "Centurion Steel Spatha",
+            "description": "A finely crafted long sword made of steel, used by Roman centurions.",
+            "flavor": "A steel spatha that represents the highest standards of Roman combat."
+        },       
+        "tribune_spatha_bronze_recipe": {
+          "recipe_name": "Tribune Bronze Spatha",
+          "description": "A finely crafted long sword made of bronze, used by Roman tribunes.",
+          "flavor": "A symbol of the tribune's authority and command."
+        },
+        "tribune_spatha_iron_recipe": {
+            "recipe_name": "Tribune Iron Spatha",
+            "description": "A finely crafted long sword made of iron, used by Roman tribunes.",
+            "flavor": "An iron spatha that represents the strength and leadership of the tribune."
+        },
+        "tribune_spatha_steel_recipe": {
+            "recipe_name": "Tribune Steel Spatha",
+            "description": "A finely crafted long sword made of steel, used by Roman tribunes.",
+            "flavor": "A steel spatha that embodies the pinnacle of Roman martial prowess."
+        },
+        "legat_spatha_bronze_recipe": {
+            "recipe_name": "Legat Bronze Spatha",
+            "description": "A finely crafted long sword made of bronze, used by Roman legates.",
+            "flavor": "A mark of the legate's strategic acumen and command."
+        },
+        "legat_spatha_iron_recipe": {
+            "recipe_name": "Legat Iron Spatha",
+            "description": "A finely crafted long sword made of iron, used by Roman legates.",
+            "flavor": "An iron spatha that reflects the legate's tactical expertise."
+        },
+        "legat_spatha_steel_recipe": {
+            "recipe_name": "Legat Steel Spatha",
+            "description": "A finely crafted long sword made of steel, used by Roman legates.",
+            "flavor": "A steel spatha, symbolizing the highest standard of Roman military excellence."
+        },                   
         "iron_handle_recipe": {
-            "recipe_name": "Iron Handle",
-            "description": "A sturdy handle made of iron, crafted by the blacksmith.",
-            "flavor": "A robust handle for reliable tools and weapons."
+              "recipe_name": "Iron Handle",
+              "description": "A sturdy handle made of iron, crafted by the blacksmith.",
+              "flavor": "A robust handle for reliable tools and weapons."
         },
         "bronze_handle_recipe": {
             "recipe_name": "Bronze Handle",
@@ -1876,6 +2271,31 @@
             "description": "A luxurious handle made of gold, crafted by the blacksmith.",
             "flavor": "A handle fit for the finest weapons."
         },
+        "roman_archer_mail_recipe": {
+          "recipe_name": "Roman Archer Mail",
+          "description": "A protective mail armor used by Roman archers.",
+          "flavor": "Lightweight yet sturdy, ideal for archers."
+        },
+        "roman_bronze_breastplate_recipe": {
+            "recipe_name": "Roman Bronze Breastplate",
+            "description": "A breastplate made of bronze, providing good protection.",
+            "flavor": "A classic design that has stood the test of time."
+        },
+        "roman_iron_breastplate_recipe": {
+            "recipe_name": "Roman Iron Breastplate",
+            "description": "A breastplate made of iron, offering enhanced protection.",
+            "flavor": "Strong and reliable, perfect for battle."
+        },
+        "roman_bronze_mail_recipe": {
+            "recipe_name": "Roman Bronze Mail",
+            "description": "Mail armor made of bronze, providing flexible protection.",
+            "flavor": "A versatile armor for the battlefield."
+        },
+        "roman_iron_mail_recipe": {
+            "recipe_name": "Roman Iron Mail",
+            "description": "Mail armor made of iron, offering superior protection.",
+            "flavor": "Heavy but effective in protecting the wearer."
+        },        
         "hastati_helmet_recipe": {
           "description": "A bronze helmet",
           "flavor": "Keep something in your head",
@@ -1975,11 +2395,6 @@
           "description": "Elite armor for the veterans",
           "flavor": "Years of field improvements - Not for Sale",
           "recipe_name": "Evocati Lorica Segmentata"
-        },
-        "archer_armor_recipe": {
-          "description": "Iron chainmail",
-          "flavor": "Archers also need some armor",
-          "recipe_name": "Archer Mail"
         }
       }
     },
@@ -2004,6 +2419,11 @@
           "recipe_name": "Capsarii Backpack",
           "description": "A bag for bandages and herbs",
           "flavor": "Adds 10 hp healing rate"
+        },
+        "sword_sheath_recipe": {
+          "recipe_name": "Sword Sheath",
+          "description": "A sheath for safely carrying a sword.",
+          "flavor": "Keeps your sword ready and protected."
         }
       }
     },

@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 14,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.roman_iron_breastplate_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.roman_iron_breastplate_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.roman_iron_breastplate_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/armor/roman_iron_breastplate/roman_iron_breastplate.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 3
+      },
+      {
+         "uri": "stonehearth:refined:leather",
+         "count": 1
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:armor:roman_iron_breastplate"
+      }
+   ]
+}
