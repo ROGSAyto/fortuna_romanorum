@@ -293,6 +293,7 @@
     "/fortuna_romanorum/jobs/carpenter/carpenter_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/carpenter_description.json",
     "/fortuna_romanorum/jobs/carpenter/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/recipes/fr_recipes.json",
     "/fortuna_romanorum/jobs/farmer/farmer_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/farmer/farmer_description.json",
+    "/fortuna_romanorum/jobs/fisher/recipes/fr_recipes.json": "/archipelago_biome/jobs/fisher/recipes/recipes.json",
     "/fortuna_romanorum/jobs/fisher/fisher_description.json": "/archipelago_biome/jobs/fisher/fisher_description.json",
     "/fortuna_romanorum/jobs/herbalist/herbalist_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/herbalist/herbalist_description.json",
     "/fortuna_romanorum/jobs/shepherd/shepherd_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/shepherd/shepherd_description.json",
@@ -308,18 +309,12 @@
     ],
     "stonehearth:data:resource_constants": "file(data/resource_constants.json)",
     "stonehearth:data:thoughts": "fortuna_romanorum:data:thoughts",
-    "stonehearth:farmer:all_crops": "file(data/crops/all_crops.json)",
-    "stonehearth:farmer:initial_crops": [
-      "stonehearth_ace/mod_support/fortuna_romanorum/data/crops/initial_crops.json",
-      "file(data/crops/initial_crops.json)"
-    ],
     "stonehearth:kingdoms:human_npcs": "file(data/kingdoms/human_npc_population.json)",
     "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
     "stonehearth_ace:ui:input_cask:filters": "file(ui/data/input_cask_filters.json)",
     "stonehearth_ace:ui:stockpile:filters:fluids": "file(ui/data/stockpile_filters_fluids.json)"
   },
   "overrides": {
-    "stonehearth_ace/mod_support/fortuna_romanorum/data/crops/initial_crops.json": "file(data/crops/ace_initial_crops.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/town_founding_food_donation.json": "file(data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/ace_town_founding_food_donation.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/data/loadouts/fr_loadouts.json": "file(data/loadouts/ace_fr_loadouts.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/blacksmith/recipes/fr_recipes.json": "file(jobs/blacksmith/recipes/ace/fr_recipes.json)",

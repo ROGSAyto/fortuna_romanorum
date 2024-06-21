@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 21,
+	"work_units": 2,
+	"recipe_name": "i18n(fortuna_romanorum:jobs.fisher.recipes.clam_trap_recipe.recipe_name)",
+	"description": "i18n(fortuna_romanorum:jobs.fisher.recipes.clam_trap_recipe.description)",
+	"flavor": "i18n(fortuna_romanorum:jobs.fisher.recipes.clam_trap_recipe.flavor)",
+	"portrait": "/fortuna_romanorum/entities/gizmos/clam_trap/clam_trap.png",
+	"workshop": "archipelago_biome:fisher:workbench",
+	"level_requirement": 2,
+	"ingredients": [
+		{
+			"material": "wood resource",
+			"count": 1
+		},
+		{
+			"material": "fiber resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "fortuna_romanorum:gizmos:clam_trap"
+		}
+	]
+}

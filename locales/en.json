@@ -2683,6 +2683,15 @@
         }
       }
     },
+    "fisher": {
+      "recipes": {
+          "clam_trap_recipe": {
+              "recipe_name": "Clam Trap",
+              "description": "A sturdy trap designed for capturing clams, utilized by Roman fishers.",
+              "flavor": "An essential tool for any Roman fisher, ensuring a bountiful catch."
+          }
+      }
+    },
     "mason": {
       "recipes": {
         "plaster_building_parts_name": "Building Parts, Plaster",

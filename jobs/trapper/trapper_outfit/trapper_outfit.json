@@ -9,7 +9,7 @@
       "model_variants": {
          "default": {
             "layer": "clothing",
-            "transparent": "false",
+            "transparent": "true",
             "models": [
                "file(trapper_outfit.qb)"
             ]
