@@ -2502,7 +2502,11 @@
         "centurion_description": {
         "display_name": "Centurion",
         "description": "Centurions are the ones who were selected to lead the defense.",
-        "requirements": "Centurion helmet, awarded by the capital",
+        "requirements": "Centurion Promotion Scroll, awarded by the capital",
+        "centurion_scroll_talisman": {
+          "display_name": "Centurion Promotion Scroll",
+          "description": "A scroll from Rome, awarded for distinguished service, conferring the title of Centurion."
+        },
         "level_1_data": {
           "perk_000_name": "Novice trainer",
           "perk_000_description": "The surrounding army gets 20% damage bonus for 5m"
@@ -2537,7 +2541,11 @@
         "legat_description": {
             "display_name": "Legat",
             "description": "Legats are the commanders entrusted with the responsibility of protecting and expanding the Empire's borders.",
-            "requirements": "Legat helmet, awarded by the capital",
+            "requirements": "Legat Promotion Scroll, awarded by the capital",
+            "legat_scroll_talisman": {
+              "display_name": "Legat Promotion Scroll",
+              "description": "A scroll from Rome, awarded for exceptional service, bestowing the honor of Legat rank."
+            },
             "level_1_data": {
                 "perk_000_name": "Inspirational Leader",
                 "perk_000_description": "The surrounding army gets a 10% damage bonus for 5m."
@@ -2572,7 +2580,11 @@
       "praetorian_description": {
         "display_name": "Praetorian",
         "description": "Praetorians are elite guards tasked with protecting the leaders and ensuring security.",
-        "requirements": "Praetorian helmet, awarded by the capital",
+        "requirements": "Praetorian Promotion Scroll, awarded by the capital",
+        "praetorian_scroll_talisman": {
+          "display_name": "Praetorian Promotion Scroll",
+          "description": "A scroll from Rome, awarded for outstanding performance, signifying the elevation to Praetorian rank."
+        },
         "level_1_data": {
           "perk_000_name": "Novice Protector",
           "perk_000_description": "The surrounding guards receive a 20% damage bonus for 5 minutes."

@@ -46,7 +46,7 @@
               "name": "i18n(stonehearth_ace:jobs.footman.footman_description.level_1_data.training_perk_name)",
               "description": "i18n(stonehearth_ace:jobs.footman.footman_description.level_1_data.training_perk_description)",
               "id": "training_perk",
-              "icon": "/Stoneheart/stonehearth_ace/jobs/footman/footman_buffs/training.png)",
+              "icon": "/Stoneheart/stonehearth_ace/jobs/footman/footman_buffs/training.png",
               "level": 1
            },
             {

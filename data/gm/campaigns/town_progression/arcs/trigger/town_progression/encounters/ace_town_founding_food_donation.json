@@ -20,7 +20,7 @@
                "num_rolls": 2,
                "items": {
                   "red_wine": {
-                     "uri": "fortuna_romanorum:drink:red_wine",
+                     "uri": "serene_league:drink:red_wine",
                      "weight": 1
                   }
                }
@@ -29,11 +29,11 @@
                "num_rolls": 3,
                "items": {
                   "red_wine": {
-                     "uri": "fortuna_romanorum:drink:red_wine",
+                     "uri": "serene_league:drink:red_wine",
                      "weight": 1
                   },
                   "juice_grape": {
-                     "uri": "fortuna_romanorum:drink:juice_grape",
+                     "uri": "serene_league:drink:juice_grape",
                      "weight": 2
                   },
                   "moomoo_milk": {

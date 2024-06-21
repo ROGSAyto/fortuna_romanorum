@@ -69,7 +69,7 @@
 		"armor:evocati_armor": "file(entities/armor/evocati_set/evocati_armor/evocati_armor.json)",
 		"armor:evocati_shield": "file(entities/armor/evocati_set/evocati_shield/evocati_shield.json)",
     "armor:fine_lorica_armor": "file(entities/armor/fine_lorica_armor/fine_lorica_armor.json)",
-		"armor:archer_mail": "file(entities/armor/archer_armor/archer_mail.json)",
+		"armor:archer_mail": "file(entities/armor/archer_mail/archer_mail.json)",
 		"armor:bronze_breastplate": "file(entities/armor/bronze_breastplate/bronze_breastplate.json)",
 		"armor:iron_breastplate": "file(entities/armor/iron_breastplate/iron_breastplate.json)",
     "armor:bronze_mail": "file(entities/armor/bronze_mail/bronze_mail.json)",
@@ -321,7 +321,6 @@
   "overrides": {
     "stonehearth_ace/mod_support/fortuna_romanorum/data/crops/initial_crops.json": "file(data/crops/ace_initial_crops.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/town_founding_food_donation.json": "file(data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/ace_town_founding_food_donation.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/data/gm_index.json": "file(data/gm/ace_gm_index.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/data/loadouts/fr_loadouts.json": "file(data/loadouts/ace_fr_loadouts.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/blacksmith/recipes/fr_recipes.json": "file(jobs/blacksmith/recipes/ace/fr_recipes.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/carpenter_description.json": "file(jobs/carpenter/ace/carpenter_description.json)",

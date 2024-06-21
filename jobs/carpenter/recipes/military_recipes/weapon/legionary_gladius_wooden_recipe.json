@@ -12,6 +12,10 @@
       {
          "material": "wood resource",
          "count": 2
+      },
+      {
+         "uri": "fortuna_romanorum:refined:wooden_handle",
+         "count": 1
       }
    ],
    "produces": [
