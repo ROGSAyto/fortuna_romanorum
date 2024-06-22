@@ -9,8 +9,8 @@
    "controller": "fortuna_romanorum:class:legionary",
    "description": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.description)",
    "requirements": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.requirements)",
-   "mixintypes": {
-     "talisman_uri": "override"
+   "mixintypes":  {
+     "talisman_uri": "override(stonehearth:jobs:footman:talisman_uri)"
    },
    "talisman_uri": "fortuna_romanorum:legionary:talisman:legionary_training_sword_talisman",
    "default_stance": "aggressive",
@@ -42,13 +42,6 @@
    "level_data": {
       "1": {
          "perks": [
-           {
-              "name": "i18n(stonehearth_ace:jobs.footman.footman_description.level_1_data.training_perk_name)",
-              "description": "i18n(stonehearth_ace:jobs.footman.footman_description.level_1_data.training_perk_description)",
-              "id": "training_perk",
-              "icon": "/Stoneheart/stonehearth_ace/jobs/footman/footman_buffs/training.png",
-              "level": 1
-           },
             {
                "type": "apply_buff",
                "name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.level_1_data.perk_000_name)",

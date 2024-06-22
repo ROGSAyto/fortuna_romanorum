@@ -3,9 +3,9 @@
     "file(fisher_description.json)"
   ],
   "equipment": {
-    "mixintypes": [
+    "mixintypes": {
       "helmet": "remove"
-    ],
+    },
     "torso": "file(fisher_outfit)",
     "boots": "fortuna_romanorum:armor:sandals"
   },

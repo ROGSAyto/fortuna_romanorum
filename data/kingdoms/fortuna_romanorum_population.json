@@ -464,8 +464,7 @@
 				},
 				"female": {
 					 "uri": [
-						 "stonehearth:female_1",
-						 "stonehearth:female_2"
+						 "fortuna_romanorum:female_1"
 					 ],
 			     "given_names": [
 							"Aburia",

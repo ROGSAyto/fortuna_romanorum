@@ -1,6 +1,7 @@
 {
   "type": "entity",
   "mixins": [
+        
     "stonehearth:carpenter:outfit"
   ],
   "components": {
@@ -18,7 +19,7 @@
       },
       "female": {
         "layer": "clothing",
-        "transparent": "false",
+        "transparent": "true",
         "models": [
           "file(carpenter_outfit_female.qb)"
         ]

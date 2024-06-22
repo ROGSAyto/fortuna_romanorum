@@ -1,6 +1,7 @@
 {
   "type": "entity",
   "mixins": [
+        
     "stonehearth:poter:outfit"
   ],
   "components": {
@@ -11,14 +12,14 @@
       },
       "default": {
         "layer": "clothing",
-        "transparent": "false",
+        "transparent": "true",
         "models": [
           "file(poter_outfit.qb)"
         ]
       },
       "female": {
         "layer": "clothing",
-        "transparent": "false",
+        "transparent": "true",
         "models": [
           "file(poter_outfit_female.qb)"
         ]

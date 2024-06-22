@@ -99,7 +99,8 @@
 		"buffs:signifer:courage_aura3": "file(jobs/signifer/signifer_buffs/courage_aura3_buff.json)",
 		"buffs:signifer:courage_aura3_effect": "file(jobs/signifer/signifer_buffs/courage_aura3_effect_buff.json)",
 		"buffs:signifer:self_courage_effect3": "file(jobs/signifer/signifer_buffs/self_courage_effect3.json)",
-
+    "buff_scripts:body_model": "file(data/buffs/scripts/body_model_buff.lua)",
+    "buffs:body_model:fortuna_romanorum": "file(data/buffs/equipment/body_model/fortuna_romanorum_body_model_buff.json)",
 		"decoration:hearth:cheer": "file(entities/decoration/hearth_lamp/hearth_lamp.json)",
 		"decoration:hearth:glory": "file(entities/decoration/hearth_box/hearth_box.json)",
 		"decoration:hearth:makers": "file(entities/decoration/hearth_urn/hearth_urn.json)",
