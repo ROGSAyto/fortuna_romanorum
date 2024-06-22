@@ -142,7 +142,7 @@
     "refined:silver_handle": "file(entities/refined/silver_handle/silver_handle.json)",
 		"refined:gold_handle": "file(entities/refined/gold_handle/gold_handle.json)",
 
-
+		"weapons:legionary_gladius_wood": "file(entities/weapons/legionary_gladius/wood/gladius.json)",
     "weapons:legionary_gladius_bronze": "file(entities/weapons/legionary_gladius/bronze/gladius.json)",
 		"weapons:legionary_gladius_iron": "file(entities/weapons/legionary_gladius/iron/gladius.json)",
     "weapons:legionary_gladius_steel": "file(entities/weapons/legionary_gladius/steel/gladius.json)",
@@ -198,7 +198,6 @@
     "weapons:legat_spatha_iron": "file(entities/weapons/legat_spatha/iron/spatha.json)",
     "weapons:legat_spatha_steel": "file(entities/weapons/legat_spatha/steel/spatha.json)",
 		"weapons:signum": "file(entities/weapons/signum/signum.json)",
-		"weapons:legionary_training_sword": "file(entities/weapons/legionary_training_sword/legionary_training_sword.json)",
 		"weapons:hasta": "file(entities/weapons/hasta/hasta.json)",
 		"weapons:pugio": "file(entities/weapons/pugio/pugio.json)",
 		"weapons:kopis": "file(entities/weapons/kopis/kopis.json)",
@@ -207,7 +206,7 @@
 
 		"jobs:index": "file(jobs/index.json)",
 
-		"legionary:talisman:legionary_training_sword_talisman": "file(entities/weapons/legionary_training_sword/legionary_training_sword_talisman.json)",
+		"legionary:talisman:legionary_gladius_talisman": "file(entities/weapons/legionary_gladius/wood/gladius_talisman.json)",
 		"centurion:talisman:centurion_scroll_talisman": "file(jobs/centurion/centurion_scroll/centurion_scroll_talisman.json)",
     "praetorian:talisman:praetorian_scroll_talisman": "file(jobs/praetorian/praetorian_scroll/praetorian_scroll_talisman.json)",
     "legat:talisman:legat_scroll_talisman": "file(jobs/legat/legat_scroll/legat_scroll_talisman.json)",
@@ -237,6 +236,8 @@
     "male_1": "file(entities/humans/male/male_1.json)",
     "male_2": "file(entities/humans/male/male_2.json)",
 
+    "centurion:outfit": "file(jobs/centurion/centurion_outfit)",
+    "legat:outfit": "file(jobs/legat/legat_outfit)",
 		"carpenter:outfit": "file(jobs/carpenter/carpenter_outfit)",
 		"worker:outfit": "file(jobs/worker/worker_outfit)",
 		"legionary:outfit": "file(jobs/legionary/legionary_recruit_outfit)",
@@ -327,7 +328,8 @@
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/weaver/recipes/fr_recipes.json": "file(jobs/weaver/recipes/ace/fr_recipes.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/ace_entity.json": "file(mixins/enable_entity.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/buyable_if_ace.json": "file(mixins/buyable.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)"
+    "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)",
+    "archipelago_biome/mod_support/fortuna_romanorum/jobs/fisher/recipes/fr_recipes.json": "file(jobs/fisher/recipes/fr_recipes.json)"
   },
   "components": {
     "clam_spawner":	"file(components/clam_spawner/clam_spawner.lua)"

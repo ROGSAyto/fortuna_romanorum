@@ -1,16 +1,11 @@
 {
   "type": "entity",
   "mixins": [
-    
-    "stonehearth:trapper:outfit"
+    "stonehearth:mixins:item_properties"
   ],
   "components": {
     "render_info": {},
     "model_variants": {
-      "mixintypes": {
-        "default": "override",
-        "female": "override"
-      },
       "default": {
         "layer": "clothing",
         "transparent": "true",

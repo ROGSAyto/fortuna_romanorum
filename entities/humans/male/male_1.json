@@ -71,6 +71,7 @@
                },
                "head_hair": {
                   "weights": {
+                    "[none]": 0,
                     "male_hair_1": 1,
                     "male_hair_2": 1,
                     "male_hair_3": 1,

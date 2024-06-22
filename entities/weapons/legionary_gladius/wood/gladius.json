@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(legionary_gladius_wood_equipped.qb)"
+               "file(gladius_equipped.qb)"
             ]
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(legionary_gladius_wood_iconic.json)"
+         "iconic_form": "file(gladius_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
@@ -53,7 +53,7 @@
       "stonehearth:catalog": {
          "display_name": "i18n(fortuna_romanorum:entities.weapons.legionary_gladius_wood.display_name)",
          "description": "i18n(fortuna_romanorum:entities.weapons.legionary_gladius_wood.description)",
-         "icon": "file(legionary_gladius_wood.png)",
+         "icon": "file(gladius.png)",
          "category": "weapons",
          "material_tags": ["wood", "melee_weapon"]
       }

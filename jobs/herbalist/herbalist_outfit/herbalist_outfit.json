@@ -1,15 +1,11 @@
 {
   "type": "entity",
   "mixins": [
-        
-    "stonehearth:herbalist:outfit"
+     "stonehearth:mixins:item_properties"
   ],
   "components": {
+    "render_info": {},
     "model_variants": {
-      "mixintypes": {
-        "default": "override",
-        "female": "override"
-      },
       "default": {
         "layer": "clothing",
         "transparent": "true",
@@ -34,6 +30,8 @@
   "entity_data": {
     "stonehearth:catalog": {
       "icon": "file(herbalist_outfit.png)",
+      "display_name": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.display_name)",
+      "description": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.description)",
       "material_tags": [
         "cloth"
       ]

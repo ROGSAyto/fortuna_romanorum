@@ -1,6 +1,6 @@
 {
   "mixins": [
-    "stonehearth:mixins:worker_outfit"
+    "stonehearth:mixins:item_properties"
   ],
   "components": {
     "model_variants": {
@@ -12,14 +12,14 @@
       },
       "default": {
         "layer": "clothing",
-        "transparent": false,
+        "transparent": true,
         "models": [
           "file(worker_outfit.qb)"
         ]
       },
       "female": {
         "layer": "clothing",
-        "transparent": false,
+        "transparent": true,
         "models": [
           "file(worker_outfit_female.qb)"
         ]

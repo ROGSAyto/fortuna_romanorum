@@ -1,10 +1,10 @@
 {
   "type": "entity",
   "mixins": [
-        
-    "archipelago_biome:fisher:outfit"
+    "stonehearth:mixins:item_properties"
   ],
   "components": {
+    "render_info": {},
     "model_variants": {
       "mixintypes": {
         "default": "override",

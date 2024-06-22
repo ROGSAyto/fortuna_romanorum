@@ -2,10 +2,10 @@
    "type": "recipe",
    "effort": 120,
    "work_units": 5,
-   "recipe_name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.legionary_training_sword.recipe_name)",
-   "description": "i18n(fortuna_romanorum:jobs.carpenter.recipes.legionary_training_sword.description)",
-   "flavor": "i18n(fortuna_romanorum:jobs.carpenter.recipes.legionary_training_sword.flavor)",
-   "portrait": "/fortuna_romanorum/entities/weapons/legionary_training_sword/legionary_training_sword.png",
+   "recipe_name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.legionary_gladius_wood.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.carpenter.recipes.legionary_gladius_wood.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.carpenter.recipes.legionary_gladius_wood.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/legionary_gladius_wood/legionary_gladius_wood.png",
    "workshop": "stonehearth:carpenter:workbench",
    "level_requirement": 1,
    "ingredients": [
@@ -20,7 +20,7 @@
    ],
    "produces": [
       {
-         "item": "fortuna_romanorum:legionary:talisman:legionary_training_sword_talisman"
+         "item": "fortuna_romanorum:legionary:talisman:legionary_gladius_talisman"
       }
    ]
 }

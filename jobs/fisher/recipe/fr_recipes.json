@@ -1,30 +1,18 @@
 {
-   "mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
+   "mixins": "/archipelago_biome/jobs/fischer/recipes/recipes.json",
    "craftable_recipes": {
-      "tools": {
-         "recipes": {
-            "weaver_spindle": {
-               "recipe": "file(weaver_spindle_recipe.json)"
-            },
-            "hoe": {
-               "recipe": "file(hoe_recipe.json)"
-            }
-         }
+      "weapons": {
+        "mixintypes": {
+          "slap_fish": "remove",
+          "crab_pincer": "remove",
+          "fish_quiver": "remove",
+          "giant_bone_axe": "remove"
+        }
       },
-      "animal_feed": {
-         "ordinal": 68,
-         "name": "i18n(stonehearth:jobs.cook.recipes.animal_feed_name)",
-         "recipes": {
-            "sheep_feed": {
-               "recipe": "file(sheep_feed_recipe.json)"
-            },
-            "poyo_feed": {
-               "recipe": "file(poyo_feed_recipe.json)"
-            },
-            "rabbit_feed": {
-               "recipe": "file(rabbit_feed_recipe.json)"
-            }
-         }
+      "fishing": {
+        "clam_trap": {
+          "recipe": "file(workbenches/crab_trap_recipe.json)"
+        }
       }
    }
 }

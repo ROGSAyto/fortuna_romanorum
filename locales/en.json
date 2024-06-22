@@ -1736,7 +1736,7 @@
         "display_name": "Signum",
         "description": "The Eagle"
       },
-      "legionary_training_sword": {
+      "legionary_gladius_wood": {
         "display_name": "Training sword",
         "description": "A simple wooden sword",
         "flavor": "It hurts!!!!!",
@@ -1755,7 +1755,7 @@
         "description": "A dagger",
         "flavor": "A small blade for emergencies"
       },
-      "legionary_training_sword_talisman": {
+      "legionary_gladius_talisman": {
         "display_name": "Training sword",
         "description": "Required to train a legionary"
       },
@@ -2643,7 +2643,7 @@
             "recipe_name": "Wooden Handle",
             "description": "A simple handle made of wood, crafted by the carpenter."
         },
-        "legionary_training_sword": {
+        "legionary_gladius_wood": {
           "recipe_name": "Wooden Sword",
           "description": "A training sword",
           "flavor": "Twice as heavy as the gladius"

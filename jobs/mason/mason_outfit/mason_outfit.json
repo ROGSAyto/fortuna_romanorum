@@ -5,6 +5,7 @@
     "stonehearth:mason:outfit"
   ],
   "components": {
+    "render_info": {},
     "model_variants": {
       "mixintypes": {
         "default": "override",

@@ -1,7 +1,6 @@
 {
    "type": "entity",
-   "mixins": [
-         
+   "mixins": [         
      "stonehearth:mixins:item_properties"
    ],
    "components": {
