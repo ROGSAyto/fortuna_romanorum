@@ -34,7 +34,7 @@
         "name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.roman_training_equipment_name)",
         "recipes": {
           "legionary_gladius_wood": {
-            "recipe": "file(military_recipes/weapon/legionary_gladius_wood_recipe.json)"
+            "recipe": "file(military_recipes/weapon/legionary_gladius_wooden_recipe.json)"
           },
           "wicker_shield": {
             "recipe": "file(military_recipes/armor/shield/wicker_shield_recipe.json)"

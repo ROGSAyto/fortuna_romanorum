@@ -47,14 +47,6 @@
                "icon": "/fortuna_romanorum/entities/weapons/legionary_gladius/wood/gladius.png",
                "amount": 1
             },
-            "trapper": {
-               "ordinal": 2,
-               "display_name": "i18n(stonehearth:jobs.trapsper.trapper_description.display_name)",
-               "type": "entity",
-               "uri": "stonehearth:trapper:talisman",
-               "icon": "/stonehearth/data/loadouts/images/items/trapper_knife.png",
-               "amount": 1
-            },
             "cheese": {
                "ordinal": 4,
                "display_name": "i18n(serene_league:data.loadouts.items.cheese)",

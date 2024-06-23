@@ -9,9 +9,29 @@
    "controller": "fortuna_romanorum:class:praetorian",
    "description": "i18n(fortuna_romanorum:jobs.praetorian.praetorian_description.description)",
    "requirements": "i18n(fortuna_romanorum:jobs.praetorian.praetorian_description.requirements)",
-   "mixintypes": {
-      "talisman_uri": "override(stonehearth:jobs:knight:talisman_uri)"
-    },
+    "equipment_preferences": {
+      "roles": {
+         "one_handed_legionary": {
+            "command": "stonehearth_ace:commands:toggle_job_role:one_handed_footman",
+            "types": [
+               "mainhand", "shield"
+            ]
+         },
+         "two_handed_legionary": {
+            "command": "stonehearth_ace:commands:toggle_job_role:two_handed_footman",
+            "types": [
+               "twohanded"
+            ]
+         },
+         "dual_wield_legionary": {
+            "command": "stonehearth_ace:commands:toggle_job_role:dual_wield_footman",
+            "types": [
+               "mainhand", "offhand"
+            ]
+         }
+      },
+      "default_role": "one_handed_legionary"
+   },
    "talisman_uri": "fortuna_romanorum:praetorian:talisman:praetorian_scroll_talisman",
    "default_stance": "aggressive",
    "abilities": "file(praetorian_abilities)",

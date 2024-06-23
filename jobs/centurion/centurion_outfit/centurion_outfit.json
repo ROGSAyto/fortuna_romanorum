@@ -1,10 +1,10 @@
 {
    "type": "entity",
-   "mixins": [
-         
+   "mixins": [  
      "stonehearth:mixins:item_properties"
    ],
    "components": {
+      "render_info": {},      
       "model_variants": {
          "default": {
             "layer": "clothing",
