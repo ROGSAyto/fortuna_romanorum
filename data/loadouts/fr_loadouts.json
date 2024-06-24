@@ -15,7 +15,7 @@
                "display_name": "i18n(serene_league:data.loadouts.items.grapes)",
                "type": "entity",
                "uri": "serene_league:food:grapes:grapes_basket",
-               "icon": "/serene_league/data/loadouts/images/items/grapes_basket.png)",
+               "icon": "/serene_league/data/loadouts/images/items/grapes_basket.png",
                "amount": 10
             },
             "olives": {
@@ -23,15 +23,15 @@
                "display_name": "i18n(serene_league:data.loadouts.items.olives)",
                "type": "entity",
                "uri": "serene_league:food:olives:olives_basket",
-               "icon": "/serene_league/data/loadouts/images/items/olives_basket.png)",
+               "icon": "/serene_league/data/loadouts/images/items/olives_basket.png",
                "amount": 10
             },
             "legionary": {
                "ordinal": 2,
                "display_name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.display_name)",
                "type": "entity",
-               "uri": "fortuna_romanorum:legionary:talisman:legionary_training_sword_talisman",
-               "icon": "/fortuna_romanorum/entities/weapons/legionary_training_sword/legionary_training_sword.png",
+               "uri": "fortuna_romanorum:legionary:talisman:legionary_gladius_talisman",
+               "icon": "/fortuna_romanorum/entities/weapons/legionary_gladius/wood/gladius.png",
                "amount": 1
             }
          }
@@ -46,15 +46,15 @@
                "display_name": "i18n(serene_league:data.loadouts.items.olives)",
                "type": "entity",
                "uri": "serene_league:food:olives:olives_basket",
-               "icon": "/serene_league/data/loadouts/images/items/olives_basket.png)",
+               "icon": "/serene_league/data/loadouts/images/items/olives_basket.png",
                "amount": 10
             },
             "legionary": {
                "ordinal": 2,
                "display_name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.display_name)",
                "type": "entity",
-               "uri": "fortuna_romanorum:legionary:talisman:legionary_training_sword_talisman",
-               "icon": "/fortuna_romanorum/entities/weapons/legionary_training_sword/legionary_training_sword.png",
+               "uri": "fortuna_romanorum:legionary:talisman:legionary_gladius_talisman",
+               "icon": "/fortuna_romanorum/entities/weapons/legionary_gladius/wood/gladius.png",
                "amount": 1
             }
          }
@@ -69,7 +69,7 @@
                "display_name": "i18n(serene_league:data.loadouts.items.grapes)",
                "type": "entity",
                "uri": "serene_league:food:grapes:grapes_basket",
-               "icon": "/serene_league/data/loadouts/images/items/grapes_basket.png)",
+               "icon": "/serene_league/data/loadouts/images/items/grapes_basket.png",
                "amount": 10
             }
          }

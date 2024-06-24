@@ -22,12 +22,19 @@
 						}
          }
       },
+      "refined": {
+        "recipes": {
+          "wooden_handle" : {
+            "recipe": "file(refined/wooden_handle_recipe.json)"
+          }
+        }
+      },
       "roman_training_equipment": {
         "ordinal": 45.02,
         "name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.roman_training_equipment_name)",
         "recipes": {
-          "legionary_training_sword": {
-            "recipe": "file(military_recipes/weapon/legionary_training_sword_recipe.json)"
+          "legionary_gladius_wood": {
+            "recipe": "file(military_recipes/weapon/legionary_gladius_wooden_recipe.json)"
           },
           "wicker_shield": {
             "recipe": "file(military_recipes/armor/shield/wicker_shield_recipe.json)"

@@ -42,24 +42,38 @@
 		"armor:legionary_helmet": "file(entities/armor/legionary_helmet/legionary_helmet.json)",
 		"armor:legionary_armor": "file(entities/armor/legionary_armor/legionary_armor.json)",
 		"armor:legionary_shield": "file(entities/armor/legionary_shield/legionary_shield.json)",
+		"armor:fine_legionary_helmet": "file(entities/armor/fine_legionary_helmet/fine_legionary_helmet.json)",
+		"armor:fine_legionary_armor": "file(entities/armor/fine_legionary_armor/fine_legionary_armor.json)",    
 		"armor:praetorian_helmet": "file(entities/armor/praetorian_helmet/praetorian_helmet.json)",
 		"armor:praetorian_armor": "file(entities/armor/praetorian_armor/praetorian_armor.json)",
 		"armor:praetorian_shield": "file(entities/armor/praetorian_shield/praetorian_shield.json)",
+		"armor:fine_praetorian_helmet": "file(entities/armor/fine_praetorian_helmet/fine_praetorian_helmet.json)",
+		"armor:fine_praetorian_armor": "file(entities/armor/fine_praetorian_armor/fine_praetorian_armor.json)",    
 		"armor:signifer_helmet": "file(entities/armor/signifer_helmet/signifer_helmet.json)",
 		"armor:signifer_armor": "file(entities/armor/signifer_armor/signifer_armor.json)",
 		"armor:signifer_shield": "file(entities/armor/signifer_shield/signifer_shield.json)",
+    "armor:prefect_helmet": "file(entities/armor/prefect_helmet/prefect_helmet.json)",
+		"armor:prefect_armor": "file(entities/armor/prefect/prefect_armor.json)",  
 		"armor:centurion_helmet": "file(entities/armor/centurion_helmet/centurion_helmet.json)",
+		"armor:centurion_armor": "file(entities/armor/centurion_armor/centurion_armor.json)",    
 		"armor:centurion_shield": "file(entities/armor/centurion_shield/centurion_shield.json)",
+    "armor:centurion_sword_sheath": "file(entities/armor/centurion_sword_sheat/centurion_sword_sheat.json)",
+    "armor:tribune_helmet": "file(entities/armor/tribune_helmet/tribune_helmet.json)",
+		"armor:tribune_armor": "file(entities/armor/tribune_armor/tribune_armor.json)",   
+    "armor:legat_helmet": "file(entities/armor/legat_helmet/legat_helmet.json)",
+		"armor:legat_armor": "file(entities/armor/legat_armor/legat_armor.json)",    
+		"armor:legat_shield": "file(entities/armor/legat_shield/legat_shield.json)",
+    "armor:legat_sword_sheath": "file(entities/armor/legat_sword_sheath/legat_sword_sheath.json)",
 		"armor:capsarii_pack": "file(entities/armor/capsarii_pack/capsarii_pack.json)",
 		"armor:evocati_helmet": "file(entities/armor/evocati_set/evocati_helmet/evocati_helmet.json)",
 		"armor:evocati_armor": "file(entities/armor/evocati_set/evocati_armor/evocati_armor.json)",
 		"armor:evocati_shield": "file(entities/armor/evocati_set/evocati_shield/evocati_shield.json)",
     "armor:fine_lorica_armor": "file(entities/armor/fine_lorica_armor/fine_lorica_armor.json)",
-		"armor:roman_archer_mail": "file(entities/armor/archer_armor/roman_archer_mail.json)",
-		"armor:roman_bronze_breastplate": "file(entities/armor/roman_bronze_breastplate/roman_bronze_breastplate.json)",
-		"armor:roman_iron_breastplate": "file(entities/armor/roman_iron_breastplate/roman_iron_breastplate.json)",
-    "armor:roman_bronze_mail": "file(entities/armor/roman_bronze_mail/roman_bronze_mail.json)",
-		"armor:roman_iron_mail": "file(entities/armor/roman_iron_mail/roman_iron_mail.json)",
+		"armor:archer_mail": "file(entities/armor/archer_mail/archer_mail.json)",
+		"armor:bronze_breastplate": "file(entities/armor/bronze_breastplate/bronze_breastplate.json)",
+		"armor:iron_breastplate": "file(entities/armor/iron_breastplate/iron_breastplate.json)",
+    "armor:bronze_mail": "file(entities/armor/bronze_mail/bronze_mail.json)",
+		"armor:iron_mail": "file(entities/armor/iron_mail/iron_mail.json)",
     "armor:sword_sheath": "file(entities/armor/sword_sheath/sword_sheath.json)",
 
 		"buffs:legionary:def_1": "file(jobs/legionary/legionary_buffs/defense_1_buff.json)",
@@ -85,7 +99,8 @@
 		"buffs:signifer:courage_aura3": "file(jobs/signifer/signifer_buffs/courage_aura3_buff.json)",
 		"buffs:signifer:courage_aura3_effect": "file(jobs/signifer/signifer_buffs/courage_aura3_effect_buff.json)",
 		"buffs:signifer:self_courage_effect3": "file(jobs/signifer/signifer_buffs/self_courage_effect3.json)",
-
+    "buff_scripts:body_model": "file(data/buffs/scripts/body_model_buff.lua)",
+    "buffs:body_model:fortuna_romanorum": "file(data/buffs/equipment/body_model/fortuna_romanorum_body_model_buff.json)",
 		"decoration:hearth:cheer": "file(entities/decoration/hearth_lamp/hearth_lamp.json)",
 		"decoration:hearth:glory": "file(entities/decoration/hearth_box/hearth_box.json)",
 		"decoration:hearth:makers": "file(entities/decoration/hearth_urn/hearth_urn.json)",
@@ -119,6 +134,15 @@
 		"town_bonus:deity": "file(data/town_bonuses/deity_town_bonus.lua)",
 		"town_bonus:valor": "file(data/town_bonuses/valor_town_bonus.lua)",
 
+
+    "refined:wooden_handle": "file(entities/refined/wooden_handle/wooden_handle.json)",
+		"refined:bronze_handle": "file(entities/refined/bronze_handle/bronze_handle.json)",
+		"refined:iron_handle": "file(entities/refined/iron_handle/iron_handle.json)",
+    "refined:steel_handle": "file(entities/refined/steel_handle/steel_handle.json)",
+    "refined:silver_handle": "file(entities/refined/silver_handle/silver_handle.json)",
+		"refined:gold_handle": "file(entities/refined/gold_handle/gold_handle.json)",
+
+		"weapons:legionary_gladius_wood": "file(entities/weapons/legionary_gladius/wood/gladius.json)",
     "weapons:legionary_gladius_bronze": "file(entities/weapons/legionary_gladius/bronze/gladius.json)",
 		"weapons:legionary_gladius_iron": "file(entities/weapons/legionary_gladius/iron/gladius.json)",
     "weapons:legionary_gladius_steel": "file(entities/weapons/legionary_gladius/steel/gladius.json)",
@@ -174,7 +198,6 @@
     "weapons:legat_spatha_iron": "file(entities/weapons/legat_spatha/iron/spatha.json)",
     "weapons:legat_spatha_steel": "file(entities/weapons/legat_spatha/steel/spatha.json)",
 		"weapons:signum": "file(entities/weapons/signum/signum.json)",
-		"weapons:legionary_training_sword": "file(entities/weapons/legionary_training_sword/legionary_training_sword.json)",
 		"weapons:hasta": "file(entities/weapons/hasta/hasta.json)",
 		"weapons:pugio": "file(entities/weapons/pugio/pugio.json)",
 		"weapons:kopis": "file(entities/weapons/kopis/kopis.json)",
@@ -183,10 +206,10 @@
 
 		"jobs:index": "file(jobs/index.json)",
 
-		"legionary:talisman:legionary_training_sword_talisman": "file(entities/weapons/legionary_training_sword/legionary_training_sword_talisman.json)",
-		"centurion:talisman:centurion_talisman": "file(entities/armor/centurion_helmet/centurion_helmet_talisman.json)",
-    "praetorian:talisman:praetorian_talisman": "file(entities/armor/praetorian_helmet/praetorian_helmet_talisman.json)",
-    "legat:talisman:legat_talisman": "file(entities/armor/legat_helmet/legat_helmet_talisman.json)",
+		"legionary:talisman:legionary_gladius_talisman": "file(entities/weapons/legionary_gladius/wood/gladius_talisman.json)",
+		"centurion:talisman:centurion_scroll_talisman": "file(jobs/centurion/centurion_scroll/centurion_scroll_talisman.json)",
+    "praetorian:talisman:praetorian_scroll_talisman": "file(jobs/praetorian/praetorian_scroll/praetorian_scroll_talisman.json)",
+    "legat:talisman:legat_scroll_talisman": "file(jobs/legat/legat_scroll/legat_scroll_talisman.json)",
 		"capsarii:talisman:capsarii_outfit_talisman": "file(jobs/capsarii/capsarii_outfit/capsarii_outfit_talisman.json)",
 		"signifer:talisman:signum_talisman": "file(entities/weapons/signum/signum_talisman.json)",
 		"shepherd:talisman:roman_crook_talisman": "file(entities/tools/roman_crook/roman_crook_talisman.json)",
@@ -213,6 +236,8 @@
     "male_1": "file(entities/humans/male/male_1.json)",
     "male_2": "file(entities/humans/male/male_2.json)",
 
+    "centurion:outfit": "file(jobs/centurion/centurion_outfit)",
+    "legat:outfit": "file(jobs/legat/legat_outfit)",
 		"carpenter:outfit": "file(jobs/carpenter/carpenter_outfit)",
 		"worker:outfit": "file(jobs/worker/worker_outfit)",
 		"legionary:outfit": "file(jobs/legionary/legionary_recruit_outfit)",
@@ -264,12 +289,13 @@
   "mixintos": {
     "/archipelago_biome/entities/gizmos/boat/boat.json": "file(entities/gizmos/boat/boat.json)",
     "/fortuna_romanorum/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/town_founding_food_donation.json": "stonehearth_ace/mod_support/fortuna_romanorum/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/town_founding_food_donation.json",
-    "/fortuna_romanorum/data/loadouts/fr_loadouts.json": "stonehearth_ace/mod_support/serene_league/data/loadouts/sl_loadouts.json",
+    "/fortuna_romanorum/data/loadouts/fr_loadouts.json": "stonehearth_ace/mod_support/fortuna_romanorum/data/loadouts/fr_loadouts.json",
     "/fortuna_romanorum/jobs/blacksmith/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/blacksmith/recipes/fr_recipes.json",
     "/fortuna_romanorum/jobs/brewer/brewer_description.json": "/stonehearth_ace/jobs/brewer/brewer_description.json",
     "/fortuna_romanorum/jobs/carpenter/carpenter_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/carpenter_description.json",
     "/fortuna_romanorum/jobs/carpenter/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/recipes/fr_recipes.json",
     "/fortuna_romanorum/jobs/farmer/farmer_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/farmer/farmer_description.json",
+    "/fortuna_romanorum/jobs/fisher/recipes/fr_recipes.json": "/archipelago_biome/jobs/fisher/recipes/recipes.json",
     "/fortuna_romanorum/jobs/fisher/fisher_description.json": "/archipelago_biome/jobs/fisher/fisher_description.json",
     "/fortuna_romanorum/jobs/herbalist/herbalist_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/herbalist/herbalist_description.json",
     "/fortuna_romanorum/jobs/shepherd/shepherd_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/shepherd/shepherd_description.json",
@@ -285,20 +311,13 @@
     ],
     "stonehearth:data:resource_constants": "file(data/resource_constants.json)",
     "stonehearth:data:thoughts": "fortuna_romanorum:data:thoughts",
-    "stonehearth:farmer:all_crops": "file(data/crops/all_crops.json)",
-    "stonehearth:farmer:initial_crops": [
-      "stonehearth_ace/mod_support/fortuna_romanorum/data/crops/initial_crops.json",
-      "file(data/crops/initial_crops.json)"
-    ],
     "stonehearth:kingdoms:human_npcs": "file(data/kingdoms/human_npc_population.json)",
     "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
     "stonehearth_ace:ui:input_cask:filters": "file(ui/data/input_cask_filters.json)",
     "stonehearth_ace:ui:stockpile:filters:fluids": "file(ui/data/stockpile_filters_fluids.json)"
   },
   "overrides": {
-    "stonehearth_ace/mod_support/fortuna_romanorum/data/crops/initial_crops.json": "file(data/crops/ace_initial_crops.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/town_founding_food_donation.json": "file(data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/ace_town_founding_food_donation.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/data/gm_index.json": "file(data/gm/ace_gm_index.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/data/loadouts/fr_loadouts.json": "file(data/loadouts/ace_fr_loadouts.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/blacksmith/recipes/fr_recipes.json": "file(jobs/blacksmith/recipes/ace/fr_recipes.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/carpenter_description.json": "file(jobs/carpenter/ace/carpenter_description.json)",
@@ -309,7 +328,8 @@
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/weaver/recipes/fr_recipes.json": "file(jobs/weaver/recipes/ace/fr_recipes.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/ace_entity.json": "file(mixins/enable_entity.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/buyable_if_ace.json": "file(mixins/buyable.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)"
+    "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)",
+    "archipelago_biome/mod_support/fortuna_romanorum/jobs/fisher/recipes/fr_recipes.json": "file(jobs/fisher/recipes/fr_recipes.json)"
   },
   "components": {
     "clam_spawner":	"file(components/clam_spawner/clam_spawner.lua)"
@@ -338,7 +358,6 @@
       "file(ui/game/bulletin/bulletin_dialog/fr_immigration_report_dialog/fr_immigration_report_dialog.html)"
     ],
     "js": [
-      "file(ui/shell/select_settlement/map.js)",
       "file(ui/game/bulletin/bulletin_dialog/fr_immigration_report_dialog/fr_immigration_report_dialog.js)"
     ],
     "less": [

@@ -1,35 +1,34 @@
 {
   "type": "entity",
   "mixins": [
-    "stonehearth:mixins:item_properties",
-    "stonehearth:trapper:outfit"
+    "stonehearth:mixins:item_properties"
   ],
   "components": {
     "render_info": {},
-      "model_variants": {
-         "default": {
-            "layer": "clothing",
-            "transparent": "false",
-            "models": [
-               "file(trapper_outfit.qb)"
-            ]
-         },
-         "female": {
-            "layer": "clothing",
-            "transparent": "false",
-            "models": [
-               "file(trapper_outfit_female.qb)"
-            ]
-         }
-    },
-      "stonehearth:equipment_piece": {
-         "render_type": "merge_with_model",
-         "slot": "torso",
-         "no_drop": true,
-         "injected_buffs": [
-           "stonehearth_ace:buffs:weather:hot_resist"
-         ]
+    "model_variants": {
+      "default": {
+        "layer": "clothing",
+        "transparent": "true",
+        "models": [
+            "file(trapper_outfit.qb)"
+        ]
+      },
+      "female": {
+        "layer": "clothing",
+        "transparent": "true",
+        "models": [
+          "file(trapper_outfit_female.qb)"
+        ]
       }
+    },
+    "stonehearth:equipment_piece": {
+      "render_type": "merge_with_model",
+      "slot": "torso",
+      "no_drop": true,
+      "injected_buffs": [
+        "stonehearth_ace:buffs:weather:hot_resist"
+      ]
+    }
   },
   "entity_data": {
     "stonehearth:catalog": {

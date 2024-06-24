@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 9,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.fine_legionary_gladius_iron_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.fine_legionary_gladius_iron_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.fine_legionary_gladius_iron_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/fine_legionary_gladius/iron/fine_legionary_gladius.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      },
+      {
+         "uri": "fortuna_romanorum:refined:bronze_handle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:weapons:fine_legionary_gladius_iron"
+      }
+   ]
+}

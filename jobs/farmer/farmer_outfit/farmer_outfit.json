@@ -1,6 +1,7 @@
 {
   "type": "entity",
   "mixins": [
+        
     "stonehearth:farmer:outfit"
   ],
   "components": {
@@ -11,14 +12,14 @@
       },
       "default": {
         "layer": "clothing",
-        "transparent": "trfalseue",
+        "transparent": "true",
         "models": [
           "file(farmer_outfit.qb)"
         ]
       },
       "female": {
         "layer": "clothing",
-        "transparent": "false",
+        "transparent": "true",
         "models": [
           "file(farmer_outfit_female.qb)"
         ]

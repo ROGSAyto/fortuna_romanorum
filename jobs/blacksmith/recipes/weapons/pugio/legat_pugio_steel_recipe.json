@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 11,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legat_pugio_steel_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legat_pugio_steel_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legat_pugio_steel_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/legat_pugio/steel/legat_pugio.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 10,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 1
+      },
+      {
+         "uri": "fortuna_romanorum:refined:wooden_handle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:weapons:legat_pugio_steel"
+      }
+   ]
+}

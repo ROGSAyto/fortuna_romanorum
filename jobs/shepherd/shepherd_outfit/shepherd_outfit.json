@@ -1,9 +1,11 @@
 {
   "type": "entity",
   "mixins": [
+        
     "stonehearth:shepherd:outfit"
   ],
   "components": {
+    "render_info": {},
     "model_variants": {
       "mixintypes": {
         "default": "override",
@@ -11,14 +13,14 @@
       },
       "default": {
         "layer": "clothing",
-        "transparent": "false",
+        "transparent": "true",
         "models": [
           "file(shepherd_outfit.qb)"
         ]
       },
       "female": {
         "layer": "clothing",
-        "transparent": "false",
+        "transparent": "true",
         "models": [
           "file(shepherd_outfit_female.qb)"
         ]

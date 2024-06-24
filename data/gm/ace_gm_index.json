@@ -1,7 +1,4 @@
 {
    "campaigns": {
-      "mediterran_biome_recipes": {
-         "mediterran_biome_recipes": "file(campaigns/mediterran_biome_recipes/mediterran_biome_recipes_campaign.json)"
-      }
    }
 }

@@ -1,0 +1,18 @@
+{
+   "mixins": "/archipelago_biome/jobs/fischer/recipes/recipes.json",
+   "craftable_recipes": {
+      "weapons": {
+        "mixintypes": {
+          "slap_fish": "remove",
+          "crab_pincer": "remove",
+          "fish_quiver": "remove",
+          "giant_bone_axe": "remove"
+        }
+      },
+      "fishing": {
+        "clam_trap": {
+          "recipe": "file(workbenches/crab_trap_recipe.json)"
+        }
+      }
+   }
+}

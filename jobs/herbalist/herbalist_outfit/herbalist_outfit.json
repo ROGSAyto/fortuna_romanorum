@@ -1,38 +1,39 @@
 {
   "type": "entity",
   "mixins": [
-    "stonehearth:herbalist:outfit"
+     "stonehearth:mixins:item_properties"
   ],
   "components": {
+    "render_info": {},
     "model_variants": {
-      "mixintypes": {
-        "default": "override",
-        "female": "override"
-      },
       "default": {
         "layer": "clothing",
-        "transparent": "false",
+        "transparent": "true",
         "models": [
           "file(herbalist_outfit.qb)"
         ]
       },
       "female": {
         "layer": "clothing",
-        "transparent": "false",
+        "transparent": "true",
         "models": [
           "file(herbalist_outfit_female.qb)"
         ]
       }
     },
     "stonehearth:equipment_piece": {
-       "injected_buffs": [
-          "stonehearth_ace:buffs:weather:hot_resist"
-       ]
+      "injected_buffs": [
+        "stonehearth_ace:buffs:weather:hot_resist"
+      ],
+      "render_type": "merge_with_model",
+      "slot": "torso"
     }
   },
   "entity_data": {
     "stonehearth:catalog": {
       "icon": "file(herbalist_outfit.png)",
+      "display_name": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.display_name)",
+      "description": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.description)",
       "material_tags": [
         "cloth"
       ]

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 38,
+   "work_units": 13,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legat_spatha_steel_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legat_spatha_steel_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legat_spatha_steel_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/legat_spatha/steel/legat_spatha.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 10,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 3
+      },
+      {
+         "uri": "fortuna_romanorum:refined:wooden_handle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:weapons:legat_spatha_steel"
+      }
+   ]
+}

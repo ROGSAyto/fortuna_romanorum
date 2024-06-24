@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 25,
+   "work_units": 9,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.tribune_pugio_iron_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.tribune_pugio_iron_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.tribune_pugio_iron_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/tribune_pugio/iron/tribune_pugio.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 8,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      },
+      {
+         "uri": "fortuna_romanorum:refined:wooden_handle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:weapons:tribune_pugio_iron"
+      }
+   ]
+}

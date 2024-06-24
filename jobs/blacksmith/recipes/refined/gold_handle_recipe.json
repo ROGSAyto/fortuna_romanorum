@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 35,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.gold_handle_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.gold_handle_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.gold_handle_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/refined/gold_handle/gold_handle.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:gold_ingot",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:refined:gold_handle"
+      }
+   ]
+}

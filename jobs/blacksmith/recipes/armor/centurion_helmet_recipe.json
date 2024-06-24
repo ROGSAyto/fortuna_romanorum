@@ -22,11 +22,11 @@
 			"material": "cloth resource",
 			"count": 2
 		}
-		
+
    ],
    "produces": [
       {
-         "item": "fortuna_romanorum:centurion:talisman:centurion_helmet_talisman"
+         "item": "fortuna_romanorum:armor:centurion_helmet"
       }
    ]
 }

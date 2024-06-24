@@ -1,7 +1,7 @@
 {
 	"display_name": "i18n(fortuna_romanorum:data.fortuna_romanorum_population.display_name)",
 	"kingdom_id": "fortuna_romanorum",
-	"favored_biome": "fortuna_romanorum:biome:coast",
+	"favored_biome": "serene_league:biome:coast",
 	"quote": "i18n(fortuna_romanorum:kingdom.quote)",
 	"description": "i18n(fortuna_romanorum:kingdom.long_description)",
 	"post_selection_description": "i18n(fortuna_romanorum:kingdom.post_selection_description)",
@@ -464,8 +464,7 @@
 				},
 				"female": {
 					 "uri": [
-						 "stonehearth:female_1",
-						 "stonehearth:female_2"
+						 "fortuna_romanorum:female_1"
 					 ],
 			     "given_names": [
 							"Aburia",
@@ -1634,8 +1633,8 @@
 					"Bonifatius",
 					"Bonosus",
 					"Bonus",
-					"Bradua","
-					Britannicus",
+					"Bradua",
+					"Britannicus",
 					"Brocchus",
 					"Bromidus",
 					"Bruccius",
@@ -1854,7 +1853,7 @@
 			 "Livian",
 			 "Numa",
 			 "Priscus",
-			 "Servia",
+			 "Servia"
 		 ],
 		 "rabbit": [
 			 "Aurelius",

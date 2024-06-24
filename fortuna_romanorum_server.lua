@@ -11,9 +11,6 @@ local required_mods = {
   "serene_league"
 }
 
-local init_patches = {
-  fortuna_romanorum_population_faction = 'stonehearth.services.server.population.population_faction'
-}
 
 local conditional_patches = {}
 
@@ -53,14 +50,9 @@ function fortuna_romanorum._on_init()
   fortuna_romanorum.setup_patching()
 end
 
-function fortuna_romanorum._on_required_loaded()
-  fortuna_romanorum.monkey_patching(init_patches)
-  radiant.events.trigger_async(radiant, 'fortuna_romanorum:server:required_loaded')
-end
-
-radiant.events.listen_once(fortuna_romanorum, 'radiant:init', fortuna_romanorum, fortuna_romanorum._on_init)
+--radiant.events.listen_once(fortuna_romanorum, 'radiant:init', fortuna_romanorum, fortuna_romanorum._on_init)
 --radiant.events.listen_once(radiant, 'radiant:services:init', fortuna_romanorum, fortuna_romanorum._on_services_init)
-radiant.events.listen_once(radiant, 'stonehearth:biome_set', fortuna_romanorum, fortuna_romanorum._on_biome_set)
-radiant.events.listen_once(radiant, 'radiant:game_loaded', fortuna_romanorum, fortuna_romanorum._on_game_loaded)
+--radiant.events.listen_once(radiant, 'stonehearth:biome_set', fortuna_romanorum, fortuna_romanorum._on_biome_set)
+--radiant.events.listen_once(radiant, 'radiant:game_loaded', fortuna_romanorum, fortuna_romanorum._on_game_loaded)
 
 return fortuna_romanorum

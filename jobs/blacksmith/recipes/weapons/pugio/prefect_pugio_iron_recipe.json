@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 22,
+   "work_units": 8,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.prefect_pugio_iron_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.prefect_pugio_iron_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.prefect_pugio_iron_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/prefect_pugio/iron/prefect_pugio.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      },
+      {
+         "uri": "fortuna_romanorum:refined:wooden_handle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:weapons:prefect_pugio_iron"
+      }
+   ]
+}

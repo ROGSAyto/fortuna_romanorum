@@ -8,9 +8,32 @@
    "controller": "fortuna_romanorum:class:centurion",
    "description": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.description)",
    "requirements": "i18n(fortuna_romanorum:jobs.centurion.centurion_description.requirements)",
-   "talisman_uri": "fortuna_romanorum:centurion:talisman:centurion_helmet_talisman",
+   "talisman_uri": "fortuna_romanorum:centurion:talisman:centurion_scroll_talisman",
    "default_stance": "aggressive",
    "abilities": "file(centurion_abilities)",
+   "equipment_preferences": {
+      "roles": {
+         "one_handed_legionary": {
+            "command": "stonehearth_ace:commands:toggle_job_role:one_handed_footman",
+            "types": [
+               "mainhand", "shield"
+            ]
+         },
+         "two_handed_legionary": {
+            "command": "stonehearth_ace:commands:toggle_job_role:two_handed_footman",
+            "types": [
+               "twohanded"
+            ]
+         },
+         "dual_wield_legionary": {
+            "command": "stonehearth_ace:commands:toggle_job_role:dual_wield_footman",
+            "types": [
+               "mainhand", "offhand"
+            ]
+         }
+      },
+      "default_role": "one_handed_legionary"
+   },
    "equipment": {
       "torso": "file(centurion_outfit)",
       "boots": "fortuna_romanorum:armor:caligae",

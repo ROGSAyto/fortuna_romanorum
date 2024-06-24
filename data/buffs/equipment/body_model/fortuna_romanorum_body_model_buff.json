@@ -5,12 +5,12 @@
    "script": "fortuna_romanorum:buff_scripts:body_model",
    "script_info": {
       "default": {
-         "/stonehearth/entities/humans/male/body.qb": true,
-         "/fortuna_romanorum/entities/humans/male/body.qb": false
+         "/stonehearth/entities/humans/male/body.qb": false,
+         "/fortuna_romanorum/entities/humans/male/body.qb": true
       },
       "female": {
-         "/stonehearth/entities/humans/female/body.qb": true,
-         "/fortuna_romanorum/entities/humans/female/body.qb": false
+         "/stonehearth/entities/humans/female/body.qb": false,
+         "/fortuna_romanorum/entities/humans/female/body.qb": true
       },
       "orc_male": {
          "/stonehearth/entities/monsters/orcs/orc/male/orc_male_head.qb": false,

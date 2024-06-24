@@ -2,9 +2,12 @@
    "loadouts": {
       "merchant_caravan": {
          "content": {
+            "mixintypes": {
+               "footman": "remove"
+            },
             "juice": {
                "uri": "serene_league:drink:juice_grape",
-               "icon": "/serene_league/data/loadouts/images/items/juice_grape.png)"
+               "icon": "/serene_league/data/loadouts/images/items/juice_grape.png"
             }
          }
       },
@@ -18,12 +21,12 @@
                "display_name": "i18n(serene_league:data.loadouts.items.cheese)",
                "type": "entity",
                "uri": "stonehearth_ace:food:dairy:cheese_mild",
-               "icon": "/serene_league/data/loadouts/images/items/cheese_mild.png)",
+               "icon": "/serene_league/data/loadouts/images/items/cheese_mild.png",
                "amount": 6
             },
             "juice": {
                "uri": "serene_league:drink:juice_grape",
-               "icon": "/serene_league/data/loadouts/images/items/juice_grape.png)"
+               "icon": "/serene_league/data/loadouts/images/items/juice_grape.png"
             }
          }
       },
@@ -33,34 +36,23 @@
             "mixintypes": {
                "archer": "remove",
                "mead": "remove",
-               "jerky": "remove"
+               "jerky": "remove",
+               "footman": "remove"
             },
             "legionary": {
                "ordinal": 2,
                "display_name": "i18n(fortuna_romanorum:jobs.legionary.legionary_description.display_name)",
                "type": "entity",
-               "uri": "fortuna_romanorum:legionary:talisman:legionary_training_sword_talisman",
-               "icon": "/fortuna_romanorum/entities/weapons/legionary_training_sword/legionary_training_sword.png",
+               "uri": "fortuna_romanorum:legionary:talisman:legionary_gladius_talisman",
+               "icon": "/fortuna_romanorum/entities/weapons/legionary_gladius/wood/gladius.png",
                "amount": 1
-            },
-            "trapper": {
-               "ordinal": 2,
-               "display_name": "i18n(stonehearth:jobs.trapsper.trapper_description.display_name)",
-               "type": "entity",
-               "uri": "stonehearth:trapper:talisman",
-               "icon": "/stonehearth/data/loadouts/images/items/trapper_knife.png",
-               "amount": 1
-            },
-            "training_dummy": {
-               "uri": "stonehearth_ace:gizmos:stone_training_dummy",
-               "icon": "/stonehearth_ace/entities/gizmos/stone_training_dummy/stone_training_dummy.png"
             },
             "cheese": {
                "ordinal": 4,
                "display_name": "i18n(serene_league:data.loadouts.items.cheese)",
                "type": "entity",
                "uri": "stonehearth_ace:food:dairy:cheese_mild",
-               "icon": "/serene_league/data/loadouts/images/items/cheese_mild.png)",
+               "icon": "/serene_league/data/loadouts/images/items/cheese_mild.png",
                "amount": 8
             },
             "wine": {
@@ -68,7 +60,7 @@
                "display_name": "i18n(serene_league:data.loadouts.items.wine)",
                "type": "entity",
                "uri": "serene_league:drink:red_wine",
-               "icon": "/serene_league/data/loadouts/images/items/red_wine.png)",
+               "icon": "/serene_league/data/loadouts/images/items/red_wine.png",
                "amount": 8
             },
             "gold": {}
@@ -88,7 +80,7 @@
                "display_name": "i18n(stonehearth:jobs.carpenter.carpenter_description.display_name)",
                "type": "entity",
                "uri": "serene_league:carpenter:talisman",
-               "icon": "/serene_league/data/loadouts/images/items/carpenter_saw.png)",
+               "icon": "/serene_league/data/loadouts/images/items/carpenter_saw.png",
                "amount": 1
             },
             "engineer": {
@@ -116,7 +108,7 @@
                "display_name": "i18n(serene_league:data.loadouts.items.wine)",
                "type": "entity",
                "uri": "serene_league:drink:red_wine",
-               "icon": "/serene_league/data/loadouts/images/items/red_wine.png)",
+               "icon": "/serene_league/data/loadouts/images/items/red_wine.png",
                "amount": 6
             },
             "gold": {}
@@ -132,12 +124,12 @@
                "display_name": "i18n(serene_league:data.loadouts.items.cheese)",
                "type": "entity",
                "uri": "stonehearth_ace:food:dairy:cheese_mild",
-               "icon": "/serene_league/data/loadouts/images/items/cheese_mild.png)",
+               "icon": "/serene_league/data/loadouts/images/items/cheese_mild.png",
                "amount": 4
             },
             "juice": {
                "uri": "serene_league:drink:juice_grape",
-               "icon": "/serene_league/data/loadouts/images/items/juice_grape.png)"
+               "icon": "/serene_league/data/loadouts/images/items/juice_grape.png"
             }
          }
       }

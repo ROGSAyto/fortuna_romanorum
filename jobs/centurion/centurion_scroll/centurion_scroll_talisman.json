@@ -1,0 +1,39 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(centurion_scroll_talisman.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      },
+      "stonehearth:promotion_talisman": {
+         "job": "fortuna_romanorum:jobs:centurion"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 20,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:jobs.centurion.centurion_scroll_talisman.display_name)",
+         "description": "i18n(fortuna_romanorum:jobs.centurion.centurion_scroll_talisman.description)",
+         "icon": "file(centurion_scroll_talisman.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": ["stockpile_tool"]
+      }
+   }
+}

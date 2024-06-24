@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(legionary_training_sword.qb)"
+               "file(legionary_gladius_wood.qb)"
             ]
          }
       }

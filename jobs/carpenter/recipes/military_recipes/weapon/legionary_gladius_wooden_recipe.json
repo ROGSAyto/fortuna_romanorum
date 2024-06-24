@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.legionary_gladius_wood.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.carpenter.recipes.legionary_gladius_wood.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.carpenter.recipes.legionary_gladius_wood.flavor)",
+   "portrait": "/fortuna_romanorum/entities/weapons/legionary_gladius/wood/gladius.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+      {
+         "uri": "fortuna_romanorum:refined:wooden_handle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:legionary:talisman:legionary_gladius_talisman"
+      }
+   ]
+}
