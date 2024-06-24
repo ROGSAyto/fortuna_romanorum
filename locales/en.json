@@ -628,8 +628,9 @@
           "description": "A strong building material used by Romans."
       },
       "cement": {
-          "display_name": "Roman Cement",
-          "description": "A key ingredient for making Roman concrete."
+        "display_name": "Roman Cement",
+        "description": "A durable and versatile building material developed by Roman engineers, essential for construction.",
+        "flavor": "The cornerstone of Roman architecture, providing strength and stability to all structures."
       }
     },
     "construction": {
@@ -2432,6 +2433,16 @@
         "trading_post_monument_recipe": {
           "recipe_name": "Trading Post Monument",
           "description": "A monument to the mediterranean trade"
+        },
+        "cement_recipe": {
+          "recipe_name": "Roman Cement",
+          "description": "A durable and versatile building material developed by Roman engineers, essential for construction.",
+          "flavor": "The cornerstone of Roman architecture, providing strength and stability to all structures."
+        },
+        "concret_recipe": {
+            "recipe_name": "Roman Concret",
+            "description": "A solid building material created from cement and stone, crucial for Roman constructions.",
+            "flavor": "The foundation of Roman engineering, ensuring lasting edifices."
         }
       }
     },

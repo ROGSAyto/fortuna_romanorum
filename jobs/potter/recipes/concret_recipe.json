@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 15,
+   "work_units": 8,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.potter.recipes.concret_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.potter.recipes.concret_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.potter.recipes.concret_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/refined/concret/concret.png",
+   "workshop": "stonehearth:potter:kiln",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:refined:cement",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:resources:stone",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:refined:concret"
+      }
+   ]
+}

@@ -1,0 +1,32 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 6,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.potter.recipes.cement_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.potter.recipes.cement_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.potter.recipes.cement_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/refined/cement/cement.png",
+   "workshop": "stonehearth:potter:kiln",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "fortuna_romanorum:entities:aquatic:clam",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:resources:clay",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:refined:cement"
+      },
+      {
+         "item": "fortuna_romanorum:refined:cement"
+      },
+      {
+         "item": "fortuna_romanorum:refined:cement"
+      }
+   ]
+}
