@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 8,
+   "work_units": 1,
+   "recipe_name": "i18n(serene_league:entities.refined.plastered_stone_bricks.recipe_name)",
+   "description": "i18n(serene_league:entities.refined.plastered_stone_bricks.description)",
+   "flavor": "i18n(serene_league:entities.refined.plastered_stone_bricks.flavor)",
+   "portrait": "/serene_league/entities/refined/plastered_stone_bricks/plastered_stone_bricks.png",
+   "workshop": "stonehearth:mason:workbench",
+   "work_effect": "fiddle",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      },
+      {
+         "uri": "serene_league:refined:plaster",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "serene_league:refined:plastered_stone_bricks"
+      },
+      {
+         "item": "serene_league:refined:plastered_stone_bricks"
+      }
+   ]
+}
