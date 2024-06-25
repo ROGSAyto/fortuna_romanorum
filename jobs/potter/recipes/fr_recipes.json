@@ -4,10 +4,10 @@
        "refined": {
           "recipes": {
             "cement_recipe": {
-                "recipe": "file(jobs/potter/recipes/cement_recipe.json)"
+                "recipe": "file(cement_recipe.json)"
             },
             "concret_recipe": {
-                "recipe": "file(jobs/potter/recipes/concret_recipe.json)"
+                "recipe": "file(concret_recipe.json)"
             }
           }
        }
