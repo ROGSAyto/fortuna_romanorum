@@ -6,6 +6,10 @@
     "torso": "file(potter_outfit)",
     "boots": "fortuna_romanorum:armor:sandals"
   },
+  "crafter": {
+    "work_effect": "fiddle",
+    "recipe_list": "/fortuna_romanorum/jobs/potter/recipes/fr_recipes.json"
+  },
   "display_order": 1,
   "parent_job": "stonehearth:jobs:mason",
   "parent_level_requirement": 2
