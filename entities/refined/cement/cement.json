@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cement.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+          "display_name": "i18n(fortuna_romanorum:resources.cement.display_name)",
+          "description": "i18n(fortuna_romanorum:resources.cement.description)",
+         "icon": "file(cement.png)",
+         "is_item": true,
+         "category": "refined",
+         "material_tags": ["cement", "resource", "clay", "clam", "stockpile_clay", "undesirable_ingredient", "roman_made"]
+      },
+      "stonehearth:appeal": {
+         "appeal": -1
+      }
+   }
+}

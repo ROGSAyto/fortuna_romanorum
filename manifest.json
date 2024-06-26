@@ -134,7 +134,8 @@
 		"town_bonus:deity": "file(data/town_bonuses/deity_town_bonus.lua)",
 		"town_bonus:valor": "file(data/town_bonuses/valor_town_bonus.lua)",
 
-
+    "refined:cement": "file(entities/refined/cement/cement.json)",
+		"refined:concret": "file(entities/refined/concret/concret.json)",
     "refined:wooden_handle": "file(entities/refined/wooden_handle/wooden_handle.json)",
 		"refined:bronze_handle": "file(entities/refined/bronze_handle/bronze_handle.json)",
 		"refined:iron_handle": "file(entities/refined/iron_handle/iron_handle.json)",
@@ -328,8 +329,7 @@
     "stonehearth_ace/mod_support/fortuna_romanorum/jobs/weaver/recipes/fr_recipes.json": "file(jobs/weaver/recipes/ace/fr_recipes.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/ace_entity.json": "file(mixins/enable_entity.json)",
     "stonehearth_ace/mod_support/fortuna_romanorum/mixins/buyable_if_ace.json": "file(mixins/buyable.json)",
-    "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)",
-    "archipelago_biome/mod_support/fortuna_romanorum/jobs/fisher/recipes/fr_recipes.json": "file(jobs/fisher/recipes/fr_recipes.json)"
+    "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)"
   },
   "components": {
     "clam_spawner":	"file(components/clam_spawner/clam_spawner.lua)"

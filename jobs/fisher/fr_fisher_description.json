@@ -11,7 +11,7 @@
   },
   "crafter": {
     "work_effect": "fiddle",
-    "recipe_list": "/fortuna_romanorum/jobs/fisher/recipe/fr_recipes.json"
+    "recipe_list": "/fortuna_romanorum/jobs/fisher/recipes/fr_recipes.json"
   },
   "display_order": 10
 }

@@ -1,5 +1,5 @@
 {
-   "mixins": "/archipelago_biome/jobs/fischer/recipes/recipes.json",
+   "mixins": "/archipelago_biome/jobs/fisher/recipes/recipes.json",
    "craftable_recipes": {
       "weapons": {
         "mixintypes": {
