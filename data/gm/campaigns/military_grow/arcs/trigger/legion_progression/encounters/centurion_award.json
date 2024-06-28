@@ -7,8 +7,8 @@
          "entries": {
             "default": {
                "items": {
-                  "centurion_helmet": {
-                     "uri": "fortuna_romanorum:centurion:talisman:centurion_helmet_talisman"
+                  "centurion_scroll": {
+                     "uri": "fortuna_romanorum:centurion:talisman:centurion_scroll_talisman"
                   }
                }
             }

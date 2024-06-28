@@ -1,14 +1,14 @@
 {
    "type": "encounter",
    "encounter_type": "donation",
-   "in_edge": "legat_promotion_award",
+   "in_edge": "praetorian_award",
    "donation_info": {
       "loot_table": {
          "entries": {
             "default": {
                "items": {
-                  "legat_scroll": {
-                     "uri": "fortuna_romanorum:legat:talisman:legat_scroll_talisman"
+                  "praetorian_scroll": {
+                     "uri": "fortuna_romanorum:praetorian:talisman:praetorian_scroll_talisman"
                   }
                }
             }

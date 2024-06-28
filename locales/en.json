@@ -3722,6 +3722,20 @@
   		         }
   	         }
           },
+          "praetorian_award_dialoge": {
+            "dialog_tree_info": {
+               "dialog_nodes": {
+                  "praetorian_promotion": {
+                     "bulletin_title": "A Roman Herald Arrives",
+                     "dialog_title": "Roman Edict",
+                     "bulletin_message": {
+                        "00": "One of your warriors has distinguished himself with exceptional valor. For this, we hereby promote him to the rank of Praetorian."
+                     },
+                     "choice_00": "Hail the new Praetorian!"
+                  }
+               }
+            }
+          }, 
 					"signifer_award_dialoge": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
