@@ -239,6 +239,8 @@
         "centurion:outfit": "file(jobs/centurion/centurion_outfit)",
         "legat:outfit": "file(jobs/legat/legat_outfit)",
         "carpenter:outfit": "file(jobs/carpenter/carpenter_outfit)",
+        "carpenter:saw": "file(jobs/carpenter/carpenter_saw/carpenter_saw.json)",
+        "carpenter:talisman": "file(jobs/carpenter/carpenter_saw/carpenter_saw_talisman.json)",
         "worker:outfit": "file(jobs/worker/worker_outfit)",
         "legionary:outfit": "file(jobs/legionary/legionary_recruit_outfit)",
 
