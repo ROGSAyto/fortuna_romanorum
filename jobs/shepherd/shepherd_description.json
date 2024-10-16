@@ -7,6 +7,7 @@
     "mainhand": "fortuna_romanorum:shepherd:roman_crook",
     "boots": "fortuna_romanorum:armor:sandals"
   },
+  "requirements": "i18n(fortuna_romanorum:jobs.requirements.carpenter)",
   "display_order": 8,
   "parent_job": "stonehearth:jobs:worker",
   "mixintypes": {
