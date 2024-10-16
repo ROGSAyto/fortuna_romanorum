@@ -297,6 +297,7 @@
         "/fortuna_romanorum/jobs/brewer/brewer_description.json": "/stonehearth_ace/jobs/brewer/brewer_description.json",
         "/fortuna_romanorum/jobs/carpenter/carpenter_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/carpenter_description.json",
         "/fortuna_romanorum/jobs/carpenter/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/carpenter/recipes/fr_recipes.json",
+        "/fortuna_romanorum/jobs/mason/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/mason/recipes/fr_recipes.json",
         "/fortuna_romanorum/jobs/farmer/farmer_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/farmer/farmer_description.json",
         "/fortuna_romanorum/jobs/fisher/recipes/fr_recipes.json": "/archipelago_biome/jobs/fisher/recipes/recipes.json",
         "/fortuna_romanorum/jobs/fisher/fisher_description.json": "/archipelago_biome/jobs/fisher/fisher_description.json",
