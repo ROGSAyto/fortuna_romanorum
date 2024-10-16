@@ -15,6 +15,5 @@
     "talisman_uri": "override",
     "equipment": "override"
   },
-  "requirements": "i18n(fortuna_romanorum:jobs.shepherd.shepherd_description.requirements)",
   "talisman_uri": "fortuna_romanorum:shepherd:talisman:roman_crook_talisman"
 }
