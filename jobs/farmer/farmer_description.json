@@ -7,7 +7,7 @@
       "torso": "file(farmer_outfit)",
       "boots": "fortuna_romanorum:armor:sandals"
    },
-   "requirements": "i18n(fortuna_romanorum:jobs.requirements.farmer)",
+   "requirements": "i18n(fortuna_romanorum:jobs.requirements.carpenter)",
    "display_order": 7,
    "level_data": {
       "2": {
