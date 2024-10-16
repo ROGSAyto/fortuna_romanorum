@@ -1,8 +1,8 @@
 {
-   "mixins": "stonehearth:jobs:mason",
-   "display_order": 3,
-   "equipment": {
-      "torso": "file(mason_outfit)",
-      "boots": "fortuna_romanorum:armor:sandals"
-   }
+    "mixins": "stonehearth:jobs:mason",
+    "display_order": 3,
+    "equipment": {
+        "torso": "file(mason_outfit)",
+        "boots": "fortuna_romanorum:armor:sandals"
+    }
 }
