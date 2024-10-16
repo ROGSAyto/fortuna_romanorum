@@ -9,5 +9,5 @@
       "stonehearth:task_groups:farming"
    ],
    "display_order": 9,
-   "requirements": "i18n(fortuna_romanorum:jobs.requirements.mason)"
+   "requirements": "i18n(fortuna_romanorum:jobs.requirements.carpenter)"
 }

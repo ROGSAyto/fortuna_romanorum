@@ -1,18 +1,19 @@
 {
-  "type": "job",
-  "mixins": "stonehearth:jobs:carpenter",
-  "display_order": 5,
-  "crafter": {
-    "recipe_list": "file(recipes/fr_recipes.json)"
-  },
-  "task_groups": [
-      "stonehearth_ace:task_groups:transform",
-      "stonehearth:task_groups:repairing",
-      "stonehearth_ace:task_groups:harvest:chopping"
-   ],
-   "equipment": {
-      "torso": "file(carpenter_outfit)",
-	    "mainhand": "stonehearth:carpenter:saw",
-      "boots": "fortuna_romanorum:armor:sandals"
-   }
+    "type": "job",
+    "mixins": "stonehearth:jobs:carpenter",
+    "display_order": 5,
+    "crafter": {
+        "recipe_list": "file(recipes/fr_recipes.json)"
+    },
+    "task_groups": [
+        "stonehearth_ace:task_groups:transform",
+        "stonehearth:task_groups:repairing",
+        "stonehearth_ace:task_groups:harvest:chopping"
+    ],
+    "equipment": {
+        "torso": "file(carpenter_outfit)",
+        "mainhand": "stonehearth:carpenter:saw",
+        "boots": "fortuna_romanorum:armor:sandals"
+    },
+    "requirements": "i18n(fortuna_romanorum:jobs.requirements.mason)"
 }
