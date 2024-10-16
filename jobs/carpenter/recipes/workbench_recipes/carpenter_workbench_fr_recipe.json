@@ -1,0 +1,21 @@
+{
+    "type": "recipe",
+    "effort": 10,
+    "work_units": 5,
+    "recipe_name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.carpenter_workbench_fr_recipe.recipe_name)",
+    "description": "i18n(fortuna_romanorum:jobs.carpenter.recipes.carpenter_workbench_fr_recipe.description)",
+    "flavor": "i18n(fortuna_romanorum:jobs.carpenter.recipes.carpenter_workbench_fr_recipe.flavor)",
+    "portrait": "/fortuna_romanorum/jobs/carpenter/carpenter_workbench/carpenter_workbench.png",
+    "level_requirement": 0,
+    "ingredients": [
+        {
+            "material": "wood resource",
+            "count": 1
+        }
+    ],
+    "produces": [
+        {
+            "item": "fortuna_romanorum:carpenter_workbench"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "effort": 120,
+    "work_units": 5,
+    "recipe_name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.carpenter_toolbench_fr_recipe.recipe_name)",
+    "description": "i18n(fortuna_romanorum:jobs.carpenter.recipes.carpenter_toolbench_fr_recipe.description)",
+    "flavor": "i18n(fortuna_romanorum:jobs.carpenter.recipes.carpenter_toolbench_fr_recipe.flavor)",
+    "portrait": "/fortuna_romanorum/jobs/carpenter/carpenter_toolbench/carpenter_toolbench.png",
+    "workshop": "stonehearth:carpenter:workbench",
+    "level_requirement": 3,
+    "ingredients": [
+        {
+            "material": "wood resource",
+            "count": 3
+        }
+    ],
+    "produces": [
+        {
+            "item": "fortuna_romanorum:carpenter_toolbench"
+        }
+    ]
+}
