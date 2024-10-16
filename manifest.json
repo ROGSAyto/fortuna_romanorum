@@ -241,7 +241,7 @@
         "carpenter:outfit": "file(jobs/carpenter/carpenter_outfit)",
         "carpenter:saw": "file(jobs/carpenter/carpenter_saw/carpenter_saw.json)",
         "carpenter:talisman": "file(jobs/carpenter/carpenter_saw/carpenter_saw_talisman.json)",
-        "buffs:tools:carpenter_sl_saw": "file(data/buffs/equipment/tools/carpenter_sl_saw_buff.json)",
+        "buffs:tools:carpenter_sl_saw": "file(data/buffs/equipment/tools/carpenter_fr_saw_buff.json)",
         "worker:outfit": "file(jobs/worker/worker_outfit)",
         "legionary:outfit": "file(jobs/legionary/legionary_recruit_outfit)",
 
