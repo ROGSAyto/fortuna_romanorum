@@ -1,1 +1,3 @@
 * Fix mason recipes in manifest
+* Look at the campaign
+* fix armor and weapons bug in campaign
