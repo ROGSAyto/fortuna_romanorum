@@ -8,7 +8,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(rc_carpenter_toolbench.qb)"
+               "file(carpenter_toolbench.qb)"
             ]
          }
       }
@@ -18,7 +18,7 @@
       "stonehearth:catalog": {
          "display_name": "i18n(stonehearth:jobs.carpenter.carpenter_toolbench.carpenter_toolbench_ghost.display_name)",
          "description": "i18n(stonehearth:jobs.carpenter.carpenter_toolbench.carpenter_toolbench_ghost.description)",
-         "icon": "file(rc_carpenter_toolbench.png)",
+         "icon": "file(carpenter_toolbench.png)",
          "category": "workshops",
          "material_tags":["tool", "stockpile_tool"]
       }
