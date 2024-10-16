@@ -2648,51 +2648,61 @@
       "carpenter_saw": {
         "display_name": "Carpenter's Frame Bone Saw"
       },
-      "recipes":{
-        "roman_training_equipment_name": "Roman Training Equipment",
-        "wooden_handle_recipe": {
-            "recipe_name": "Wooden Handle",
-            "description": "A simple handle made of wood, crafted by the carpenter."
-        },
-        "legionary_gladius_wood": {
-          "recipe_name": "Wooden Sword",
-          "description": "A training sword",
-          "flavor": "Twice as heavy as the gladius"
-        },
-        "wicker_shield": {
-          "recipe_name": "Wicker Shield",
-          "description": "A shield made of wicker",
-          "flavor": "Twice as heavy as the scutum"
-        },
-        "hastati_shield_recipe": {
-           "recipe_name": "Hastati Scutum",
-           "description": "Cheap light shield"
-        },
-        "legionary_shield_recipe": {
-          "description": "Too big for heartlings...",
-          "flavor": "Tortoises... tortoises everywhere",
-          "recipe_name": "Legionary Scutum"
-        },
-        "praetorian_shield_recipe": {
-          "description": "Too big for heartlings...",
-          "flavor": "Dark tortoises",
-          "recipe_name": "Praetorian Scutum"
-        },
-        "signifer_shield_recipe": {
-          "description": "Small shield...",
-          "flavor": "Not suitable for tortoises",
-          "recipe_name": "Signifer Parma"
-        },
-        "hasta_recipe": {
-          "recipe_name": "Hasta",
-          "description": "A long spear",
-          "flavor": "Ancient hoplite weapon"
-        },
-        "silk_road_monument_recipe": {
-          "recipe_name": "Silk Road Monument",
-          "description": "A monument to the far east trade"
+        "recipes": {
+            "roman_training_equipment_name": "Roman Training Equipment",
+            "wooden_handle_recipe": {
+                "recipe_name": "Wooden Handle",
+                "description": "A simple handle made of wood, crafted by the carpenter."
+            },
+            "legionary_gladius_wood": {
+                "recipe_name": "Wooden Sword",
+                "description": "A training sword",
+                "flavor": "Twice as heavy as the gladius"
+            },
+            "wicker_shield": {
+                "recipe_name": "Wicker Shield",
+                "description": "A shield made of wicker",
+                "flavor": "Twice as heavy as the scutum"
+            },
+            "hastati_shield_recipe": {
+                "recipe_name": "Hastati Scutum",
+                "description": "Cheap light shield"
+            },
+            "legionary_shield_recipe": {
+                "description": "Too big for heartlings...",
+                "flavor": "Tortoises... tortoises everywhere",
+                "recipe_name": "Legionary Scutum"
+            },
+            "praetorian_shield_recipe": {
+                "description": "Too big for heartlings...",
+                "flavor": "Dark tortoises",
+                "recipe_name": "Praetorian Scutum"
+            },
+            "signifer_shield_recipe": {
+                "description": "Small shield...",
+                "flavor": "Not suitable for tortoises",
+                "recipe_name": "Signifer Parma"
+            },
+            "hasta_recipe": {
+                "recipe_name": "Hasta",
+                "description": "A long spear",
+                "flavor": "Ancient hoplite weapon"
+            },
+            "silk_road_monument_recipe": {
+                "recipe_name": "Silk Road Monument",
+                "description": "A monument to the far east trade"
+            },
+            "carpenter_toolbench_fr_recipe": {
+                "recipe_name": "Roman Carpenters Toolbench",
+                "description": "A roman toolbench, usable by a carpenter.",
+                "flavor": "WIP"
+            },
+            "carpenter_workbench_fr_recipe": {
+                "recipe_name": "Roman Carpenters Workbench",
+                "description": "Used by a carpenter to make furniture",
+                "flavor": "WIP"
+            }
         }
-      }
     },
     "fisher": {
       "recipes": {
@@ -3624,22 +3634,22 @@
 					"arcs": {
 						"trigger": {
 							"town_progression": {
-								"encounters": {
-									"reembark_dialog": {
-										"dialog_tree_info": {
-											"dialog_nodes": {
-												"msg1": {
-													"bulletin_message": {
-														"00": "Jupiter keep you, friend! Now that our existing contract is resolved, we'd like to remind you that the Roman Senate is always open for new settlements!<p>In fact, since this collaboration went so well, if you'd like to establish another town, we'd be happy to sponsor a larger caravan that can carry a few of your citizens from here, as well as some extra goods and records. Just let us know when you're ready!</p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
-													},
-													"bulletin_title": "It's Lucius Again!",
-													"dialog_title": "One Last Thing",
-													"choice_000": "Good to know!"
-												}
-											}
-										}
-									}
-								}
+                                "encounters": {
+                                    "reembark_dialog": {
+                                        "dialog_tree_info": {
+                                            "dialog_nodes": {
+                                                "msg1": {
+                                                    "bulletin_message": {
+                                                        "00": "Jupiter keep you, friend! Now that our existing contract is resolved, we'd like to remind you that the Roman Senate is always open for new settlements!<p>In fact, since this collaboration went so well, if you'd like to establish another town, we'd be happy to sponsor a larger caravan that can carry a few of your citizens from here, as well as some extra goods and records. Just let us know when you're ready!</p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
+                                                    },
+                                                    "bulletin_title": "It's Lucius Again!",
+                                                    "dialog_title": "One Last Thing",
+                                                    "choice_000": "Good to know!"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
 							}
 						}
 					}
