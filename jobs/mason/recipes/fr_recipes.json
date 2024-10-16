@@ -2,14 +2,11 @@
    "mixins": "/stonehearth/jobs/mason/recipes/recipes.json",
    "craftable_recipes": {
       "tools": {
-         "recipes": {
-            "wooden_sword": {
-               "recipe": "file(wooden_sword_recipe.json)"
-            },
-            "herbalist_staff": {
-               "recipe": "file(herbalist_staff_recipe.json)"
+        "recipes": {
+            "carpenter_saw": {
+                "recipe": "file(ace/carpenter_saw_recipe.json)"
             }
-         }
+        }
       }
    }
 }

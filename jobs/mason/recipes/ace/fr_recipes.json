@@ -1,14 +1,14 @@
 {
-   "craftable_recipes": {
-      "tools": {
-         "recipes": {
-            "mixintypes": {
-               "herbalist_staff": "remove"
-            },
-            "carpenter_saw": {
-               "recipe": "file(carpenter_saw_recipe.json)"
+    "craftable_recipes": {
+        "tools": {
+            "recipes": {
+                "mixintypes": {
+                    "herbalist_staff": "remove"
+                },
+                "carpenter_saw": {
+                    "recipe": "file(carpenter_saw_recipe.json)"
+                }
             }
-         }
-      }
-   }
+        }
+    }
 }
