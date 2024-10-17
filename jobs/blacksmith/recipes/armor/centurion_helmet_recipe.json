@@ -10,19 +10,18 @@
    "level_requirement": 4,
    "manual_unlock": true,
    "ingredients": [
-		{
-			"uri": "stonehearth:refined:steel_ingot",
-			"count": 3
-		},
-		{
-			"material": "leather resource",
-			"count": 1
-		},
-		{
-			"material": "cloth resource",
-			"count": 2
-		}
-
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 3
+      },
+      {
+         "material": "leather resource",
+         "count": 1
+      },
+      {
+         "material": "cloth resource",
+         "count": 2
+      }
    ],
    "produces": [
       {

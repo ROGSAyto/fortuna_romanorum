@@ -2421,7 +2421,24 @@
             },
             "roman_armor_name": "Roman Armor",
             "roman_weapons_name": "Roman Weapons",
-            "roman_weapon_parts_name": "Roman Weapon Parts"
+            "roman_weapon_parts_name": "Roman Weapon Parts",
+            "archer_armor_recipe": {
+               "recipe_name": "Roman Iron Chainmail",
+               "description": "Iron Chanmail used by Romans",
+               "flavor": "WIP"
+            },
+            "centurion_helmet_recipe": {
+               "description": "The red crest",
+               "recipe_name": "Centurion Helmet",
+               "flavor": "WIP"
+            },
+            "fine_lorica_recipe": {
+               "recipe_name": "Fine Lorica",
+               "description": "Fine Lorica, made by Romans"
+            },
+            "carpenter_saw_recipe": {
+               "description": "Roman saw, made with animal bones"
+            }
          }
       },
       "worker": {
@@ -2739,7 +2756,12 @@
                "description": "Used by a carpenter to make furniture",
                "flavor": "WIP"
             },
-            "roman_weapon_part_name": "Roman Weapon Part"
+            "roman_weapon_part_name": "Roman Weapon Part",
+            "shepherds_crook_recipe": {
+               "flavor": "WIP",
+               "recipe_name": "Roman Crook",
+               "description": "Crook, made by Romans"
+            }
          },
          "carpenter_toolbench": {
             "carpenter_toolbench_ghost": {

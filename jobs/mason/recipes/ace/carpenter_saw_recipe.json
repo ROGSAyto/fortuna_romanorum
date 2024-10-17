@@ -3,7 +3,7 @@
    "effort": 20,
    "work_units": 3,
    "recipe_name": "i18n(fortuna_romanorum:jobs.mason.recipes.carpenter_saw_recipe.recipe_name)",
-   "description": "i18n(stonehearth:jobs.blacksmith.recipes.carpenter_saw_recipe.description)",
+   "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.carpenter_saw_recipe.description)",
    "flavor": "i18n(fortuna_romanorum:jobs.mason.recipes.carpenter_saw_recipe.flavor)",
    "portrait": "/fortuna_romanorum/jobs/carpenter/carpenter_saw/carpenter_saw.png",
    "workshop": "stonehearth:mason:workbench",

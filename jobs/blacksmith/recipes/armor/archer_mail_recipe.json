@@ -5,7 +5,7 @@
    "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.archer_armor_recipe.recipe_name)",
    "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.archer_armor_recipe.description)",
    "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.archer_armor_recipe.flavor)",
-   "portrait": "/fortuna_romanorum/entities/armor/archer_armor/archer_mail.png",
+   "portrait": "/fortuna_romanorum/entities/armor/archer_mail/archer_mail.png",
    "workshop": "stonehearth:blacksmith:workbench",
    "level_requirement": 2,
    "ingredients": [
@@ -13,10 +13,10 @@
          "uri": "stonehearth:refined:iron_ingot",
          "count": 2
       },
-	  {
-		"material": "thread resource",
+      {
+         "material": "thread resource",
          "count": 1
-	  },
+      },
       {
          "material": "leather resource",
          "count": 1
