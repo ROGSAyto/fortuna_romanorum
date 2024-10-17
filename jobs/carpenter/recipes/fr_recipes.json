@@ -29,6 +29,7 @@
          }
       },
       "refined": {
+         "ordinal": 45.0,
          "recipes": {
             "wooden_handle": {
                "recipe": "file(refined/wooden_handle_recipe.json)"

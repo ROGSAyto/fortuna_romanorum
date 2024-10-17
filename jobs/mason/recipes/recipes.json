@@ -1,5 +1,0 @@
-{
-   "mixins": [
-      "file(plaster_set_recipes.json)"
-   ]
-}

@@ -28,6 +28,8 @@
          }
       },
       "roman_armor": {
+         "ordinal": 45.02,
+         "name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.roman_armor_name)",
          "recipes": {
             "hastati_armor": {
                "recipe": "file(armor/hastati_armor_recipe.json)"
@@ -62,6 +64,8 @@
          }
       },
       "roman_weapons": {
+         "ordinal": 45.04,
+         "name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.roman_weapons_name)",
          "recipes": {
             "legionary_gladius_bronze": {
                "recipe": "file(weapons/gladius/legionary_gladius_bronze_recipe.json)"

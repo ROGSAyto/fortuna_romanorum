@@ -232,9 +232,9 @@
         "weapons:legat_spatha_bronze": "file(entities/weapons/legat_spatha/bronze/spatha.json)",
         "weapons:legat_spatha_iron": "file(entities/weapons/legat_spatha/iron/spatha.json)",
         "weapons:legat_spatha_steel": "file(entities/weapons/legat_spatha/steel/spatha.json)",
-        "weapons:legionary_gladius_bronze": "file(entities/weapons/legionary_gladius/bronze/gladius.json)",
-        "weapons:legionary_gladius_iron": "file(entities/weapons/legionary_gladius/iron/gladius.json)",
-        "weapons:legionary_gladius_steel": "file(entities/weapons/legionary_gladius/steel/gladius.json)",
+        "weapons:legionary_gladius_bronze": "file(entities/weapons/legionary_gladius/bronze/bronze_gladius.json)",
+        "weapons:legionary_gladius_iron": "file(entities/weapons/legionary_gladius/iron/iron_gladius.json)",
+        "weapons:legionary_gladius_steel": "file(entities/weapons/legionary_gladius/steel/steel_gladius.json)",
         "weapons:legionary_gladius_wood": "file(entities/weapons/legionary_gladius/wood/gladius.json)",
         "weapons:legionary_pugio_bronze": "file(entities/weapons/legionary_pugio/bronze/pugio.json)",
         "weapons:legionary_pugio_iron": "file(entities/weapons/legionary_pugio/iron/pugio.json)",
@@ -279,7 +279,6 @@
         "/fortuna_romanorum/jobs/fisher/recipes/fr_recipes.json": "/archipelago_biome/jobs/fisher/recipes/recipes.json",
         "/fortuna_romanorum/jobs/herbalist/herbalist_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/herbalist/herbalist_description.json",
         "/fortuna_romanorum/jobs/mason/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/mason/recipes/fr_recipes.json",
-        "/fortuna_romanorum/jobs/mason/recipes/plaster_set_recipes.json": "stonehearth_ace/mod_support/serene_league/jobs/mason/recipes/plaster_set_recipes.json",
         "/fortuna_romanorum/jobs/shepherd/shepherd_description.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/shepherd/shepherd_description.json",
         "/fortuna_romanorum/jobs/weaver/recipes/fr_recipes.json": "stonehearth_ace/mod_support/fortuna_romanorum/jobs/weaver/recipes/fr_recipes.json",
         "/stonehearth/data/gm/campaigns/game_events/arcs/trigger/game_events/encounters/daily_report_encounter.json": "fortuna_romanorum:mixins:campaign:fortuna_romanorum:deny_if",
@@ -319,7 +318,6 @@
         "stonehearth_ace/mod_support/fortuna_romanorum/mixins/buyable_if_ace.json": "file(mixins/buyable.json)",
         "stonehearth_ace/mod_support/fortuna_romanorum/mixins/sellable_if_ace.json": "file(mixins/sellable.json)",
         "stonehearth_ace/mod_support/fortuna_romanorum/jobs/mason/gypsum_kiln/gypsum_kiln.json": "file(jobs/mason/gypsum_kiln/ace_gypsum_kiln.json)",
-        "stonehearth_ace/mod_support/fortuna_romanorum/jobs/mason/recipes/plaster_set_recipes.json": "file(jobs/mason/recipes/ace/plaster_set_recipes.json)",
         "stonehearth_ace/mod_support/fortuna_romanorum/jobs/mason/recipes/sl_recipes.json": "file(jobs/mason/recipes/ace/sl_recipes.json)"
     },
     "components": {
