@@ -3,20 +3,21 @@
    "encounter_type": "wait_for_requirements_met",
    "in_edge": "delay_20_days",
    "out_edge": {
-		"type" : "trigger_many",
-		"out_edges" : [ 
-			"centurion_award_delay",
-			"signifer_award_delay"
-		]
-	}, 
+      "type": "trigger_many",
+      "out_edges": [
+         "centurion_award_delay",
+         "signifer_award_delay",
+         "legat_promotion_award_delay"
+      ]
+   },
    "wait_for_requirements_met_info": {
       "requirements": {
-			"days_elapsed_requirement": {
-				"item": "days_elapsed",
-				"type": "deny_if_less_than",
-				"value": 20
-			}
-		},
-		"recheck_delay": "9h + 3h"
-	}
+         "days_elapsed_requirement": {
+            "item": "days_elapsed",
+            "type": "deny_if_less_than",
+            "value": 20
+         }
+      },
+      "recheck_delay": "9h + 3h"
+   }
 }
