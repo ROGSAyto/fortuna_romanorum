@@ -42,7 +42,12 @@
          "description": "i18n(fortuna_romanorum:entities.armor.fine_lorica.description)",
          "icon": "file(fine_lorica.png)",
          "category": "armor",
-         "material_tags": ["iron", "armor", "heavy_armor", "stockpile_equipment"]
+         "material_tags": [
+            "iron",
+            "armor",
+            "heavy_armor",
+            "stockpile_equipment"
+         ]
       }
    }
 }

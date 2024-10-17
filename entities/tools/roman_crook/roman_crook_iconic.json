@@ -12,8 +12,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.shepherd.shepherd_crook.shepherd_crook_iconic.display_name)",
-         "description": "i18n(stonehearth:jobs.shepherd.shepherd_crook.shepherd_crook_iconic.description)",
+         "display_name": "i18n(fortuna_romanorum:jobs.shepherd.shepherd_crook.shepherd_crook_iconic.display_name)",
+         "description": "i18n(fortuna_romanorum:jobs.shepherd.shepherd_crook.shepherd_crook_iconic.description)",
          "icon": "file(roman_crook.png)",
          "is_item": true,
          "category": "tools",

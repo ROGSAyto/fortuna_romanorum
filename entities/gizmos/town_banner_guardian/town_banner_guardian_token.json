@@ -30,11 +30,16 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.gizmos.town_banner_guardian.town_banner_guardian_token_iconic.display_name)",
-         "description": "i18n(stonehearth:entities.gizmos.town_banner_guardian.town_banner_guardian_token_iconic.description)",
+         "display_name": "i18n(fortuna_romanorum:entities.gizmos.town_banner_guardian.town_banner_guardian_token_iconic.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.gizmos.town_banner_guardian.town_banner_guardian_token_iconic.description)",
          "icon": "file(town_banner_guardian.png)",
          "category": "trophy",
-         "material_tags": ["wood", "cloth", "decoration", "stockpile_decoration"]
+         "material_tags": [
+            "wood",
+            "cloth",
+            "decoration",
+            "stockpile_decoration"
+         ]
       }
    }
 }

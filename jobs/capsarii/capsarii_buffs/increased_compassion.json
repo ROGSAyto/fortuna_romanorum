@@ -1,8 +1,8 @@
 {
    "type": "buff",
    "axis": "buff",
-   "display_name": "Medic Bag",
-   "description": "Bandages!",
+   "display_name": "i18n(fortuna_romanorum:jobs.capsarii.capsarii_buffs.capsarii_compassion.display_name)",
+   "description": "i18n(fortuna_romanorum:jobs.capsarii.capsarii_buffs.capsarii_compassion.description)",
    "icon": "file(increased_compassion.png)",
    "modifiers": {
       "compassion": {

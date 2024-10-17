@@ -40,7 +40,7 @@
       "stonehearth:catalog": {
          "display_name": "i18n(fortuna_romanorum:entities.armor.centurion_sword_sheath.display_name)",
          "description": "i18n(fortuna_romanorum:entities.armor.centurion_sword_sheath.description)",
-         "icon": "file(sword_sheath.png)",
+         "icon": "file(centurion_sword_sheath.png)",
          "category": "armor",
          "material_tags": [
             "leather",

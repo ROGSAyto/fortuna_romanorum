@@ -22,8 +22,8 @@
    "entity_data": {
       "stonehearth:hide_child_entities_from_pathfinder": true,
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.weaver.weaver_loom.weaver_loom_ghost.display_name)",
-         "description": "i18n(stonehearth:jobs.weaver.weaver_loom.weaver_loom_ghost.description)",
+         "display_name": "i18n(fortuna_romanorum:jobs.weaver.weaver_loom.weaver_loom_ghost.display_name)",
+         "description": "i18n(fortuna_romanorum:jobs.weaver.weaver_loom.weaver_loom_ghost.description)",
          "icon": "file(roman_loom.png)",
          "category": "workshops",
          "material_tags": "wood tool stockpile_tool"

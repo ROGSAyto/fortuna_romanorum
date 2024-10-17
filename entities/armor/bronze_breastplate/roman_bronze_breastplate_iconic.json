@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.armor.bronze_breastplate.bronze_breastplate_iconic.display_name)",
-         "description": "i18n(stonehearth:entities.armor.bronze_breastplate.bronze_breastplate_iconic.description)",
+         "display_name": "i18n(fortuna_romanorum:entities.armor.bronze_breastplate.bronze_breastplate_iconic.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.armor.bronze_breastplate.bronze_breastplate_iconic.description)",
          "icon": "file(roman_bronze_breastplate.png)",
          "is_item": true,
          "category": "armor"

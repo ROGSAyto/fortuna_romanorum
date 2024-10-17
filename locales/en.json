@@ -934,6 +934,12 @@
             "recipe_name": "Outer Corner Rooftiles (x5)",
             "description": "Decorate roofs, can be placed on walls.",
             "flavor": "Design uses Ochre colour from Plastered Stone Bricks palette."
+         },
+         "armor_rack": {
+            "armor_rack_ghost": {
+               "display_name": "Roman Armor Rack",
+               "description": "An Armor rack"
+            }
          }
       },
       "furniture": {
@@ -1230,10 +1236,10 @@
          },
          "prefect_armor": {
             "display_name": "Centurion Lorica",
-            "description": "The armor of the commander",
+            "description": "The armor of the Roman Commander",
             "prefect_armor_iconic": {
                "display_name": "Centurion Lorica",
-               "description": "The armor of the commander"
+               "description": "The armor of the Roman Commander"
             }
          },
          "prefect_shield": {
@@ -1361,8 +1367,8 @@
             }
          },
          "sword_sheath": {
-            "display_name": "Sword Sheath",
-            "description": "Sword Sheath",
+            "display_name": "Legat Sword Sheath",
+            "description": "Legat Sword Sheath made by Romans",
             "sword_sheat_iconic": {
                "display_name": "Sword Sheath",
                "description": "Sword Sheath"
@@ -1391,6 +1397,14 @@
                "display_name": "Legat Sword Sheath",
                "description": "Legat Sword Sheath"
             }
+         },
+         "centurion_sword_sheath": {
+            "display_name": "Roman Centurion Sword Sheath",
+            "description": "Centurion Sword Sheath made by the Romans"
+         },
+         "fine_lorica": {
+            "display_name": "Fine Roman Lorica Armor",
+            "description": "Fine Lorica Armor made by Romans"
          }
       },
       "weapons": {
@@ -1807,6 +1821,10 @@
                "display_name": "Banner of Mars",
                "description": "Peace through Strength or Treat"
             }
+         },
+         "clam_trap": {
+            "display_name": "Clam trap",
+            "description": "A Roman Clam Trap"
          }
       },
       "npc": {
@@ -1837,6 +1855,10 @@
                "herald_caecilia": {
                   "display_name": "Caecilia ",
                   "description": "Priest of the hight temple"
+               },
+               "herald_female": {
+                  "display_name": "Herald Female",
+                  "description": "Herald Female"
                }
             }
          }
@@ -2429,6 +2451,12 @@
                "description": "A sheath for safely carrying a sword.",
                "flavor": "Keeps your sword ready and protected."
             }
+         },
+         "weaver_loom": {
+            "weaver_loom_ghost": {
+               "display_name": "Roman Loom",
+               "description": "Roman Loom, used by the Roman Weaver"
+            }
          }
       },
       "potter": {
@@ -2637,6 +2665,12 @@
          "capsarii_outfit": {
             "display_name": "Capsarii uniform",
             "description": "A leather armor carried by the bandage carrier."
+         },
+         "capsarii_buffs": {
+            "capsarii_compassion": {
+               "display_name": "Compassion Buff",
+               "description": "Add 100 compassion"
+            }
          }
       },
       "signifer": {
@@ -2648,7 +2682,8 @@
       },
       "carpenter": {
          "carpenter_saw": {
-            "display_name": "Carpenter's Frame Bone Saw"
+            "display_name": "Carpenter's Frame Bone Saw",
+            "description": "Roman Saw made with animal bones"
          },
          "recipes": {
             "roman_training_equipment_name": "Roman Training Equipment",
@@ -2705,6 +2740,18 @@
                "flavor": "WIP"
             },
             "roman_weapon_part_name": "Roman Weapon Part"
+         },
+         "carpenter_toolbench": {
+            "carpenter_toolbench_ghost": {
+               "display_name": "Roman Carpenter Toolbench",
+               "description": "Made by the finest Roman trees"
+            }
+         },
+         "carpenter_workbench": {
+            "carpenter_workbench_ghost": {
+               "display_name": "Roman Carpenter Workbench",
+               "description": "Made by the finest Roman trees"
+            }
          }
       },
       "fisher": {
@@ -2818,6 +2865,18 @@
                "recipe_name": "Mozzarella (x2)",
                "description": "Miraculously moist and tender cheese made by pasta filata method: stirring the curds in hot water then kneading them a bit.",
                "flavor": "Cottage Cheese can be obtained by early harvesting of Cheese Vats."
+            }
+         },
+         "shepherd_crook": {
+            "display_name": "Roman Crook",
+            "description": "A Crook made by the Romans",
+            "shepherd_crook_iconic": {
+               "display_name": "Roman Crook",
+               "description": "A Crook made by the Romans"
+            },
+            "shepherd_crook_talisman": {
+               "display_name": "Roman Crook Talisman",
+               "description": "Used to promote a Roman to Shepherd"
             }
          }
       }

@@ -45,11 +45,17 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.armor.iron_mail.display_name)",
-         "description": "i18n(stonehearth:entities.armor.iron_mail.description)",
+         "display_name": "i18n(fortuna_romanorum:entities.armor.iron_mail.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.armor.iron_mail.description)",
          "icon": "file(archer_mail.png)",
          "category": "armor",
-         "material_tags": ["iron", "armor", "heavy_armor", "roman_made", "stockpile_equipment"]
+         "material_tags": [
+            "iron",
+            "armor",
+            "heavy_armor",
+            "roman_made",
+            "stockpile_equipment"
+         ]
       }
    }
 }

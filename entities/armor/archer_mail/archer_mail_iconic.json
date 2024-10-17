@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.armor.iron_mail.iron_mail_iconic.display_name)",
-         "description": "i18n(stonehearth:entities.armor.iron_mail.iron_mail_iconic.description)",
+         "display_name": "i18n(fortuna_romanorum:entities.armor.iron_mail.iron_mail_iconic.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.armor.iron_mail.iron_mail_iconic.description)",
          "icon": "file(archer_mail.png)",
          "is_item": true,
          "category": "armor"

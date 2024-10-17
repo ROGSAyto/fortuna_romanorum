@@ -5,37 +5,37 @@
       "model_variants": {
          "default": {
             "layer": "armor",
-            "transparent": true,
+            "transparent": "true",
             "models": [
-               "file(roman_iron_breastplate.qb)"
+               "file(roman_prefect_armor.qb)"
             ]
          },
          "female": {
             "layer": "armor",
-            "transparent": true,
+            "transparent": "true",
             "models": [
-               "file(roman_iron_breastplate_female.qb)"
+               "file(roman_prefect_armor_female.qb)"
             ]
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(roman_iron_breastplate_iconic.json)"
+         "iconic_form": "file(roman_prefect_armor_iconic.json)"
       },
       "stonehearth:equipment_piece": {
-         "render_type": "merge_with_model",
          "slot": "torso",
-         "ilevel": 6,
-         "roles": "mail_wearer",
+         "render_type": "merge_with_model",
+         "ilevel": 10,
          "required_job_level": 2,
+         "roles": "centurion_job",
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
    "entity_data": {
       "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 5
+         "base_damage_reduction": 10
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 47,
+         "value_in_gold": 290,
          "rarity": "common",
          "shop_info": {
             "buyable": true,
@@ -45,11 +45,17 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.armor.iron_breastplate.display_name)",
-         "description": "i18n(stonehearth:entities.armor.iron_breastplate.description)",
-         "icon": "file(roman_iron_breastplate.png)",
+         "display_name": "i18n(fortuna_romanorum:entities.armor.prefect_armor.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.armor.prefect_armor.description)",
+         "icon": "file(roman_prefect_armor.png)",
          "category": "armor",
-         "material_tags": ["iron", "armor", "heavy_armor", "roman_made", "stockpile_equipment"]
+         "material_tags": [
+            "iron",
+            "armor",
+            "roman_made",
+            "heavy_armor",
+            "stockpile_equipment"
+         ]
       }
    }
 }
