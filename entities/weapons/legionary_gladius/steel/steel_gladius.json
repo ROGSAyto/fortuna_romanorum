@@ -5,13 +5,13 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(gladius_equipped.qb)"
+               "file(steel_gladius_equipped.qb)"
             ]
          }
       },
-      "stonehearth:entity_forms": {
-         "iconic_form": "file(gladius_iconic.json)"
-      },
+    "stonehearth:entity_forms": {
+        "iconic_form": "file(steel_gladius_iconic.json)"
+    },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
          "render_type": "attach_to_bone",
@@ -21,14 +21,13 @@
          ],
          "ilevel": 15,
          "roles": ["legionary_job", "footman_job"],
-		   "required_job_level": 3,
+		 "required_job_level": 3,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
    "entity_data": {
       "stonehearth:combat:weapon_data": {
          "base_damage": 15,
-         "range": 5.5,
          "reach": 1
       },
       "stonehearth:combat:melee_attacks": [
@@ -42,7 +41,7 @@
       ],
       "stonehearth:net_worth": {
          "value_in_gold": 35,
-		   "rarity": "common",
+		 "rarity": "common",
          "shop_info": {
             "buyable": true,
             "sellable": true,
@@ -50,12 +49,12 @@
             "shopkeeper_type": "caravan"
          }
       },
-      "stonehearth:catalog": {
-         "display_name": "i18n(fortuna_romanorum:entities.weapons.legionary_gladius_bronze.display_name)",
-         "description": "i18n(fortuna_romanorum:entities.weapons.legionary_gladius_bronze.description)",
-         "icon": "file(gladius.png)",
-         "category": "weapons",
-         "material_tags": ["bronze", "roman_made", "melee_weapon"]
-      }
+    "stonehearth:catalog": {
+        "display_name": "i18n(fortuna_romanorum:entities.weapons.legionary_gladius_steel.display_name)",
+        "description": "i18n(fortuna_romanorum:entities.weapons.legionary_gladius_steel.description)",
+        "icon": "file(steel_gladius.png)",
+        "category": "weapons",
+        "material_tags": [ "steel", "roman_made", "melee_weapon" ]
+    }
    }
 }

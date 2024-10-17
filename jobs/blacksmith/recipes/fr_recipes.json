@@ -9,59 +9,59 @@
          }
       },
       "refined": {
-        "recipes": {
-          "bronze_handle": {
-            "recipe": "file(refined/bronze_handle_recipe.json)"
-          },
-          "iron_handle": {
-            "recipe": "file(refined/iron_handle_recipe.json)"
-          },
-          "steel_handle": {
-            "recipe": "file(refined/steel_handle_recipe.json)"
-          },          
-          "silver_handle": {
-            "recipe": "file(refined/silver_handle_recipe.json)"
-          },
-          "gold_handle": {
-            "recipe": "file(refined/gold_handle_recipe.json)"
-          }
-        }
-      },
-      "armor": {
          "recipes": {
-            "hastati_armor": {
-              "recipe": "file(armor/hastati_armor_recipe.json)"
+            "bronze_handle": {
+               "recipe": "file(refined/bronze_handle_recipe.json)"
             },
-            "legionary_armor": {
-              "recipe": "file(armor/legionary_armor_recipe.json)"
+            "iron_handle": {
+               "recipe": "file(refined/iron_handle_recipe.json)"
             },
-            "praetorian_armor": {
-              "recipe": "file(armor/praetorian_armor_recipe.json)"
+            "steel_handle": {
+               "recipe": "file(refined/steel_handle_recipe.json)"
             },
-            "evocati_armor": {
-              "recipe": "file(armor/evocati_armor_recipe.json)"
+            "silver_handle": {
+               "recipe": "file(refined/silver_handle_recipe.json)"
             },
-            "archer_mail": {
-              "recipe": "file(armor/archer_mail_recipe.json)"
-            },
-            "fine_lorica_armor": {
-              "recipe": "file(armor/fine_lorica_recipe.json)"
-            },
-            "centurion_helmet": {
-              "recipe": "file(armor/centurion_helmet_recipe.json)"
-            },
-            "praetorian_helmet": {
-              "recipe": "file(armor/praetorian_helmet_recipe.json)"
-            },
-            "legionary_helmet": {
-              "recipe": "file(armor/legionary_helmet_recipe.json)"
-            },
-            "hastati_helmet": {
-              "recipe": "file(armor/hastati_helmet_recipe.json)"
+            "gold_handle": {
+               "recipe": "file(refined/gold_handle_recipe.json)"
             }
          }
       },
-      "weapon": {
+      "roman_armor": {
+         "recipes": {
+            "hastati_armor": {
+               "recipe": "file(armor/hastati_armor_recipe.json)"
+            },
+            "legionary_armor": {
+               "recipe": "file(armor/legionary_armor_recipe.json)"
+            },
+            "praetorian_armor": {
+               "recipe": "file(armor/praetorian_armor_recipe.json)"
+            },
+            "evocati_armor": {
+               "recipe": "file(armor/evocati_armor_recipe.json)"
+            },
+            "archer_mail": {
+               "recipe": "file(armor/archer_mail_recipe.json)"
+            },
+            "fine_lorica_armor": {
+               "recipe": "file(armor/fine_lorica_recipe.json)"
+            },
+            "centurion_helmet": {
+               "recipe": "file(armor/centurion_helmet_recipe.json)"
+            },
+            "praetorian_helmet": {
+               "recipe": "file(armor/praetorian_helmet_recipe.json)"
+            },
+            "legionary_helmet": {
+               "recipe": "file(armor/legionary_helmet_recipe.json)"
+            },
+            "hastati_helmet": {
+               "recipe": "file(armor/hastati_helmet_recipe.json)"
+            }
+         }
+      },
+      "roman_weapons": {
          "recipes": {
             "legionary_gladius_bronze": {
                "recipe": "file(weapons/gladius/legionary_gladius_bronze_recipe.json)"
@@ -99,7 +99,7 @@
             "centurion_gladius_steel": {
                "recipe": "file(weapons/gladius/centurion_gladius_steel_recipe.json)"
             },
-           "legionary_pugio_bronze": {
+            "legionary_pugio_bronze": {
                "recipe": "file(weapons/pugio/legionary_pugio_bronze_recipe.json)"
             },
             "legionary_pugio_iron": {
@@ -116,7 +116,7 @@
             },
             "fine_legionary_pugio_steel": {
                "recipe": "file(weapons/pugio/fine_legionary_pugio_steel_recipe.json)"
-            },  
+            },
             "prefect_pugio_bronze": {
                "recipe": "file(weapons/pugio/prefect_pugio_bronze_recipe.json)"
             },
@@ -170,7 +170,7 @@
             },
             "fine_legionary_spatha_steel": {
                "recipe": "file(weapons/spatha/fine_legionary_spatha_steel_recipe.json)"
-            }, 
+            },
             "prefect_spatha_bronze": {
                "recipe": "file(weapons/spatha/prefect_spatha_bronze_recipe.json)"
             },
@@ -188,10 +188,10 @@
             },
             "centurion_spatha_steel": {
                "recipe": "file(weapons/spatha/centurion_spatha_steel_recipe.json)"
-            },                                                        
-           "kopis": {
+            },
+            "kopis": {
                "recipe": "file(weapons/kopis_recipe.json)"
-           }
+            }
          }
       }
    }

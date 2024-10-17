@@ -21,21 +21,21 @@
             "description": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.cheer.description)",
             "icon": "/fortuna_romanorum/entities/decoration/hearth_lamp/hearth_lamp.png",
             "sort_order": 0,
-            "out_edge": "hearth_upgrade_cheer"
+            "out_edge": "hearth_quest_cheer"
          },
          "makers": {
             "name": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.makers.name)",
             "description": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.makers.description)",
             "icon": "/fortuna_romanorum/entities/decoration/hearth_urn/hearth_urn.png",
             "sort_order": 1,
-            "out_edge": "hearth_upgrade_makers"
+            "out_edge": "hearth_quest_makers"
          },
          "glory": {
             "name": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.glory.name)",
             "description": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.glory.description)",
             "icon": "/fortuna_romanorum/entities/decoration/hearth_box/hearth_box.png",
             "sort_order": 2,
-            "out_edge": "hearth_upgrade_glory"
+            "out_edge": "hearth_quest_glory"
          }
       }
    }

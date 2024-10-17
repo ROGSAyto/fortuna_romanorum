@@ -5,7 +5,7 @@
    "recipe_name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legionary_gladius_steel_recipe.recipe_name)",
    "description": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legionary_gladius_steel_recipe.description)",
    "flavor": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.legionary_gladius_steel_recipe.flavor)",
-   "portrait": "/fortuna_romanorum/entities/weapons/legionary_gladius/steel/legionary_gladius.png",
+   "portrait": "/fortuna_romanorum/entities/weapons/legionary_gladius/steel/steel_gladius.png",
    "workshop": "stonehearth:blacksmith:forge",
    "level_requirement": 4,
    "ingredients": [

@@ -7,7 +7,7 @@
       "citizen_cap_check": {
         "item": "reached_citizen_cap",
         "type": "deny_if",
-        "value": true
+        "value": false
       },
       "not_in_titanstorm": {
         "type": "deny_if",

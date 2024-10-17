@@ -1,60 +1,60 @@
 {
    "mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
    "craftable_recipes": {
-		 "workbenches": {
-            "recipes": {
-                "splitting_block": {
-                    "recipe": "stonehearth_ace/jobs/mason/recipes/na_splitting_block_recipe.json"
-                },
-                "carpenter_workbench": {
-                    "recipe": "file(workbench_recipes/carpenter_workbench_fr_recipe.json)"
-                },
-                "carpenter_toolbench": {
-                    "recipe": "file(workbench_recipes/carpenter_toolbench_fr_recipe.json)"
-                }
+      "workbenches": {
+         "recipes": {
+            "splitting_block": {
+               "recipe": "stonehearth_ace/jobs/mason/recipes/na_splitting_block_recipe.json"
+            },
+            "carpenter_workbench": {
+               "recipe": "file(workbench_recipes/carpenter_workbench_fr_recipe.json)"
+            },
+            "carpenter_toolbench": {
+               "recipe": "file(workbench_recipes/carpenter_toolbench_fr_recipe.json)"
             }
-		 },
+         }
+      },
       "tools": {
-        "recipes": {
+         "recipes": {
             "mixintypes": {
-                "wooden_sword": "remove",
-                "archer_bow": "remove",
-                "shepherd_crook": {
-                    "recipe": "file(tool_recipes/roman_crook_recipe.json)"
-                }
+               "wooden_sword": "remove",
+               "archer_bow": "remove",
+               "shepherd_crook": {
+                  "recipe": "file(tool_recipes/roman_crook_recipe.json)"
+               }
             },
             "herbalist_staff": {
-                "recipe": "stonehearth/jobs/carpenter/recipes/herbalist_staff_recipe.json"
+               "recipe": "stonehearth/jobs/carpenter/recipes/herbalist_staff_recipe.json"
             }
-        }
+         }
       },
-    "refined": {
-        "recipes": {
+      "refined": {
+         "recipes": {
             "wooden_handle": {
-                "recipe": "file(refined/wooden_handle_recipe.json)"
+               "recipe": "file(refined/wooden_handle_recipe.json)"
             }
-        }
-    },
+         }
+      },
       "roman_training_equipment": {
-        "ordinal": 45.02,
-        "name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.roman_training_equipment_name)",
-        "recipes": {
-          "legionary_gladius_wood": {
-            "recipe": "file(military_recipes/weapon/legionary_gladius_wooden_recipe.json)"
-          },
-          "wicker_shield": {
-            "recipe": "file(military_recipes/armor/shield/wicker_shield_recipe.json)"
-          }
-        }
+         "ordinal": 45.02,
+         "name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.roman_training_equipment_name)",
+         "recipes": {
+            "legionary_gladius_wood": {
+               "recipe": "file(military_recipes/weapon/legionary_gladius_wooden_recipe.json)"
+            },
+            "wicker_shield": {
+               "recipe": "file(military_recipes/armor/shield/wicker_shield_recipe.json)"
+            }
+         }
       },
       "roman_weapons": {
-        "ordinal": 45.04,
-        "name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.weapons_name)",
-        "recipes": {
-          "hasta": {
-            "recipe": "file(military_recipes/weapon/hasta_recipe.json)"
-          }
-        }
+         "ordinal": 45.04,
+         "name": "i18n(fortuna_romanorum:jobs.blacksmith.recipes.weapons_name)",
+         "recipes": {
+            "hasta": {
+               "recipe": "file(military_recipes/weapon/hasta_recipe.json)"
+            }
+         }
       }
    }
 }

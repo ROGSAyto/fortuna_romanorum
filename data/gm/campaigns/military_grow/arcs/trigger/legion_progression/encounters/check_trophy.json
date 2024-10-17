@@ -7,7 +7,7 @@
       "requirements": {
          "skull_amount": {
             "item": "script",
-            "type": "type": "deny_if_not",
+            "type": "deny_if_not",
             "value": true,
             "script": "file(skull_amount.lua)",
 			"Currently_not_working": "complete_failure"

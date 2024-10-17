@@ -10,7 +10,7 @@
       "tier_achieved": 3,
       "conversation_subjects": [
          "stonehearth:subjects:town_status",
-         "stonehearth:food:cake"
+         "stonehearth:food:cake",
          "fortuna_romanorum:decoration:trading_post:wind_chime"
       ],
       "thought": "stonehearth:thoughts:town:progression:town",

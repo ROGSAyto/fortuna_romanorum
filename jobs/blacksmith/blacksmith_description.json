@@ -1,15 +1,16 @@
 {
-  "mixins": [
-    "stonehearth:jobs:blacksmith"
-  ],
-  "equipment": {
-    "torso": "file(blacksmith_outfit)",
-    "boots": "fortuna_romanorum:armor:shoes"
-  },
-  "display_order": 2,
-  "parent_job": "stonehearth:jobs:mason",
-  "parent_level_requirement": 3,
-  "crafter": {
-    "recipe_list": "file(recipes/fr_recipes.json)"
-  }
+   "type": "job",
+   "mixins": [
+      "stonehearth:jobs:blacksmith"
+   ],
+   "equipment": {
+      "torso": "file(blacksmith_outfit)",
+      "boots": "fortuna_romanorum:armor:shoes"
+   },
+   "display_order": 2,
+   "parent_job": "stonehearth:jobs:mason",
+   "parent_level_requirement": 3,
+   "crafter": {
+      "recipe_list": "file(recipes/fr_recipes.json)"
+   }
 }
