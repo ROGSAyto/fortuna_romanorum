@@ -1,3 +1,2 @@
-* Fix mason recipes in manifest
-* Look at the campaign
-* fix armor and weapons bug in campaign
+* Make a biome to the romans
+* remove the last elements for the SL mod
