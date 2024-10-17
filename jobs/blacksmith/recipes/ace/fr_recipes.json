@@ -3,7 +3,8 @@
       "tools": {
          "recipes": {
             "mixintypes": {
-               "carpenter_saw": "remove"
+                "carpenter_saw": "remove",
+                "knights_shield": "remove"
             }
          }
       },
