@@ -1,12 +1,12 @@
 {
-	"type": "encounter",
-	"encounter_type": "unlock_recipe",
-	"in_edge": "marian_unlock_recipes_carpenter",
-	"unlock_recipe_info": {
-		"job": "stonehearth:jobs:carpenter",
-		"recipe_key": [
-			"roman_armor:legionary_shield"
-		],
-		"bulletin_title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.bulletin_title.02)"
-	}
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "marian_unlock_recipes_carpenter",
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:carpenter",
+      "recipe_key": [
+         "roman_training_equipment:legionary_shield"
+      ],
+      "bulletin_title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.bulletin_title.02)"
+   }
 }

@@ -45,6 +45,9 @@
             },
             "wicker_shield": {
                "recipe": "file(military_recipes/armor/shield/wicker_shield_recipe.json)"
+            },
+            "legionary_shield": {
+               "recipe": "file(military_recipes/armor/shield/legionary_shield_recipe.json)"
             }
          }
       },

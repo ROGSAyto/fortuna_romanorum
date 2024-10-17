@@ -8,6 +8,7 @@
    "portrait": "/fortuna_romanorum/entities/weapons/legionary_gladius/steel/steel_gladius.png",
    "workshop": "stonehearth:blacksmith:forge",
    "level_requirement": 4,
+   "manual_unlock": true,
    "ingredients": [
       {
          "uri": "stonehearth:refined:steel_ingot",
