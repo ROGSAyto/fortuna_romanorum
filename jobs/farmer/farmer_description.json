@@ -1,4 +1,5 @@
 {
+   "type": "job",
    "mixins": [
       "stonehearth:jobs:farmer"
    ],
@@ -11,7 +12,9 @@
    "display_order": 7,
    "level_data": {
       "2": {
-         "mixintypes": { "perks": "override" },
+         "mixintypes": {
+            "perks": "override"
+         },
          "perks": [
             {
                "name": "i18n(stonehearth:jobs.farmer.farmer_description.level_2_data.perk_000_name)",

@@ -1,26 +1,27 @@
 {
-  "mixins": [
-    "file(brewer_description.json)"
-  ],
-  "equipment": {
-        "torso": "file(brewer_outfit)"
-  },
-  "display_order": 1,
-  "parent_job": "stonehearth:jobs:farmer",
-  "parent_level_requirement": 2,
-  "parent_jobs": [
-    {
-      "job": "stonehearth:jobs:cook",
-      "level_requirement": 2,
-      "one_of": true
-    },
-    {
-      "job": "stonehearth:jobs:farmer",
-      "level_requirement": 2,
-      "one_of": true
-    }
-  ],
-  "mixintypes": {
-    "parent_jobs": "override"
-  }
+   "type": "job",
+   "mixins": [
+      "file(brewer_description.json)"
+   ],
+   "equipment": {
+      "torso": "file(brewer_outfit)"
+   },
+   "display_order": 1,
+   "parent_job": "stonehearth:jobs:farmer",
+   "parent_level_requirement": 2,
+   "parent_jobs": [
+      {
+         "job": "stonehearth:jobs:cook",
+         "level_requirement": 2,
+         "one_of": true
+      },
+      {
+         "job": "stonehearth:jobs:farmer",
+         "level_requirement": 2,
+         "one_of": true
+      }
+   ],
+   "mixintypes": {
+      "parent_jobs": "override"
+   }
 }

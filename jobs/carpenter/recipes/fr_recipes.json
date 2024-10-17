@@ -28,8 +28,9 @@
             }
          }
       },
-      "refined": {
+      "roman_weapon_part": {
          "ordinal": 45.0,
+         "name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.roman_weapon_part_name)",
          "recipes": {
             "wooden_handle": {
                "recipe": "file(refined/wooden_handle_recipe.json)"

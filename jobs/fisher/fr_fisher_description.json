@@ -1,17 +1,18 @@
 {
-  "mixins": [
-    "file(fisher_description.json)"
-  ],
-  "equipment": {
-    "mixintypes": {
-      "helmet": "remove"
-    },
-    "torso": "file(fisher_outfit)",
-    "boots": "fortuna_romanorum:armor:sandals"
-  },
-  "crafter": {
-    "work_effect": "fiddle",
-    "recipe_list": "/fortuna_romanorum/jobs/fisher/recipes/fr_recipes.json"
-  },
-  "display_order": 10
+   "type": "job",
+   "mixins": [
+      "file(fisher_description.json)"
+   ],
+   "equipment": {
+      "mixintypes": {
+         "helmet": "remove"
+      },
+      "torso": "file(fisher_outfit)",
+      "boots": "fortuna_romanorum:armor:sandals"
+   },
+   "crafter": {
+      "work_effect": "fiddle",
+      "recipe_list": "/fortuna_romanorum/jobs/fisher/recipes/fr_recipes.json"
+   },
+   "display_order": 10
 }

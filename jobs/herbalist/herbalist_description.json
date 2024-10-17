@@ -1,7 +1,10 @@
 {
+   "type": "job",
    "mixins": "stonehearth:jobs:herbalist",
    "equipment": {
-      "mixintypes": {"helmet": "remove"},
+      "mixintypes": {
+         "helmet": "remove"
+      },
       "torso": "file(herbalist_outfit)",
       "boots": "fortuna_romanorum:armor:sandals"
    },

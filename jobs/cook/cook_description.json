@@ -1,14 +1,15 @@
 {
-  "mixins": [
-    "stonehearth:jobs:cook"
-  ],
-  "equipment": {
-    "torso": "file(cook_outfit)",
-    "boots": "fortuna_romanorum:armor:sandals"
-  },
-  "display_order": 6,
-  "parent_job": "stonehearth:jobs:worker",
-  "mixintypes": {
-    "parent_level_requirement": "remove"
-  }
+   "type": "job",
+   "mixins": [
+      "stonehearth:jobs:cook"
+   ],
+   "equipment": {
+      "torso": "file(cook_outfit)",
+      "boots": "fortuna_romanorum:armor:sandals"
+   },
+   "display_order": 6,
+   "parent_job": "stonehearth:jobs:worker",
+   "mixintypes": {
+      "parent_level_requirement": "remove"
+   }
 }

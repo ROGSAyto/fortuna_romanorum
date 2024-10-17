@@ -1,12 +1,13 @@
 {
-  "mixins": [
-    "stonehearth:jobs:potter"
-  ],
-  "equipment": {
-    "torso": "file(potter_outfit)",
-    "boots": "fortuna_romanorum:armor:sandals"
-  },
-  "display_order": 1,
-  "parent_job": "stonehearth:jobs:mason",
-  "parent_level_requirement": 2
+   "type": "job",
+   "mixins": [
+      "stonehearth:jobs:potter"
+   ],
+   "equipment": {
+      "torso": "file(potter_outfit)",
+      "boots": "fortuna_romanorum:armor:sandals"
+   },
+   "display_order": 1,
+   "parent_job": "stonehearth:jobs:mason",
+   "parent_level_requirement": 2
 }

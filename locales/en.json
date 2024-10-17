@@ -2398,7 +2398,8 @@
                "recipe_name": "Evocati Lorica Segmentata"
             },
             "roman_armor_name": "Roman Armor",
-            "roman_weapons_name": "Roman Weapons"
+            "roman_weapons_name": "Roman Weapons",
+            "roman_weapon_parts_name": "Roman Weapon Parts"
          }
       },
       "worker": {
@@ -2702,7 +2703,8 @@
                "recipe_name": "Roman Carpenters Workbench",
                "description": "Used by a carpenter to make furniture",
                "flavor": "WIP"
-            }
+            },
+            "roman_weapon_part_name": "Roman Weapon Part"
          }
       },
       "fisher": {

@@ -1,20 +1,21 @@
 {
-  "mixins": [
-    "stonehearth:jobs:shepherd"
-  ],
-  "equipment": {
-    "torso": "file(shepherd_outfit)",
-    "mainhand": "fortuna_romanorum:shepherd:roman_crook",
-    "boots": "fortuna_romanorum:armor:sandals"
-  },
-  "requirements": "i18n(fortuna_romanorum:jobs.requirements.carpenter)",
-  "display_order": 8,
-  "parent_job": "stonehearth:jobs:worker",
-  "mixintypes": {
-    "parent_level_requirement": "remove",
-    "parent_jobs": "remove",
-    "talisman_uri": "override",
-    "equipment": "override"
-  },
-  "talisman_uri": "fortuna_romanorum:shepherd:talisman:roman_crook_talisman"
+   "type": "job",
+   "mixins": [
+      "stonehearth:jobs:shepherd"
+   ],
+   "equipment": {
+      "torso": "file(shepherd_outfit)",
+      "mainhand": "fortuna_romanorum:shepherd:roman_crook",
+      "boots": "fortuna_romanorum:armor:sandals"
+   },
+   "requirements": "i18n(fortuna_romanorum:jobs.requirements.carpenter)",
+   "display_order": 8,
+   "parent_job": "stonehearth:jobs:worker",
+   "mixintypes": {
+      "parent_level_requirement": "remove",
+      "parent_jobs": "remove",
+      "talisman_uri": "override",
+      "equipment": "override"
+   },
+   "talisman_uri": "fortuna_romanorum:shepherd:talisman:roman_crook_talisman"
 }

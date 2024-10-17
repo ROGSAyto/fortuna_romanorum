@@ -13,7 +13,7 @@
          "default": "stonehearth:effects:talisman_glow"
       },
       "stonehearth:promotion_talisman": {
-         "job": "fortuna_romanorum:jobs:cleric"
+         "job": "fortuna_romanorum:jobs:capsarii"
       }
    },
    "entity_data": {
