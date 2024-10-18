@@ -11,10 +11,14 @@
    "ingredients": [
       {
          "uri": "stonehearth:refined:thread",
-         "count": 4
+         "count": 2
       },
       {
-         "material": "leather resource",
+         "uri": "stonehearth:refined:leather_bolt",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth_ace:refined:fine_stuffing",
          "count": 2
       }
    ],
