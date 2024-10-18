@@ -8,6 +8,7 @@
    "portrait": "/fortuna_romanorum/entities/weapons/prefect_pugio/bronze/prefect_pugio.png",
    "workshop": "stonehearth:blacksmith:forge",
    "level_requirement": 5,
+   "manual_unlock": true,
    "ingredients": [
       {
          "uri": "stonehearth:refined:bronze_ingot",

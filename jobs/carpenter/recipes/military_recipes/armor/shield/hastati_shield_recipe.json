@@ -1,0 +1,34 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(fortuna_romanorum:jobs.carpenter.recipes.hastati_shield_recipe.recipe_name)",
+   "description": "i18n(fortuna_romanorum:jobs.carpenter.recipes.hastati_shield_recipe.description)",
+   "flavor": "i18n(fortuna_romanorum:jobs.carpenter.recipes.hastati_shield_recipe.flavor)",
+   "portrait": "/fortuna_romanorum/entities/armor/hastati_shield/hastati_shield.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      },
+      {
+         "material": "thread resource",
+         "count": 2
+      },
+      {
+         "material": "leather resource",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "fortuna_romanorum:armor:hastati_shield"
+      }
+   ]
+}

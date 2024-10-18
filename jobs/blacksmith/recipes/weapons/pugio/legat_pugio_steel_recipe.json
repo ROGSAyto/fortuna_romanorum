@@ -8,6 +8,7 @@
    "portrait": "/fortuna_romanorum/entities/weapons/legat_pugio/steel/legat_pugio.png",
    "workshop": "stonehearth:blacksmith:forge",
    "level_requirement": 10,
+   "manual_unlock": true,
    "ingredients": [
       {
          "uri": "stonehearth:refined:steel_ingot",

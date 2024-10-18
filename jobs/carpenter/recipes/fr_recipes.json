@@ -49,6 +49,9 @@
             },
             "legionary_shield": {
                "recipe": "file(military_recipes/armor/shield/legionary_shield_recipe.json)"
+            },
+            "hastati_shield": {
+               "recipe": "file(military_recipes/armor/shield/hastati_shield_recipe.json)"
             }
          }
       },

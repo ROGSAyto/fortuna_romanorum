@@ -8,6 +8,7 @@
    "portrait": "/fortuna_romanorum/entities/weapons/tribune_pugio/iron/tribune_pugio.png",
    "workshop": "stonehearth:blacksmith:forge",
    "level_requirement": 8,
+   "manual_unlock": true,
    "ingredients": [
       {
          "uri": "stonehearth:refined:iron_ingot",

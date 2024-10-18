@@ -25,9 +25,9 @@
       "stonehearth:equipment_piece": {
          "slot": "torso",
          "render_type": "merge_with_model",
-         "roles": "cleric_job",
+         "roles": "signifer_job",
          "ilevel": 2,
-		 "no_drop": true,
+         "no_drop": true,
          "injected_buffs": [
             "stonehearth:buffs:devoted"
          ],
@@ -43,7 +43,13 @@
          "description": "i18n(fortuna_romanorum:entities.armor.signifer_armor.description)",
          "icon": "file(signifer_armor.png)",
          "category": "armor",
-         "material_tags": ["iron", "armor", "heavy_armor", "roman_made", "stockpile_equipment"]
+         "material_tags": [
+            "iron",
+            "armor",
+            "heavy_armor",
+            "roman_made",
+            "stockpile_equipment"
+         ]
       }
    }
 }

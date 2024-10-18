@@ -8,6 +8,7 @@
    "portrait": "/fortuna_romanorum/entities/weapons/fine_legionary_spatha/bronze/fine_legionary_spatha.png",
    "workshop": "stonehearth:blacksmith:forge",
    "level_requirement": 6,
+   "manual_unlock": true,
    "ingredients": [
       {
          "uri": "stonehearth:refined:bronze_ingot",

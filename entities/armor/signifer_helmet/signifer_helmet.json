@@ -26,8 +26,8 @@
          "slot": "helmet",
          "ilevel": 7,
          "required_job_level": 3,
-         "roles": "cleric_job",
-		  "no_drop": true,
+         "roles": "signifer_job",
+         "no_drop": true,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
@@ -40,7 +40,14 @@
          "description": "i18n(fortuna_romanorum:entities.armor.signifer_helmet.description)",
          "icon": "file(signifer_helmet.png)",
          "category": "armor",
-         "material_tags": ["iron", "armor", "helmet", "heavy_armor", "roman_made", "stockpile_equipment"]
+         "material_tags": [
+            "iron",
+            "armor",
+            "helmet",
+            "heavy_armor",
+            "roman_made",
+            "stockpile_equipment"
+         ]
       }
    }
 }

@@ -8,6 +8,7 @@
    "portrait": "/fortuna_romanorum/entities/weapons/legionary_pugio/iron/legionary_pugio.png",
    "workshop": "stonehearth:blacksmith:forge",
    "level_requirement": 2,
+   "manual_unlock": true,
    "ingredients": [
       {
          "uri": "stonehearth:refined:iron_ingot",
