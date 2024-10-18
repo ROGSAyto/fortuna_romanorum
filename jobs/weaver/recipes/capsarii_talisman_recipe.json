@@ -2,7 +2,7 @@
    "type": "recipe",
    "effort": 30,
    "work_units": 20,
-   "display_name": "i18n(fortuna_romanorum:entities.armor.capsarii_outfit_talisman.display_name)",
+   "recipe_name": "i18n(fortuna_romanorum:entities.armor.capsarii_outfit_talisman.display_name)",
    "description": "i18n(fortuna_romanorum:entities.armor.capsarii_outfit_talisman.description)",
    "flavor": "",
    "portrait": "/fortuna_romanorum/entities/armor/capsarii_armor/capsarii_outfit.png",
