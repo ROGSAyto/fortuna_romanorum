@@ -2443,7 +2443,7 @@
       },
       "worker": {
          "worker_description": {
-            "display_name": "Plebs",
+            "display_name": "Plebeians",
             "description": "Plebs perform basic tasks like harvesting resources, hauling stuff around, and constructing buildings.",
             "requirements": "Only roman citizenship.",
             "level_0_data": {
@@ -2761,6 +2761,10 @@
                "flavor": "WIP",
                "recipe_name": "Roman Crook",
                "description": "Crook, made by Romans"
+            },
+            "archer_bow_recipe": {
+               "recipe_name": "Sagitarii's Bow",
+               "description": "WIP"
             }
          },
          "carpenter_toolbench": {

@@ -11,7 +11,7 @@
       "boots": "fortuna_romanorum:armor:sandals"
    },
    "display_order": 1,
-   "requirements": "i18n(fortuna_romanorum:jobs.requirements.herbalist)",
+   "requirements": "i18n(fortuna_romanorum:jobs.requirements.carpenter)",
    "parent_job": "stonehearth:jobs:farmer",
    "parent_level_requirement": 2,
    "parent_jobs": [

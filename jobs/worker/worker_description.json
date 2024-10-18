@@ -3,6 +3,7 @@
    "mixins": [
       "stonehearth:jobs:worker"
    ],
+   "display_name": "i18n(fortuna_romanorum:jobs.worker.worker_description.display_name)",
    "equipment": {
       "torso": "file(worker_outfit)",
       "boots": "fortuna_romanorum:armor:sandals"

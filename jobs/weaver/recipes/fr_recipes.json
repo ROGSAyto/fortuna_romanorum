@@ -7,12 +7,14 @@
          "recipes": {
             "archer_bow": {
                "recipe": "file(archer_bow_recipe.json)"
+            },
+            "capsarii_talisman": {
+               "recipe": "file(capsarii_talisman_recipe.json)"
             }
          }
       },
       "clothing_armor": {
-         "recipes": {
-         }
+         "recipes": {}
       }
    }
 }

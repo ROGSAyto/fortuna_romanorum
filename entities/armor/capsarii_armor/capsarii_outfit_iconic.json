@@ -1,0 +1,23 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(capsarii_outfit.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.capsarii.capsarii_outfit.display_name)",
+         "description": "i18n(stonehearth:jobs.capsarii.capsarii_outfit.description)",
+         "icon": "file(capsarii_outfit.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": "tool"
+      }
+   }
+}

@@ -16,7 +16,10 @@
       "mainhand": "fortuna_romanorum:weapons:pugio",
       "boots": "fortuna_romanorum:armor:galigae"
    },
-   "roles":["cleric_job", "combat"],
+   "roles": [
+      "cleric_job",
+      "combat"
+   ],
    "promotion_activity_name": "promote_capsarii",
    "task_groups": [
       "stonehearth:task_groups:common_tasks",
@@ -26,7 +29,8 @@
    ],
    "icon": "file(images/icon.png)",
    "initial_num_attended_hearthlings": 4,
-   "parent_job": "stonehearth:jobs:worker",
+   "parent_job": "fortuna_romanorum:jobs:legionary",
+   "parent_level_requirement": 2,
    "xp_rewards": {
       "heal_entity": 2,
       "heal_entity_in_combat": 1,

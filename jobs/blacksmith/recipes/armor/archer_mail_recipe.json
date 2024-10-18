@@ -8,6 +8,7 @@
    "portrait": "/fortuna_romanorum/entities/armor/archer_mail/archer_mail.png",
    "workshop": "stonehearth:blacksmith:workbench",
    "level_requirement": 2,
+   "manual_unlock": true,
    "ingredients": [
       {
          "uri": "stonehearth:refined:iron_ingot",

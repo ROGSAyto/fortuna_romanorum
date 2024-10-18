@@ -8,6 +8,7 @@
    "portrait": "/fortuna_romanorum/entities/armor/fine_lorica_armor/fine_lorica_armor.png",
    "workshop": "stonehearth:blacksmith:workbench",
    "level_requirement": 5,
+   "manual_unlock": true,
    "ingredients": [
       {
          "uri": "stonehearth:refined:steel_ingot",
