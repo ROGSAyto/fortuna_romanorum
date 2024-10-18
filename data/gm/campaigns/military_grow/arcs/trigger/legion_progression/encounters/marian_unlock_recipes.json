@@ -1,48 +1,48 @@
 {
-	"type": "encounter",
-	"encounter_type": "dialog_tree",
-	"rarity": "common",
-	"in_edge": "marian_unlock_recipes",
-	"unique": true,
-	"dialog_tree_info": {
-		"start_node": "msg1",
-		"nodes": {
-			"msg1": {
-				"bulletin": {
-					"title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.bulletin_title.00)",
-					"dialog_title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.dialog_title)",
-					"portrait": "file(images/messenger.png)",
-					"message": [
-						"i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.bulletin_message.00)"
-					],
-					"choices": {
-						"stonehearth:ui.game.common.next": {
-							"next_node": "msg2"
-						}
-					}
-				}				
-			},
-			"msg2": {
-				"bulletin": {
-					"title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.bulletin_title.00)",
-					"dialog_title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.dialog_title)",
-					"portrait": "file(images/messenger.png)",
-					"message": [
-						"i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.bulletin_message.01)"
-					],
-					"choices": {
-						"stonehearth:ui.game.common.ok": {
-							"out_edge" : {
-								"type" : "trigger_many",
-								"out_edges" : [ 
-									"marian_unlock_recipes_blacksmith",
-									"marian_unlock_recipes_carpenter"
-								]
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "marian_unlock_recipes",
+   "unique": true,
+   "dialog_tree_info": {
+      "start_node": "msg1",
+      "nodes": {
+         "msg1": {
+            "bulletin": {
+               "title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.bulletin_title.00)",
+               "dialog_title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.dialog_title)",
+               "portrait": "file(images/messenger.png)",
+               "message": [
+                  "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.bulletin_message.00)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.next": {
+                     "next_node": "msg2"
+                  }
+               }
+            }
+         },
+         "msg2": {
+            "bulletin": {
+               "title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.bulletin_title.00)",
+               "dialog_title": "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.dialog_title)",
+               "portrait": "file(images/messenger.png)",
+               "message": [
+                  "i18n(fortuna_romanorum:data.gm.campaigns.military_grow.marian_unlock_recipes.dialog_tree_info.dialog_nodes.msg1.bulletin_message.01)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "out_edge": {
+                        "type": "trigger_many",
+                        "out_edges": [
+                           "marian_unlock_recipes_blacksmith",
+                           "marian_unlock_recipes_carpenter"
+                        ]
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
 }

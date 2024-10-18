@@ -3780,8 +3780,8 @@
                            },
                            "bulletin_title": {
                               "00": "The blueprints",
-                              "01": "Blacksmith Recipes Unlocked",
-                              "02": "Carpenter Recipes Unlocked"
+                              "01": "The Carpenter has unlocked the Blacksmith Gladius, Legionary Helmet & Armor",
+                              "02": "The Carpenter has unlocked the Legionary Shield"
                            },
                            "dialog_title": "New Blueprints",
                            "choice_00": "Great!"
