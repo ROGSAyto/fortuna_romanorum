@@ -9,9 +9,9 @@
             ]
          }
       },
-    "stonehearth:entity_forms": {
-        "iconic_form": "file(steel_gladius_iconic.json)"
-    },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(steel_gladius_iconic.json)"
+      },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
          "render_type": "attach_to_bone",
@@ -20,8 +20,11 @@
             "stonehearth:patrol"
          ],
          "ilevel": 15,
-         "roles": ["legionary_job", "footman_job"],
-		 "required_job_level": 3,
+         "roles": [
+            "legionary_job",
+            "footman_job"
+         ],
+         "required_job_level": 3,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
@@ -41,7 +44,7 @@
       ],
       "stonehearth:net_worth": {
          "value_in_gold": 35,
-		 "rarity": "common",
+         "rarity": "common",
          "shop_info": {
             "buyable": true,
             "sellable": true,
@@ -49,12 +52,16 @@
             "shopkeeper_type": "caravan"
          }
       },
-    "stonehearth:catalog": {
-        "display_name": "i18n(fortuna_romanorum:entities.weapons.legionary_gladius_steel.display_name)",
-        "description": "i18n(fortuna_romanorum:entities.weapons.legionary_gladius_steel.description)",
-        "icon": "file(steel_gladius.png)",
-        "category": "weapons",
-        "material_tags": [ "steel", "roman_made", "melee_weapon" ]
-    }
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortuna_romanorum:entities.weapons.legionary_gladius_steel.display_name)",
+         "description": "i18n(fortuna_romanorum:entities.weapons.legionary_gladius_steel.description)",
+         "icon": "file(steel_gladius.png)",
+         "category": "weapons",
+         "material_tags": [
+            "steel",
+            "roman_made",
+            "melee_weapon"
+         ]
+      }
    }
 }

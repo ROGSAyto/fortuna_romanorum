@@ -3,13 +3,20 @@
    "mixins": [
       "stonehearth:jobs:archer"
    ],
-   "display_name": "i18n(fortuna_romanorum:jobs.archer.archer_description.display_name)",
-   "talisman_uri": "stonehearth:archer:talisman:bow_talisman",
+   "display_name": "i18n(fortuna_romanorum:jobs.sagitarii.sagitarii_description.display_name)",
+   "description": "i18n(fortuna_romanorum:jobs.sagitarii.sagitarii_description.description)",
+   "mixintypes": {
+      "equipment_preferences": "remove"
+   },
+   "talisman_uris": {
+      "stonehearth:archer:talisman": true,
+      "stonehearth_ace:archer:talisman:bone": false
+   },
    "equipment": {
       "torso": "file(sagitarii_outfit)",
       "mainhand": "stonehearth:weapons:bow",
       "helmet": "file(sagitarii_headband)",
-      "boots": "fortuna_romanorum:armor:galigae",
+      "boots": "fortuna_romanorum:armor:caligae",
       "accessory": "file(sagitarii_quiver)"
    },
    "task_groups": [

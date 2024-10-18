@@ -2551,11 +2551,6 @@
             }
          }
       },
-      "archer": {
-         "archer_description": {
-            "display_name": "Sagitarii"
-         }
-      },
       "centurion": {
          "centurion_scroll_talisman": {
             "display_name": "Centurion Promotion Scroll",
@@ -2904,6 +2899,12 @@
                "display_name": "Roman Crook Talisman",
                "description": "Used to promote a Roman to Shepherd"
             }
+         }
+      },
+      "sagitarii": {
+         "sagitarii_description": {
+            "display_name": "Sagitarii",
+            "description": "The Sagitarii were skilled Roman archers, often mounted, providing agile ranged support in the Roman military."
          }
       }
    },

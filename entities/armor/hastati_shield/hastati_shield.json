@@ -7,7 +7,6 @@
             "models": [
                "file(hastati_shield.qb)"
             ]
-
          }
       },
       "stonehearth:entity_forms": {
@@ -21,9 +20,11 @@
             "stonehearth:patrol",
             "stonehearth:have_shield"
          ],
-		 "required_job_level": 2,
+         "required_job_level": 2,
          "ilevel": 2,
-         "roles": ["footman_job", "legionary_job"],
+         "roles": [
+            "legionary_job"
+         ],
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
@@ -56,7 +57,12 @@
          "description": "i18n(fortuna_romanorum:entities.armor.hastati_shield.description)",
          "icon": "file(hastati_shield.png)",
          "category": "armor",
-         "material_tags": ["wood", "shield", "armor", "stockpile_equipment"]
+         "material_tags": [
+            "wood",
+            "shield",
+            "armor",
+            "stockpile_equipment"
+         ]
       }
    }
 }

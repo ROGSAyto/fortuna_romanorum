@@ -1,77 +1,77 @@
 {
-	"mixins": [
-		"stonehearth:jobs:index"
-	],
-	"jobs": {
-		"stonehearth:jobs:archer": {
-			"description": "fortuna_romanorum:jobs:archer"
-		},
-		"stonehearth:jobs:blacksmith": {
-			"description": "fortuna_romanorum:jobs:blacksmith"
-		},
-		"stonehearth:jobs:carpenter": {
-			"description": "fortuna_romanorum:jobs:carpenter"
-		},
-		"stonehearth:jobs:cleric": {
-			"description": "fortuna_romanorum:jobs:capsarii"
-		},
-		"stonehearth:jobs:cook": {
-			"description": "fortuna_romanorum:jobs:cook"
-		},
-		"stonehearth:jobs:engineer": {
-			"description": "fortuna_romanorum:jobs:engineer"
-		},
-		"stonehearth:jobs:farmer": {
-			"description": "fortuna_romanorum:jobs:farmer"
-		},
-		"stonehearth:jobs:geomancer": {
-			"description": "fortuna_romanorum:jobs:geomancer"
-		},
-		"stonehearth:jobs:herbalist": {
-			"description": "fortuna_romanorum:jobs:herbalist"
-		},
-		"stonehearth:jobs:mason": {
-			"description": "fortuna_romanorum:jobs:mason"
-		},
-		"stonehearth:jobs:potter": {
-			"description": "fortuna_romanorum:jobs:potter"
-		},
-		"stonehearth:jobs:shepherd": {
-			"description": "fortuna_romanorum:jobs:shepherd"
-		},
-		"stonehearth:jobs:trapper": {
-			"description": "fortuna_romanorum:jobs:trapper"
-		},
-		"stonehearth:jobs:weaver": {
-			"description": "fortuna_romanorum:jobs:weaver"
-		},
-		"stonehearth:jobs:worker": {
-			"description": "fortuna_romanorum:jobs:worker"
-		},
-		"stonehearth_ace:jobs:brewer": {
-			"description": "fortuna_romanorum:jobs:brewer"
-		},
-		"archipelago_biome:jobs:fisher": {
-			"description": "fortuna_romanorum:jobs:fisher"
-		},
-		"fortuna_romanorum:jobs:legionary": {
-			"description": "fortuna_romanorum:jobs:legionary"
-		},
-		"fortuna_romanorum:jobs:centurion": {
-			"description": "fortuna_romanorum:jobs:centurion"
-		},
-		"fortuna_romanorum:jobs:praetorian": {
-			"description": "fortuna_romanorum:jobs:praetorian"
-		},
-		"fortuna_romanorum:jobs:legat": {
-			"description": "fortuna_romanorum:jobs:legat"
-		},
-		"fortuna_romanorum:jobs:signifer": {
-			"description": "fortuna_romanorum:jobs:signifer"
-		},
-		"mixintypes": {
-		  "stonehearth:jobs:footman": "remove",
-		  "stonehearth:jobs:knight": "remove"
-		}
-	}
+   "mixins": [
+      "stonehearth:jobs:index"
+   ],
+   "jobs": {
+      "stonehearth:jobs:archer": {
+         "description": "fortuna_romanorum:jobs:sagitarii"
+      },
+      "stonehearth:jobs:blacksmith": {
+         "description": "fortuna_romanorum:jobs:blacksmith"
+      },
+      "stonehearth:jobs:carpenter": {
+         "description": "fortuna_romanorum:jobs:carpenter"
+      },
+      "stonehearth:jobs:cleric": {
+         "description": "fortuna_romanorum:jobs:capsarii"
+      },
+      "stonehearth:jobs:cook": {
+         "description": "fortuna_romanorum:jobs:cook"
+      },
+      "stonehearth:jobs:engineer": {
+         "description": "fortuna_romanorum:jobs:engineer"
+      },
+      "stonehearth:jobs:farmer": {
+         "description": "fortuna_romanorum:jobs:farmer"
+      },
+      "stonehearth:jobs:geomancer": {
+         "description": "fortuna_romanorum:jobs:geomancer"
+      },
+      "stonehearth:jobs:herbalist": {
+         "description": "fortuna_romanorum:jobs:herbalist"
+      },
+      "stonehearth:jobs:mason": {
+         "description": "fortuna_romanorum:jobs:mason"
+      },
+      "stonehearth:jobs:potter": {
+         "description": "fortuna_romanorum:jobs:potter"
+      },
+      "stonehearth:jobs:shepherd": {
+         "description": "fortuna_romanorum:jobs:shepherd"
+      },
+      "stonehearth:jobs:trapper": {
+         "description": "fortuna_romanorum:jobs:trapper"
+      },
+      "stonehearth:jobs:weaver": {
+         "description": "fortuna_romanorum:jobs:weaver"
+      },
+      "stonehearth:jobs:worker": {
+         "description": "fortuna_romanorum:jobs:worker"
+      },
+      "stonehearth_ace:jobs:brewer": {
+         "description": "fortuna_romanorum:jobs:brewer"
+      },
+      "archipelago_biome:jobs:fisher": {
+         "description": "fortuna_romanorum:jobs:fisher"
+      },
+      "fortuna_romanorum:jobs:legionary": {
+         "description": "fortuna_romanorum:jobs:legionary"
+      },
+      "fortuna_romanorum:jobs:centurion": {
+         "description": "fortuna_romanorum:jobs:centurion"
+      },
+      "fortuna_romanorum:jobs:praetorian": {
+         "description": "fortuna_romanorum:jobs:praetorian"
+      },
+      "fortuna_romanorum:jobs:legat": {
+         "description": "fortuna_romanorum:jobs:legat"
+      },
+      "fortuna_romanorum:jobs:signifer": {
+         "description": "fortuna_romanorum:jobs:signifer"
+      },
+      "mixintypes": {
+         "stonehearth:jobs:footman": "remove",
+         "stonehearth:jobs:knight": "remove"
+      }
+   }
 }

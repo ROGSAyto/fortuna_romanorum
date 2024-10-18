@@ -16,7 +16,7 @@
       "torso": "fortuna_romanorum:armor:signifer_armor",
       "mainhand": "fortuna_romanorum:weapons:signum",
       "offhand": "fortuna_romanorum:armor:signifer_shield",
-      "boots": "fortuna_romanorum:armor:galigae"
+      "boots": "fortuna_romanorum:armor:caligae"
    },
    "roles": [
       "signifer_job",

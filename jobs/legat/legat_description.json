@@ -12,28 +12,28 @@
    "default_stance": "aggressive",
    "abilities": "file(legat_abilities)",
    "equipment_preferences": {
-    "roles": {
-        "one_handed_legionary": {
+      "roles": {
+         "one_handed_legionary": {
             "command": "stonehearth_ace:commands:toggle_job_role:one_handed_footman",
             "types": [
-                "mainhand",
-                "shield"
+               "mainhand",
+               "shield"
             ]
-        },
-        "two_handed_legionary": {
+         },
+         "two_handed_legionary": {
             "command": "stonehearth_ace:commands:toggle_job_role:two_handed_footman",
             "types": [
-                "twohanded"
+               "twohanded"
             ]
-        },
-        "dual_wield_legionary": {
+         },
+         "dual_wield_legionary": {
             "command": "stonehearth_ace:commands:toggle_job_role:dual_wield_footman",
             "types": [
-                "mainhand",
-                "offhand"
+               "mainhand",
+               "offhand"
             ]
-        }
-    },
+         }
+      },
       "default_role": "one_handed_legionary"
    },
    "equipment": {
@@ -41,9 +41,15 @@
       "offhand": "fortuna_romanorum:armor:legat_shield",
       "mainhand": "fortuna_romanorum:weapons:legat_gladius",
       "helmet": "fortuna_romanorum:armor:legat_helmet",
-      "boots": "fortuna_romanorum:armor:galigae"
+      "boots": "fortuna_romanorum:armor:caligae"
    },
-   "roles":["legat_job", "knight_job", "plate_wearer", "melee_combat", "combat"],
+   "roles": [
+      "legat_job",
+      "knight_job",
+      "plate_wearer",
+      "melee_combat",
+      "combat"
+   ],
    "promotion_activity_name": "promote_legat",
    "task_groups": [
       "stonehearth:task_groups:common_tasks",
@@ -62,7 +68,7 @@
       "1": {
          "perks": [
             {
-			   "type": "apply_buff",
+               "type": "apply_buff",
                "name": "i18n(fortuna_romanorum:jobs.legat.legat_description.level_1_data.perk_000_name)",
                "id": "legat_trainer_1",
                "icon": "file(images/legat_trainer_1.png)",
@@ -76,7 +82,7 @@
       "4": {
          "perks": [
             {
-			   "type": "apply_chained_buff",
+               "type": "apply_chained_buff",
                "name": "i18n(fortuna_romanorum:jobs.legat.legat_description.level_4_data.perk_000_name)",
                "id": "legat_trainer_2",
                "icon": "file(images/legat_trainer_2.png)",
@@ -90,8 +96,8 @@
       },
       "6": {
          "perks": [
-			{
-			"type": "apply_chained_buff",
+            {
+               "type": "apply_chained_buff",
                "name": "i18n(fortuna_romanorum:jobs.legat.legat_description.level_6_data.perk_000_name)",
                "id": "legat_trainer_3",
                "icon": "file(images/legat_trainer_3.png)",
@@ -99,7 +105,8 @@
                "last_buff": "fortuna_romanorum:buffs:legat:trainer_2",
                "description": "i18n(fortuna_romanorum:jobs.legat.legat_description.level_6_data.perk_000_description)",
                "level": 6,
-               "demote_fn": "remove_buff"}
+               "demote_fn": "remove_buff"
+            }
          ]
       }
    }
