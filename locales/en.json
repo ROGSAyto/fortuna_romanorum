@@ -2444,7 +2444,7 @@
       "worker": {
          "worker_description": {
             "display_name": "Plebeians",
-            "description": "Plebs perform basic tasks like harvesting resources, hauling stuff around, and constructing buildings.",
+            "description": "Plebeians is the Roman working class performing basic tasks like harvesting resources, hauling stuff around, and constructing buildings.",
             "requirements": "Only roman citizenship.",
             "level_0_data": {
                "title": "Plebs"

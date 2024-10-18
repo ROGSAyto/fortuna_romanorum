@@ -7,14 +7,8 @@
          "entries": {
             "default": {
                "items": {
-                  "legat_helmet": {
-                     "uri": "fortuna_romanorum:legat:talisman:legat_helmet_talisman"
-                  },
-                  "legat_shield": {
-                     "uri": "fortuna_romanorum:legat:talisman:legat_shield_talisman"
-                  },
-                  "legat_armor": {
-                     "uri": "fortuna_romanorum:legat:talisman:legat_armor_talisman"
+                  "legat_scrool": {
+                     "uri": "fortuna_romanorum:legat:talisman:legat_scroll_talisman"
                   }
                }
             }

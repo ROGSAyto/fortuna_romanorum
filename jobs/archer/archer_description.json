@@ -4,6 +4,7 @@
       "stonehearth:jobs:archer"
    ],
    "display_name": "i18n(fortuna_romanorum:jobs.archer.archer_description.display_name)",
+   "talisman_uri": "stonehearth:archer:talisman:bow_talisman",
    "equipment": {
       "torso": "file(sagitarii_outfit)",
       "mainhand": "stonehearth:weapons:bow",
