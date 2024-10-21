@@ -1,0 +1,20 @@
+{
+    "#3E7445": {
+        "loot_bag": "stonehearth_ace:plants:water_lily:lily_pad",
+        "facing": "random",
+        "force_iconic": false,
+        "placement_chance": 1
+    },
+    "#EEEEEE": {
+        "loot_bag": "stonehearth_ace:plants:water_lily:white",
+        "facing": "random",
+        "force_iconic": false,
+        "placement_chance": 1
+    },
+    "#7249D6": {
+        "loot_bag": "stonehearth_ace:plants:water_lily:purple",
+        "facing": "random",
+        "force_iconic": false,
+        "placement_chance": 1
+    }
+}

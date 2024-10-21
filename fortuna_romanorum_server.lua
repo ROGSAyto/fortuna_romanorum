@@ -7,8 +7,7 @@ local required_mods = {
   "northern_alliance",
   "stonehearth_ace",
   "lostems",
-  "archipelago_biome",
-  "serene_league"
+  "archipelago_biome"
 }
 
 

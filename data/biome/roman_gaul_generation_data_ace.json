@@ -1,0 +1,647 @@
+{
+   "type": "biome_generation_data",
+   "ring_tesselation": {
+      "dirt": [
+         {
+            "width": 8,
+            "name": "dirt_edge_1"
+         }
+      ],
+      "grass": [
+         {
+            "width": 4,
+            "name": "grass_edge_1"
+         },
+         {
+            "width": 6,
+            "name": "grass_edge_2"
+         }
+      ],
+      "grass_hills": [
+         {
+            "width": 3,
+            "name": "grass_hills_edge_1"
+         },
+         {
+            "width": 5,
+            "name": "grass_hills_edge_2"
+         }
+      ]
+   },
+   "season": "spring",
+   "palettes": {
+      "minimap": {
+         "water": "#0089b3"
+      },
+      "spring": {
+         "null": "#FF00FF",
+         "unknown": "#25221A",
+         "bedrock": "#514E45",
+         "rock_layer_1": "#6B6860",
+         "rock_layer_2": "#76726B",
+         "rock_layer_3": "#82807B",
+         "rock_layer_4": "#918D86",
+         "rock_layer_5": "#B3B0AA",
+         "rock_layer_6": "#C1C0BB",
+         "rock_layer_7": "#C1C0BB",
+         "rock_layer_8": "#C1C0BB",
+         "soil_light": "#918154",
+         "soil_dark": "#807147",
+         "dirt": "#B3A16E",
+         "dirt_edge_1": "#A29161",
+         "grass": "#7EBB78",
+         "grass_edge_1": "#9CCD83",
+         "grass_edge_2": "#8FC880",
+         "grass_hills": "#70AE76",
+         "grass_hills_edge_1": "#8CCB7E",
+         "grass_hills_edge_2": "#77BA76",
+         "copper_ore": "#C87533",
+         "tin_ore": "#B0A080",
+         "iron_ore": "#90B0D0",
+         "silver_ore": "#CCCCCC",
+         "gold_ore": "#FFD700",
+         "coal": "#021C24"
+      },
+      "summer": {
+         "null": "#FF00FF",
+         "unknown": "#25221A",
+         "bedrock": "#514E45",
+         "rock_layer_1": "#6B6860",
+         "rock_layer_2": "#76726B",
+         "rock_layer_3": "#82807B",
+         "rock_layer_4": "#918D86",
+         "rock_layer_5": "#B3B0AA",
+         "rock_layer_6": "#C1C0bb",
+         "rock_layer_7": "#C1C0bb",
+         "rock_layer_8": "#C1C0bb",
+         "soil_light": "#918154",
+         "soil_dark": "#807147",
+         "dirt": "#B3A16E",
+         "dirt_edge_1": "#A29161",
+         "grass": "#8BB270",
+         "grass_edge_1": "#AFCC7C",
+         "grass_edge_2": "#9DBF76",
+         "grass_hills": "#75B370",
+         "grass_hills_edge_1": "#99CE7C",
+         "grass_hills_edge_2": "#87C076",
+         "copper_ore": "#C87533",
+         "tin_ore": "#B0A080",
+         "iron_ore": "#90B0D0",
+         "silver_ore": "#CCCCCC",
+         "gold_ore": "#FFD700",
+         "coal": "#021C24"
+      },
+      "autumn": {
+         "null": "#FF00FF",
+         "unknown": "#25221A",
+         "bedrock": "#514E45",
+         "rock_layer_1": "#6B6860",
+         "rock_layer_2": "#76726B",
+         "rock_layer_3": "#82807B",
+         "rock_layer_4": "#918D86",
+         "rock_layer_5": "#B3B0AA",
+         "rock_layer_6": "#C1C0bb",
+         "rock_layer_7": "#C1C0bb",
+         "rock_layer_8": "#C1C0bb",
+         "soil_light": "#918154",
+         "soil_dark": "#807147",
+         "dirt": "#B3A16E",
+         "dirt_edge_1": "#A29161",
+         "grass": "#A5BA59",
+         "grass_edge_1": "#AACE65",
+         "grass_edge_2": "#A7C35E",
+         "grass_hills": "#A9A653",
+         "grass_hills_edge_1": "#B7C25E",
+         "grass_hills_edge_2": "#b0b658",
+         "copper_ore": "#C87533",
+         "tin_ore": "#B0A080",
+         "iron_ore": "#90B0D0",
+         "silver_ore": "#CCCCCC",
+         "gold_ore": "#FFD700",
+         "coal": "#021C24"
+      },
+      "winter": {
+         "null": "#FF00FF",
+         "unknown": "#25221A",
+         "bedrock": "#514E45",
+         "rock_layer_1": "#6B6860",
+         "rock_layer_2": "#76726B",
+         "rock_layer_3": "#82807B",
+         "rock_layer_4": "#918D86",
+         "rock_layer_5": "#B3B0AA",
+         "rock_layer_6": "#C1C0bb",
+         "rock_layer_7": "#C1C0bb",
+         "rock_layer_8": "#C1C0bb",
+         "soil_light": "#918154",
+         "soil_dark": "#807147",
+         "dirt": "#B3A16E",
+         "dirt_edge_1": "#A29161",
+         "grass": "#B7B867",
+         "grass_edge_1": "#C8C773",
+         "grass_edge_2": "#C1C26d",
+         "grass_hills": "#A39A4f",
+         "grass_hills_edge_1": "#ADAF57",
+         "grass_hills_edge_2": "#A9A652",
+         "copper_ore": "#C87533",
+         "tin_ore": "#B0A080",
+         "iron_ore": "#90B0D0",
+         "silver_ore": "#CCCCCC",
+         "gold_ore": "#FFD700",
+         "coal": "#021C24"
+      }
+   },
+   "terrain": {
+      "noise_map_settings": {
+         "octaves": 2,
+         "persistence_ratio": 0.2,
+         "bandlimit": 3,
+         "aspect_ratio": 1
+      },
+      "plains_percentage": 62,
+      "height_base": 36,
+      "plains": {
+         "step_size": 2,
+         "valley_count": 1,
+         "step_count": 2
+      },
+      "foothills": {
+         "step_size": 10,
+         "step_count": 2
+      },
+      "mountains": {
+         "step_size": 10,
+         "step_count": 10
+      }
+   },
+   "terrain_detailer": {
+      "mountains": {
+         "depth_function": {
+            "octaves": 2,
+            "persistence_ratio": 0.4,
+            "amplitude": 2.5,
+            "layer_thickness": 1,
+            "layer_count": 5,
+            "unit_length": 12
+         },
+         "height_function": {
+            "octaves": 3,
+            "persistence_ratio": 0.1,
+            "amplitude": 2.5,
+            "layer_thickness": 3,
+            "unit_length": 6
+         }
+      },
+      "foothills": {
+         "depth_function": {
+            "octaves": 4,
+            "persistence_ratio": 0.2,
+            "amplitude": 2.5,
+            "layer_thickness": 2,
+            "layer_count": 6,
+            "unit_length": 6
+         },
+         "height_function": {
+            "octaves": 4,
+            "persistence_ratio": 0.1,
+            "amplitude": 2.5,
+            "layer_thickness": 5,
+            "unit_length": 24
+         }
+      },
+      "plains": {
+         "depth_function": {
+            "layer_thickness": 1,
+            "layer_count": 1,
+            "unit_length": 8
+         },
+         "height_function": {
+            "layer_thickness": 1,
+            "unit_length": 8
+         }
+      }
+   },
+   "landscape": {
+      "placement_table": {
+         "stonehearth:trees:oak:ancient": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 4,
+               "exclusion_radius": 8
+            }
+         },
+         "stonehearth:trees:oak:large": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 3,
+               "exclusion_radius": 5
+            }
+         },
+         "stonehearth:trees:oak:medium": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 2,
+               "exclusion_radius": 4
+            }
+         },
+         "stonehearth:trees:oak:small": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 2,
+               "exclusion_radius": 2
+            }
+         },
+         "stonehearth_ace:trees:birch:ancient": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 4,
+               "exclusion_radius": 8
+            }
+         },
+         "stonehearth_ace:trees:birch:large": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 3,
+               "exclusion_radius": 5
+            }
+         },
+         "stonehearth_ace:trees:birch:medium": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 2,
+               "exclusion_radius": 4
+            }
+         },
+         "stonehearth_ace:trees:birch:small": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 2,
+               "exclusion_radius": 4
+            }
+         },
+         "stonehearth:trees:pine:large": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 3,
+               "exclusion_radius": 5
+            }
+         },
+         "stonehearth:trees:pine:medium": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 2,
+               "exclusion_radius": 4
+            }
+         },
+         "stonehearth:trees:pine:small": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 2,
+               "exclusion_radius": 4
+            }
+         },
+         "stonehearth_ace:fungi:chanterelle": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 1,
+               "item_density": 0.3,
+               "exclusion_radius": 1
+            }
+         },
+         "stonehearth_ace:fungi:bolete": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 1,
+               "item_density": 0.3,
+               "exclusion_radius": 1
+            }
+         },
+         "stonehearth:plants:violet": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.5,
+               "exclusion_radius": 1
+            }
+         },
+         "stonehearth_ace:plants:poppy": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.5,
+               "exclusion_radius": 1
+            }
+         },
+         "stonehearth_ace:plants:garlic": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.3,
+               "exclusion_radius": 1
+            }
+         },
+         "stonehearth_ace:plants:sage": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.3,
+               "exclusion_radius": 1
+            }
+         },
+         "stonehearth_ace:plants:parsley": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.3,
+               "exclusion_radius": 1
+            }
+         },
+         "stonehearth_ace:plants:oleander": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.5,
+               "exclusion_radius": 1
+            }
+         },
+         "stonehearth_ace:plants:daylily": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.5,
+               "exclusion_radius": 1
+            }
+         },
+         "stonehearth:boulder:small": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.2,
+               "exclusion_radius": 1
+            }
+         },
+         "stonehearth:boulder:medium_1": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 1,
+               "exclusion_radius": 2
+            }
+         },
+         "stonehearth:boulder:large_1": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 1,
+               "exclusion_radius": 2
+            }
+         },
+         "stonehearth_ace:boulder:marble:small": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 1,
+               "exclusion_radius": 2
+            }
+         },
+         "stonehearth_ace:boulder:marble:medium_1": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 2,
+               "exclusion_radius": 3
+            }
+         },
+         "stonehearth_ace:boulder:marble:large_1": {
+            "placement_type": "single",
+            "parameters": {
+               "ground_radius": 2,
+               "exclusion_radius": 3
+            }
+         }
+      },
+      "trees": {
+         "sizes": {
+            "stonehearth:trees:oak": {
+               "small": 0,
+               "medium": 8,
+               "large": 18,
+               "ancient": {
+                  "percentage": 10
+               }
+            },
+            "stonehearth_ace:trees:birch": {
+               "small": 0,
+               "medium": 4,
+               "large": 15,
+               "ancient": {
+                  "percentage": 10
+               }
+            },
+            "stonehearth:trees:pine": {
+               "small": 0,
+               "medium": 4,
+               "large": 13
+            }
+         },
+         "weights": {
+            "plains": {
+               "1": {
+                  "stonehearth:trees:oak": 5
+               }
+            },
+            "foothills": {
+               "1": {
+                  "stonehearth:trees:oak": 5,
+                  "stonehearth_ace:trees:birch": 2,
+                  "stonehearth:trees:pine": 3
+               },
+               "2": {
+                  "stonehearth:trees:oak": 3,
+                  "stonehearth_ace:trees:birch": 5,
+                  "stonehearth:trees:pine": 2
+               }
+            },
+            "mountains": {
+               "1": {
+                  "stonehearth:trees:pine": 5
+               },
+               "2": {
+                  "stonehearth:trees:pine": 1
+               }
+            }
+         },
+         "noise_map_parameters": {
+            "mean_offset": {
+               "boundary": -5,
+               "water": 50
+            },
+            "terrain_based": {
+               "plains": {
+                  "1": {
+                     "density": 0.25,
+                     "mean": -25,
+                     "std_dev": 40
+                  },
+                  "2": {
+                     "density": 2,
+                     "mean": -1,
+                     "std_dev": 70
+                  }
+               },
+               "foothills": {
+                  "1": {
+                     "density": 0.9,
+                     "mean": 15,
+                     "std_dev": 15
+                  },
+                  "2": {
+                     "density": 0.7,
+                     "mean": 8,
+                     "std_dev": 20
+                  }
+               },
+               "mountains": {
+                  "1": {
+                     "density": 0.8,
+                     "mean": 10,
+                     "std_dev": 20
+                  },
+                  "2": {
+                     "density": 0.5,
+                     "mean": 0,
+                     "std_dev": 30
+                  },
+                  "3": {
+                     "density": 0.3,
+                     "mean": -8,
+                     "std_dev": 40
+                  }
+               }
+            }
+         }
+      },
+      "berries": {
+         "placement": {
+            "uri": "stonehearth:plants:berry_bush",
+            "function": "gaussian",
+            "mean": -50,
+            "std_dev": 30,
+            "mean_offset": {
+               "tree": 90,
+               "water": 10,
+               "boundary": 5
+            },
+            "density": {
+               "plains": 0.6,
+               "foothills": 0.8,
+               "mountains": 0
+            }
+         }
+      },
+      "scattered": {
+         "plants": {
+            "weights": {
+               "plains": {
+                  "1": {
+                     "stonehearth:plants:violet": 2.5,
+                     "stonehearth_ace:plants:poppy": 1,
+                     "stonehearth_ace:plants:garlic": 1.5,
+                     "stonehearth_ace:plants:sage": 1.5,
+                     "stonehearth_ace:plants:parsley": 1.5,
+                     "stonehearth_ace:plants:oleander": 1.0,
+                     "stonehearth_ace:plants:daylily": 1.0
+                  }
+               },
+               "foothills": {
+                  "1": {
+                     "stonehearth:plants:violet": 2.2,
+                     "stonehearth_ace:plants:poppy": 0.7,
+                     "stonehearth_ace:plants:sage": 1.2,
+                     "stonehearth_ace:plants:oleander": 0.7,
+                     "stonehearth_ace:plants:daylily": 0.7
+                  }
+               },
+               "mountains": {
+                  "1": {
+                     "stonehearth:plants:violet": 1.9,
+                     "stonehearth_ace:plants:poppy": 0.9,
+                     "stonehearth_ace:plants:sage": 1.2,
+                     "stonehearth_ace:plants:oleander": 0.7,
+                     "stonehearth_ace:plants:daylily": 0.7
+                  }
+               }
+            },
+            "noise_map_parameters": {
+               "terrain_based": {
+                  "plains": {
+                     "1": {
+                        "probability": 0.0,
+                        "density": 0.6
+                     }
+                  },
+                  "foothills": {
+                     "1": {
+                        "probability": 0.35,
+                        "density": 0.6
+                     }
+                  },
+                  "mountains": {
+                     "1": {
+                        "probability": 0.3,
+                        "density": 0.5
+                     }
+                  }
+               }
+            }
+         },
+         "boulders": {
+            "namespace": "stoneheart_ace:boulder",
+            "noise_map_parameters": {
+               "terrain_based": {
+                  "plains": {
+                     "1": {
+                        "probability": 0.2,
+                        "density": 0.6
+                     },
+                     "2": {
+                        "probability": 0.35,
+                        "density": 0.9
+                     }
+                  },
+                  "foothills": {
+                     "1": {
+                        "probability": 0.25,
+                        "density": 0.8
+                     }
+                  },
+                  "mountains": {
+                     "1": {
+                        "probability": 0,
+                        "density": 0.8
+                     }
+                  }
+               }
+            },
+            "cutoffs": {
+               "small": 0.2,
+               "medium": 0.4
+            }
+         }
+      },
+      "water": {
+         "color": "#0089b3",
+         "depth": {
+            "shallow": 4,
+            "deep": 10
+         },
+         "noise_map_settings": {
+            "persistence_ratio": 0.03,
+            "bandlimit": 8,
+            "octaves": 4,
+            "range": 97,
+            "aspect_ratio": 1.2,
+            "mean": {
+               "plains": -6,
+               "foothills": -30,
+               "mountains": -20
+            }
+         }
+      }
+   }
+}

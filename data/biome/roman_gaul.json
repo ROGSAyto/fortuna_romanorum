@@ -1,0 +1,111 @@
+{
+   "type": "biome",
+   "alias": "fortuna_romanorum:biome:roman_gaul",
+   "display_name": "i18n(fortuna_romanorum:data.biome.roman_gaul.display_name)",
+   "description": "i18n(fortuna_romanorum:data.biome.roman_gaul.description)",
+   "random_location_names": [
+      "i18n(fortuna_romanorum:data.biome.roman_gaul.random_location_names.000)"
+   ],
+   "image": "file(images/roman_gaul_400x300.png)",
+   "story_board_image": "file(images/roman_gaul_story_board.png)",
+   "game_mode_images": {
+      "stonehearth:game_mode:normal": "file(images/roman_gaul_story_normal.png)",
+      "stonehearth:game_mode:hard": "file(images/roman_gaul_story_normal.png)"
+   },
+   "generation_file": "file(roman_gaul_generation_data_ace.json)",
+   "default_starting_season": "spring",
+   "seasons": {
+      "spring": {
+         "display_name": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.spring.display_name)",
+         "description": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.spring.description)",
+         "start_day": 0,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 8
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:rain",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:foggy",
+               "weight": 2
+            }
+         ]
+      },
+      "summer": {
+         "display_name": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.summer.display_name)",
+         "description": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.summer.description)",
+         "start_day": 21,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 10
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 6
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:rain",
+               "weight": 3
+            }
+         ]
+      },
+      "autumn": {
+         "display_name": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.autumn.display_name)",
+         "description": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.autumn.description)",
+         "start_day": 42,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:rain",
+               "weight": 5
+            },
+            {
+               "uri": "stonehearth:weather:thunderstorm",
+               "weight": 3
+            }
+         ]
+      },
+      "winter": {
+         "display_name": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.winter.display_name)",
+         "description": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.winter.description)",
+         "start_day": 63,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:rain",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:snow",
+               "weight": 3
+            }
+         ]
+      }
+   }
+}

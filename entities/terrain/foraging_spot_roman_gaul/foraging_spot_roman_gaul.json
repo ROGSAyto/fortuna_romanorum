@@ -1,0 +1,49 @@
+{
+    "mixins": "fortuna_romanorum:terrain:foraging_spot",
+    "components": {
+        "stonehearth:resource_node": {
+            "resource_loot_table": {
+                "entries": {
+                    "optional": {
+                        "items": {
+                            "nothing": {
+                                "weight": 45
+                            },
+                            "bough": {
+                                "weight": 2
+                            },
+                            "bough_evergreen": {
+                                "weight": 4
+                            },
+                            "fiber": {
+                                "uri": "stonehearth:resources:fiber:silkweed_bundle",
+                                "weight": 1
+                            },
+                            "random_herb": {
+                                "type": "bag",
+                                "uri": "stonehearth_ace:loot_bag:foraging:forest:herbs",
+                                "weight": 9
+                            },
+                            "random_fungus": {
+                                "type": "bag",
+                                "uri": "stonehearth_ace:loot_bag:foraging:forest:fungi",
+                                "weight": 7
+                            },
+                            "random_seed_tree": {
+                                "type": "bag",
+                                "uri": "stonehearth_ace:loot_bag:foraging:forest:seeds:trees",
+                                "weight": 5
+                            },
+                            "random_seasonal": {
+                                "type": "bag",
+                                "uri": "stonehearth_ace:loot_bag:foraging:forest:seasonal",
+                                "weight": 0
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity_data": {}
+}

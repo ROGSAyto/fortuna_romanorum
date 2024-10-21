@@ -1,0 +1,130 @@
+{
+	"info": {
+		"name" : "roman_gaul_manifest",
+		"deferred_load": true,
+		"version" : 3
+	},
+	"mixintos": {
+		"stonehearth/scenarios/static/caribou_nest/caribou_nest.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/duckduck_nest/duckduck_nest.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/doodles_nest/doodles_nest.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth/scenarios/static/landmarks/64x_cave_chest.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_lake.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_ore_bad_omen.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_ore_lucky_strike.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_ore_small_strike.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_pattern_lucky_snake.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_pattern_ugly_duckling.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_sanctuary.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth/scenarios/static/landmarks/64x_pattern_moon.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_ruin_building_farm.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_ruin_building_cellar.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_ruin_building.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth/scenarios/static/landmarks/128x_ruin_town_farming.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_ruin_town_undead.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_stone_collection_1.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_stone_collection_2.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_stone_collection_3.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_rune.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_pattern_sun.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_sacred_stone.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_giant_sleeping.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth_ace/scenarios/static/bitsy_spider_nest/bitsy_spider_nest.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/stag_beetle_nest/stag_beetle_nest.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/deer_family_nest/deer_family_nest.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_duck_pond.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth_ace/scenarios/static/algae_random_nest/algae_random_nest.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/algae_random_nest_small/algae_random_nest_small.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/algae_random_nest_large/algae_random_nest_large.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/algae_red_nest/algae_red_nest.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/daisy_flowers_nest/daisy_flowers_nest.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/winter_morels_nest/winter_morels_nest.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/feldspar_boulders_rare/feldspar_boulders_rare.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/marble_boulders_small/marble_boulders_small.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/marble_boulders_mountains/marble_boulders_mountains.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/marble_boulders/marble_boulders.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/underwater_rocks/underwater_rocks.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/underwater_mossy/underwater_mossy.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_1.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_2.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_3.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_4.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_5.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_6.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_treasure.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_1.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_2.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_3.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_4.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_5.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_6.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_treasure.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_shipwreck.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/128x_water_bottom_1.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/32x_bear_den.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_cougar_den.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_wolf_den.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_poyo_land.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_sheep_herd.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/16x_meteor_iron.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_meteor_iron.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/64x_meteor_iron.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/128x_meteor_iron.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/32x_ruin_pillars.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/64x_ruin_pillars.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/64x_ruin_tower.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/64x_ruin_tower_2.json": "file(add_to_roman_gaul_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/96x_peatland_1.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/96x_peatland_2.json": "file(add_to_roman_gaul_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/96x_peatland_3.json": "file(add_to_roman_gaul_too.json)"
+
+	},
+	"overrides": {	  
+	  "/stonehearth/entities/monsters/goblins/goblin/goblin_body.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/goblin/goblin_body.qb",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin.png": "/stonehearth_ace/data/biome/highlands/monsters/goblins/goblin/goblin.png",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_head_1.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/goblin/goblin_head_1.qb",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_head_2.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/goblin/goblin_head_2.qb",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_head_3.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/goblin/goblin_head_3.qb",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_head_4.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/goblin/goblin_head_4.qb",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_head_5.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/goblin/goblin_head_5.qb",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_head_6.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/goblin/goblin_head_6.qb",
+	  
+	  "/stonehearth/entities/monsters/goblins/goblin/goblin_armor_vest.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/goblin/goblin_armor_vest.qb",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_armor_breastplate.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/goblin/goblin_armor_breastplate.qb",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_armor_leather.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/goblin/goblin_armor_leather.qb",
+      "/stonehearth/entities/monsters/goblins/outfits/beast_trainer_outfit/beast_trainer_outfit.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/beast_trainer_outfit/beast_trainer_outfit.qb",
+      "/stonehearth/entities/monsters/goblins/outfits/beast_trainer_outfit/beast_trainer_outfit.png": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/beast_trainer_outfit/beast_trainer_outfit.png",
+      "/stonehearth/entities/monsters/goblins/outfits/boss_outfit/boss_outfit.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/boss_outfit/boss_outfit.qb",
+      "/stonehearth/entities/monsters/goblins/outfits/boss_outfit/boss_outfit.png": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/boss_outfit/boss_outfit.png",
+	  
+	  "/stonehearth/entities/monsters/goblins/outfits/miniboss_outfit/miniboss_outfit.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/miniboss_outfit/miniboss_outfit.qb",
+      "/stonehearth/entities/monsters/goblins/outfits/miniboss_outfit/miniboss_outfit.png": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/miniboss_outfit/miniboss_outfit.png",
+      "/stonehearth/entities/monsters/goblins/outfits/footman_outfit/footman_outfit.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/footman_outfit/footman_outfit.qb",
+      "/stonehearth/entities/monsters/goblins/outfits/footman_outfit/footman_outfit.png": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/footman_outfit/footman_outfit.png",
+      "/stonehearth/entities/monsters/goblins/outfits/maurauder_outfit/maurauder_outfit.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/maurauder_outfit/maurauder_outfit.qb",
+      "/stonehearth/entities/monsters/goblins/outfits/maurauder_outfit/maurauder_outfit.png": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/maurauder_outfit/maurauder_outfit.png",
+      "/stonehearth/entities/monsters/goblins/outfits/thief_outfit/thief_outfit.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/thief_outfit/thief_outfit.qb",
+      "/stonehearth/entities/monsters/goblins/outfits/thief_outfit/thief_outfit.png": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/thief_outfit/thief_outfit.png",
+	  
+	  "/stonehearth_ace/entities/monsters/goblins/outfits/archer_outfit/archer_outfit.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/archer_outfit/archer_outfit.qb",
+      "/stonehearth_ace/entities/monsters/goblins/outfits/archer_outfit/archer_outfit.png": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/archer_outfit/archer_outfit.png",
+      "/stonehearth_ace/entities/monsters/goblins/outfits/piper_outfit/piper_outfit.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/piper_outfit/piper_outfit.qb",
+      "/stonehearth_ace/entities/monsters/goblins/outfits/piper_outfit/piper_outfit.png": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/piper_outfit/piper_outfit.png",
+      "/stonehearth_ace/entities/monsters/goblins/outfits/sapper_outfit/sapper_outfit.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/sapper_outfit/sapper_outfit.qb",
+      "/stonehearth_ace/entities/monsters/goblins/outfits/sapper_outfit/sapper_outfit.png": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/sapper_outfit/sapper_outfit.png",
+      "/stonehearth_ace/entities/monsters/goblins/outfits/soldier_outfit/soldier_outfit.qb": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/soldier_outfit/soldier_outfit.qb",
+      "/stonehearth_ace/entities/monsters/goblins/outfits/soldier_outfit/soldier_outfit.png": "/stonehearth_ace/data/biome/highlands/monsters/goblins/outfits/soldier_outfit/soldier_outfit.png"
+	}
+}

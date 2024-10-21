@@ -1,0 +1,42 @@
+{
+   "__comment" : "Block types that make up the world.",
+   "block_types" : {
+      "null" :               { "tag" :   0, "kind" : "" },
+      "unknown" :            { "tag" :   1, "kind" : "" },
+      "bedrock" :            { "tag" : 100, "kind" : "rock" },
+      "rock_layer_1" :       { "tag" : 101, "kind" : "rock" },
+      "rock_layer_2" :       { "tag" : 102, "kind" : "rock" },
+      "rock_layer_3" :       { "tag" : 103, "kind" : "rock" },
+      "rock_layer_4" :       { "tag" : 104, "kind" : "rock" },
+      "rock_layer_5" :       { "tag" : 105, "kind" : "rock" },
+      "rock_layer_6" :       { "tag" : 106, "kind" : "rock" },
+      "rock_layer_7" :       { "tag" : 107, "kind" : "rock" },
+      "rock_layer_8" :       { "tag" : 108, "kind" : "rock" },
+      "soil_light" :         { "tag" : 200, "kind" : "dirt" },
+      "soil_dark" :          { "tag" : 201, "kind" : "dirt" },
+      "dirt" :               { "tag" : 210, "kind" : "dirt" },
+      "dirt_edge_1" :        { "tag" : 211, "kind" : "dirt" },
+      "grass" :              { "tag" : 300, "kind" : "grass" },
+      "grass_edge_1" :       { "tag" : 301, "kind" : "grass" },
+      "grass_edge_2" :       { "tag" : 302, "kind" : "grass" },
+      "grass_hills" :        { "tag" : 303, "kind" : "grass" },
+      "grass_hills_edge_1" : { "tag" : 304, "kind" : "grass" },
+      "grass_hills_edge_2" : { "tag" : 305, "kind" : "grass" },
+      "copper_ore" :         { "tag" : 410, "kind" : "copper_ore" },
+      "tin_ore" :            { "tag" : 420, "kind" : "tin_ore" },
+      "iron_ore" :           { "tag" : 430, "kind" : "iron_ore" },
+      "silver_ore" :         { "tag" : 440, "kind" : "silver_ore" },
+      "gold_ore" :           { "tag" : 450, "kind" : "gold_ore" },
+      "coal" :               { "tag" : 500, "kind" : "coal" }
+   },      
+
+   "__comment": "Link ore types to entities so they are selectable in the UI.",
+   "selectable_kinds" : {
+       "copper_ore" : "stonehearth:terrain:ui:copper_block",
+       "tin_ore" :    "stonehearth:terrain:ui:tin_block",
+       "iron_ore" :   "stonehearth:terrain:ui:iron_block",
+       "silver_ore" : "stonehearth:terrain:ui:silver_block",
+       "gold_ore" :   "stonehearth:terrain:ui:gold_block",
+       "coal" :       "stonehearth:terrain:ui:coal_block"
+    }
+}

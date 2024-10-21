@@ -3006,6 +3006,31 @@
                   "display_name": "Racoon Marten"
                }
             }
+         },
+         "roman_gaul": {
+            "display_name": "Roman Gaul",
+            "description": "After Ceasars conquest of Gaul in 50 BC, the land is full of lands to be settled by the Romans ",
+            "random_location_names": {
+               "000": "Lugdunum"
+            },
+            "seasons": {
+               "spring": {
+                  "display_name": "Spring",
+                  "description": "Temperatures gradually rise, ranging from mild to warm, with blooming flowers and frequent rain. This season marks the start of agricultural activities."
+               },
+               "summer": {
+                  "display_name": "Summer",
+                  "description": "Summers are warm to hot, especially in the south, with temperatures often exceeding 30°C (86°F). This season is generally dry, making it ideal for crops to mature."
+               },
+               "autumn": {
+                  "display_name": "Autunm",
+                  "description": "Autumn brings cooler temperatures and increased rainfall. Harvesting takes place, and the weather can vary from mild to chilly, especially as the season progresses."
+               },
+               "winter": {
+                  "display_name": "Winter",
+                  "description": "Winters are cold, particularly in the north, with temperatures sometimes dropping below freezing. Snowfall is common in the northern and mountainous regions, while the southern parts experience milder temperatures."
+               }
+            }
          }
       },
       "buffs": {
