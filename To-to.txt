@@ -1,7 +1,6 @@
 To do list
 
 Underhuset
-* Change map files to look like the meditarranien 
 * add weapons and armror smith
 * add leather weaver
 * add miner
