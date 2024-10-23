@@ -169,8 +169,8 @@
          "step_count": 2
       },
       "mountains": {
-         "step_size": 10,
-         "step_count": 10
+         "step_size": 15,
+         "step_count": 7
       }
    },
    "terrain_detailer": {

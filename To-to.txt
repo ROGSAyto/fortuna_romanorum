@@ -1,4 +1,12 @@
-* Make a biome to the romans
-* remove the last elements for the SL mod
-* add actions cooldown
-* check the weapons manifest 
+To do list
+
+Underhuset
+* Change map files to look like the meditarranien 
+* add weapons and armror smith
+* add leather weaver
+* add miner
+
+Sayto
+* make weapon and armror qb and png
+* make new outfits for the new classes
+* make custom trees and plants
