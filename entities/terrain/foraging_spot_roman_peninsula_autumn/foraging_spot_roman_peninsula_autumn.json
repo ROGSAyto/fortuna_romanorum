@@ -1,5 +1,5 @@
 {
-   "mixins": "fortuna_romanorum:terrain:foraging_spot:roman_gaul",
+   "mixins": "fortuna_romanorum:terrain:foraging_spot:roman_peninsula",
    "components": {
       "stonehearth:resource_node": {
          "resource_loot_table": {

@@ -3007,9 +3007,9 @@
                }
             }
          },
-         "roman_gaul": {
-            "display_name": "Roman Gaul",
-            "description": "After Ceasars conquest of Gaul in 50 BC, the land is full of lands to be settled by the Romans ",
+         "roman_peninsula": {
+            "display_name": "Roman peninsula",
+            "description": "After Ceasars conquest of peninsula in 50 BC, the land is full of lands to be settled by the Romans ",
             "random_location_names": {
                "000": "Lugdunum"
             },

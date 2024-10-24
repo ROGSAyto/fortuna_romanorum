@@ -1,23 +1,23 @@
 {
    "type": "biome",
-   "alias": "fortuna_romanorum:biome:roman_gaul",
-   "display_name": "i18n(fortuna_romanorum:data.biome.roman_gaul.display_name)",
-   "description": "i18n(fortuna_romanorum:data.biome.roman_gaul.description)",
+   "alias": "fortuna_romanorum:biome:roman_peninsula",
+   "display_name": "i18n(fortuna_romanorum:data.biome.roman_peninsula.display_name)",
+   "description": "i18n(fortuna_romanorum:data.biome.roman_peninsula.description)",
    "random_location_names": [
-      "i18n(fortuna_romanorum:data.biome.roman_gaul.random_location_names.000)"
+      "i18n(fortuna_romanorum:data.biome.roman_peninsula.random_location_names.000)"
    ],
-   "image": "file(images/roman_gaul_400x300.png)",
-   "story_board_image": "file(images/roman_gaul_story_board.png)",
+   "image": "file(images/roman_peninsula_400x300.png)",
+   "story_board_image": "file(images/roman_peninsula_story_board.png)",
    "game_mode_images": {
-      "stonehearth:game_mode:normal": "file(images/roman_gaul_story_normal.png)",
-      "stonehearth:game_mode:hard": "file(images/roman_gaul_story_normal.png)"
+      "stonehearth:game_mode:normal": "file(images/roman_peninsula_story_normal.png)",
+      "stonehearth:game_mode:hard": "file(images/roman_peninsula_story_normal.png)"
    },
-   "generation_file": "file(roman_gaul_generation_data_ace.json)",
+   "generation_file": "file(roman_peninsula_generation_data_ace.json)",
    "default_starting_season": "spring",
    "seasons": {
       "spring": {
-         "display_name": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.spring.display_name)",
-         "description": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.spring.description)",
+         "display_name": "i18n(fortuna_romanorum:data.biome.roman_peninsula.seasons.spring.display_name)",
+         "description": "i18n(fortuna_romanorum:data.biome.roman_peninsula.seasons.spring.description)",
          "start_day": 0,
          "weather": [
             {
@@ -39,8 +39,8 @@
          ]
       },
       "summer": {
-         "display_name": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.summer.display_name)",
-         "description": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.summer.description)",
+         "display_name": "i18n(fortuna_romanorum:data.biome.roman_peninsula.seasons.summer.display_name)",
+         "description": "i18n(fortuna_romanorum:data.biome.roman_peninsula.seasons.summer.description)",
          "start_day": 21,
          "weather": [
             {
@@ -62,8 +62,8 @@
          ]
       },
       "autumn": {
-         "display_name": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.autumn.display_name)",
-         "description": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.autumn.description)",
+         "display_name": "i18n(fortuna_romanorum:data.biome.roman_peninsula.seasons.autumn.display_name)",
+         "description": "i18n(fortuna_romanorum:data.biome.roman_peninsula.seasons.autumn.description)",
          "start_day": 42,
          "weather": [
             {
@@ -85,8 +85,8 @@
          ]
       },
       "winter": {
-         "display_name": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.winter.display_name)",
-         "description": "i18n(fortuna_romanorum:data.biome.roman_gaul.seasons.winter.description)",
+         "display_name": "i18n(fortuna_romanorum:data.biome.roman_peninsula.seasons.winter.display_name)",
+         "description": "i18n(fortuna_romanorum:data.biome.roman_peninsula.seasons.winter.description)",
          "start_day": 63,
          "weather": [
             {

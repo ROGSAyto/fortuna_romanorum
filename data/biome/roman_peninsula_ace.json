@@ -1,6 +1,6 @@
 {
     "climate": "temperate_medium",
-    "foraging_spot_uri": "fortuna_romanorum:terrain:foraging_spot:forest",
+    "foraging_spot_uri": "fortuna_romanorum:terrain:foraging_spot:roman_peninsula",
     "foraging_spot_frequency": 0.0015,
     "native_crops": {
         "silkweed": true,
