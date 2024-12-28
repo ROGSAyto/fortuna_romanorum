@@ -1,0 +1,26 @@
+{
+   "type": "animation",
+   "name": "charge",
+   "frames": [
+      {
+         "frame": 1,
+         "action": "raise_weapon",
+         "duration": 500
+      },
+      {
+         "frame": 2,
+         "action": "start_running",
+         "duration": 1000
+      },
+      {
+         "frame": 3,
+         "action": "attack",
+         "duration": 500
+      },
+      {
+         "frame": 4,
+         "action": "recover",
+         "duration": 300
+      }
+   ]
+}

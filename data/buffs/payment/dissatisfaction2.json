@@ -1,0 +1,18 @@
+{
+  "buffs": {
+    "dissatisfaction2_buff": {
+      "display_name": "Very Dissatisfied",
+      "description": "This worker is very dissatisfied due to lack of payment.",
+      "icon": "file(dissatisfaction2.png)",
+      "duration": "24h",
+      "stacks": true,
+      "max_stacks": 5,
+      "stack_key": "negative_payment_stack",
+      "modifiers": {
+        "mood": {
+          "add": -20
+        }
+      }
+    }
+  }
+}

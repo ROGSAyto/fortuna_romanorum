@@ -1,0 +1,26 @@
+{
+   "type": "animation",
+   "name": "form_shield_wall",
+   "frames": [
+      {
+         "frame": 1,
+         "action": "raise_shield",
+         "duration": 500
+      },
+      {
+         "frame": 2,
+         "action": "move_forward",
+         "duration": 1000
+      },
+      {
+         "frame": 3,
+         "action": "brace",
+         "duration": 1000
+      },
+      {
+         "frame": 4,
+         "action": "hold_position",
+         "duration": 1000
+      }
+   ]
+}

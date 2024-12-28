@@ -1,0 +1,26 @@
+{
+   "type": "animation",
+   "name": "hold_the_line",
+   "frames": [
+      {
+         "frame": 1,
+         "action": "raise_shield",
+         "duration": 500
+      },
+      {
+         "frame": 2,
+         "action": "brace",
+         "duration": 1000
+      },
+      {
+         "frame": 3,
+         "action": "hold_position",
+         "duration": 1000
+      },
+      {
+         "frame": 4,
+         "action": "lower_shield",
+         "duration": 300
+      }
+   ]
+}

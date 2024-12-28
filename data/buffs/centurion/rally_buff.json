@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "display_name": "Rally",
+   "description": "Increases the morale and combat effectiveness of nearby units.",
+   "icon": "file(images/rally.png)",
+   "duration": "10m",
+   "modifiers": {
+      "attack_power": {
+         "add": 10
+      },
+      "defense": {
+         "add": 5
+      }
+   }
+}

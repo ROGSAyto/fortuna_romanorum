@@ -1,0 +1,14 @@
+{
+   "type": "task_group",
+   "name": "orders",
+   "task_profiles": [
+      {
+         "name": "stonehearth:task_groups:unit:orders",
+         "actions": [
+            "fortuna_romanorum:actions:rally",
+            "fortuna_romanorum:actions:hold_the_line",
+            "fortuna_romanorum:actions:charge"
+         ]
+      }
+   ]
+}

@@ -1,0 +1,14 @@
+{
+   "type": "stonehearth:ai_pack",
+   "name": "formations",
+   "ai_packs": [
+      {
+         "task_groups": [
+            {
+               "name": "stonehearth:task_groups:unit:formation",
+               "priority": 10
+            }
+         ]
+      }
+   ]
+}

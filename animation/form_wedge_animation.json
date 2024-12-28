@@ -1,0 +1,26 @@
+{
+   "type": "animation",
+   "name": "form_wedge",
+   "frames": [
+      {
+         "frame": 1,
+         "action": "raise_weapon",
+         "duration": 500
+      },
+      {
+         "frame": 2,
+         "action": "move_forward",
+         "duration": 1000
+      },
+      {
+         "frame": 3,
+         "action": "attack",
+         "duration": 500
+      },
+      {
+         "frame": 4,
+         "action": "hold_position",
+         "duration": 1000
+      }
+   ]
+}

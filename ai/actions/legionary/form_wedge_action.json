@@ -1,0 +1,27 @@
+{
+   "type": "action",
+   "name": "form_wedge",
+   "category": "combat",
+   "preconditions": [
+      {
+         "type": "condition",
+         "condition": "is_in_combat"
+      }
+   ],
+   "behavior": {
+      "type": "sequence",
+      "steps": [
+         {
+            "type": "stonehearth:behavior:move_to_location",
+            "location": {
+               "type": "get_formation_position",
+               "formation": "wedge"
+            }
+         },
+         {
+            "type": "stonehearth:behavior:set_stance",
+            "stance": "aggressive"
+         }
+      ]
+   }
+}

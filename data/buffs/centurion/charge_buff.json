@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "display_name": "Charge",
+   "description": "Increases the movement speed and attack power of nearby units for a short period.",
+   "icon": "file(images/charge.png)",
+   "duration": "3m",
+   "modifiers": {
+      "attack_power": {
+         "add": 15
+      },
+      "speed": {
+         "add": 20
+      }
+   }
+}

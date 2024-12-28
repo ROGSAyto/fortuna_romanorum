@@ -1,0 +1,13 @@
+{
+   "type": "task_group",
+   "name": "formation",
+   "task_profiles": [
+      {
+         "name": "stonehearth:task_groups:unit:formation",
+         "actions": [
+            "fortuna_romanorum:actions:form_shield_wall",
+            "fortuna_romanorum:actions:form_wedge"
+         ]
+      }
+   ]
+}

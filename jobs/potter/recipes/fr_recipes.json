@@ -1,0 +1,16 @@
+{
+    "mixins": "/stonehearth/jobs/potter/recipes/recipes.json",
+    "craftable_recipes": {
+       "refined": {
+          "recipes": {
+            "cement_recipe": {
+                "recipe": "file(cement_recipe.json)"
+            },
+            "concret_recipe": {
+                "recipe": "file(concret_recipe.json)"
+            }
+          }
+       }
+    }
+ }
+ 

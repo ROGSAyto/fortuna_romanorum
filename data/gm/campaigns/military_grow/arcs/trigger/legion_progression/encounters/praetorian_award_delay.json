@@ -1,0 +1,18 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation",
+   "in_edge": "praetorian_award",
+   "donation_info": {
+      "loot_table": {
+         "entries": {
+            "default": {
+               "items": {
+                  "praetorian_scroll": {
+                     "uri": "fortuna_romanorum:praetorian:talisman:praetorian_scroll_talisman"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

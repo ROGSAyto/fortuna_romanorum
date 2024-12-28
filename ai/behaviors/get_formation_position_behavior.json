@@ -1,0 +1,18 @@
+{
+   "type": "behavior",
+   "name": "get_formation_position",
+   "parameters": {
+      "formation": {
+         "type": "string"
+      }
+   },
+   "output": {
+      "position": {
+         "type": "Point3"
+      }
+   },
+   "implementation": {
+      "type": "lua",
+      "script": "file(get_formation_position.lua)"
+   }
+}

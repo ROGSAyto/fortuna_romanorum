@@ -1,0 +1,19 @@
+{
+   "type": "action",
+   "name": "rally",
+   "category": "combat",
+   "behavior": {
+      "type": "sequence",
+      "steps": [
+         {
+            "type": "stonehearth:behavior:apply_buff",
+            "buff": "fortuna_romanorum:buffs:rally_buff",
+            "target": {
+               "type": "unit_group",
+               "filter": "stonehearth:combat:player_id",
+               "radius": 20
+            }
+         }
+      ]
+   }
+}

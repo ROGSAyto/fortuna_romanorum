@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "display_name": "Hold the Line",
+   "description": "Grants a temporary defense boost to all nearby units.",
+   "icon": "file(images/hold_the_line.png)",
+   "duration": "5m",
+   "modifiers": {
+      "defense": {
+         "add": 10
+      },
+      "health_regen": {
+         "add": 2
+      }
+   }
+}
